@@ -25,43 +25,43 @@
  */
 'use strict';
 
-goog.provide('AI.Blockly.Msg.it_it');
+goog.provide('AI.Blockly.Msg.en');
 
-goog.require('Blockly.Msg.it');
+goog.require('Blockly.Msg.en');
 
 /**
  * Due to the frequency of long strings, the 80-column wrap rule need not apply
  * to message files.
  */
 
-Blockly.Msg.es.switch_language_to_italian  = {
-  // Switch language to Italian.
+Blockly.Msg.en.switch_language_to_english = {
+  // Switch language to English.
   category: '',
   helpUrl: '',
   init: function() {
 // Context menus.
     Blockly.Msg.UNDO = 'Undo';
-    Blockly.Msg.REDO = 'Redo';
-    Blockly.Msg.CLEAN_UP = 'Clean up Blocks';
-    Blockly.Msg.DUPLICATE_BLOCK = 'Duplicate';
-    Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
-    Blockly.Msg.ADD_COMMENT = 'Add Comment';
+    Blockly.Msg.REDO = 'Rifai';
+    Blockly.Msg.CLEAN_UP = 'Pulisci Blocchi';
+    Blockly.Msg.DUPLICATE_BLOCK = 'Duplica';
+    Blockly.Msg.REMOVE_COMMENT = 'Rimuovi Commento';
+    Blockly.Msg.ADD_COMMENT = 'Aggiungi Commento';
     Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
     Blockly.Msg.INLINE_INPUTS = 'Inline Inputs';
-    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
-    Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
-    Blockly.Msg.CONFIRM_DELETE = 'Confirm deletion';
-    Blockly.Msg.DELETE_ALL_BLOCKS = "Delete all %1 blocks?";
-    Blockly.Msg.DELETE_BLOCK = 'Delete Block';
-    Blockly.Msg.DELETE_X_BLOCKS = 'Delete %1 Blocks';
-    Blockly.Msg.COLLAPSE_BLOCK = 'Collapse Block';
-    Blockly.Msg.EXPAND_BLOCK = 'Expand Block';
-    Blockly.Msg.DISABLE_BLOCK = 'Disable Block';
-    Blockly.Msg.ENABLE_BLOCK = 'Enable Block';
-    Blockly.Msg.HELP = 'Help';
-    Blockly.Msg.EXPORT_IMAGE = 'Download Blocks as Image';
-    Blockly.Msg.COLLAPSE_ALL = 'Collapse Blocks';
-    Blockly.Msg.EXPAND_ALL = 'Expand Blocks';
+    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Disponi i Parametri Orizzontalmente';
+    Blockly.Msg.VERTICAL_PARAMETERS = 'Disponi i Parametri Verticalmente';
+    Blockly.Msg.CONFIRM_DELETE = 'Conferma eliminazione';
+    Blockly.Msg.DELETE_ALL_BLOCKS = "Eliminare tutti i %1 blocchi?";
+    Blockly.Msg.DELETE_BLOCK = 'Elimina Blocco';
+    Blockly.Msg.DELETE_X_BLOCKS = 'Elimina %1 Blocchi';
+    Blockly.Msg.COLLAPSE_BLOCK = 'Riduci Blocchi';
+    Blockly.Msg.EXPAND_BLOCK = 'Espandi Blocchi';
+    Blockly.Msg.DISABLE_BLOCK = 'Disattiva Blocco';
+    Blockly.Msg.ENABLE_BLOCK = 'Abilita Blocco';
+    Blockly.Msg.HELP = 'Aiuto';
+    Blockly.Msg.EXPORT_IMAGE = 'Scarica Blocchi come Immagine';
+    Blockly.Msg.COLLAPSE_ALL = 'Riducci tutti i Blocchi';
+    Blockly.Msg.EXPAND_ALL = 'Espandi tutti i Blocchi';
     Blockly.Msg.ARRANGE_H = 'Arrange Blocks Horizontally';
     Blockly.Msg.ARRANGE_V = 'Arrange Blocks Vertically';
     Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
@@ -89,58 +89,59 @@ Blockly.Msg.es.switch_language_to_italian  = {
     Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
 
 // Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Change value:';
-    Blockly.MSG_NEW_VARIABLE = 'New variable...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'New variable name:';
-    Blockly.MSG_RENAME_VARIABLE = 'Rename variable...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
+    Blockly.MSG_CHANGE_VALUE_TITLE = 'Cambia valore:';
+    Blockly.MSG_NEW_VARIABLE = 'Nuova variabile...';
+    Blockly.MSG_NEW_VARIABLE_TITLE = 'Nome della nuova Variabile:';
+    Blockly.MSG_RENAME_VARIABLE = 'Rinomina Variabile...';
+    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rinomina tutte le "%1" variabili a:';
 
 // Toolbox.
-    Blockly.MSG_VARIABLE_CATEGORY = 'Variables';
-    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedures';
+    Blockly.MSG_VARIABLE_CATEGORY = 'Variabili';
+    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedure';
 
 // Warnings/Errors
-    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Select a valid item in the drop down.";
+    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "Questo blocco non può essere in una definizione";
+    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Seleziona un elemento valido nel menu a tendina.";
     Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
-    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
-    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "This block is not defined. Delete this block!";
+    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Il Componente non esiste";
+    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "Questo blocco non è definito. Elimina questo blocco!";
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#basic';
-    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
-    Blockly.Msg.LANG_COLOUR_WHITE = 'white';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'light gray';
-    Blockly.Msg.LANG_COLOUR_GRAY = 'gray';
-    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'blue gray';
-    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'dark gray';
-    Blockly.Msg.LANG_COLOUR_BLACK = 'black';
-    Blockly.Msg.LANG_COLOUR_RED = 'red';
-    Blockly.Msg.LANG_COLOUR_PINK = 'pink';
-    Blockly.Msg.LANG_COLOUR_PURPLE = 'purple';
-    Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'deep purple';
-    Blockly.Msg.LANG_COLOUR_INDIGO = 'indigo';
-    Blockly.Msg.LANG_COLOUR_BLUE = 'blue';
-    Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'light blue';
-    Blockly.Msg.LANG_COLOUR_CYAN = 'cyan';
+    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Clicca il quadrato per selezionare un colore.';
+    Blockly.Msg.LANG_COLOUR_WHITE = 'bianco';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'grigio chiaro';
+    Blockly.Msg.LANG_COLOUR_GRAY = 'grigio';
+    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'grigio blu';
+    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'grigio scuro';
+    Blockly.Msg.LANG_COLOUR_BLACK = 'nero';
+    Blockly.Msg.LANG_COLOUR_RED = 'rosso';
+    Blockly.Msg.LANG_COLOUR_PINK = 'rosa';
+    Blockly.Msg.LANG_COLOUR_PURPLE = 'viola';
+    Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'viola scuro';
+    Blockly.Msg.LANG_COLOUR_INDIGO = 'indaco';
+    Blockly.Msg.LANG_COLOUR_BLUE = 'blu';
+    Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'azzurro';
+    Blockly.Msg.LANG_COLOUR_CYAN = 'ciano';
     Blockly.Msg.LANG_COLOUR_TEAL = 'teal';
-    Blockly.Msg.LANG_COLOUR_GREEN = 'green';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'light green';
+    Blockly.Msg.LANG_COLOUR_GREEN = 'verde';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'verde chiaro';
     Blockly.Msg.LANG_COLOUR_LIME = 'lime';
-    Blockly.Msg.LANG_COLOUR_YELLOW = 'yellow';
-    Blockly.Msg.LANG_COLOUR_AMBER = 'amber';
-    Blockly.Msg.LANG_COLOUR_ORANGE = 'orange';
-    Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'deep orange';
-    Blockly.Msg.LANG_COLOUR_BROWN = 'brown';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'split color';
+    Blockly.Msg.LANG_COLOUR_YELLOW = 'giallo';
+    Blockly.Msg.LANG_COLOUR_AMBER = 'ambra';
+    Blockly.Msg.LANG_COLOUR_ORANGE = 'arancione';
+    Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'arancione scuro';
+    Blockly.Msg.LANG_COLOUR_BROWN = 'marrone';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'dividi colore';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#split';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "A list of four elements, each in the range 0 to 255, representing the red, green, blue and alpha components.";
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'make color';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "Una lista di quattro elementi, ognuna nel campo da 0 a 255, rappresentanti i componenti rosso, verde, blu e alfa.";
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'crea colore';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#make';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A color with the given red, green, blue, and optionally alpha components";
-
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "Un colore con le componenti rosso, verde, blu e opzionalmente alfa date";
+// Da rivedere linea 140
+    
 // Control Blocks
-    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Control';
+    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Controllo';
     Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.makeroid.io/blocks/control.html#if';
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'If a value is true, then do some statements.';
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'If a value is true, then do the first block of statements.\n' +
@@ -150,36 +151,36 @@ Blockly.Msg.es.switch_language_to_italian  = {
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
         'Otherwise, if the second value is true, do the second block of statements.\n' +
         'If none of the values are true, do the last block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'if';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'else';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'then';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'se';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'altrimenti se';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'altrimenti';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'allora';
 
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'if';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'se';
     Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
         'to reconfigure this if block.';
 
-    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'else if';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'altrimenti se';
     Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Add a condition to the if block.';
 
-    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'else';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'altrimenti';
     Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
 
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'https://docs.makeroid.io/blocks/control.html#while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repeat';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'ripeti';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'until';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'mentre';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'fino';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Runs the blocks in the \'do\' section while the test is '
         + 'true.';
 
     Blockly.Msg.LANG_CONTROLS_FOR_HELPURL = '';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'count with';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'conta con';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_VAR = 'x';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'from';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'to';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'da';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'a';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'do';
 
     Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.\n' +
@@ -1392,6 +1393,6 @@ Blockly.Msg.es.switch_language_to_italian  = {
   }
 };
 
-// Initalize language definition to Italian
-Blockly.Msg.it.switch_blockly_language_to_it.init();
-Blockly.Msg.it.switch_language_to_italian.init();
+// Initalize language definition to English
+Blockly.Msg.en.switch_blockly_language_to_en.init();
+Blockly.Msg.en.switch_language_to_english.init();
