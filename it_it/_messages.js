@@ -40,14 +40,14 @@ Blockly.Msg.it.switch_language_to_italian = {
   helpUrl: '',
   init: function() {
 // Context menus.
-    Blockly.Msg.UNDO = 'Undo';
+    Blockly.Msg.UNDO = 'Annulla';
     Blockly.Msg.REDO = 'Rifai';
     Blockly.Msg.CLEAN_UP = 'Pulisci Blocchi';
     Blockly.Msg.DUPLICATE_BLOCK = 'Duplica';
     Blockly.Msg.REMOVE_COMMENT = 'Rimuovi Commento';
     Blockly.Msg.ADD_COMMENT = 'Aggiungi Commento';
-    Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
-    Blockly.Msg.INLINE_INPUTS = 'Inline Inputs';
+    Blockly.Msg.EXTERNAL_INPUTS = 'Inserimento Esterno';
+    Blockly.Msg.INLINE_INPUTS = 'Inserimento In Linea';
     Blockly.Msg.HORIZONTAL_PARAMETERS = 'Disponi i Parametri Orizzontalmente';
     Blockly.Msg.VERTICAL_PARAMETERS = 'Disponi i Parametri Verticalmente';
     Blockly.Msg.CONFIRM_DELETE = 'Conferma eliminazione';
@@ -62,32 +62,33 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.EXPORT_IMAGE = 'Scarica Blocchi come Immagine';
     Blockly.Msg.COLLAPSE_ALL = 'Riducci tutti i Blocchi';
     Blockly.Msg.EXPAND_ALL = 'Espandi tutti i Blocchi';
-    Blockly.Msg.ARRANGE_H = 'Arrange Blocks Horizontally';
-    Blockly.Msg.ARRANGE_V = 'Arrange Blocks Vertically';
-    Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
-    Blockly.Msg.SORT_W = 'Sort Blocks by Width';
-    Blockly.Msg.SORT_H = 'Sort Blocks by Height';
-    Blockly.Msg.SORT_C = 'Sort Blocks by Category';
-    Blockly.Msg.COPY_TO_BACKPACK = 'Add to Backpack';
-    Blockly.Msg.COPY_ALLBLOCKS = 'Copy All Blocks to Backpack';
-    Blockly.Msg.BACKPACK_GET = 'Paste All Blocks from Backpack';
-    Blockly.Msg.BACKPACK_EMPTY = 'Empty the Backpack';
-    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Are you sure you want to empty the backpack?';
-    Blockly.Msg.BACKPACK_DOC_TITLE = "Backpack Information";
-    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Show Backpack documentation";
-    Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
-   " and paste them into another project or screen. " +
-   " To copy, you can drag-and-drop blocks into the Backpack. To paste, click on the Backpack icon and " +
-   " drag-and-drop blocks into the workspace." +
-   "</p><p>If you leave Makeroid with blocks left in your backpack, " +
-   " they will be there the next time you login." +
-   "</p><p>For further documentation and a 'how to' video, see:" +
+    Blockly.Msg.ARRANGE_H = 'Disponi Blocchi Orizzontalmente';
+    Blockly.Msg.ARRANGE_V = 'Disponi Blocchi Verticalmente';
+    Blockly.Msg.ARRANGE_S = 'Disponi Blocchi Diagonalmente';
+    Blockly.Msg.SORT_W = 'Ordina Blocchi per Larghezza';
+    Blockly.Msg.SORT_H = 'Ordina Blocchi per Altezza';
+    Blockly.Msg.SORT_C = 'Ordina Blocchi per Categoria';
+    Blockly.Msg.COPY_TO_BACKPACK = 'Aggiungi allo Zaino';
+    Blockly.Msg.COPY_ALLBLOCKS = 'Copia Tutti i Blocchi nello Zaino';
+    Blockly.Msg.BACKPACK_GET = 'Incolla Tutti i Blocchi dallo Zaino';
+    Blockly.Msg.BACKPACK_EMPTY = 'Svuota lo Zaino';
+    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Sei sicuro di voler svuotare lo zaino?';
+    Blockly.Msg.BACKPACK_DOC_TITLE = "Informazioni Zaino";
+    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Mostra Documentazione Zaino";
+    Blockly.Msg.BACKPACK_DOCUMENTATION = "Lo Zaino è una funzione di copia/incolla. Permette di copiare blocchi da un progetto o uno schermo " +
+   " e incollarli in un altro progetto o schermo. " +
+   " Per copiare, puoi trascinare i blocchi nello Zaino. Per incollare, clicca l'icona dello Zaino e " +
+   " trascina i blocchi nello spazio di lavoro." +
+   "</p><p>Se chiudi Makeroid con dei blocchi nel tuo Zaino, " +
+   " saranno lì la prossima volta che entrerai." +
+   "</p><p>Per ulteriore documentazione e un video tutorial, vedi:" +
    '</p><p><a href="https://docs.makeroid.io/other/backpack.html" target="_blank">https://docs.makeroid.io/other/backpack.html</a>';
-    Blockly.Msg.ENABLE_GRID = 'Enable Workspace Grid';
-    Blockly.Msg.DISABLE_GRID = 'Disable Workspace Grid';
-    Blockly.Msg.ENABLE_SNAPPING = 'Enable Snap to Grid';
-    Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
-
+    Blockly.Msg.ENABLE_GRID = 'Attiva Griglia Spazio di Lavoro';
+    Blockly.Msg.DISABLE_GRID = 'Disattiva Griglia Spazio di Lavoro';
+    Blockly.Msg.ENABLE_SNAPPING = 'Attiva Collegamento alla Griglia';
+    Blockly.Msg.DISABLE_SNAPPING = 'Disattiva Collegamento alla Griglia';
+// Rivedere le ultime 2
+    
 // Variable renaming.
     Blockly.MSG_CHANGE_VALUE_TITLE = 'Cambia valore:';
     Blockly.MSG_NEW_VARIABLE = 'Nuova variabile...';
@@ -102,7 +103,7 @@ Blockly.Msg.it.switch_language_to_italian = {
 // Warnings/Errors
     Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "Questo blocco non può essere in una definizione";
     Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Seleziona un elemento valido nel menu a tendina.";
-    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
+    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "Questo è un gestore dell'evento duplicato per questo componente.";
     Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Il Componente non esiste";
     Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "Questo blocco non è definito. Elimina questo blocco!";
 
