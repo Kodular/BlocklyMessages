@@ -144,72 +144,72 @@ Blockly.Msg.it.switch_language_to_italian = {
 // Control Blocks
     Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Controllo';
     Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.makeroid.io/blocks/control.html#if';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'If a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'If a value is true, then do the first block of statements.\n' +
-        'Otherwise, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.\n' +
-        'If none of the values are true, do the last block of statements.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'Se un valore è vero, allora esegui qualche comando.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'Se un valore è vero, allora esegui il primo blocco dei comandi.\n' +
+        'Altrimenti, esegui il secondo blocco dei comandi.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'Se un valore è vero, allora esegui il primo blocco dei comandi.\n' +
+        'Altrimenti, se il secondo valore è vero, esegui il secondo blocco dei comandi.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'Se un valore è vero, allora esegui il primo blocco dei comandi.\n' +
+        'Altrimenti, se il secondo valore è vero, esegui il secondo blocco dei comandi.\n' +
+        "Se nessuno dei valori è vero, allora esegui l'ultimo blocco dei comandi.";
     Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'se';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'altrimenti se';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'altrimenti';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'allora';
 
     Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'se';
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
-        'to reconfigure this if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Aggiungi, rimuovi o riordina le sezioni\n' +
+        'per riconfigurare questo blocco se.';
 
     Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'altrimenti se';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Add a condition to the if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Aggiungi una condizione al blocco se.';
 
     Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'altrimenti';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Aggiungi una condizione finale al blocco se, che viene eseguita solo se tutte le altre non sono vere.';
 
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'https://docs.makeroid.io/blocks/control.html#while';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'ripeti';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'do';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'esegui';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'mentre';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'fino';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Runs the blocks in the \'do\' section while the test is '
-        + 'true.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'Finchè un valore è vero, allora esegui qualche comando.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'Finchè un valore è falso, allora esegui qualche comando.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Esegui i blocchi nella sezione \'esegui\' mentre la condizione è '
+        + 'vera.';
 
     Blockly.Msg.LANG_CONTROLS_FOR_HELPURL = '';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'conta con';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_VAR = 'x';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'da';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'a';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'do';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'esegui';
 
-    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.\n' +
-        'For each count, set the current count number to\n' +
-        'variable "%1", and then do some statements.';
+    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Conta da un numero di inizio fino ad un numero finale.\n' +
+        'Per ogni conta, imposta l\'attuale numero contato alla\n' +
+        'variabile "%1", e poi esegui alcuni comandi.';
 
     Blockly.Msg.LANG_CONTROLS_FORRANGE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#forrange';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'number';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'from';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'to';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'by';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'for number in range';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'for ';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' in range';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Runs the blocks in the \'do\' section for each numeric '
-        + 'value in the range from start to end, stepping the value each time.  Use the given '
-        + 'variable name to refer to the current value.';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'per ogni';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'numero';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'da';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'a';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'per';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'esegui';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'per numero nel campo';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'per ';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' nel campo';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Esegui i blocchi nella sezione \'esegui\' per ogni valore '
+        + 'numerico nel campo dall\'inizio alla fine, saltando il valore ogni volta.  Usa il nome della variabile '
+        + 'data come riferimento del valore attuale.';
 
     Blockly.Msg.LANG_CONTROLS_FOREACH_HELPURL = 'https://docs.makeroid.io/blocks/control.html#foreach';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'item';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'for item in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'for ';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' in list';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'per ogni';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'elemento';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'nella lista';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'esegui';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'per elemento nella lista';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'per ';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' nella lista';
     Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'Runs the blocks in the \'do\'  section for each item in '
         + 'the list.  Use the given variable name to refer to the current list item.';
 
