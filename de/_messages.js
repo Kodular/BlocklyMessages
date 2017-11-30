@@ -25,17 +25,17 @@
  */
 'use strict';
 
-goog.provide('AI.Blockly.Msg.en');
+goog.provide('AI.Blockly.Msg.de_de');
 
-goog.require('Blockly.Msg.en');
+goog.require('Blockly.Msg.de');
 
 /**
  * Due to the frequency of long strings, the 80-column wrap rule need not apply
  * to message files.
  */
 
-Blockly.Msg.en.switch_language_to_english = {
-  // Switch language to English.
+Blockly.Msg.en.switch_language_to_german = {
+  // Switch language to German.
   category: '',
   helpUrl: '',
   init: function() {
@@ -1367,5 +1367,5 @@ Blockly.Msg.en.switch_language_to_english = {
 };
 
 // Initalize language definition to English
-Blockly.Msg.en.switch_blockly_language_to_en.init();
-Blockly.Msg.en.switch_language_to_english.init();
+Blockly.Msg.de.switch_blockly_language_to_de.init();
+Blockly.Msg.de.switch_language_to_german_de.init();
