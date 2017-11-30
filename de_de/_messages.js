@@ -25,7 +25,7 @@
  */
 'use strict';
 
-goog.provide('AI.Blockly.Msg.de_de');
+goog.provide('AI.Blockly.Msg.de');
 
 goog.require('Blockly.Msg.de');
 
@@ -34,7 +34,7 @@ goog.require('Blockly.Msg.de');
  * to message files.
  */
 
-Blockly.Msg.en.switch_language_to_german = {
+Blockly.Msg.de.switch_language_to_german = {
   // Switch language to German.
   category: '',
   helpUrl: '',
@@ -1368,4 +1368,4 @@ Blockly.Msg.en.switch_language_to_german = {
 
 // Initalize language definition to English
 Blockly.Msg.de.switch_blockly_language_to_de.init();
-Blockly.Msg.de.switch_language_to_german_de.init();
+Blockly.Msg.de.switch_language_to_german.init();
