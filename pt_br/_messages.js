@@ -25,17 +25,17 @@
  */
 'use strict';
 
-goog.provide('AI.Blockly.Msg.ko_kr');
+goog.provide('AI.Blockly.Msg.pt_br');
 
-goog.require('Blockly.Msg.ko');
+goog.require('Blockly.Msg.pt.br');
 
 /**
  * Due to the frequency of long strings, the 80-column wrap rule need not apply
  * to message files.
  */
 
-Blockly.Msg.es.switch_language_to_korean   = {
-  // Switch language to Korean.
+Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
+  // Switch language to Portuguese (Brazilian).
   category: '',
   helpUrl: '',
   init: function() {
@@ -1392,6 +1392,6 @@ Blockly.Msg.es.switch_language_to_korean   = {
   }
 };
 
-// Initalize language definition to Korean
-Blockly.Msg.ko.switch_blockly_language_to_ko.init();
-Blockly.Msg.ko.switch_language_to_korean.init();
+// Initalize language definition to Portuguese
+Blockly.Msg.pt.br.switch_blockly_language_to_pt_br.init();
+Blockly.Msg.pt.br.switch_language_to_portuguese_br.init();
