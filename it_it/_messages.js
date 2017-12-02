@@ -34,291 +34,293 @@ goog.require('Blockly.Msg.it');
  * to message files.
  */
 
-Blockly.Msg.es.switch_language_to_italian  = {
+Blockly.Msg.it.switch_language_to_italian = {
   // Switch language to Italian.
   category: '',
   helpUrl: '',
   init: function() {
 // Context menus.
-    Blockly.Msg.UNDO = 'Undo';
-    Blockly.Msg.REDO = 'Redo';
-    Blockly.Msg.CLEAN_UP = 'Clean up Blocks';
-    Blockly.Msg.DUPLICATE_BLOCK = 'Duplicate';
-    Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
-    Blockly.Msg.ADD_COMMENT = 'Add Comment';
-    Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
-    Blockly.Msg.INLINE_INPUTS = 'Inline Inputs';
-    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
-    Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
-    Blockly.Msg.CONFIRM_DELETE = 'Confirm deletion';
-    Blockly.Msg.DELETE_ALL_BLOCKS = "Delete all %1 blocks?";
-    Blockly.Msg.DELETE_BLOCK = 'Delete Block';
-    Blockly.Msg.DELETE_X_BLOCKS = 'Delete %1 Blocks';
-    Blockly.Msg.COLLAPSE_BLOCK = 'Collapse Block';
-    Blockly.Msg.EXPAND_BLOCK = 'Expand Block';
-    Blockly.Msg.DISABLE_BLOCK = 'Disable Block';
-    Blockly.Msg.ENABLE_BLOCK = 'Enable Block';
-    Blockly.Msg.HELP = 'Help';
-    Blockly.Msg.EXPORT_IMAGE = 'Download Blocks as Image';
-    Blockly.Msg.COLLAPSE_ALL = 'Collapse Blocks';
-    Blockly.Msg.EXPAND_ALL = 'Expand Blocks';
-    Blockly.Msg.ARRANGE_H = 'Arrange Blocks Horizontally';
-    Blockly.Msg.ARRANGE_V = 'Arrange Blocks Vertically';
-    Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
-    Blockly.Msg.SORT_W = 'Sort Blocks by Width';
-    Blockly.Msg.SORT_H = 'Sort Blocks by Height';
-    Blockly.Msg.SORT_C = 'Sort Blocks by Category';
-    Blockly.Msg.COPY_TO_BACKPACK = 'Add to Backpack';
-    Blockly.Msg.COPY_ALLBLOCKS = 'Copy All Blocks to Backpack';
-    Blockly.Msg.BACKPACK_GET = 'Paste All Blocks from Backpack';
-    Blockly.Msg.BACKPACK_EMPTY = 'Empty the Backpack';
-    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Are you sure you want to empty the backpack?';
-    Blockly.Msg.BACKPACK_DOC_TITLE = "Backpack Information";
-    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Show Backpack documentation";
-    Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
-   " and paste them into another project or screen. " +
-   " To copy, you can drag-and-drop blocks into the Backpack. To paste, click on the Backpack icon and " +
-   " drag-and-drop blocks into the workspace." +
-   "</p><p>If you leave Makeroid with blocks left in your backpack, " +
-   " they will be there the next time you login." +
-   "</p><p>For further documentation and a 'how to' video, see:" +
+    Blockly.Msg.UNDO = 'Annulla';
+    Blockly.Msg.REDO = 'Rifai';
+    Blockly.Msg.CLEAN_UP = 'Pulisci Blocchi';
+    Blockly.Msg.DUPLICATE_BLOCK = 'Duplica';
+    Blockly.Msg.REMOVE_COMMENT = 'Rimuovi Commento';
+    Blockly.Msg.ADD_COMMENT = 'Aggiungi Commento';
+    Blockly.Msg.EXTERNAL_INPUTS = 'Inserimento Esterno';
+    Blockly.Msg.INLINE_INPUTS = 'Inserimento In Linea';
+    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Disponi i Parametri Orizzontalmente';
+    Blockly.Msg.VERTICAL_PARAMETERS = 'Disponi i Parametri Verticalmente';
+    Blockly.Msg.CONFIRM_DELETE = 'Conferma eliminazione';
+    Blockly.Msg.DELETE_ALL_BLOCKS = "Eliminare tutti i %1 blocchi?";
+    Blockly.Msg.DELETE_BLOCK = 'Elimina Blocco';
+    Blockly.Msg.DELETE_X_BLOCKS = 'Elimina %1 Blocchi';
+    Blockly.Msg.COLLAPSE_BLOCK = 'Riduci Blocchi';
+    Blockly.Msg.EXPAND_BLOCK = 'Espandi Blocchi';
+    Blockly.Msg.DISABLE_BLOCK = 'Disattiva Blocco';
+    Blockly.Msg.ENABLE_BLOCK = 'Abilita Blocco';
+    Blockly.Msg.HELP = 'Aiuto';
+    Blockly.Msg.EXPORT_IMAGE = 'Scarica Blocchi come Immagine';
+    Blockly.Msg.COLLAPSE_ALL = 'Riducci tutti i Blocchi';
+    Blockly.Msg.EXPAND_ALL = 'Espandi tutti i Blocchi';
+    Blockly.Msg.ARRANGE_H = 'Disponi Blocchi Orizzontalmente';
+    Blockly.Msg.ARRANGE_V = 'Disponi Blocchi Verticalmente';
+    Blockly.Msg.ARRANGE_S = 'Disponi Blocchi Diagonalmente';
+    Blockly.Msg.SORT_W = 'Ordina Blocchi per Larghezza';
+    Blockly.Msg.SORT_H = 'Ordina Blocchi per Altezza';
+    Blockly.Msg.SORT_C = 'Ordina Blocchi per Categoria';
+    Blockly.Msg.COPY_TO_BACKPACK = 'Aggiungi allo Zaino';
+    Blockly.Msg.COPY_ALLBLOCKS = 'Copia Tutti i Blocchi nello Zaino';
+    Blockly.Msg.BACKPACK_GET = 'Incolla Tutti i Blocchi dallo Zaino';
+    Blockly.Msg.BACKPACK_EMPTY = 'Svuota lo Zaino';
+    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Sei sicuro di voler svuotare lo zaino?';
+    Blockly.Msg.BACKPACK_DOC_TITLE = "Informazioni Zaino";
+    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Mostra Documentazione Zaino";
+    Blockly.Msg.BACKPACK_DOCUMENTATION = "Lo Zaino è una funzione di copia/incolla. Permette di copiare blocchi da un progetto o uno schermo " +
+   " e incollarli in un altro progetto o schermo. " +
+   " Per copiare, puoi trascinare i blocchi nello Zaino. Per incollare, clicca l'icona dello Zaino e " +
+   " trascina i blocchi nello spazio di lavoro." +
+   "</p><p>Se chiudi Makeroid con dei blocchi nel tuo Zaino, " +
+   " saranno lì la prossima volta che entrerai." +
+   "</p><p>Per ulteriore documentazione e un video tutorial, vedi:" +
    '</p><p><a href="https://docs.makeroid.io/other/backpack.html" target="_blank">https://docs.makeroid.io/other/backpack.html</a>';
-    Blockly.Msg.ENABLE_GRID = 'Enable Workspace Grid';
-    Blockly.Msg.DISABLE_GRID = 'Disable Workspace Grid';
-    Blockly.Msg.ENABLE_SNAPPING = 'Enable Snap to Grid';
-    Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
-
+    Blockly.Msg.ENABLE_GRID = 'Attiva Griglia Spazio di Lavoro';
+    Blockly.Msg.DISABLE_GRID = 'Disattiva Griglia Spazio di Lavoro';
+    Blockly.Msg.ENABLE_SNAPPING = 'Attiva Collegamento alla Griglia';
+    Blockly.Msg.DISABLE_SNAPPING = 'Disattiva Collegamento alla Griglia';
+// Rivedere le ultime 2
+    
 // Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Change value:';
-    Blockly.MSG_NEW_VARIABLE = 'New variable...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'New variable name:';
-    Blockly.MSG_RENAME_VARIABLE = 'Rename variable...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
+    Blockly.MSG_CHANGE_VALUE_TITLE = 'Cambia valore:';
+    Blockly.MSG_NEW_VARIABLE = 'Nuova variabile...';
+    Blockly.MSG_NEW_VARIABLE_TITLE = 'Nome della nuova Variabile:';
+    Blockly.MSG_RENAME_VARIABLE = 'Rinomina Variabile...';
+    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rinomina tutte le "%1" variabili a:';
 
 // Toolbox.
-    Blockly.MSG_VARIABLE_CATEGORY = 'Variables';
-    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedures';
+    Blockly.MSG_VARIABLE_CATEGORY = 'Variabili';
+    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedure';
 
 // Warnings/Errors
-    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Select a valid item in the drop down.";
-    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
-    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
-    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "This block is not defined. Delete this block!";
+    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "Questo blocco non può essere in una definizione";
+    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Seleziona un elemento valido nel menu a tendina.";
+    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "Questo è un gestore dell'evento duplicato per questo componente.";
+    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Il Componente non esiste";
+    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "Questo blocco non è definito. Elimina questo blocco!";
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#basic';
-    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
-    Blockly.Msg.LANG_COLOUR_WHITE = 'white';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'light gray';
-    Blockly.Msg.LANG_COLOUR_GRAY = 'gray';
-    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'blue gray';
-    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'dark gray';
-    Blockly.Msg.LANG_COLOUR_BLACK = 'black';
-    Blockly.Msg.LANG_COLOUR_RED = 'red';
-    Blockly.Msg.LANG_COLOUR_PINK = 'pink';
-    Blockly.Msg.LANG_COLOUR_PURPLE = 'purple';
-    Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'deep purple';
-    Blockly.Msg.LANG_COLOUR_INDIGO = 'indigo';
-    Blockly.Msg.LANG_COLOUR_BLUE = 'blue';
-    Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'light blue';
-    Blockly.Msg.LANG_COLOUR_CYAN = 'cyan';
+    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Clicca il quadrato per selezionare un colore.';
+    Blockly.Msg.LANG_COLOUR_WHITE = 'bianco';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'grigio chiaro';
+    Blockly.Msg.LANG_COLOUR_GRAY = 'grigio';
+    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'grigio blu';
+    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'grigio scuro';
+    Blockly.Msg.LANG_COLOUR_BLACK = 'nero';
+    Blockly.Msg.LANG_COLOUR_RED = 'rosso';
+    Blockly.Msg.LANG_COLOUR_PINK = 'rosa';
+    Blockly.Msg.LANG_COLOUR_PURPLE = 'viola';
+    Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'viola scuro';
+    Blockly.Msg.LANG_COLOUR_INDIGO = 'indaco';
+    Blockly.Msg.LANG_COLOUR_BLUE = 'blu';
+    Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'azzurro';
+    Blockly.Msg.LANG_COLOUR_CYAN = 'ciano';
     Blockly.Msg.LANG_COLOUR_TEAL = 'teal';
-    Blockly.Msg.LANG_COLOUR_GREEN = 'green';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'light green';
+    Blockly.Msg.LANG_COLOUR_GREEN = 'verde';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'verde chiaro';
     Blockly.Msg.LANG_COLOUR_LIME = 'lime';
-    Blockly.Msg.LANG_COLOUR_YELLOW = 'yellow';
-    Blockly.Msg.LANG_COLOUR_AMBER = 'amber';
-    Blockly.Msg.LANG_COLOUR_ORANGE = 'orange';
-    Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'deep orange';
-    Blockly.Msg.LANG_COLOUR_BROWN = 'brown';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'split color';
+    Blockly.Msg.LANG_COLOUR_YELLOW = 'giallo';
+    Blockly.Msg.LANG_COLOUR_AMBER = 'ambra';
+    Blockly.Msg.LANG_COLOUR_ORANGE = 'arancione';
+    Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'arancione scuro';
+    Blockly.Msg.LANG_COLOUR_BROWN = 'marrone';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'dividi colore';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#split';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "A list of four elements, each in the range 0 to 255, representing the red, green, blue and alpha components.";
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'make color';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "Una lista di quattro elementi, ognuna nel campo da 0 a 255, rappresentanti i componenti rosso, verde, blu e alfa.";
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'crea colore';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#make';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A color with the given red, green, blue, and optionally alpha components";
-
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "Un colore con le componenti rosso, verde, blu e opzionalmente alfa date";
+// Da rivedere linea 140
+    
 // Control Blocks
-    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Control';
+    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Controllo';
     Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.makeroid.io/blocks/control.html#if';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'If a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'If a value is true, then do the first block of statements.\n' +
-        'Otherwise, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.\n' +
-        'If none of the values are true, do the last block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'if';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'else';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'then';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'Se un valore è vero, allora esegui qualche comando.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'Se un valore è vero, allora esegui il primo blocco dei comandi.\n' +
+        'Altrimenti, esegui il secondo blocco dei comandi.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'Se un valore è vero, allora esegui il primo blocco dei comandi.\n' +
+        'Altrimenti, se il secondo valore è vero, esegui il secondo blocco dei comandi.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'Se un valore è vero, allora esegui il primo blocco dei comandi.\n' +
+        'Altrimenti, se il secondo valore è vero, esegui il secondo blocco dei comandi.\n' +
+        "Se nessuno dei valori è vero, allora esegui l'ultimo blocco dei comandi.";
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'se';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'altrimenti se';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'altrimenti';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'allora';
 
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'if';
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
-        'to reconfigure this if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'se';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Aggiungi, rimuovi o riordina le sezioni\n' +
+        'per riconfigurare questo blocco se.';
 
-    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'else if';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Add a condition to the if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'altrimenti se';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Aggiungi una condizione al blocco se.';
 
-    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'else';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'altrimenti';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Aggiungi una condizione finale al blocco se, che viene eseguita solo se tutte le altre non sono vere.';
 
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'https://docs.makeroid.io/blocks/control.html#while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repeat';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'until';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Runs the blocks in the \'do\' section while the test is '
-        + 'true.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'ripeti';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'esegui';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'mentre';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'fino';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'Finchè un valore è vero, allora esegui qualche comando.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'Finchè un valore è falso, allora esegui qualche comando.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Esegui i blocchi nella sezione \'esegui\' mentre la condizione è '
+        + 'vera.';
 
     Blockly.Msg.LANG_CONTROLS_FOR_HELPURL = '';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'count with';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'conta con';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_VAR = 'x';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'from';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'to';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'do';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'da';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'a';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'esegui';
 
-    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.\n' +
-        'For each count, set the current count number to\n' +
-        'variable "%1", and then do some statements.';
+    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Conta da un numero di inizio fino ad un numero finale.\n' +
+        'Per ogni conta, imposta l\'attuale numero contato alla\n' +
+        'variabile "%1", e poi esegui alcuni comandi.';
 
     Blockly.Msg.LANG_CONTROLS_FORRANGE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#forrange';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'number';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'from';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'to';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'by';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'for number in range';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'for ';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' in range';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Runs the blocks in the \'do\' section for each numeric '
-        + 'value in the range from start to end, stepping the value each time.  Use the given '
-        + 'variable name to refer to the current value.';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'per ogni';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'numero';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'da';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'a';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'per';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'esegui';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'per numero nel campo';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'per ';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' nel campo';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Esegui i blocchi nella sezione \'esegui\' per ogni valore '
+        + 'numerico nel campo dall\'inizio alla fine, saltando il valore ogni volta.  Usa il nome della variabile '
+        + 'data come riferimento del valore attuale.';
 
     Blockly.Msg.LANG_CONTROLS_FOREACH_HELPURL = 'https://docs.makeroid.io/blocks/control.html#foreach';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'item';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'for item in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'for ';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'Runs the blocks in the \'do\'  section for each item in '
-        + 'the list.  Use the given variable name to refer to the current list item.';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'per ogni';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'elemento';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'nella lista';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'esegui';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'per elemento nella lista';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'per ';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' nella lista';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'Esegui i blocchi nella sezione \'esegui\' per ogni elemento della '
+        + 'lista.  Usa il nome della variabile data come riferimento del valore attuale..';
 
     Blockly.Msg.LANG_CONTROLS_GET_HELPURL = 'https://docs.makeroid.io/blocks/control.html#get';
 
 
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_HELPURL = 'http://en.wikipedia.org/wiki/Control_flow';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'of loop';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'break out';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'continue with next iteration';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'Break out of the containing loop.';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Skip the rest of this loop, and\n' +
-        'continue with the next iteration.';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Warning:\n' +
-        'This block may only\n' +
-        'be used within a loop.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'del ciclo';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'uscire';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'continua con la prossima iterazione';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'Esci da questo ciclo.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Salta il resto di questo ciclo, e\n' +
+        'continua con la prossima iterazione.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Attenzione:\n' +
+        'Questo blocco può essere usato\n' +
+        'solo dentro a un ciclo.';
 
     Blockly.Msg.LANG_CONTROLS_WHILE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#while';;
-    Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_TEST = 'test';
-    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'Runs the blocks in the \'do\' section while the test is '
-        + 'true.';
+    Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = 'mentre';
+    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_TEST = 'condizione';
+    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_DO = 'esegui';
+    Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'mentre';
+    Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'Esegui i blocchi nella sezione \'esegui\' mentre la condizione è '
+        + 'vera.';
 
     Blockly.Msg.LANG_CONTROLS_CHOOSE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#choose';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_TITLE = 'if'
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_TITLE = 'se'
     Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_TEST = '';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_THEN_RETURN = 'then';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_ELSE_RETURN = 'else';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'if';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_TOOLTIP = 'If the condition being tested is true,'
-        + 'return the result of evaluating the expression attached to the \'then-return\' slot;'
-        + 'otherwise return the result of evaluating the expression attached to the \'else-return\' slot;'
-        + 'at most one of the return slot expressions will be evaluated.';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_THEN_RETURN = 'allora';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_ELSE_RETURN = 'altrimenti';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'se';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_TOOLTIP = 'Se la condizione da testare è vera,'
+        + 'restituisce il risultato della valutazione dell\' espressione allegata allo slot \'allora-restituisci\'?'
+        + 'altrimenti restituisce il risultato della valutazione dell\' espressione allegata allo slot \'allora-restituisci\'?'
+        + 'al massimo sarà valutata una delle espressioni dello slot di ritorno.';
 
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#doreturn';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'result';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TOOLTIP = 'Runs the blocks in \'do\' and returns a statement. Useful if you need to run a procedure before returning a value to a variable.';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_COLLAPSED_TEXT = 'do/result';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'do result';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'esegui';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'risultato';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TOOLTIP = 'Esegui dei blocchi nella sezione \'esegui\' e restituisce un comando. Utile se hai bisogno di eseguire una procedura prima di restituire un valore ad una variabile.';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_COLLAPSED_TEXT = 'esegui/risultato';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'esegui risultato';
 
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'evaluate but ignore result'
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'valuta ma ignora risultato'
     Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#evaluate';
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_COLLAPSED_TEXT = 'eval but ignore'
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = 'Runs the connected block of code and ignores the return value (if any). Useful if need to call a procedure with a return value but don\'t need the value.';
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_COLLAPSED_TEXT = 'valuta ma ignora'
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = 'Esegui il blocco di codice collegato ed ignora i valori restituiti (se esistono). Utile se hai bisogno di chiamare una producedura a procedure con un valore di ritorno ma non ne hai bisogno.';
 
     /* [lyn, 10/14/13] Removed for now. May come back some day.
-     Blockly.Msg.LANG_CONTROLS_NOTHING_TITLE = 'nothing';
+     Blockly.Msg.LANG_CONTROLS_NOTHING_TITLE = 'niente';
      Blockly.Msg.LANG_CONTROLS_NOTHING_HELPURL = 'https://docs.makeroid.io/blocks/control.html#nothing';
-     Blockly.Msg.LANG_CONTROLS_NOTHING_TOOLTIP = 'Returns nothing. Used to initialize variables or can be plugged into a return socket if no value needed to return. this is equivalent to null or None.';
+     Blockly.Msg.LANG_CONTROLS_NOTHING_TOOLTIP = 'Ritorna nulla. Usato per inizializzare variabili o può essere inserito in una presa di ritorno se non è necessario ritornare nessun valore. Questo è equivalente a null o None.';
      */
 
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#openscreen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'open another screen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'open screen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Opens a new screen in a multiple screen app.';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'apri altro schermo';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'nomeSchermo';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'apri schermo';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Apri un nuovo schermo in un\'app multi schermo.';
 
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#openscreenwithvalue';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = 'open another screen with start value';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'startValue';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'open screen with value'
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TOOLTIP = 'Opens a new screen in a multiple screen app and passes the '
-        + 'start value to that screen.';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = 'apri un altro schermo con valore di inizio';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'nomeSchermo';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'valorediAvvio';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'Apri schermo con valore'
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TOOLTIP = 'Apri un nuovo schermo in un\'app multi scherm e passa il '
+        + 'valore di inizio a quello schermo.';
 
     Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#getstartvalue';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TITLE = 'get start value';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'startValue';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'get start value';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TOOLTIP = 'Returns the value that was passed to this screen when it '
-        + 'was opened, typically by another screen in a multiple-screen app. If no value was '
-        + 'passed, returns the empty text.';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TITLE = 'ottieni valore di inizio';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'nomeSchermo';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'valorediAvvio';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'ottieni valore di avvio';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TOOLTIP = 'Ritorna il valore che era stato passato a questo schermo quando '
+        + 'è stato aperto, tipicamente da un altro schermo in una app multi schermo. Se non era stato passato nessun valore, '
+        + 'ritorna un testo vuoto.';
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closescreen';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'close screen';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'close screen';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = 'Close the current screen';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'chiudi schermo';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'chiudi schermo';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = 'Chiudi lo schermo corrente';
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closescreenwithvalue';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'close screen with value';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'result';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'close screen with value';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TOOLTIP = 'Closes the current screen and returns a result to the '
-        + 'screen that opened this one.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'chiudi schermo con valore';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'risultato';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'chiudi schermo con valore';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TOOLTIP = 'Chiudi lo schermo corrente e restituisci un risultato allo '
+        + 'schermo che aperto questo.';
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closeapp';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = 'close application';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = 'close application';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TOOLTIP = 'Closes all screens in this app and stops the app.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = 'chiudi applicazione';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = 'chiudi applicazione';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TOOLTIP = 'Chiudi tutti gli schermi dell\'app e interrompila.';
 
     Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/control.html#getplainstarttext';
-    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TITLE = 'get plain start text';
-    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_COLLAPSED_TEXT = 'get plain start text';
-    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TOOLTIP = 'Returns the plain text that was passed to this screen when '
-        + 'it was started by another app. If no value was passed, returns the empty text. For '
-        + 'multiple screen apps, use get start value rather than get plain start text.';
+    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TITLE = 'ottieni testo di inizio';
+    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_COLLAPSED_TEXT = 'ottieni testo di inizio';
+    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TOOLTIP = 'Restituisce il testo che era stato passatoto a questo schermo quando '
+        + 'era stato avviato da un\'altra app. Se nessun valore è stato passato, ritorna testo vuoto. Per '
+        + 'app multi schermo, usa ottieni valore di inizio invece che ottenere il testo di avvio.';
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closescreenwithplaintext';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = 'close screen with plain text';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = 'close screen with plain text';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Closes the current screen and returns text to the app that '
-        + 'opened this one.   This command is for returning text to non-Makeroid activities, not to Makeroid screens. '
-        + 'For Makeroid Screens, as in multiple screen apps, use Close Screen with Value, not Close Screen with Plain Text.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = 'chiudi schermo con testo';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_INPUT_TEXT = 'testo';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = 'chiudi schermo con testo';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Chiudi lo schermo corrente e ritorna il testo all\'app che '
+        + 'ha aperto questa.   Questo blocco è per ritornare testo ad attività che non sono di Makeroid, non degli schermi di Makeroid. '
+        + 'Per gli schermi di Makeroid, come in una app multischermo, usa Chiudi Schermo con Valore, non Chiudi Schermo con Testo.';
 
 // Logic Blocks.
-    Blockly.Msg.LANG_CATEGORY_LOGIC = 'Logic';
+    Blockly.Msg.LANG_CATEGORY_LOGIC = 'Logica';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL = 'http://en.wikipedia.org/wiki/Inequality_(mathematics)';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_EQ = 'https://docs.makeroid.io/blocks/logic.html#=';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_NEQ = 'https://docs.makeroid.io/blocks/logic.html#not=';
@@ -329,26 +331,26 @@ Blockly.Msg.es.switch_language_to_italian  = {
         'that represent numbers are equal if the numbers are equal, for example \n' +
         '\"1\" is equal to \"01\".';
     Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_NEQ = 'Return true if both inputs are not equal to each other.';
-    Blockly.Msg.LANG_LOGIC_COMPARE_TRANSLATED_NAME = 'logic equal';
+    Blockly.Msg.LANG_LOGIC_COMPARE_TRANSLATED_NAME = 'uguale logico';
     Blockly.Msg.LANG_LOGIC_COMPARE_EQ = '=';
     Blockly.Msg.LANG_LOGIC_COMPARE_NEQ = '\u2260';
 
     Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_AND = 'https://docs.makeroid.io/blocks/logic.html#and';
     Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_OR = 'https://docs.makeroid.io/blocks/logic.html#or';
-    Blockly.Msg.LANG_LOGIC_OPERATION_AND = 'and';
-    Blockly.Msg.LANG_LOGIC_OPERATION_OR = 'or';
+    Blockly.Msg.LANG_LOGIC_OPERATION_AND = 'e';
+    Blockly.Msg.LANG_LOGIC_OPERATION_OR = 'o';
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = 'Return true if all inputs are true.';
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_OR = 'Return true if any input is true.';
 
     Blockly.Msg.LANG_LOGIC_NEGATE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#not';
-    Blockly.Msg.LANG_LOGIC_NEGATE_INPUT_NOT = 'not';
+    Blockly.Msg.LANG_LOGIC_NEGATE_INPUT_NOT = 'non';
     Blockly.Msg.LANG_LOGIC_NEGATE_TOOLTIP = 'Returns true if the input is false.\n' +
         'Returns false if the input is true.';
 
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#true';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#false';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'true';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = 'false';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'vero';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = 'falso';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Returns the boolean true.';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Returns the boolean false.';
 
@@ -1392,6 +1394,6 @@ Blockly.Msg.es.switch_language_to_italian  = {
   }
 };
 
-// Initalize language definition to Italian
+// Initalize language definition to English
 Blockly.Msg.it.switch_blockly_language_to_it.init();
 Blockly.Msg.it.switch_language_to_italian.init();
