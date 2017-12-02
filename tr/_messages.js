@@ -1392,6 +1392,6 @@ Blockly.Msg.tr.switch_language_to_turkish = {
   }
 };
 
-// Initalize language definition to English
-Blockly.Msg.tr.switch_blockly_language_to_en.init();
+// Initalize language definition to Turkish
+Blockly.Msg.tr.switch_blockly_language_to_tr.init();
 Blockly.Msg.tr.switch_language_to_turkish.init();
