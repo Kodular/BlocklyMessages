@@ -324,13 +324,13 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL = 'http://en.wikipedia.org/wiki/Inequality_(mathematics)';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_EQ = 'https://docs.makeroid.io/blocks/logic.html#=';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_NEQ = 'https://docs.makeroid.io/blocks/logic.html#not=';
-    Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_EQ = 'Tests whether two things are equal. \n' +
-        'The things being compared can be any things, not only numbers. \n' +
-        'Numbers are considered to be equal to their printed form as strings, \n' +
-        'for example, the number 0 is equal to the text \"0\".  Also, two strings \n' +
-        'that represent numbers are equal if the numbers are equal, for example \n' +
-        '\"1\" is equal to \"01\".';
-    Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_NEQ = 'Return true if both inputs are not equal to each other.';
+    Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_EQ = 'Controlla se due elementi sono uguali. \n' +
+        'Gli elementi che devono essere comparati possono essere di qualunque tipo, non solo numeri. \n' +
+        'I numeri sono considerati uguali alla loro forma stampata come stringhe, \n' +
+        'per esempio, il numero 0 è uguale al testo \"0\".  In più, due stringhe \n' +
+        'che rappresentano numeri sono uguali se i numeri sono uguali, per esempio \n' +
+        '\"1\" è uguale a \"01\".';
+    Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_NEQ = 'Ritorna vero se i due elementi non sono uguali tra loro.';
     Blockly.Msg.LANG_LOGIC_COMPARE_TRANSLATED_NAME = 'uguale logico';
     Blockly.Msg.LANG_LOGIC_COMPARE_EQ = '=';
     Blockly.Msg.LANG_LOGIC_COMPARE_NEQ = '\u2260';
@@ -339,26 +339,26 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_OR = 'https://docs.makeroid.io/blocks/logic.html#or';
     Blockly.Msg.LANG_LOGIC_OPERATION_AND = 'e';
     Blockly.Msg.LANG_LOGIC_OPERATION_OR = 'o';
-    Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = 'Return true if all inputs are true.';
-    Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_OR = 'Return true if any input is true.';
+    Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = 'Ritorna vero se i due elementi sono veri.';
+    Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_OR = 'Ritorna vero se almeno uno dei due elementi è vero.';
 
     Blockly.Msg.LANG_LOGIC_NEGATE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#not';
     Blockly.Msg.LANG_LOGIC_NEGATE_INPUT_NOT = 'non';
-    Blockly.Msg.LANG_LOGIC_NEGATE_TOOLTIP = 'Returns true if the input is false.\n' +
-        'Returns false if the input is true.';
+    Blockly.Msg.LANG_LOGIC_NEGATE_TOOLTIP = 'Ritorna vero se l\'elemento è falso.\n' +
+        'Ritorna falso se l\'elemento è vero.';
 
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#true';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#false';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'vero';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = 'falso';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Returns the boolean true.';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Returns the boolean false.';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Ritorna il booleano vero.';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Ritorna il booleano falso.';
 
 // Math Blocks.
-    Blockly.Msg.LANG_CATEGORY_MATH = 'Math';
+    Blockly.Msg.LANG_CATEGORY_MATH = 'Matematica';
     Blockly.Msg.LANG_MATH_NUMBER_HELPURL = 'https://docs.makeroid.io/blocks/math.html#number';
-    Blockly.Msg.LANG_MATH_NUMBER_TOOLTIP = 'Report the number shown.';
-    Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = 'number';
+    Blockly.Msg.LANG_MATH_NUMBER_TOOLTIP = 'Riporta il numero mostrato.';
+    Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = 'numero';
 
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL = '';
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL_EQ = 'https://docs.makeroid.io/blocks/math.html#=';
@@ -367,16 +367,16 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL_LTE = 'https://docs.makeroid.io/blocks/math.html#lte';
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GT = 'https://docs.makeroid.io/blocks/math.html#gt';
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GTE = 'https://docs.makeroid.io/blocks/math.html#gte';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_EQ = 'Return true if both numbers are equal to each other.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_NEQ = 'Return true if both numbers are not equal to each other.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = 'Return true if the first number is smaller\n' +
-        'than the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LTE = 'Return true if the first number is smaller\n' +
-        'than or equal to the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GT = 'Return true if the first number is greater\n' +
-        'than the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GTE = 'Return true if the first number is greater\n' +
-        'than or equal to the second number.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_EQ = 'Ritorna vero se i due numeri sono uguali tra loro.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_NEQ = 'Ritorna vero se i due numeri non sono uguali tra loro.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = 'Ritorna vero se il primo numero è più piccolo\n' +
+        'del secondo.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LTE = 'Ritorna vero se il primo numero è più piccolo\n' +
+        'o uguale del secondo.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GT = 'Ritorna vero se il primo numero è più grande\n' +
+        'del secondo.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GTE = 'Ritorna vero se il primo numero è più grande\n' +
+        'o uguale del secondo.';
     Blockly.Msg.LANG_MATH_COMPARE_EQ = '=';
     Blockly.Msg.LANG_MATH_COMPARE_NEQ = '\u2260';
     Blockly.Msg.LANG_MATH_COMPARE_LT = '<';
@@ -389,52 +389,52 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_MULTIPLY = 'https://docs.makeroid.io/blocks/math.html#multiply';
     Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_DIVIDE = 'https://docs.makeroid.io/blocks/math.html#divide';
     Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_POWER = 'https://docs.makeroid.io/blocks/math.html#exponent';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_ADD = 'Return the sum of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MINUS = 'Return the difference of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MULTIPLY = 'Return the product of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_DIVIDE = 'Return the quotient of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_POWER = 'Return the first number raised to\n' +
-        'the power of the second number.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_ADD = 'Ritorna la somma dei due numeri.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MINUS = 'Ritorna la differenza dei due numeri.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MULTIPLY = 'Ritorna il prodotto dei due numeri.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_DIVIDE = 'Ritorna il quoziente dei due numeri.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_POWER = 'Ritorna il primo numero alla \n' +
+        'potenza del secondo.';
     Blockly.Msg.LANG_MATH_ARITHMETIC_ADD = '+';
     Blockly.Msg.LANG_MATH_ARITHMETIC_MINUS = '-';
     Blockly.Msg.LANG_MATH_ARITHMETIC_MULTIPLY = '*';
     Blockly.Msg.LANG_MATH_ARITHMETIC_DIVIDE = '/';
     Blockly.Msg.LANG_MATH_ARITHMETIC_POWER = '^';
 
-    /*Blockly.Msg.LANG_MATH_CHANGE_TITLE_CHANGE = 'change';
-     Blockly.Msg.LANG_MATH_CHANGE_TITLE_ITEM = 'item';
-     Blockly.Msg.LANG_MATH_CHANGE_INPUT_BY = 'by';
-     Blockly.Msg.LANG_MATH_CHANGE_TOOLTIP = 'Add a number to variable "%1".';*/
+    /*Blockly.Msg.LANG_MATH_CHANGE_TITLE_CHANGE = 'cambia';
+     Blockly.Msg.LANG_MATH_CHANGE_TITLE_ITEM = 'elemento';
+     Blockly.Msg.LANG_MATH_CHANGE_INPUT_BY = 'da';
+     Blockly.Msg.LANG_MATH_CHANGE_TOOLTIP = 'Aggiungi un numero alla variabile "%1".';*/
 
 
-    Blockly.Msg.LANG_MATH_SINGLE_OP_ROOT = 'square root';
-    Blockly.Msg.LANG_MATH_SINGLE_OP_ABSOLUTE = 'absolute';
+    Blockly.Msg.LANG_MATH_SINGLE_OP_ROOT = 'radice quadrata';
+    Blockly.Msg.LANG_MATH_SINGLE_OP_ABSOLUTE = 'assoluto';
     Blockly.Msg.LANG_MATH_SINGLE_OP_NEG = 'neg';
     Blockly.Msg.LANG_MATH_SINGLE_OP_LN = 'log';
     Blockly.Msg.LANG_MATH_SINGLE_OP_EXP = 'e^';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ROOT = 'Return the square root of a number.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ROOT = 'Ritorna la radice quadrata di un numero.';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ROOT = 'https://docs.makeroid.io/blocks/math.html#sqrt';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ABS = 'Return the absolute value of a number.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ABS = 'Ritorna il valore assoluto di un numero.';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ABS = 'https://docs.makeroid.io/blocks/math.html#abs';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = 'Return the negation of a number.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = 'Ritorna la negazione di un numero.';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_NEG = 'https://docs.makeroid.io/blocks/math.html#neg';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_LN = 'Return the natural logarithm of a number, i.e. the logarithm to the base e (2.71828...)';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_LN = 'Ritorna il logaritmo naturale di un numero, per esempio il logaritmo alla base e (2.71828...)';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_LN ='https://docs.makeroid.io/blocks/math.html#log';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_EXP = 'Return e (2.71828...) to the power of a number.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_EXP = 'Ritorna e (2.71828...) alla potenza di un numero.';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_EXP ='https://docs.makeroid.io/blocks/math.html#e';
-    /*Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_POW10 = 'Return 10 to the power of a number.';*/
+    /*Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_POW10 = 'Ritorna 10 alla potenza di un numero.';*/
 
-    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_ROUND = 'Round a number up or down.';
+    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_ROUND = 'Arrotonda un numero per eccesso o per difetto.';
     Blockly.Msg.LANG_MATH_ROUND_HELPURL_ROUND = 'https://docs.makeroid.io/blocks/math.html#round';
-    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_CEILING = 'Rounds the input to the smallest\n' +
-        'number not less then the input';
+    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_CEILING = 'Arrotonda l\'input al più piccolo\n' +
+        'numero non minore dell\' input';
     Blockly.Msg.LANG_MATH_ROUND_HELPURL_CEILING =  'https://docs.makeroid.io/blocks/math.html#ceiling';
-    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_FLOOR = 'Rounds the input to the largest\n' +
-        'number not greater then the input';
+    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_FLOOR = 'Arrotonda l\'input al più grande\n' +
+        'numero non maggiore dell\' input';
     Blockly.Msg.LANG_MATH_ROUND_HELPURL_FLOOR =  'https://docs.makeroid.io/blocks/math.html#floor';
-    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_ROUND = 'round';
-    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_CEILING = 'ceiling';
-    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_FLOOR = 'floor';
+    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_ROUND = 'arrotonda';
+    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_CEILING = 'eccesso';
+    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_FLOOR = 'difetto';
 
     Blockly.Msg.LANG_MATH_TRIG_SIN = 'sin';
     Blockly.Msg.LANG_MATH_TRIG_COS = 'cos';
@@ -445,39 +445,39 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_MATH_TRIG_ATAN2 = 'atan2';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_X = 'x';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_Y = 'y';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_SIN = 'Provides the sine of the given angle in degrees.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_SIN = 'Fornisce il seno dell\' angolo dato in gradi.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_SIN = 'https://docs.makeroid.io/blocks/math.html#sin';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_COS = 'Provides the cosine of the given angle in degrees.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_COS = 'Fornisce il coseno dell\' angolo dato in gradi.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_COS = 'https://docs.makeroid.io/blocks/math.html#cos';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_TAN = 'Provides the tangent of the given angle in degrees.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_TAN = 'Fornisce la tangente dell\' angolo dato in gradi.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_TAN = 'https://docs.makeroid.io/blocks/math.html#tan';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ASIN = 'Provides the angle in the range (-90,+90]\n' +
-        'degrees with the given sine value.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ASIN = 'Fornisce l\'angolo nel raggio (-90,+90]\n' +
+        'gradi con il valore seno dato.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_ASIN = 'https://docs.makeroid.io/blocks/math.html#asin';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ACOS = 'Provides the angle in the range [0, 180)\n' +
-        'degrees with the given cosine value.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ACOS = 'Fornisce l\'angolo nel raggio [0, 180)\n' +
+        'gradi con il valore coseno dato.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_ACOS = 'https://docs.makeroid.io/blocks/math.html#acos';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN = 'Provides the angle in the range (-90, +90)\n' +
-        'degrees with the given tangent value.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN = 'Fornisce l\'angolo nel raggio (-90,+90]\n' +
+        'gradi con il valore tangente dato.';
     ATAN : Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN = 'https://docs.makeroid.io/blocks/math.html#atan';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN2 = 'Provides the angle in the range (-180, +180]\n' +
-        'degrees with the given rectangular coordinates.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN2 = 'Fornisce l\'angolo nel raggio (-180, +180]\n' +
+        'gradi con le coordinate rettangolari date.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN2 = 'https://docs.makeroid.io/blocks/math.html#atan2';
 
     Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MIN = 'min';
     Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MAX = 'max';
-    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MIN = 'Return the smallest of its arguments..';
-    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MAX = 'Return the largest of its arguments..';
+    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MIN = 'Ritorna il più piccolo dei suoi argomenti..';
+    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MAX = 'Ritorna il più grande dei suo argomenti..';
 
     Blockly.Msg.LANG_MATH_DIVIDE = '\u00F7';
-    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_MODULO = 'modulo of';
-    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_REMAINDER = 'remainder of';
-    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_QUOTIENT = 'quotient of';
-    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_MODULO = 'Return the modulo.';
+    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_MODULO = 'modulo di';
+    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_REMAINDER = 'resto di';
+    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_QUOTIENT = 'quoziente di';
+    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_MODULO = 'Ritorna il modulo.';
     Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_MODULO = 'https://docs.makeroid.io/blocks/math.html#modulo';
-    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_REMAINDER = 'Return the remainder.';
+    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_REMAINDER = 'Ritorna il resto.';
     Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_REMAINDER = 'https://docs.makeroid.io/blocks/math.html#remainder';
-    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_QUOTIENT = 'Return the quotient.';
+    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_QUOTIENT = 'Ritorna il quoziente.';
     Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_QUOTIENT = 'https://docs.makeroid.io/blocks/math.html#quotient';
 
     Blockly.Msg.LANG_MATH_RANDOM_INT_HELPURL = 'https://docs.makeroid.io/blocks/math.html#randomint';
