@@ -34,8 +34,8 @@ goog.require('Blockly.Msg.ru');
  * to message files.
  */
 
-Blockly.Msg.ru.switch_language_to_rusian = {
-  // Switch language to Rusian.
+Blockly.Msg.ru.switch_language_to_russian = {
+  // Switch language to Russian.
   category: '',
   helpUrl: '',
   init: function() {
@@ -1392,6 +1392,6 @@ Blockly.Msg.ru.switch_language_to_rusian = {
   }
 };
 
-// Initalize language definition to Rusian
+// Initalize language definition to Russian
 Blockly.Msg.ru.switch_blockly_language_to_ru.init();
-Blockly.Msg.ru.switch_language_to_rusian.init();
+Blockly.Msg.ru.switch_language_to_russian.init();

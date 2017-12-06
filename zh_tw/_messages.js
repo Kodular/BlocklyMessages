@@ -27,7 +27,7 @@
 
 goog.provide('AI.Blockly.Msg.zh_tw');
 
-goog.require('Blockly.Msg.zh.hans');
+goog.require('Blockly.Msg.zh.hant');
 
 /**
  * Due to the frequency of long strings, the 80-column wrap rule need not apply
@@ -1393,5 +1393,5 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
 };
 
 // Initalize language definition to Traditional Chinese
-Blockly.Msg.zh.hans.switch_blockly_language_to_zh_hans.init();
+Blockly.Msg.zh.hant.switch_blockly_language_to_zh_hant.init();
 Blockly.Msg.zh.switch_language_to_chinese_tw.init();

@@ -34,7 +34,7 @@ goog.require('Blockly.Msg.fr');
  * to message files.
  */
 
-Blockly.Msg.es.switch_language_to_french = {
+Blockly.Msg.fr.switch_language_to_french = {
   // Switch language to French.
   category: '',
   helpUrl: '',

@@ -34,7 +34,7 @@ goog.require('Blockly.Msg.it');
  * to message files.
  */
 
-Blockly.Msg.es.switch_language_to_italian  = {
+Blockly.Msg.it.switch_language_to_italian  = {
   // Switch language to Italian.
   category: '',
   helpUrl: '',

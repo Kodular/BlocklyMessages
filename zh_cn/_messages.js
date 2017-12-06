@@ -34,7 +34,7 @@ goog.require('Blockly.Msg.zh.hans');
  * to message files.
  */
 
-Blockly.Msg.pt.br.switch_language_to_chinese_cn = {
+Blockly.Msg.zh.switch_language_to_chinese_cn = {
   // Switch language to Chinese Simplified.
   category: '',
   helpUrl: '',
