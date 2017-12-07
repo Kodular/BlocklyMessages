@@ -72,7 +72,7 @@ Blockly.Msg.de.switch_language_to_german = {
     Blockly.Msg.COPY_ALLBLOCKS = 'Alle Blöcke in den Rucksack kopieren';
     Blockly.Msg.BACKPACK_GET = 'Alle Blöcke vom Rucksack einfügen';
     Blockly.Msg.BACKPACK_EMPTY = 'Den Rucksack leeren';
-    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Möchtest du den Rucksack wirklich leeren?';
+    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Möchtest du wirklich den Rucksack leeren und alle darin enthaltenen Blöcke löschen?';
     Blockly.Msg.BACKPACK_DOC_TITLE = "Rucksack Information";
     Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Dokumentation zum Rucksack anzeigen";
     Blockly.Msg.BACKPACK_DOCUMENTATION = "Der Rucksack ist eine Kopier- / Einfügefunktion. Er erlaubt Ihnen, Blöcke von einem Projekt oder Bildschirm zu kopieren" +
@@ -330,13 +330,13 @@ Blockly.Msg.de.switch_language_to_german = {
 
     Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_AND = 'https://docs.makeroid.io/blocks/logic.html#and';
     Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_OR = 'https://docs.makeroid.io/blocks/logic.html#or';
-    Blockly.Msg.LANG_LOGIC_OPERATION_AND = 'Und';
-    Blockly.Msg.LANG_LOGIC_OPERATION_OR = 'Oder';
+    Blockly.Msg.LANG_LOGIC_OPERATION_AND = 'und';
+    Blockly.Msg.LANG_LOGIC_OPERATION_OR = 'oder';
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = 'Gibt wahr zurück, wenn alle Eingaben wahr sind.';
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_OR = 'Gibt wahr zurück, wenn eine Eingabe wahr ist.';
 
     Blockly.Msg.LANG_LOGIC_NEGATE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#not';
-    Blockly.Msg.LANG_LOGIC_NEGATE_INPUT_NOT = 'Nicht';
+    Blockly.Msg.LANG_LOGIC_NEGATE_INPUT_NOT = 'nicht';
     Blockly.Msg.LANG_LOGIC_NEGATE_TOOLTIP = 'Gibt wahr zurück, wenn die Eingabe falsch ist.\n' +
         'Gibt falsch zurück, wenn die Eingabe wahr ist.';
 
@@ -545,7 +545,7 @@ Blockly.Msg.de.switch_language_to_german = {
 // Text Blocks.
     Blockly.Msg.LANG_CATEGORY_TEXT = 'Text';
     Blockly.Msg.LANG_TEXT_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/text.html#string';
-    Blockly.Msg.LANG_TEXT_TEXT_TOOLTIP = 'Eine Textfolge.';
+    Blockly.Msg.LANG_TEXT_TEXT_TOOLTIP = 'Füge hier Text hinzu. Du kannst diesen verwenden um zum Beispiel den Text von Buttons oder anderen Funktion zu ändern.';
     Blockly.Msg.LANG_TEXT_TEXT_LEFT_QUOTE = '\u201C';
     Blockly.Msg.LANG_TEXT_TEXT_RIGHT_QUOTE = '\u201D';
 
@@ -569,7 +569,7 @@ Blockly.Msg.de.switch_language_to_german = {
     Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = 'Gibt die Anzahl der Buchstaben (einschließlich Leerzeichen) im angegebenen Text zurück.';
 
     Blockly.Msg.LANG_TEXT_ISEMPTY_HELPURL = 'https://docs.makeroid.io/blocks/text.html#isempty';
-    Blockly.Msg.LANG_TEXT_ISEMPTY_INPUT_ISEMPTY = 'ist leer';
+    Blockly.Msg.LANG_TEXT_ISEMPTY_INPUT_ISEMPTY = 'ist leer?';
     Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = 'Gibt wahr zurück, wenn die Länge des\n' + 'textes  0 ist, andernfalls falsch.';
 
     Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
@@ -883,20 +883,20 @@ Blockly.Msg.de.switch_language_to_german = {
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_NAME = 'name';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TO = 'zu';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_COLLAPSED_TEXT = 'global';
-    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TOOLTIP = 'Erstellt eine globale Variable und gibt ihr den Wert der angehängten Blöcke.';
+    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TOOLTIP = 'Erstellt eine globale Variable und weist ihr den angehängten Wert zu.';
 
     Blockly.Msg.LANG_VARIABLES_GET_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#get';
-    Blockly.Msg.LANG_VARIABLES_GET_TITLE_GET = 'erhalte';
+    Blockly.Msg.LANG_VARIABLES_GET_TITLE_GET = 'erhalte den Wert von';
     /* Blockly.Msg.LANG_VARIABLES_GET_INPUT_ITEM = 'item'; */ // [lyn, 10/14/13] unused
-    Blockly.Msg.LANG_VARIABLES_GET_COLLAPSED_TEXT = 'erhalte';
+    Blockly.Msg.LANG_VARIABLES_GET_COLLAPSED_TEXT = 'erhalte den Wert von';
     Blockly.Msg.LANG_VARIABLES_GET_TOOLTIP = 'Gibt den Wert dieser Variablen zurück.';
 
     Blockly.Msg.LANG_VARIABLES_SET_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#set';
-    Blockly.Msg.LANG_VARIABLES_SET_TITLE_SET = 'setzt';
+    Blockly.Msg.LANG_VARIABLES_SET_TITLE_SET = 'setzt den Wert von';
     /* Blockly.Msg.LANG_VARIABLES_SET_INPUT_ITEM = 'item'; */ // [lyn, 10/14/13] unused
     Blockly.Msg.LANG_VARIABLES_SET_TITLE_TO = 'zu';
-    Blockly.Msg.LANG_VARIABLES_SET_COLLAPSED_TEXT = 'setzt';
-    Blockly.Msg.LANG_VARIABLES_SET_TOOLTIP = 'Legt fest, dass diese Variable der Eingabe entspricht.';
+    Blockly.Msg.LANG_VARIABLES_SET_COLLAPSED_TEXT = 'setzt den Wert von';
+    Blockly.Msg.LANG_VARIABLES_SET_TOOLTIP = 'Legt den Wert der Variable durch die Eingabe fest.';
     Blockly.Msg.LANG_VARIABLES_VARIABLE = ' Variable';
 
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#do';
@@ -927,7 +927,7 @@ Blockly.Msg.de.switch_language_to_german = {
 
 // Procedures Blocks.
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#do';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = 'tue';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = 'zu';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE = 'Prozedur';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO = 'tue';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_COLLAPSED_PREFIX = 'zu ';
