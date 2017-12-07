@@ -579,17 +579,17 @@ Blockly.Msg.it.switch_language_to_italian = {
         'nel testo dato.';
 
     Blockly.Msg.LANG_TEXT_ISEMPTY_HELPURL = 'https://docs.makeroid.io/blocks/text.html#isempty';
-    Blockly.Msg.LANG_TEXT_ISEMPTY_INPUT_ISEMPTY = 'is empty';
-    Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = 'Returns true if the length of the\n' + 'text is 0, false otherwise.';
+    Blockly.Msg.LANG_TEXT_ISEMPTY_INPUT_ISEMPTY = 'è vuoto';
+    Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = 'Ritorna vero se la lunghezza del\n' + 'testo è 0, falso altrimenti.';
 
     Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
     Blockly.Msg.LANG_TEXT_COMPARE_EQUAL = ' =';
     Blockly.Msg.LANG_TEXT_COMPARE_GT = ' >';
     Blockly.Msg.LANG_TEXT_COMPARE_HELPURL = 'https://docs.makeroid.io/blocks/text.html#compare';
-    Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = 'compare texts';
-    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = 'Tests whether text1 is lexicographically less than text2.\n'
-        + 'if one text is the prefix of the other, the shorter text is\n'
-        + 'considered smaller. Uppercase characters precede lowercase characters.';
+    Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = 'compara testi';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = 'Verifica se il testo1 è lessicograficamente inferiore a quello2.\n'
+        + 'se un testo è il prefisso dell\' altro, il testo più breve è\n'
+        + 'considerato più piccolo. I caratteri maiuscoli precedono quelli minuscoli.';
     Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_EQUAL = 'Tests whether text strings are identical, ie., have the same\n'
         + 'characters in the same order. This is different from ordinary =\n'
         + 'in the case where the text strings are numbers: 123 and 0123 are =\n'
