@@ -590,18 +590,18 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = 'Verifica se il testo1 è lessicograficamente inferiore a quello2.\n'
         + 'se un testo è il prefisso dell\' altro, il testo più breve è\n'
         + 'considerato più piccolo. I caratteri maiuscoli precedono quelli minuscoli.';
-    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_EQUAL = 'Tests whether text strings are identical, ie., have the same\n'
-        + 'characters in the same order. This is different from ordinary =\n'
-        + 'in the case where the text strings are numbers: 123 and 0123 are =\n'
-        + 'but not text =.';
-    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_GT = 'Reports whether text1 is lexicographically greater than text2.\n'
-        + 'if one text is the prefix of the other, the shorter text is considered smaller.\n'
-        + 'Uppercase characters precede lowercase characters.';
-    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_TOOLTIP = "Produces text, like a text block.  The difference is that the \n"
-        + "text is not easily discoverable by examining the app's APK.  Use this when creating apps \n"
-        + "to distribute that include confidential information, for example, API keys.  \n"
-        + "Warning: This provides only very low security against expert adversaries.";
-    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE = 'Obfuscated Text';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_EQUAL = 'Verifica se le stringhe di testo sono identiche, es. hanno gli stessi\n'
+        + 'caratteri nello stesso ordine. Questo è diverso dall\' = ordinario\n'
+        + 'nel caso dove le stringhe di testo sono numeri: 123 e 0123 sono =\n'
+        + 'ma non testualmente =.';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_GT = 'Riporta se il testo1 è lessicograficamente più grande del testo2.\n'
+        + 'se un testo è il prefisso dell\' altro, il testo più breve è considerato più piccolo.\n'
+        + 'I caratteri maiuscoli precedono quelli minuscoli.';
+    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_TOOLTIP = "Produce testo, come un blocco di testo.  La differenza è che il \n"
+        + "Il testo non è facilmente rilevabile esaminando l' APK dell' app.  Utilizzare questo strumento per creare applicazioni \n"
+        + "per distribuire informazioni riservate, ad esempio le chiavi API.  \n"
+        + "Attenzione: questo offre una sicurezza molto bassa contro gli avversari esperti.";
+    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE = 'Testo Offuscato';
     Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_HELPURL = 'https://docs.makeroid.io/blocks/text.html#obfuscatetext';
 
     /*Blockly.Msg.LANG_TEXT_ENDSTRING_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
@@ -625,17 +625,17 @@ Blockly.Msg.it.switch_language_to_italian = {
      Blockly.Msg.LANG_TEXT_CHARAT_INPUT_INTEXT = 'in text';
      Blockly.Msg.LANG_TEXT_CHARAT_TOOLTIP = 'Returns the letter at the specified position.';*/
 
-    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'upcase';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_DOWNCASE = 'downcase';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_UPPERCASE = 'Returns a copy of its text string argument converted to uppercase.';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'maiuscolo';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_DOWNCASE = 'minuscolo';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_UPPERCASE = 'Restituisce una copia dell\' argomento stringa di testo convertito in maiuscolo.';
     Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_UPPERCASE = 'https://docs.makeroid.io/blocks/text.html#upcase';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_DOWNCASE = 'Returns a copy of its text string argument converted to lowercase.';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_DOWNCASE = 'Restituisce una copia dell\' argomento stringa di testo convertito in minuscolo.';
     Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_DOWNCASE = 'https://docs.makeroid.io/blocks/text.html#downcase';
 
     Blockly.Msg.LANG_TEXT_TRIM_HELPURL = 'https://docs.makeroid.io/blocks/text.html#trim';
-    Blockly.Msg.LANG_TEXT_TRIM_TITLE_TRIM = 'trim';
-    Blockly.Msg.LANG_TEXT_TRIM_TOOLTIP = 'Returns a copy of its text string arguments with any\n'
-        + 'leading or trailing spaces removed.';
+    Blockly.Msg.LANG_TEXT_TRIM_TITLE_TRIM = 'rimuovi spazi'; //da ricontrollare
+    Blockly.Msg.LANG_TEXT_TRIM_TOOLTIP = 'Restituisce una copia dei suoi argomenti stringa di testo con qualsiasi\n'
+        + 'spazio principale o finale rimosso.';
 
     Blockly.Msg.LANG_TEXT_STARTS_AT_HELPURL = 'https://docs.makeroid.io/blocks/text.html#startsat';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = 'starts at';
