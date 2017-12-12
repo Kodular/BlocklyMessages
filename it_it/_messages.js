@@ -638,19 +638,19 @@ Blockly.Msg.it.switch_language_to_italian = {
         + 'spazio principale o finale rimosso.';
 
     Blockly.Msg.LANG_TEXT_STARTS_AT_HELPURL = 'https://docs.makeroid.io/blocks/text.html#startsat';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = 'starts at';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = 'text';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = 'inizia a';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = 'testo';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_PIECE = 'piece';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT = 'starts at  text %1 piece %2';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_TOOLTIP = 'Returns the starting index of the piece in the text.\n'
-        + 'where index 1 denotes the beginning of the text. Returns 0 if the\n'
-        + 'piece is not in the text.';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT = 'inizia al  testo %1 porzione %2';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_TOOLTIP = 'Ritorna l\'indice di inizio della porzione nel testo.\n'
+        + 'dove l\' indice 1 denota l\' inizio del testo. Ritorna 0 se la\n'
+        + 'porzione non é nel testo.';
 
     Blockly.Msg.LANG_TEXT_CONTAINS_HELPURL = 'https://docs.makeroid.io/blocks/text.html#contains';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_CONTAINS = 'contains';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_PIECE = 'piece';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = 'contains  text %1 piece %2';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_CONTAINS = 'contiene';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'testo';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_PIECE = 'porzione';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = 'contiene  testo %1 porzione %2';
     Blockly.Msg.LANG_TEXT_CONTAINS_TOOLTIP = 'Tests whether the piece is contained in the text.';
 
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL = '';
