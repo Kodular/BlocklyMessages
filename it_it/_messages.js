@@ -605,7 +605,7 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_HELPURL = 'https://docs.makeroid.io/blocks/text.html#obfuscatetext';
 
     /*Blockly.Msg.LANG_TEXT_ENDSTRING_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_TEXT_ENDSTRING_INPUT = 'letters in text';
+     Blockly.Msg.LANG_TEXT_ENDSTRING_INPUT = 'lettere nel testo';
      Blockly.Msg.LANG_TEXT_ENDSTRING_TOOLTIP = 'Returns specified number of letters at the beginning or end of the text.';
      Blockly.Msg.LANG_TEXT_ENDSTRING_OPERATOR_FIRST = 'first';
      Blockly.Msg.LANG_TEXT_ENDSTRING_OPERATOR_LAST = 'last';*/
