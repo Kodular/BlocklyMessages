@@ -606,19 +606,19 @@ Blockly.Msg.it.switch_language_to_italian = {
 
     /*Blockly.Msg.LANG_TEXT_ENDSTRING_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_TEXT_ENDSTRING_INPUT = 'lettere nel testo';
-     Blockly.Msg.LANG_TEXT_ENDSTRING_TOOLTIP = 'Returns specified number of letters at the beginning or end of the text.';
-     Blockly.Msg.LANG_TEXT_ENDSTRING_OPERATOR_FIRST = 'first';
-     Blockly.Msg.LANG_TEXT_ENDSTRING_OPERATOR_LAST = 'last';*/
+     Blockly.Msg.LANG_TEXT_ENDSTRING_TOOLTIP = 'Ritorna lo specifico numero di lettere all\'inizio o alla fine del testo.';
+     Blockly.Msg.LANG_TEXT_ENDSTRING_OPERATOR_FIRST = 'inizio';
+     Blockly.Msg.LANG_TEXT_ENDSTRING_OPERATOR_LAST = 'fine';*/
 
     /*Blockly.Msg.LANG_TEXT_INDEXOF_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_TEXT_INDEXOF_TITLE_FIND = 'find';
-     Blockly.Msg.LANG_TEXT_INDEXOF_INPUT_OCCURRENCE = 'occurrence of text';
-     Blockly.Msg.LANG_TEXT_INDEXOF_INPUT_INTEXT = 'in text';
-     Blockly.Msg.LANG_TEXT_INDEXOF_TOOLTIP = 'Returns the index of the first/last occurrence\n' +
-     'of first text in the second text.\n' +
-     'Returns 0 if text is not found.';
-     Blockly.Msg.LANG_TEXT_INDEXOF_OPERATOR_FIRST = 'first';
-     Blockly.Msg.LANG_TEXT_INDEXOF_OPERATOR_LAST = 'last';*/
+     Blockly.Msg.LANG_TEXT_INDEXOF_TITLE_FIND = 'trova';
+     Blockly.Msg.LANG_TEXT_INDEXOF_INPUT_OCCURRENCE = 'occorrenze del testo';
+     Blockly.Msg.LANG_TEXT_INDEXOF_INPUT_INTEXT = 'nel testo';
+     Blockly.Msg.LANG_TEXT_INDEXOF_TOOLTIP = 'Restituisce l\'indice della prima/ultima occorrenza\n' +
+     'del primo testo nel secondo testo.\n' +
+     'Restituisce 0 se il testo non è trovato.';
+     Blockly.Msg.LANG_TEXT_INDEXOF_OPERATOR_FIRST = 'prima';
+     Blockly.Msg.LANG_TEXT_INDEXOF_OPERATOR_LAST = 'ultima';*/
 
     /*Blockly.Msg.LANG_TEXT_CHARAT_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_TEXT_CHARAT_INPUT_AT = 'letter at';
