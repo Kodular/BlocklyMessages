@@ -621,9 +621,9 @@ Blockly.Msg.it.switch_language_to_italian = {
      Blockly.Msg.LANG_TEXT_INDEXOF_OPERATOR_LAST = 'ultima';*/
 
     /*Blockly.Msg.LANG_TEXT_CHARAT_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_TEXT_CHARAT_INPUT_AT = 'letter at';
-     Blockly.Msg.LANG_TEXT_CHARAT_INPUT_INTEXT = 'in text';
-     Blockly.Msg.LANG_TEXT_CHARAT_TOOLTIP = 'Returns the letter at the specified position.';*/
+     Blockly.Msg.LANG_TEXT_CHARAT_INPUT_AT = 'lettera a';
+     Blockly.Msg.LANG_TEXT_CHARAT_INPUT_INTEXT = 'nel testo';
+     Blockly.Msg.LANG_TEXT_CHARAT_TOOLTIP = 'Restituisce la lettera alla posizione specifica.';*/
 
     Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'maiuscolo';
     Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_DOWNCASE = 'minuscolo';
@@ -651,18 +651,18 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'testo';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_PIECE = 'porzione';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = 'contiene  testo %1 porzione %2';
-    Blockly.Msg.LANG_TEXT_CONTAINS_TOOLTIP = 'Tests whether the piece is contained in the text.';
+    Blockly.Msg.LANG_TEXT_CONTAINS_TOOLTIP = 'Verifica se la porzione è contenuta nel testo.';
 
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL = '';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT = 'at';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT_LIST = 'at (list)';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST = 'split at first';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST_OF_ANY = 'split at first of any';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT = 'split';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_ANY = 'split at any';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST = 'Divides the given text into two pieces using the location of the first occurrence of \n'
-        + 'the text \'at\' as the dividing point, and returns a two-item list consisting of the piece \n'
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_TEXT = 'testo';
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT = 'a';
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT_LIST = 'a (lista)';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST = 'dividi al primo';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST_OF_ANY = 'dividi al primo di tutti';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT = 'dividi';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_ANY = 'dividi a tutto';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST = 'Dividi il testo dato in due porzioni usando la posizione della prima occorrenza del \n'
+        + ' testo \'a\' come punto di divisione, e ritorna una lista di due elementi che consiste nella porzione \n'
         + 'before the dividing point and the piece after the dividing point. \n'
         + 'Splitting "apple,banana,cherry,dogfood" with a comma as the splitting point \n'
         + 'returns a list of two items: the first is the text "apple" and the second is the text \n'
