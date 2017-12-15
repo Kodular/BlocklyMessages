@@ -1313,31 +1313,31 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_METHODS_HELPURL = '/components/internal.html#votingmethods';
 
 //Misc
-    Blockly.Msg.SHOW_WARNINGS = "Show Warnings";
-    Blockly.Msg.HIDE_WARNINGS = "Hide Warnings";
-    Blockly.Msg.MISSING_SOCKETS_WARNINGS = "You should fill all of the sockets with blocks";
-    Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "This block should be connected to an event block or a procedure definition";
+    Blockly.Msg.SHOW_WARNINGS = "Mostra Avvisi";
+    Blockly.Msg.HIDE_WARNINGS = "Nascondi Avvisi";
+    Blockly.Msg.MISSING_SOCKETS_WARNINGS = "Dovresti riempire tutti i campi con dei blocchi";
+    Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "Questo blocco dovrebbe essere connesso con un blocco eventoo una definizione di una procedura";
 
 // Messages from replmgr.js
-    Blockly.Msg.REPL_ERROR_FROM_COMPANION = "Error from Companion";
-    Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = "Network Connection Error";
-    Blockly.Msg.REPL_NETWORK_ERROR = "Network Error";
-    Blockly.Msg.REPL_NETWORK_ERROR_RESTART = "Network Error Communicating with Companion.<br />Try restarting the Companion and reconnecting";
+    Blockly.Msg.REPL_ERROR_FROM_COMPANION = "Errore dal Compagno";
+    Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = "Errore di Connessione alla Rete";
+    Blockly.Msg.REPL_NETWORK_ERROR = "Errore di Rete";
+    Blockly.Msg.REPL_NETWORK_ERROR_RESTART = "Errore di rete nella Comunicazione con il Compagno.<br />Prova a riavviare il Compagno e a ricconnettere";
     Blockly.Msg.REPL_OK = "OK";
-    Blockly.Msg.REPL_COMPANION_VERSION_CHECK = "Companion Version Check";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Your Companion App is out of date. Click "OK" to start the update. Watch your ';
-    Blockly.Msg.REPL_EMULATORS = "emulator's";
-    Blockly.Msg.REPL_DEVICES = "device's";
-    Blockly.Msg.REPL_APPROVE_UPDATE = " screen because you will be asked to approve the update.";
-    Blockly.Msg.REPL_NOT_NOW = "Not Now";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = "The Companion you are using is out of date.<br/><br/>This Version of Makeroid should be used with Companion version";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = "You are using an out-of-date Companion. You should update the Makeroid Companion as soon as possible. If you have auto-update setup in the store, the update will happen by itself shortly.";
-    Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "The Companion you are using was built for different instance of Makeroid. To obtain the correct companion look on the Makeroid screen under Help->Companion Information menu.";
-    Blockly.Msg.REPL_DISMISS = "Dismiss";
-    Blockly.Msg.REPL_SOFTWARE_UPDATE = "Software Update";
+    Blockly.Msg.REPL_COMPANION_VERSION_CHECK = "Controllo Versione Compagno";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'La tua App Compagno è obsoleta. Clicca "OK" per iniziare l\'aggiornamento. Controlla il tuo ';
+    Blockly.Msg.REPL_EMULATORS = "dell'elemulatore";
+    Blockly.Msg.REPL_DEVICES = "del dispositivo";
+    Blockly.Msg.REPL_APPROVE_UPDATE = " schermo perchè ti verrà chiesto di approvare l'aggiornamento.";
+    Blockly.Msg.REPL_NOT_NOW = "Non Ora";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = "Il Compagno che stai usando è obsoleto.<br/><br/>Questa versione di Makeroid dovrebbe essere usata con il Compagno versione";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = "Stai usando un Compagno obsoleto. Dovresti aggiornare il Compagno Makeroid il prima possibile. Se hai configurato l\' aggiornamento automatico nel negozio, l\'aggiornamento verrà effettuato da lui in poco tempo.";
+    Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "Il Compagno che stai usando è stato creato per una istanza diversa di Makeroid. Per ottenere il compagno corretto guarda nello schermo Makeroid sotto il menu Aiuto->Informazioni Compagno.";
+    Blockly.Msg.REPL_DISMISS = "Ignora";
+    Blockly.Msg.REPL_SOFTWARE_UPDATE = "Aggiornamento Software";
     Blockly.Msg.REPL_OK_LOWER = "Ok";
-    Blockly.Msg.REPL_GOT_IT = "Got It";
-    Blockly.Msg.REPL_UPDATE_INFO = 'The update is now being installed on your device. Watch your device (or emulator) screen and approve the software installation when prompted.<br /><br />IMPORTANT: When the update finishes, choose "DONE" (don\'t click "open"). Then go to Makeroid in your web browser, click the "Connect" menu and choose "Reset Connection".  Then reconnect the device.';
+    Blockly.Msg.REPL_GOT_IT = "Fatto";
+    Blockly.Msg.REPL_UPDATE_INFO = 'L\'aggiornamento sarà ora installato nel tuo dispositivo. Controlla lo schermo del tuo dispositivo (o emulatore) e approva l\'installazione del software quando richiesta.<br /><br />IMPORTANTE: Quando l\'aggiornamento sarà completato, scegli "FATTO" (non premere "apri"). Poi vai su Makeroid nel tuo browser, clicca il menu "Connetti" e scegli "Reset Connessione".  Poi riconnetti il dispositivo.';
 
     Blockly.Msg.REPL_UPDATE_NO_UPDATE = "No Update is Available";
     Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "You must be connected to a Companion to update it";
@@ -1376,11 +1376,11 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.WARNING_DELETE_X_BLOCKS = "Are you sure you want to delete all %1 of these blocks?";
 
 // Blocklyeditor.js
-    Blockly.Msg.GENERATE_YAIL = "Generate Yail";
-    Blockly.Msg.DO_IT = "Do It";
-    Blockly.Msg.CLEAR_DO_IT_ERROR = "Clear Error";
-    Blockly.Msg.CAN_NOT_DO_IT = "Cannot Do it";
-    Blockly.Msg.CONNECT_TO_DO_IT = 'You must be connected to the companion or emulator to use "Do It"';
+    Blockly.Msg.GENERATE_YAIL = "Genera Yail";
+    Blockly.Msg.DO_IT = "Eseguilo";
+    Blockly.Msg.CLEAR_DO_IT_ERROR = "Cancella Errori";
+    Blockly.Msg.CAN_NOT_DO_IT = "Impossibile Eseguirlo";
+    Blockly.Msg.CONNECT_TO_DO_IT = 'Devi essere connesso al compagno (app) o all\'emulatore per usare "Eseguilo"';
 
 // Clock Component Menu Items
     Blockly.Msg.TIME_YEARS = "Anni";
