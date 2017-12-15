@@ -663,8 +663,8 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_ANY = 'dividi a tutto';
     Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST = 'Dividi il testo dato in due porzioni usando la posizione della prima occorrenza del \n'
         + ' testo \'a\' come punto di divisione, e ritorna una lista di due elementi che consiste nella porzione \n'
-        + 'before the dividing point and the piece after the dividing point. \n'
-        + 'Splitting "apple,banana,cherry,dogfood" with a comma as the splitting point \n'
+        + 'prima del punto di divisione e la porzione dopo il punto di divisione. \n'
+        + 'Dividendo "mela,banana,ciliegia,cibo per cani" con una virgola come punto di divisione \n'
         + 'returns a list of two items: the first is the text "apple" and the second is the text \n'
         + '"banana,cherry,dogfood". \n'
         + 'Notice that the comma after "apple" does not appear in the result, \n'
