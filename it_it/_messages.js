@@ -670,92 +670,92 @@ Blockly.Msg.it.switch_language_to_italian = {
         + 'Nota che la virgola dopo "mela" non appare nel risultato, \n'
         + 'perchè è il punto di divisione.';
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST = 'https://docs.makeroid.io/blocks/text.html#splitat';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST_OF_ANY = 'Divides the given text into a two-item list, using the first location of any item \n'
-        + 'in the list \'at\' as the dividing point. \n\n'
-        + 'Splitting "I love apples bananas apples grapes" by the list "(ba,ap)" returns \n'
-        + 'a list of two items, the first being "I love" and the second being \n'
-        + '"ples bananas apples grapes."';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST_OF_ANY = 'Dividi il test dato in una lista di due elementi, usando la prima posizione di ogni elemento \n'
+        + 'nella lista \'a\' come punto di divisione. \n\n'
+        + 'Dividendo "Amo le mele banane mele uva" per la lista "(ba,me)" ritorna \n'
+        + 'una lista di due elementi, con il primo che è "Amo le " mentre il secondo è \n'
+        + '"le banane mele uva."';
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST_OF_ANY = 'https://docs.makeroid.io/blocks/text.html#splitatfirstofany';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT = 'Divides text into pieces using the text \'at\' as the dividing points and produces a list of the results.  \n'
-        + 'Splitting "one,two,three,four" at "," (comma) returns the list "(one two three four)". \n'
-        + 'Splitting "one-potato,two-potato,three-potato,four" at "-potato", returns the list "(one two three four)".';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT = 'Divide il testo in porzioni usando il testo \'a\' come punti di divisione e produce una lista di risultati.  \n'
+        + 'Dividendo "uno,due,tre,quattro" per "," (virgola) restituisce la lista "(uno due tre quattro)". \n'
+        + 'Dividendo "una-patata,due-patata,tre-patata,quattro" per "-patata", ritorna la lista "(uno due tre quattro)".';
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT = 'https://docs.makeroid.io/blocks/text.html#split';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_ANY = 'Divides the given text into a list, using any of the items in the list \'at\' as the \n'
-        + 'dividing point, and returns a list of the results. \n'
-        + 'Splitting "appleberry,banana,cherry,dogfood" with \'at\' as the two-element list whose \n'
-        + 'first item is a comma and whose second item is "rry" returns a list of four items: \n'
-        + '"(applebe banana che dogfood)".';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_ANY = 'Divide il testo dato in una lista, usando tutti gli elementi nella lista \'a\' come \n'
+        + 'punto di divisione, e restituisce una lista di risultati. \n'
+        + 'Dividendo "melabacca,banana,zucca,cibo per cani" per \'a\' come lista di due elementi la quale \n'
+        + 'primo elemento è una virgola, mentre il secondo è "cca" ritorna una lista di quattro elementi: \n'
+        + '"(melabac banana zu cibo per cani)".';
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_ANY = 'https://docs.makeroid.io/blocks/text.html#splitatany';
 
     /*.LANG_TEXT_PRINT_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode91.html';
-     Blockly.Msg.LANG_TEXT_PRINT_TITLE_PRINT = 'print';
-     Blockly.Msg.LANG_TEXT_PRINT_TOOLTIP = 'Print the specified text, number or other value.';*/
+     Blockly.Msg.LANG_TEXT_PRINT_TITLE_PRINT = 'stampa';
+     Blockly.Msg.LANG_TEXT_PRINT_TOOLTIP = 'Stampa il testo specifico, numero o un altro valore.';*/
 
     /*Blockly.Msg.LANG_TEXT_PROMPT_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode92.html';
-     Blockly.Msg.LANG_TEXT_PROMPT_TITLE_PROMPT_FOR = 'prompt for';
-     Blockly.Msg.LANG_TEXT_PROMPT_TITILE_WITH_MESSAGE = 'with message';
-     Blockly.Msg.LANG_TEXT_PROMPT_TOOLTIP = 'Prompt for user input with the specified text.';
-     Blockly.Msg.LANG_TEXT_PROMPT_TYPE_TEXT = 'text';
-     Blockly.Msg.LANG_TEXT_PROMPT_TYPE_NUMBER = 'number';*/
+     Blockly.Msg.LANG_TEXT_PROMPT_TITLE_PROMPT_FOR = 'forza';
+     Blockly.Msg.LANG_TEXT_PROMPT_TITILE_WITH_MESSAGE = 'con messaggio';
+     Blockly.Msg.LANG_TEXT_PROMPT_TOOLTIP = 'Forza l'inserimento di un testo specifico da parte dell\'utente.';
+     Blockly.Msg.LANG_TEXT_PROMPT_TYPE_TEXT = 'testo';
+     Blockly.Msg.LANG_TEXT_PROMPT_TYPE_NUMBER = 'numero';*/
 
     Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_HELPURL = 'https://docs.makeroid.io/blocks/text.html#splitspaces';
-    Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_TITLE = 'split at spaces';
-    Blockly.Msg.LANG_TEXT_SPLIT_AT_TOOLTIP = 'Split the text into pieces separated by spaces.';
+    Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_TITLE = 'dividi agli spazi';
+    Blockly.Msg.LANG_TEXT_SPLIT_AT_TOOLTIP = 'Dividi il testo in porzioni separate da spazi.';
 
     Blockly.Msg.LANG_TEXT_SEGMENT_HELPURL = 'https://docs.makeroid.io/blocks/text.html#segment';
-    Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = 'segment';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'start';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'length';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT = 'segment  text %1 start %2 length %3';
-    Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Extracts the segment of the given length from the given text\n'
-        + 'starting from the given text starting from the given position. Position\n'
-        + '1 denotes the beginning of the text.';
+    Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = 'segmento';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'inizio';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'lunghezza';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'testo';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT = 'segmento  testo %1 inizio %2 lunghezza %3';
+    Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Estrai il segmento della lunghezza data dal testo dato\n'
+        + 'iniziando dal testo dato nella posizione data. Posizione\n'
+        + '1 indica l\'inizio del testo.';
 
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_HELPURL = 'https://docs.makeroid.io/blocks/text.html#replaceall';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_SEGMENT = 'segment';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TITLE_REPLACE_ALL = 'replace all';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_REPLACEMENT = 'replacement';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT = 'replace all text %1 segment %2 replacement %3';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TOOLTIP = 'Returns a new text obtained by replacing all occurrences\n'
-        + 'of the segment with the replacement.';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_SEGMENT = 'segmento';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_TEXT = 'testo';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TITLE_REPLACE_ALL = 'sostituisci tutto';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_REPLACEMENT = 'sostituto';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT = 'sostituisci tutto il testo %1 segmento %2 rimpiazzo %3';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TOOLTIP = 'Restituisce un nuovo testo ottenuto dalla sostituzione di tutte le occorrenze\n'
+        + 'del segmento con il sostituto.';
 
     Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#isstring';
-    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TITLE = 'is string?';
-    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TOOLTIP = 'Returns true if input is a string.';
+    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TITLE = 'è stringa?';
+    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TOOLTIP = 'Restituisce vero se l\'inserimento è una stringa.';
 
 // Lists Blocks.
-    Blockly.Msg.LANG_CATEGORY_LISTS = 'Lists';
+    Blockly.Msg.LANG_CATEGORY_LISTS = 'Lista';
 //Blockly.Msg.LANG_LISTS_CREATE_EMPTY_HELPURL = 'http://en.wikipedia.org/wiki/Linked_list#Empty_lists';
-    Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TITLE = 'create empty list';
-//Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TOOLTIP = 'Returns a list, of length 0, containing no data records';
+    Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TITLE = 'crea lista vuota';
+//Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TOOLTIP = 'Restituisce una lista di lunghezza 0, contenente nessun dato';
 
     Blockly.Msg.LANG_LISTS_CREATE_WITH_EMPTY_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#makealist';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_TITLE_MAKE_LIST = 'make a list';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_TOOLTIP = 'Create a list with any number of items.';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_TITLE_MAKE_LIST = 'crea una lista';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_TOOLTIP = 'Crea una lista con qualsiasi numero di elementi.';
 
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = 'list';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TOOLTIP = 'Add, remove, or reorder sections to reconfigure this list block.';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = 'lista';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TOOLTIP = 'Aggiungi, rimuovi, o riordina sezioni per riconfigurare questo blocco lista.';
 
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TITLE = 'item';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TOOLTIP = 'Add an item to the list.';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TITLE = 'elemento';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TOOLTIP = 'Aggiungi un elemento alla lista.';
 
-    Blockly.Msg.LANG_LISTS_ADD_ITEM_TITLE = 'item';
-    Blockly.Msg.LANG_LISTS_ADD_ITEM_TOOLTIP = 'Add an item to the list.';
+    Blockly.Msg.LANG_LISTS_ADD_ITEM_TITLE = 'elemento';
+    Blockly.Msg.LANG_LISTS_ADD_ITEM_TOOLTIP = 'Aggiunge un elemento alla lista.';
     Blockly.Msg.LANG_LISTS_ADD_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#additems';
 
     Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#selectlistitem';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_SELECT = 'select list item';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT = 'select list item  list %1 index %2';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TOOLTIP = 'Returns the item at position index in the list.';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_SELECT = 'seleziona elemento lista';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_LIST = 'lista';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_INDEX = 'indice';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT = 'seleziona lista elemento  lista %1 indice %2';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TOOLTIP = 'Restituisce l\'elemento in posizione indice nella lista.';
 
     Blockly.Msg.LANG_LISTS_IS_IN_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#inlist';
-    Blockly.Msg.LANG_LISTS_IS_IN_TITLE_IS_IN = 'is in list?';
-    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_THING = 'thing';
-    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = 'list';
+    Blockly.Msg.LANG_LISTS_IS_IN_TITLE_IS_IN = 'è nella lista?';
+    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_THING = 'elemento';
+    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = 'lista';
     Blockly.Msg.LANG_LISTS_IS_IN_INPUT = 'is in list? thing %1 list %2'
     Blockly.Msg.LANG_LISTS_IS_IN_TOOLTIP = 'Returns true if the the thing is an item in the list, and '
         + 'false if not.';
