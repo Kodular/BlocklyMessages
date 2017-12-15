@@ -756,50 +756,50 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_LISTS_IS_IN_TITLE_IS_IN = 'è nella lista?';
     Blockly.Msg.LANG_LISTS_IS_IN_INPUT_THING = 'elemento';
     Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = 'lista';
-    Blockly.Msg.LANG_LISTS_IS_IN_INPUT = 'is in list? thing %1 list %2'
-    Blockly.Msg.LANG_LISTS_IS_IN_TOOLTIP = 'Returns true if the the thing is an item in the list, and '
-        + 'false if not.';
+    Blockly.Msg.LANG_LISTS_IS_IN_INPUT = 'è nella lista? elemento %1 lista %2'
+    Blockly.Msg.LANG_LISTS_IS_IN_TOOLTIP = 'Restituisce vero se l\'elemento è uno della lista, '
+        + 'falso altrimenti.';
 
     Blockly.Msg.LANG_LISTS_POSITION_IN_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#indexinlist';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_TITLE_POSITION = 'index in list';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_THING = 'thing';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT = 'index in list  thing %1 list %2';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_TOOLTIP = 'Find the position of the thing in the list. If it\'s not in '
-        + 'the list, return 0.';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_TITLE_POSITION = 'indice nella lista';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_THING = 'elemento';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_LIST = 'lista';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT = 'indice nella lista  elemento %1 lista %2';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_TOOLTIP = 'Trova la posizione dell\'elemento nella lista. Se non è nella '
+        + 'lista, restituisce 0.';
 
     Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#pickrandomitem';
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TITLE_PICK_RANDOM = 'pick a random item';
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = 'Pick an item at random from the list.';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TITLE_PICK_RANDOM = 'scegli un elemento casuale';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_INPUT_LIST = 'lista';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = 'Sceglie un elemento a caso dalla lista.';
 
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#replace';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TITLE_REPLACE = 'replace list item';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_REPLACEMENT = 'replacement';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT = 'replace list item  list %1 index %2 replacement %3';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TOOLTIP = 'Replaces the nth item in a list.';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TITLE_REPLACE = 'sostituisci elemento lista';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_LIST = 'lista';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_INDEX = 'indice';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_REPLACEMENT = 'sostituto';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT = 'sostituisci elemento lista  lista %1 indice %2 rimpiazzo %3';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TOOLTIP = 'Sostituisce l\'n esimo elemento nella lista.';
 
     Blockly.Msg.LANG_LISTS_REMOVE_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#removeitem';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TITLE_REMOVE = 'remove list item';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT = 'remove list item  list %1 index %2';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TOOLTIP = 'Removes the item at the specified position from the list.';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TITLE_REMOVE = 'rimuovi elemento lista';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_LIST = 'lista';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_INDEX = 'indice';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT = 'rimuovi elemento lista  lista %1 indice %2';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TOOLTIP = 'Rimuove l\'elemento alla posizione specifica dalla lista.';
 
     /*Blockly.Msg.LANG_LISTS_REPEAT_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_LISTS_REPEAT_TITLE_CREATE = 'create list with item';
-     Blockly.Msg.LANG_LISTS_REPEAT_INPUT_REPEATED = 'repeated';
-     Blockly.Msg.LANG_LISTS_REPEAT_INPUT_TIMES = 'times';
-     Blockly.Msg.LANG_LISTS_REPEAT_TOOLTIP = 'Creates a list consisting of the given value\n' +
-     'repeated the specified number of times.';*/
+     Blockly.Msg.LANG_LISTS_REPEAT_TITLE_CREATE = 'crea lista con elemento';
+     Blockly.Msg.LANG_LISTS_REPEAT_INPUT_REPEATED = 'ripetuto';
+     Blockly.Msg.LANG_LISTS_REPEAT_INPUT_TIMES = 'volte';
+     Blockly.Msg.LANG_LISTS_REPEAT_TOOLTIP = 'Crea uma lists contenente il valore dato\n' +
+     'ripetuto lo specificato numero di volte.';*/
 
     Blockly.Msg.LANG_LISTS_LENGTH_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#lengthoflist';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LENGTH = 'length of list';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT = 'length of list list %1';
-    Blockly.Msg.LANG_LISTS_LENGTH_TOOLTIP = 'Counts the number of items in a list.';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LENGTH = 'lunghezza della lista';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LIST = 'lista';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT = 'lunghezza della lista %1';
+    Blockly.Msg.LANG_LISTS_LENGTH_TOOLTIP = 'Conta il numero di elementi nella lista.';
 
     Blockly.Msg.LANG_LISTS_APPEND_LIST_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#append';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_TITLE_APPEND = 'append to list';
