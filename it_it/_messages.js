@@ -665,10 +665,10 @@ Blockly.Msg.it.switch_language_to_italian = {
         + ' testo \'a\' come punto di divisione, e ritorna una lista di due elementi che consiste nella porzione \n'
         + 'prima del punto di divisione e la porzione dopo il punto di divisione. \n'
         + 'Dividendo "mela,banana,ciliegia,cibo per cani" con una virgola come punto di divisione \n'
-        + 'returns a list of two items: the first is the text "apple" and the second is the text \n'
-        + '"banana,cherry,dogfood". \n'
-        + 'Notice that the comma after "apple" does not appear in the result, \n'
-        + 'because that is the dividing point.';
+        + 'restituisce una lista di due elementi: il primo è il testo  "mela" e il secondo è il testo \n'
+        + '"banana,ciliegia,cibo per cani". \n'
+        + 'Nota che la virgola dopo "mela" non appare nel risultato, \n'
+        + 'perchè è il punto di divisione.';
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST = 'https://docs.makeroid.io/blocks/text.html#splitat';
     Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST_OF_ANY = 'Divides the given text into a two-item list, using the first location of any item \n'
         + 'in the list \'at\' as the dividing point. \n\n'
@@ -1383,17 +1383,17 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.CONNECT_TO_DO_IT = 'You must be connected to the companion or emulator to use "Do It"';
 
 // Clock Component Menu Items
-    Blockly.Msg.TIME_YEARS = "Years";
-    Blockly.Msg.TIME_MONTHS = "Months";
-    Blockly.Msg.TIME_WEEKS = "Weeks";
-    Blockly.Msg.TIME_DAYS = "Days";
-    Blockly.Msg.TIME_HOURS = "Hours";
-    Blockly.Msg.TIME_MINUTES = "Minutes";
-    Blockly.Msg.TIME_SECONDS = "Seconds";
-    Blockly.Msg.TIME_DURATION = "Duration";
+    Blockly.Msg.TIME_YEARS = "Anni";
+    Blockly.Msg.TIME_MONTHS = "Mesi";
+    Blockly.Msg.TIME_WEEKS = "Settimane";
+    Blockly.Msg.TIME_DAYS = "Giorni";
+    Blockly.Msg.TIME_HOURS = "Ore";
+    Blockly.Msg.TIME_MINUTES = "Minuti";
+    Blockly.Msg.TIME_SECONDS = "Secondi";
+    Blockly.Msg.TIME_DURATION = "Durata";
   }
 };
 
-// Initalize language definition to English
+// Initalize language definition to Italian
 Blockly.Msg.it.switch_blockly_language_to_it.init();
 Blockly.Msg.it.switch_language_to_italian.init();
