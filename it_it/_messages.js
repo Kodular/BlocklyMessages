@@ -85,9 +85,8 @@ Blockly.Msg.it.switch_language_to_italian = {
    '</p><p><a href="https://docs.makeroid.io/other/backpack.html" target="_blank">https://docs.makeroid.io/other/backpack.html</a>';
     Blockly.Msg.ENABLE_GRID = 'Attiva Griglia Spazio di Lavoro';
     Blockly.Msg.DISABLE_GRID = 'Disattiva Griglia Spazio di Lavoro';
-    Blockly.Msg.ENABLE_SNAPPING = 'Attiva Collegamento alla Griglia';
-    Blockly.Msg.DISABLE_SNAPPING = 'Disattiva Collegamento alla Griglia';
-// Rivedere le ultime 2
+    Blockly.Msg.ENABLE_SNAPPING = 'Attiva Collegamento alla Griglia'; //da rivedere
+    Blockly.Msg.DISABLE_SNAPPING = 'Disattiva Collegamento alla Griglia'; //da rivederre
     
 // Variable renaming.
     Blockly.MSG_CHANGE_VALUE_TITLE = 'Cambia valore:';
@@ -138,8 +137,7 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "Una lista di quattro elementi, ognuna nel campo da 0 a 255, rappresentanti i componenti rosso, verde, blu e alfa.";
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'crea colore';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#make';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "Un colore con le componenti rosso, verde, blu e opzionalmente alfa date";
-// Da rivedere linea 140
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "Un colore con le componenti rosso, verde, blu e opzionalmente alfa date"; //da rivedere
     
 // Control Blocks
     Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Controllo';
