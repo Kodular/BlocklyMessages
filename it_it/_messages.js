@@ -1005,32 +1005,32 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TOOLTIP = '';
 
 // Components Blocks.
-    Blockly.Msg.UNDEFINED_BLOCK_TOOLTIP = "This block is not defined. Delete this block!";
+    Blockly.Msg.UNDEFINED_BLOCK_TOOLTIP = "Questo blocco non è definito. Elimina questo blocco!";
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_WHEN = 'when ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_DO = 'do';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_WHEN = 'quando ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_DO = 'esegui';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'call ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'esegui ';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_CALL = 'call ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'for component';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_CALL = 'esegui ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'per componente';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GETTER_HELPURL = '';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'of component';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'del componente';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_SET = 'set ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_TO = ' to';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_SET = 'imposta ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_TO = ' a';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'set ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' to';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'of component';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'imposta ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' a';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'del componente';
 
 ///////////////////
     /* HelpURLs for Component Blocks */
