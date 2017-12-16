@@ -1319,20 +1319,20 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "Questo blocco dovrebbe essere connesso con un blocco eventoo una definizione di una procedura";
 
 // Messages from replmgr.js
-    Blockly.Msg.REPL_ERROR_FROM_COMPANION = "Errore dal Compagno";
+    Blockly.Msg.REPL_ERROR_FROM_COMPANION = "Errore del Companion";
     Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = "Errore di Connessione alla Rete";
     Blockly.Msg.REPL_NETWORK_ERROR = "Errore di Rete";
-    Blockly.Msg.REPL_NETWORK_ERROR_RESTART = "Errore di rete nella Comunicazione con il Compagno.<br />Prova a riavviare il Compagno e a ricconnettere";
+    Blockly.Msg.REPL_NETWORK_ERROR_RESTART = "Errore di rete nella Comunicazione con il Companion.<br />Prova a riavviare il Companion e a riconnettere";
     Blockly.Msg.REPL_OK = "OK";
-    Blockly.Msg.REPL_COMPANION_VERSION_CHECK = "Controllo Versione Compagno";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'La tua App Compagno è obsoleta. Clicca "OK" per iniziare l\'aggiornamento. Controlla il tuo ';
+    Blockly.Msg.REPL_COMPANION_VERSION_CHECK = "Controllo Versione Companion";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Il tuo Companion è obsoleto. Clicca "OK" per iniziare l\'aggiornamento. Controlla il tuo ';
     Blockly.Msg.REPL_EMULATORS = "dell'elemulatore";
     Blockly.Msg.REPL_DEVICES = "del dispositivo";
     Blockly.Msg.REPL_APPROVE_UPDATE = " schermo perchè ti verrà chiesto di approvare l'aggiornamento.";
     Blockly.Msg.REPL_NOT_NOW = "Non Ora";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = "Il Compagno che stai usando è obsoleto.<br/><br/>Questa versione di Makeroid dovrebbe essere usata con il Compagno versione";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = "Stai usando un Compagno obsoleto. Dovresti aggiornare il Compagno Makeroid il prima possibile. Se hai configurato l\' aggiornamento automatico nel negozio, l\'aggiornamento verrà effettuato da lui in poco tempo.";
-    Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "Il Compagno che stai usando è stato creato per una istanza diversa di Makeroid. Per ottenere il compagno corretto guarda nello schermo Makeroid sotto il menu Aiuto->Informazioni Compagno.";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = "Il Companion che stai usando è obsoleto.<br/><br/>Questa versione di Makeroid dovrebbe essere usata con il Companion versione";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = "Stai usando un Companion obsoleto. Dovresti aggiornare Makeroid Companion il prima possibile. Se hai configurato l' aggiornamento automatico nel negozio, l'aggiornamento verrà effettuato da lui in poco tempo.";
+    Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "Il Companion che stai usando è stato creato per una istanza diversa di Makeroid. Per ottenere il Companion corretto guarda nello schermo Makeroid sotto il menu Aiuto->Informazioni Companion.";
     Blockly.Msg.REPL_DISMISS = "Ignora";
     Blockly.Msg.REPL_SOFTWARE_UPDATE = "Aggiornamento Software";
     Blockly.Msg.REPL_OK_LOWER = "Ok";
@@ -1340,40 +1340,40 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.REPL_UPDATE_INFO = 'L\'aggiornamento sarà ora installato nel tuo dispositivo. Controlla lo schermo del tuo dispositivo (o emulatore) e approva l\'installazione del software quando richiesta.<br /><br />IMPORTANTE: Quando l\'aggiornamento sarà completato, scegli "FATTO" (non premere "apri"). Poi vai su Makeroid nel tuo browser, clicca il menu "Connetti" e scegli "Reset Connessione".  Poi riconnetti il dispositivo.';
 
     Blockly.Msg.REPL_UPDATE_NO_UPDATE = "Nessun Aggiornamento Disponibile";
-    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "Devi essere connesso ad un Compagno per aggiornarlo";
-    Blockly.Msg.REPL_UNABLE_TO_UPDATE = "Impossibile inviare l\'aggiornamento al dispositivo/emulatore";
-    Blockly.Msg.REPL_UNABLE_TO_LOAD = "Impossibile caricare l\'aggiornamento dal server di Makeroid";
-    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "Impossibile caricare l\'aggiornamento dal server di Makeroid (il server non risponde)";
-    Blockly.Msg.REPL_NOW_DOWNLOADING = "Stiamo ora scaricando l\'aggiornamento dai Server di Makeroid, perfavore attendere";
+    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "Devi essere connesso ad un Companion per aggiornarlo";
+    Blockly.Msg.REPL_UNABLE_TO_UPDATE = "Impossibile inviare l'aggiornamento al dispositivo/emulatore";
+    Blockly.Msg.REPL_UNABLE_TO_LOAD = "Impossibile caricare l'aggiornamento dal server di Makeroid";
+    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "Impossibile caricare l'aggiornamento dal server di Makeroid (il server non risponde)";
+    Blockly.Msg.REPL_NOW_DOWNLOADING = "Stiamo ora scaricando l'aggiornamento dai Server di Makeroid, perfavore attendere";
     Blockly.Msg.REPL_RUNTIME_ERROR = "Errore di Runtime";
     Blockly.Msg.REPL_NO_ERROR_FIVE_SECONDS = "<br/><i>Nota:</i>&nbsp;Non vedrai un altro errore riportato per 5 secondi.";
     Blockly.Msg.REPL_CONNECTING_USB_CABLE = "Connessione via Cavo USB";
-    Blockly.Msg.REPL_STARTING_EMULATOR = "Sto Avviando l\'emulatore Android <br/>Per favore attendere: Questo potrebbe durare un minuto o due.";
+    Blockly.Msg.REPL_STARTING_EMULATOR = "Sto Avviando l'emulatore Android <br/>Per favore attendere: Questo potrebbe durare un minuto o due.";
     Blockly.Msg.REPL_CONNECTING = "Connessione...";
     Blockly.Msg.REPL_CANCEL = "Annulla";
-    Blockly.Msg.REPL_GIVE_UP = "Give Up";
-    Blockly.Msg.REPL_KEEP_TRYING = "Keep Trying";
-    Blockly.Msg.REPL_CONNECTION_FAILURE1 = "Connection Failure";
-    Blockly.Msg.REPL_NO_START_EMULATOR = "We could not start the Makeroid Companion within the Emulator";
-    Blockly.Msg.REPL_PLUGGED_IN_Q = "Plugged In?";
-    Blockly.Msg.REPL_AI_NO_SEE_DEVICE = "Makeroid does not see your device, make sure the cable is plugged in and drivers are correct.";
-    Blockly.Msg.REPL_HELPER_Q = "Helper?";
-    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'The Makeroid Starter helper does not appear to be running<br /><a href="https://starter.makeroid.io" target="_blank">Need Help?</a>';
-    Blockly.Msg.REPL_USB_CONNECTED_WAIT = "USB Connected, waiting ";
-    Blockly.Msg.REPL_SECONDS_ENSURE_RUNNING = " seconds to ensure all is running.";
-    Blockly.Msg.REPL_EMULATOR_STARTED = "Emulator started, waiting ";
-    Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE = "Starting the Companion App on the connected phone.";
-    Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR = "Starting the Companion App in the emulator.";
-    Blockly.Msg.REPL_COMPANION_STARTED_WAITING = "Companion starting, waiting ";
-    Blockly.Msg.REPL_VERIFYING_COMPANION = "Verifying that the Companion Started....";
-    Blockly.Msg.REPL_CONNECT_TO_COMPANION = "Connect to Companion";
-    Blockly.Msg.REPL_TRY_AGAIN1 = "Failed to Connect to the Makeroid Companion, try again.";
-    Blockly.Msg.REPL_YOUR_CODE_IS = "Your code is";
-    Blockly.Msg.REPL_DO_YOU_REALLY_Q = "Do You Really?";
-    Blockly.Msg.REPL_FACTORY_RESET = 'This will attempt to reset your Emulator to its "factory" state. If you had previously updated the Companion installed in the Emulator, you will likely have to do this again.';
+    Blockly.Msg.REPL_GIVE_UP = "Rinuncia";
+    Blockly.Msg.REPL_KEEP_TRYING = "Continua a Provare";
+    Blockly.Msg.REPL_CONNECTION_FAILURE1 = "Connessione fallita";
+    Blockly.Msg.REPL_NO_START_EMULATOR = "Non è possibile avviare il Companion Makeroid dentro l' Emulatore";
+    Blockly.Msg.REPL_PLUGGED_IN_Q = "Collegato?";
+    Blockly.Msg.REPL_AI_NO_SEE_DEVICE = "Makeroid non vede il tuo dispositivo, assicurati che il cavo sia inserito e che i driver sono corretti.";
+    Blockly.Msg.REPL_HELPER_Q = "Aiutante?";
+    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'L\'aiutante Makeroid Starter non sembra avviato<br/><a href="https://starter.makeroid.io" target="_blank">Hai bisogno di aiuto?</a>';
+    Blockly.Msg.REPL_USB_CONNECTED_WAIT = "USB Connesso, attendere ";
+    Blockly.Msg.REPL_SECONDS_ENSURE_RUNNING = " secondi per garantire che tutto sia avviato.";
+    Blockly.Msg.REPL_EMULATOR_STARTED = "Emulatore avviato, attendere ";
+    Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE = "Sto avviando l'app Companion nel telefono connesso.";
+    Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR = "Sto avviando l'app Companion nell'emulatore.";
+    Blockly.Msg.REPL_COMPANION_STARTED_WAITING = "Il Companion si sta avviando, attendere ";
+    Blockly.Msg.REPL_VERIFYING_COMPANION = "Sto verificando se il Companion è avviato....";
+    Blockly.Msg.REPL_CONNECT_TO_COMPANION = "Connetti al Companion";
+    Blockly.Msg.REPL_TRY_AGAIN1 = "Impossibile connettersi al Makeroid Companion, riprova.";
+    Blockly.Msg.REPL_YOUR_CODE_IS = "Il tuo codice è";
+    Blockly.Msg.REPL_DO_YOU_REALLY_Q = "Vuoi davvero?";
+    Blockly.Msg.REPL_FACTORY_RESET = 'Questo proverà a resettare il tuo Emulatore al suo stato di "fabbrica". Se hai precedentemente aggiornato il Companion installato nell\' Emulatore, probabilmente dovrai rifarlo ancora.';
 
 // Messages from Blockly.js
-    Blockly.Msg.WARNING_DELETE_X_BLOCKS = "Are you sure you want to delete all %1 of these blocks?";
+    Blockly.Msg.WARNING_DELETE_X_BLOCKS = "Sei sicuro di voler eliminare tutti i %1 di questi blocchi?";
 
 // Blocklyeditor.js
     Blockly.Msg.GENERATE_YAIL = "Genera Yail";
