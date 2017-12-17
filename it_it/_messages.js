@@ -839,20 +839,20 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#listfromcsvrow';
     Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TITLE_FROM_CSV = 'lista da riga csv';
     Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_INPUT_TEXT = 'testo';
-    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TOOLTIP = 'Parses a text as a CSV \(comma-separated value\) formatted '
-        + 'row to produce a list of fields. It is an error for the row text to contain unescaped '
-        + 'newlines inside fields \(effectively, multiple lines\). It is okay for the row text to '
-        + 'end in a single newline or CRLF.';
+    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TOOLTIP = 'Analizza un testo come una riga CSV \("comma-separated value" \(valore separati da virgola\)\) formattato '
+        + 'per produrre una lista di campi. Questo è un errore per la riga di testo per contenere nuove linee non evase '
+        + 'dentro i campi \(effettivamente, linee multiple\). Questo è okay per la riga di testo per '
+        + 'finire in una nuovalinea singola o CRLF.';
 
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#listtocsvtable';
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TITLE_TO_CSV = 'lista a tabella';
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_INPUT_LIST = 'lista';
-    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TOOLTIP = 'Interprets the list as a table in row-major format and '
-        + 'returns a CSV \(comma-separated value\) text representing the table. Each item in the '
-        + 'list should itself be a list representing a row of the CSV table. Each item in the row '
-        + 'list is considered to be a field, and is quoted with double-quotes in the resulting CSV '
-        + 'text. In the returned text, items in rows are separated by commas and rows are '
-        + 'separated by CRLF \(\\r\\n\).';
+    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TOOLTIP = 'Interpreta la lista come una tabellain una importante formato di riga e '
+        + 'ritorna un testo CSV \("comma-separated value" \(valore separati da virgola\)\) rappresenta la tabella. Ogni elemento nella '
+        + 'lista dovrebbe se stesso una lista rappresentante una riga di una tabella CSV. Ogni elemento nella lista della riga '
+        + 'è considerato essere un campo, ed è citato con doppie virgolette nel testo CSV risultante '
+        + '. Nel testo risultante, gli elementi nelle righe sono separate da virgole e le righe sono '
+        + 'separate da CRLF \(\\r\\n\).';
 
     Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#listfromcsvtable';
     Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_TITLE_FROM_CSV = 'lista da tabella csv';
@@ -941,63 +941,63 @@ Blockly.Msg.it.switch_language_to_italian = {
      Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_INPUT_TO = 'a';
      */
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_IN_RETURN = 'in';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_COLLAPSED_TEXT = 'local';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TOOLTIP = 'Allows you to create variables that are only accessible in the return part of this block.';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TRANSLATED_NAME = 'initialize local in return';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_COLLAPSED_TEXT = 'locale';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TOOLTIP = 'Ti permette di creare variabili che sono accessibili solo nella parte ritorna di questo blocco.';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TRANSLATED_NAME = 'inizializza locale in ritorna';
 
-    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TITLE_LOCAL_NAMES = 'local names';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TITLE_LOCAL_NAMES = 'nomi locali';
     Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TOOLTIP = '';
 
-    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_ARG_TITLE_NAME = 'name';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_ARG_TITLE_NAME = 'nome';
     Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_ARG_DEFAULT_VARIABLE = 'x';
 
 // Procedures Blocks.
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#do';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = 'to';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE = 'procedure';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO = 'do';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_COLLAPSED_PREFIX = 'to ';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = 'A procedure that does not return a value.';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = 'a';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE = 'procedura';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO = 'esegui';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_COLLAPSED_PREFIX = 'a ';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = 'Una procedura che non ritorna un valore.';
 
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#doreturn';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_THEN_RETURN = 'result';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_DO = 'do';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_RETURN = 'result';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_TOOLTIP = 'Runs the blocks in \'do\' and returns a statement. Useful if you need to run a procedure before returning a value to a variable.';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_COLLAPSED_TEXT = 'do/result';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_THEN_RETURN = 'risultato';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_DO = 'esegui';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_RETURN = 'risultato';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_TOOLTIP = 'Esegue i blocchi in \'esegui\' e ritorna una affermazione. Utile se hai bisogno di eseguire una procedura primadi ritornare un valore a una variabile.';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_COLLAPSED_TEXT = 'esegui/risultato';
 
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#return';
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DEFINE = 'to';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DEFINE = 'a';
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_PROCEDURE = Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE;
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DO = Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO;
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_RETURN = 'result';
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_COLLAPSED_PREFIX = 'to ';
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_TOOLTIP = 'A procedure returning a result value.';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_RETURN = 'risultato';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_COLLAPSED_PREFIX = 'a ';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_TOOLTIP = 'Una procedura che restituisce un valore di risultato.';
 
-    Blockly.Msg.LANG_PROCEDURES_DEF_DUPLICATE_WARNING = 'Warning:\n' +
-        'This procedure has\n' +
-        'duplicate inputs.';
+    Blockly.Msg.LANG_PROCEDURES_DEF_DUPLICATE_WARNING = 'Attenzione:\n' +
+        'Questa procedura ha\n' +
+        'input duplicati.';
 
     Blockly.Msg.LANG_PROCEDURES_GET_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#get';
 
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#do';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL = 'call ';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE = 'procedure';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_COLLAPSED_PREFIX = 'call ';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TOOLTIP = 'Call a procedure with no return value.';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'call no return';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL = 'chiama ';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE = 'procedura';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_COLLAPSED_PREFIX = 'chiama ';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TOOLTIP = 'Chiama una procedura con nessun valore di ritorno.';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'chiama nessun ritorno';
 
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#return';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_CALL = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL;
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_PROCEDURE = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE;
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = 'call ';
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TOOLTIP = 'Call a procedure with a return value.';
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TRANSLATED_NAME = 'call return';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = 'chiama ';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TOOLTIP = 'Chiama una procedura con un valore di ritorno.';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TRANSLATED_NAME = 'chiama ritorno';
 
-    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TITLE = 'inputs';
+    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TITLE = 'input';
     Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TITLE = 'input:';
 
-    Blockly.Msg.LANG_PROCEDURES_HIGHLIGHT_DEF = 'Highlight Procedure';
+    Blockly.Msg.LANG_PROCEDURES_HIGHLIGHT_DEF = 'Evidenzia Procedura';
 
     Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TOOLTIP = '';
     Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TOOLTIP = '';
