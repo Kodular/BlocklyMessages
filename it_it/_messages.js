@@ -105,6 +105,7 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "Questo è un gestore dell'evento duplicato per questo componente.";
     Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Il Componente non esiste";
     Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "Questo blocco non è definito. Elimina questo blocco!";
+    Blockly.ERROR_BREAK_ONLY_IN_LOOP = "Il blocco rompi dovrebbe essere utilizzato solamente dentro i cicli";
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#basic';
@@ -316,7 +317,10 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Chiudi lo schermo corrente e ritorna il testo all\'app che '
         + 'ha aperto questa.   Questo blocco è per ritornare testo ad attività che non sono di Makeroid, non degli schermi di Makeroid. '
         + 'Per gli schermi di Makeroid, come in una app multischermo, usa Chiudi Schermo con Valore, non Chiudi Schermo con Testo.';
-
+    Blockly.Msg.LANG_CONTROLS_BREAK_HELPURL = "https://docs.makeroid.io/blocks/control#break";
+    Blockly.Msg.LANG_CONTROLS_BREAK_TITLE = "rompi";
+    Blockly.Msg.LANG_CONTROLS_BREAK_INPUT_TEXT = "valore";
+    Blockly.Msg.LANG_CONTROLS_BREAK_COLLAPSED_TEXT = "rompi";
 // Logic Blocks.
     Blockly.Msg.LANG_CATEGORY_LOGIC = 'Logica';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL = 'http://en.wikipedia.org/wiki/Inequality_(mathematics)';
@@ -891,10 +895,12 @@ Blockly.Msg.it.switch_language_to_italian = {
      'Ritorna 0 se il testo non è trovato.';
      Blockly.Msg.LANG_LISTS_INDEX_OF_FIRST = 'primo';
      Blockly.Msg.LANG_LISTS_INDEX_OF_LAST = 'ultimo';
+
      Blockly.Msg.LANG_LISTS_GET_INDEX_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_GET_INDEX_TITLE_GET = 'ottieni elemento a';
      Blockly.Msg.LANG_LISTS_GET_INDEX_INPUT_IN_LIST = 'nella lista';
      Blockly.Msg.LANG_LISTS_GET_INDEX_TOOLTIP = 'Restituisce il valore alla posizione specifica nella lista.';
+
      Blockly.Msg.LANG_LISTS_SET_INDEX_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_SET = 'imposta elemento a';
      Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_IN_LIST = 'nella lista';
