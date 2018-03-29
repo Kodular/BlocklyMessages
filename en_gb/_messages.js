@@ -109,12 +109,12 @@ Blockly.Msg.en.gb.switch_language_to_english_gb = {
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#basic';
-    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
+    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a colour.';
     Blockly.Msg.LANG_COLOUR_WHITE = 'white';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'light gray';
-    Blockly.Msg.LANG_COLOUR_GRAY = 'gray';
-    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'blue gray';
-    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'dark gray';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'light grey';
+    Blockly.Msg.LANG_COLOUR_GRAY = 'grey';
+    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'blue grey';
+    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'dark grey';
     Blockly.Msg.LANG_COLOUR_BLACK = 'black';
     Blockly.Msg.LANG_COLOUR_RED = 'red';
     Blockly.Msg.LANG_COLOUR_PINK = 'pink';
@@ -133,12 +133,12 @@ Blockly.Msg.en.gb.switch_language_to_english_gb = {
     Blockly.Msg.LANG_COLOUR_ORANGE = 'orange';
     Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'deep orange';
     Blockly.Msg.LANG_COLOUR_BROWN = 'brown';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'split color';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'split colour';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#split';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "A list of four elements, each in the range 0 to 255, representing the red, green, blue and alpha components.";
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'make color';
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'make colour';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#make';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A color with the given red, green, blue, and optionally alpha components";
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A colour with the given red, green, blue, and optionally alpha components";
 
 // Control Blocks
     Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Control';
@@ -260,7 +260,7 @@ Blockly.Msg.en.gb.switch_language_to_english_gb = {
     /* [lyn, 10/14/13] Removed for now. May come back some day.
      Blockly.Msg.LANG_CONTROLS_NOTHING_TITLE = 'nothing';
      Blockly.Msg.LANG_CONTROLS_NOTHING_HELPURL = 'https://docs.makeroid.io/blocks/control.html#nothing';
-     Blockly.Msg.LANG_CONTROLS_NOTHING_TOOLTIP = 'Returns nothing. Used to initialize variables or can be plugged into a return socket if no value needed to return. this is equivalent to null or None.';
+     Blockly.Msg.LANG_CONTROLS_NOTHING_TOOLTIP = 'Returns nothing. Used to initialise variables or can be plugged into a return socket if no value needed to return. this is equivalent to null or None.';
      */
 
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#openscreen';
@@ -909,7 +909,7 @@ Blockly.Msg.en.gb.switch_language_to_english_gb = {
 
 // Variables Blocks.
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#global';
-    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TITLE_INIT = 'initialize global';
+    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TITLE_INIT = 'initialise global';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_NAME = 'name';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TO = 'to';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_COLLAPSED_TEXT = 'global';
@@ -930,24 +930,24 @@ Blockly.Msg.en.gb.switch_language_to_english_gb = {
     Blockly.Msg.LANG_VARIABLES_VARIABLE = ' variable';
 
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#do';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TITLE_INIT = 'initialize local';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TITLE_INIT = 'initialise local';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_DEFAULT_NAME = 'name';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_INPUT_TO = 'to';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_IN_DO = 'in';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_COLLAPSED_TEXT = 'local';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TOOLTIP = 'Allows you to create variables that are only accessible in the do part of this block.';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TRANSLATED_NAME = 'initialize local in do';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TRANSLATED_NAME = 'initialise local in do';
 
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#return';
     /* // These don't differ between the statement and expression
-     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TITLE_INIT = 'initialize local';
+     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TITLE_INIT = 'initialise local';
      Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_INPUT_NAME = 'name';
      Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_INPUT_TO = 'to';
      */
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_IN_RETURN = 'in';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_COLLAPSED_TEXT = 'local';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TOOLTIP = 'Allows you to create variables that are only accessible in the return part of this block.';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TRANSLATED_NAME = 'initialize local in return';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TRANSLATED_NAME = 'initialise local in return';
 
     Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TITLE_LOCAL_NAMES = 'local names';
     Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TOOLTIP = '';
