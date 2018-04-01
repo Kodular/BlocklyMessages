@@ -39,1356 +39,556 @@ Blockly.Msg.fr.switch_language_to_french = {
   category: '',
   helpUrl: '',
   init: function() {
-// Context menus.
-    Blockly.Msg.UNDO = 'Undo';
-    Blockly.Msg.REDO = 'Redo';
-    Blockly.Msg.CLEAN_UP = 'Clean up Blocks';
-    Blockly.Msg.DUPLICATE_BLOCK = 'Duplicate';
-    Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
-    Blockly.Msg.ADD_COMMENT = 'Add Comment';
-    Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
-    Blockly.Msg.INLINE_INPUTS = 'Inline Inputs';
-    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
-    Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
-    Blockly.Msg.CONFIRM_DELETE = 'Confirm deletion';
-    Blockly.Msg.DELETE_ALL_BLOCKS = "Delete all %1 blocks?";
-    Blockly.Msg.DELETE_BLOCK = 'Delete Block';
-    Blockly.Msg.DELETE_X_BLOCKS = 'Delete %1 Blocks';
-    Blockly.Msg.COLLAPSE_BLOCK = 'Collapse Block';
-    Blockly.Msg.EXPAND_BLOCK = 'Expand Block';
-    Blockly.Msg.DISABLE_BLOCK = 'Disable Block';
-    Blockly.Msg.ENABLE_BLOCK = 'Enable Block';
-    Blockly.Msg.HELP = 'Help';
-    Blockly.Msg.EXPORT_IMAGE = 'Download Blocks as Image';
-    Blockly.Msg.COLLAPSE_ALL = 'Collapse Blocks';
-    Blockly.Msg.EXPAND_ALL = 'Expand Blocks';
-    Blockly.Msg.ARRANGE_H = 'Arrange Blocks Horizontally';
-    Blockly.Msg.ARRANGE_V = 'Arrange Blocks Vertically';
-    Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
-    Blockly.Msg.SORT_W = 'Sort Blocks by Width';
-    Blockly.Msg.SORT_H = 'Sort Blocks by Height';
-    Blockly.Msg.SORT_C = 'Sort Blocks by Category';
-    Blockly.Msg.COPY_TO_BACKPACK = 'Add to Backpack';
-    Blockly.Msg.COPY_ALLBLOCKS = 'Copy All Blocks to Backpack';
-    Blockly.Msg.BACKPACK_GET = 'Paste All Blocks from Backpack';
-    Blockly.Msg.BACKPACK_EMPTY = 'Empty the Backpack';
-    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Are you sure you want to empty the backpack?';
-    Blockly.Msg.BACKPACK_DOC_TITLE = "Backpack Information";
-    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Show Backpack documentation";
-    Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
-   " and paste them into another project or screen. " +
-   " To copy, you can drag-and-drop blocks into the Backpack. To paste, click on the Backpack icon and " +
-   " drag-and-drop blocks into the workspace." +
-   "</p><p>If you leave Makeroid with blocks left in your backpack, " +
-   " they will be there the next time you login." +
-   "</p><p>For further documentation and a 'how to' video, see:" +
-   '</p><p><a href="https://docs.makeroid.io/other/backpack.html" target="_blank">https://docs.makeroid.io/other/backpack.html</a>';
-    Blockly.Msg.ENABLE_GRID = 'Enable Workspace Grid';
-    Blockly.Msg.DISABLE_GRID = 'Disable Workspace Grid';
-    Blockly.Msg.ENABLE_SNAPPING = 'Enable Snap to Grid';
-    Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
-
-// Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Change value:';
-    Blockly.MSG_NEW_VARIABLE = 'New variable...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'New variable name:';
-    Blockly.MSG_RENAME_VARIABLE = 'Rename variable...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
-
-// Toolbox.
+    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = 'Ce bloc ne peut pas être dans une définition';
+    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = 'Ceci est un gestionnaire d\'évènement dupliqué pour ce composant.';
+    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = 'Sélectionner un élément valide dans le menu déroulant.';
+    Blockly.MSG_CHANGE_VALUE_TITLE = 'Modifier la valeur :';
+    Blockly.MSG_NEW_VARIABLE = 'Nouvelle variable...';
+    Blockly.MSG_NEW_VARIABLE_TITLE = 'Nom de la nouvelle variable:';
+    Blockly.MSG_PROCEDURE_CATEGORY = 'Procédures';
+    Blockly.MSG_RENAME_VARIABLE = 'Renommer la variable...';
+    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Renommer les "%1" variables en:\' ';
     Blockly.MSG_VARIABLE_CATEGORY = 'Variables';
-    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedures';
-
-// Warnings/Errors
-    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Select a valid item in the drop down.";
-    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
-    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
-    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "This block is not defined. Delete this block!";
-
-// Colour Blocks.
-    Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#basic';
-    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
-    Blockly.Msg.LANG_COLOUR_WHITE = 'white';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'light gray';
-    Blockly.Msg.LANG_COLOUR_GRAY = 'gray';
-    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'blue gray';
-    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'dark gray';
-    Blockly.Msg.LANG_COLOUR_BLACK = 'black';
-    Blockly.Msg.LANG_COLOUR_RED = 'red';
-    Blockly.Msg.LANG_COLOUR_PINK = 'pink';
-    Blockly.Msg.LANG_COLOUR_PURPLE = 'purple';
-    Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'deep purple';
-    Blockly.Msg.LANG_COLOUR_INDIGO = 'indigo';
-    Blockly.Msg.LANG_COLOUR_BLUE = 'blue';
-    Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'light blue';
+    Blockly.Msg.ADD_COMMENT = 'Ajouter un commentaire';
+    Blockly.Msg.ARRANGE_H = 'Arranger les blocs horizontalement';
+    Blockly.Msg.ARRANGE_S = 'Arrange les blocs en diagonale';
+    Blockly.Msg.ARRANGE_V = 'Arranger les blocs verticalement';
+    Blockly.Msg.CAN_NOT_DO_IT = 'Impossible de le faire';
+    Blockly.Msg.CLEAR_DO_IT_ERROR = 'Effacer l\'erreur';
+    Blockly.Msg.COLLAPSE_ALL = 'Réduire les blocs';
+    Blockly.Msg.COLLAPSE_BLOCK = 'Réduire le bloc';
+    Blockly.Msg.CONNECT_TO_DO_IT = 'Vous devriez être connecté au compagnon ou émulateur pour utiliser "Faire"';
+    Blockly.Msg.DELETE_BLOCK = 'Supprimer un bloc';
+    Blockly.Msg.DELETE_X_BLOCKS = 'Supprimer %1 blocs';
+    Blockly.Msg.DISABLE_BLOCK = 'Désactiver le bloc';
+    Blockly.Msg.DO_IT = 'Faire';
+    Blockly.Msg.DUPLICATE_BLOCK = 'Dupliquer';
+    Blockly.Msg.ENABLE_BLOCK = 'Activer le bloc';
+    Blockly.Msg.EXPAND_ALL = 'Développer les blocs';
+    Blockly.Msg.EXPAND_BLOCK = 'Développer le bloc';
+    Blockly.Msg.EXTERNAL_INPUTS = 'Entrées externes';
+    Blockly.Msg.GENERATE_YAIL = 'Générer Yail';
+    Blockly.Msg.HELP = 'Aide';
+    Blockly.Msg.HIDE_WARNINGS = 'Cacher les avertissements';
+    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange les paramètres horizontalement';
+    Blockly.Msg.INLINE_INPUTS = 'Entrées en ligne';
+    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Contrôle';
+    Blockly.Msg.LANG_CATEGORY_LISTS = 'Listes';
+    Blockly.Msg.LANG_CATEGORY_LOGIC = 'Logique';
+    Blockly.Msg.LANG_CATEGORY_MATH = 'Maths';
+    Blockly.Msg.LANG_CATEGORY_TEXT = 'Texte';
+    Blockly.Msg.LANG_COLOUR_BLACK = 'noir';
+    Blockly.Msg.LANG_COLOUR_BLUE = 'bleu';
     Blockly.Msg.LANG_COLOUR_CYAN = 'cyan';
-    Blockly.Msg.LANG_COLOUR_TEAL = 'teal';
-    Blockly.Msg.LANG_COLOUR_GREEN = 'green';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'light green';
-    Blockly.Msg.LANG_COLOUR_LIME = 'lime';
-    Blockly.Msg.LANG_COLOUR_YELLOW = 'yellow';
-    Blockly.Msg.LANG_COLOUR_AMBER = 'amber';
+    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'gris foncé';
+    Blockly.Msg.LANG_COLOUR_GRAY = 'gris';
+    Blockly.Msg.LANG_COLOUR_GREEN = 'vert';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'gris clair';
+    Blockly.Msg.LANG_COLOUR_MAGENTA = 'magenta';
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'créer couleur';
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = 'Une couleur avec rouge, vert, bleu donné, et optionnellement des composants alpha';
     Blockly.Msg.LANG_COLOUR_ORANGE = 'orange';
-    Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'deep orange';
-    Blockly.Msg.LANG_COLOUR_BROWN = 'brown';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'split color';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#split';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "A list of four elements, each in the range 0 to 255, representing the red, green, blue and alpha components.";
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'make color';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#make';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A color with the given red, green, blue, and optionally alpha components";
-
-// Control Blocks
-    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Control';
-    Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.makeroid.io/blocks/control.html#if';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'If a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'If a value is true, then do the first block of statements.\n' +
-        'Otherwise, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.\n' +
-        'If none of the values are true, do the last block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'if';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'else';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'then';
-
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'if';
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
-        'to reconfigure this if block.';
-
-    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'else if';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Add a condition to the if block.';
-
-    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'else';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
-
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'https://docs.makeroid.io/blocks/control.html#while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repeat';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'until';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Runs the blocks in the \'do\' section while the test is '
-        + 'true.';
-
-    Blockly.Msg.LANG_CONTROLS_FOR_HELPURL = '';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'count with';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_VAR = 'x';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'from';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'to';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'do';
-
-    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.\n' +
-        'For each count, set the current count number to\n' +
-        'variable "%1", and then do some statements.';
-
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#forrange';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'number';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'from';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'to';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'by';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'for number in range';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'for ';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' in range';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Runs the blocks in the \'do\' section for each numeric '
-        + 'value in the range from start to end, stepping the value each time.  Use the given '
-        + 'variable name to refer to the current value.';
-
-    Blockly.Msg.LANG_CONTROLS_FOREACH_HELPURL = 'https://docs.makeroid.io/blocks/control.html#foreach';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'item';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'for item in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'for ';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'Runs the blocks in the \'do\'  section for each item in '
-        + 'the list.  Use the given variable name to refer to the current list item.';
-
-    Blockly.Msg.LANG_CONTROLS_GET_HELPURL = 'https://docs.makeroid.io/blocks/control.html#get';
-
-
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_HELPURL = 'http://en.wikipedia.org/wiki/Control_flow';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'of loop';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'break out';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'continue with next iteration';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'Break out of the containing loop.';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Skip the rest of this loop, and\n' +
-        'continue with the next iteration.';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Warning:\n' +
-        'This block may only\n' +
-        'be used within a loop.';
-
-    Blockly.Msg.LANG_CONTROLS_WHILE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#while';;
-    Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_TEST = 'test';
-    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'Runs the blocks in the \'do\' section while the test is '
-        + 'true.';
-
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#choose';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_TITLE = 'if'
+    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Cliquer sur le carré pour choisir une couleur.';
+    Blockly.Msg.LANG_COLOUR_PINK = 'rose';
+    Blockly.Msg.LANG_COLOUR_RED = 'rouge';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'Diviser couleur';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = 'Quatre éléments, chacun entre 0 et 255, représentant les composantes rouge, verte, bleu et alpha.\'  ';
+    Blockly.Msg.LANG_COLOUR_WHITE = 'blanc';
+    Blockly.Msg.LANG_COLOUR_YELLOW = 'jaune';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'de composant';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_CALL = 'appeler ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'pour composant';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'de composant';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'mettre ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' à';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'appeler ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_SET = 'mettre ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_TO = ' à';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_DO = 'faire';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_WHEN = 'quand ';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'si';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_ELSE_RETURN = 'sinon';
     Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_TEST = '';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_THEN_RETURN = 'then';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_ELSE_RETURN = 'else';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'if';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_TOOLTIP = 'If the condition being tested is true,'
-        + 'return the result of evaluating the expression attached to the \'then-return\' slot;'
-        + 'otherwise return the result of evaluating the expression attached to the \'else-return\' slot;'
-        + 'at most one of the return slot expressions will be evaluated.';
-
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#doreturn';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'result';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TOOLTIP = 'Runs the blocks in \'do\' and returns a statement. Useful if you need to run a procedure before returning a value to a variable.';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_COLLAPSED_TEXT = 'do/result';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'do result';
-
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'evaluate but ignore result'
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#evaluate';
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_COLLAPSED_TEXT = 'eval but ignore'
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = 'Runs the connected block of code and ignores the return value (if any). Useful if need to call a procedure with a return value but don\'t need the value.';
-
-    /* [lyn, 10/14/13] Removed for now. May come back some day.
-     Blockly.Msg.LANG_CONTROLS_NOTHING_TITLE = 'nothing';
-     Blockly.Msg.LANG_CONTROLS_NOTHING_HELPURL = 'https://docs.makeroid.io/blocks/control.html#nothing';
-     Blockly.Msg.LANG_CONTROLS_NOTHING_TOOLTIP = 'Returns nothing. Used to initialize variables or can be plugged into a return socket if no value needed to return. this is equivalent to null or None.';
-     */
-
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#openscreen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'open another screen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'open screen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Opens a new screen in a multiple screen app.';
-
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#openscreenwithvalue';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = 'open another screen with start value';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'startValue';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'open screen with value'
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TOOLTIP = 'Opens a new screen in a multiple screen app and passes the '
-        + 'start value to that screen.';
-
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#getstartvalue';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TITLE = 'get start value';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'startValue';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'get start value';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TOOLTIP = 'Returns the value that was passed to this screen when it '
-        + 'was opened, typically by another screen in a multiple-screen app. If no value was '
-        + 'passed, returns the empty text.';
-
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closescreen';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'close screen';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'close screen';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = 'Close the current screen';
-
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closescreenwithvalue';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'close screen with value';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'result';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'close screen with value';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TOOLTIP = 'Closes the current screen and returns a result to the '
-        + 'screen that opened this one.';
-
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closeapp';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = 'close application';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = 'close application';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TOOLTIP = 'Closes all screens in this app and stops the app.';
-
-    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/control.html#getplainstarttext';
-    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TITLE = 'get plain start text';
-    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_COLLAPSED_TEXT = 'get plain start text';
-    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TOOLTIP = 'Returns the plain text that was passed to this screen when '
-        + 'it was started by another app. If no value was passed, returns the empty text. For '
-        + 'multiple screen apps, use get start value rather than get plain start text.';
-
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closescreenwithplaintext';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = 'close screen with plain text';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = 'close screen with plain text';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Closes the current screen and returns text to the app that '
-        + 'opened this one.   This command is for returning text to non-Makeroid activities, not to Makeroid screens. '
-        + 'For Makeroid Screens, as in multiple screen apps, use Close Screen with Value, not Close Screen with Plain Text.';
-
-// Logic Blocks.
-    Blockly.Msg.LANG_CATEGORY_LOGIC = 'Logic';
-    Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL = 'http://en.wikipedia.org/wiki/Inequality_(mathematics)';
-    Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_EQ = 'https://docs.makeroid.io/blocks/logic.html#=';
-    Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_NEQ = 'https://docs.makeroid.io/blocks/logic.html#not=';
-    Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_EQ = 'Tests whether two things are equal. \n' +
-        'The things being compared can be any things, not only numbers. \n' +
-        'Numbers are considered to be equal to their printed form as strings, \n' +
-        'for example, the number 0 is equal to the text \"0\".  Also, two strings \n' +
-        'that represent numbers are equal if the numbers are equal, for example \n' +
-        '\"1\" is equal to \"01\".';
-    Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_NEQ = 'Return true if both inputs are not equal to each other.';
-    Blockly.Msg.LANG_LOGIC_COMPARE_TRANSLATED_NAME = 'logic equal';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_THEN_RETURN = 'alors';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_TITLE = 'si';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_TOOLTIP = 'Si la condition testée est vraie, retourne le résultat de l\'évaluation de l\'expression attaché à la section \'alors\'; sinon retourne le résultat de l\'évaluation de l\'expression attaché à la section \'sinon\'; au maximum, le résultat de l\'un des deux sections va être évalué.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = 'fermer l\'application';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = 'fermer l\'application';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TOOLTIP = 'Ferme tous les écrans dans cette application puis l\'arrête.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'fermer l\'écran';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'fermer l\'écran';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = 'Ferme l\'écran actuel';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = 'ferme l\'écran avec texte brut';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_INPUT_TEXT = 'texte';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = 'ferme l\'écran avec texte brut';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Ferme l\'écran actuel et retourne un texte à l\'application qui l\'a ouvert\'. Cette commande est pour retourner du texte aux activités non réalisées par App Inventor, et non pas aux écrans App Inventor. Pour les écrans App Inventor, comme dans les applications multi-écrans, utilisez Fermer écran avec valeur, et non Fermer écran avec texte brut.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'ferme écran avec valeur';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'résultat';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'ferme écran avec valeur';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TOOLTIP = 'Ferme l\'écran actuel et retourne un résultat à l\'écran qui a ouvert celui-ci';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_COLLAPSED_TEXT = 'faire/résultat';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'faire';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'résultat';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'faire résultat';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TOOLTIP = 'Exécute les blocs dans la section \'faire\' et retourne un résultat. Pratique si vous avez besoin d\'une procédure avant de retourner une valeur à une variable.';
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_COLLAPSED_TEXT = 'évaluer mais ignorer';
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'évaluer mais ignorer résultat';
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = 'Exécute les blocs connectés et ignore la valeur retournée (s\'il y en a). Pratique si vous avez besoin d\'appeler une procédure qui retourne une valeur sans en avoir besoin.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'de boucle';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'interrompre';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'continue avec l\'itération suivante';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'sortir de la boucle';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Ignorer le reste de cette boucle, et\ncontinuer avec l\'itération suivante.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Avertissement:\nCe bloc ne peut être utilisé\nqu\'avec une boucle.';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'pour';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' dans la liste';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'pour élément dans la liste';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'faire';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'dans la liste';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'pour chaque';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'élément';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'Exécute les blocs dans la section \'faire\' pour chaque élément de la liste. Utilise  le nom de variable donné pour faire référence à l\'élément de la liste courant.';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'pour';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' dans intervalle';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'pour nombre dans intervalle';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'faire';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'à';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'pour chaque';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'de';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'par';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'nombre';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Exécute les blocs dans la section \'faire\' pour chaque valeur dans l\'intervalle du début à la fin, en incrémentant la valeur à chaque fois.     Utilise le nom de la variable donné pour se référer à la valeur actuelle.\' ';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'faire';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'de';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'à';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_VAR = 'x';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'compter avec';
+    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Compter d\'un nombre de début à un nombre de fin.\nPour chaque itération, fixer le compteur à \nla variable "%1", puis faire un traitement.';
+    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_COLLAPSED_TEXT = 'obtenir texte brut de début\' ';
+    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TITLE = 'obtenir texte brut de début';
+    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TOOLTIP = 'Retourne le texte brut qui a été passé à cet écran quand il a été lancé par une autre application. Si aucune valeur passé, retourne un texte vide. Pour les applications multi-écrans, utilisez obtenir valeur de début au lieu de obtenir texte brut de départ.';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'obtenir valeur de départ';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'nom écran';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'valeur départ';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TITLE = 'Obtenir valeur de départ';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TOOLTIP = 'Retourne la valeur qui a été passée à cet écran quand il a été ouvert, typiquement par un autre écran dans une application à plusieurs écrans. Si aucune valeur n\'a été passée, retourne un texte vide.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'sinon si';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Ajoute une condition au bloc si.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'sinon';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Ajoute une dernière condition au bloc si.';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'si';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Ajouter, supprimer, ou réorganiser les sections\npour reconfigurer ce bloc si.';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'sinon';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'sinon si';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'si';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'alors';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'Si la valeur est vraie, alors faire quelques choses';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'Si une valeur est vraie, alors effectuer le premier bloc d\'instructions.\nSinon, effectuer le second bloc d\'instructions.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'Si la première valeur est vraie, alors exécuter  le premier bloc de la déclaration.\nSinon, si la seconde valeur est vraie, exécuter le deuxième bloc de la déclaration.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'Si la première valeur est vraie, alors exécuter le premier bloc de la déclaration.\nSinon, si le deuxième valeur est vraie, exécuter le second bloc de la déclaration.\nSi aucune de ces valeurs n\'est vraies, alors exécuter le dernier bloc de la déclaration.';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'ouvre écran';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'Nom écran';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'ouvre un autre écran';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Ouvre un nouvel écran dans une application à écrans multiples';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'ouvrir écran avec valeur';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'nom écran';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'valeur de départ';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = 'ouvre un autre écran avec une valeur de départ';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TOOLTIP = 'Ouvre un nouvel écran dans une application multi-écrans et passe la valeur de départ à cet écran';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'faire';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'jusqu\'à';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'tant que';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'répéter';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Exécute les blocs dans la section \'faire\' tant que le test est vrai.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'Tant que la valeur est fausse, alors faire quelques choses.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'Tant que la valeur est vraie, alors faire quelques choses.';
+    Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'tant que';
+    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_DO = 'faire';
+    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_TEST = 'test';
+    Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = 'tant que';
+    Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'Exécute le bloc dans la partie \'faire\' tant que le test est vrai';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TITLE_ADD = 'liste';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TOOLTIP = 'Ajouter, supprimer, ou réorganiser les sections pour reconfigurer ce bloc de liste.';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT = 'ajouter éléments à la liste liste %1 élément %2';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_ITEM = 'élément';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_TITLE_ADD = 'ajouter éléments à la liste';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_TOOLTIP = 'Ajoute des éléments à la fin d\'une liste.';
+    Blockly.Msg.LANG_LISTS_ADD_ITEM_TITLE = 'élément';
+    Blockly.Msg.LANG_LISTS_ADD_ITEM_TOOLTIP = 'Ajouter un élément à la liste';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT = 'ajouter à la liste    liste1 %1 liste2 %2';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = 'liste1';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = 'liste2';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_TITLE_APPEND = 'ajouter à la liste';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_TOOLTIP = 'Ajoute tous les éléments dans liste2 à la fin de liste1. Après l\'ajout, liste1 va contenir ces éléments additionnels, par contre  liste2 reste inchangée.';
+    Blockly.Msg.LANG_LISTS_COPY_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_COPY_TITLE_COPY = 'copier liste';
+    Blockly.Msg.LANG_LISTS_COPY_TOOLTIP = 'Réalise une copie de la liste, y compris toutes les sous-listes';
+    Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TITLE = 'créer une liste vide';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = 'liste';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TOOLTIP = 'Ajouter, supprimer ou réorganiser les sections pour reconfigurer ce bloc de liste.';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TITLE = 'élément';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TOOLTIP = 'Ajouter un élément à la liste';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_TITLE_MAKE_LIST = 'créer une liste';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_TOOLTIP = 'Créer une liste avec n\'importe quel nombre d\'éléments.';
+    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_INPUT_TEXT = 'texte';
+    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TITLE_FROM_CSV = 'liste de ligne csv';
+    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TOOLTIP = 'Analyse un texte comme une ligne au format CSV (valeurs séparées par des virgules) pour produire une liste de champs. Si la ligne de texte contient des sauts de ligne à l\'intérieur de champs , ceci est considéré comme erreur (plusieurs lignes). Il est accepté pour la ligne de texte de finir en une seule nouvelle ligne ou CRLF.';
+    Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_INPUT_TEXT = 'texte';
+    Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_TITLE_FROM_CSV = 'liste de table csv';
+    Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_TOOLTIP = 'Analyse un texte comme un tableau formaté au format CSV pour produire une liste de lignes, chacune d\'elles est une liste de champs. Les lignes peuvent être séparées par des nouvelles lignes  (\n) ou CRLF (\r\n).';
+    Blockly.Msg.LANG_LISTS_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_INSERT_INPUT = 'insérer liste élément     liste %1 index %2 élément %3';
+    Blockly.Msg.LANG_LISTS_INSERT_INPUT_INDEX = 'index';
+    Blockly.Msg.LANG_LISTS_INSERT_INPUT_ITEM = 'élément';
+    Blockly.Msg.LANG_LISTS_INSERT_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_INSERT_TITLE_INSERT_LIST = 'insérer liste élément';
+    Blockly.Msg.LANG_LISTS_INSERT_TOOLTIP = 'Insérer un élément dans une liste dans la position spécifiée. ';
+    Blockly.Msg.LANG_LISTS_IS_EMPTY_TOOLTIP = 'retourne vrai si la liste est vide';
+    Blockly.Msg.LANG_LISTS_IS_IN_INPUT = 'est dans la liste? objet %1 liste %2?';
+    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_THING = 'objet';
+    Blockly.Msg.LANG_LISTS_IS_IN_TITLE_IS_IN = 'est dans la liste?';
+    Blockly.Msg.LANG_LISTS_IS_IN_TOOLTIP = 'Retourne vrai si l\'objet est un élément dans la liste et faux dans le cas contraire.';
+    Blockly.Msg.LANG_LISTS_IS_LIST_INPUT_THING = 'objet';
+    Blockly.Msg.LANG_LISTS_IS_LIST_TITLE_IS_LIST = 'est une liste?';
+    Blockly.Msg.LANG_LISTS_IS_LIST_TOOLTIP = 'Teste si quelque-chose est une liste.';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT = 'taille de la liste liste %1';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LENGTH = 'taille de la liste';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_LENGTH_TOOLTIP = 'Compte le nombre d\'éléments dans la liste.';
+    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT = 'recherche dans les paires     clé %1 paires %2 nonTrouvé %3';
+    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT_KEY = 'clé';
+    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT_NOT_FOUND = 'non trouvé';
+    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT_PAIRS = 'paires';
+    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_TITLE_LOOKUP_IN_PAIRS = 'recherche dans les paires"';
+    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_TOOLTIP = 'Retourne la valeur associée à la clé dans la liste des paires';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TITLE_PICK_RANDOM = 'choisir un élément aléatoire';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = 'Choisir un élément aléatoirement de la liste';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT = 'index dans la liste    objet %1 liste %2';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_THING = 'objet';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_TITLE_POSITION = 'index dans la liste';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_TOOLTIP = 'Trouver la position de l\'objet dans la liste. S\'il n\'est pas dans la liste, retourne 0.';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT = 'supprimer liste élément    liste %1 index %2';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_INDEX = 'index';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TITLE_REMOVE = 'supprimer élément de la liste';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TOOLTIP = 'Supprime l\'élément à la position spécifiée de la liste';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT = 'remplacer élément de liste     liste %1 indexe %2 remplacent %3';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_INDEX = 'index';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_REPLACEMENT = 'remplacent';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TITLE_REPLACE = 'remplacer liste élément';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TOOLTIP = 'Remplacer un élément dans la liste à l\'emplacement spécifié';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT = 'choisir liste élément      liste %1 index %2';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_INDEX = 'index';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_SELECT = 'sélectionner élément de la liste ';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TOOLTIP = 'Retourne l\'élément à la position index dans la liste';
+    Blockly.Msg.LANG_LISTS_TITLE_IS_EMPTY = 'est une liste vide?';
+    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TITLE_TO_CSV = 'liste vers ligne csv';
+    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TOOLTIP = 'Interprète la liste comme une ligne d\'une table et retourne un texte CSV (valeur séparée par des virgules) représentant la ligne. Chaque élément dans la liste de la ligne est considéré comme un champ, et est cotée avec guillemets dans le texte CSV résultant. Les éléments sont séparées par des virgules. Le texte de la ligne retournée n\'a pas de séparateur de ligne à la fin.';
+    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TITLE_TO_CSV = 'liste vers table csv';
+    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TOOLTIP = 'Interprète la liste comme un tableau en format ligne-major (row-major ) et renvoie un texte CSV (valeur séparée par des virgules) représentant la table. Chaque élément de la liste elle-même doit être une liste représentant une ligne de la table CSV. Chaque élément dans la ligne de la liste est considérée comme un champ, et est cotée avec guillemets dans le texte CSV résultant. Dans le texte renvoyé, les éléments en lignes sont séparés par des virgules et les lignes sont séparées par CRLF(\r\n).';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = 'faux';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Retourne la valeur booléenne faux.';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Retourne la valeur booléenne vrai.';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'vrai';
     Blockly.Msg.LANG_LOGIC_COMPARE_EQ = '=';
     Blockly.Msg.LANG_LOGIC_COMPARE_NEQ = '\u2260';
-
-    Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_AND = 'https://docs.makeroid.io/blocks/logic.html#and';
-    Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_OR = 'https://docs.makeroid.io/blocks/logic.html#or';
-    Blockly.Msg.LANG_LOGIC_OPERATION_AND = 'and';
-    Blockly.Msg.LANG_LOGIC_OPERATION_OR = 'or';
-    Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = 'Return true if all inputs are true.';
-    Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_OR = 'Return true if any input is true.';
-
-    Blockly.Msg.LANG_LOGIC_NEGATE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#not';
-    Blockly.Msg.LANG_LOGIC_NEGATE_INPUT_NOT = 'not';
-    Blockly.Msg.LANG_LOGIC_NEGATE_TOOLTIP = 'Returns true if the input is false.\n' +
-        'Returns false if the input is true.';
-
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#true';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#false';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'true';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = 'false';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Returns the boolean true.';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Returns the boolean false.';
-
-// Math Blocks.
-    Blockly.Msg.LANG_CATEGORY_MATH = 'Math';
-    Blockly.Msg.LANG_MATH_NUMBER_HELPURL = 'https://docs.makeroid.io/blocks/math.html#number';
-    Blockly.Msg.LANG_MATH_NUMBER_TOOLTIP = 'Report the number shown.';
-    Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = 'number';
-
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL = '';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_EQ = 'https://docs.makeroid.io/blocks/math.html#=';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_NEQ = 'https://docs.makeroid.io/blocks/math.html#not=';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_LT = 'https://docs.makeroid.io/blocks/math.html#lt';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_LTE = 'https://docs.makeroid.io/blocks/math.html#lte';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GT = 'https://docs.makeroid.io/blocks/math.html#gt';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GTE = 'https://docs.makeroid.io/blocks/math.html#gte';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_EQ = 'Return true if both numbers are equal to each other.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_NEQ = 'Return true if both numbers are not equal to each other.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = 'Return true if the first number is smaller\n' +
-        'than the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LTE = 'Return true if the first number is smaller\n' +
-        'than or equal to the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GT = 'Return true if the first number is greater\n' +
-        'than the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GTE = 'Return true if the first number is greater\n' +
-        'than or equal to the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_EQ = '=';
-    Blockly.Msg.LANG_MATH_COMPARE_NEQ = '\u2260';
-    Blockly.Msg.LANG_MATH_COMPARE_LT = '<';
-    Blockly.Msg.LANG_MATH_COMPARE_LTE = '\u2264';
-    Blockly.Msg.LANG_MATH_COMPARE_GT = '>';
-    Blockly.Msg.LANG_MATH_COMPARE_GTE = '\u2265';
-
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_ADD = 'https://docs.makeroid.io/blocks/math.html#add';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_MINUS = 'https://docs.makeroid.io/blocks/math.html#subtract';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_MULTIPLY = 'https://docs.makeroid.io/blocks/math.html#multiply';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_DIVIDE = 'https://docs.makeroid.io/blocks/math.html#divide';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_POWER = 'https://docs.makeroid.io/blocks/math.html#exponent';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_ADD = 'Return the sum of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MINUS = 'Return the difference of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MULTIPLY = 'Return the product of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_DIVIDE = 'Return the quotient of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_POWER = 'Return the first number raised to\n' +
-        'the power of the second number.';
+    Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_EQ = 'Teste si deux objets sont égaux.\nLes objets à comparer peuvent être n\'importe quoi, pas seulement des nombres.\nLes nombres sont considérés égaux à leur format de chaine de caractère,\npar exemple, le numéro 0 est égal au texte "0"';
+    Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_NEQ = 'Retourne vrai si les deux entrées ne sont pas égales.';
+    Blockly.Msg.LANG_LOGIC_COMPARE_TRANSLATED_NAME = 'égalité logique';
+    Blockly.Msg.LANG_LOGIC_NEGATE_INPUT_NOT = 'pas';
+    Blockly.Msg.LANG_LOGIC_NEGATE_TOOLTIP = 'Retourne vrai si l\'entrée est fausse.\nRetourne faux si l\'entrée est vraie.';
+    Blockly.Msg.LANG_LOGIC_OPERATION_AND = 'et';
+    Blockly.Msg.LANG_LOGIC_OPERATION_OR = 'ou';
+    Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = 'Retourne vrai si toutes les entrées sont égales.';
+    Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_OR = 'Retourne vrai si une des entrées est vrai.';
     Blockly.Msg.LANG_MATH_ARITHMETIC_ADD = '+';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_DIVIDE = '/';
     Blockly.Msg.LANG_MATH_ARITHMETIC_MINUS = '-';
     Blockly.Msg.LANG_MATH_ARITHMETIC_MULTIPLY = '*';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_DIVIDE = '/';
     Blockly.Msg.LANG_MATH_ARITHMETIC_POWER = '^';
-
-    /*Blockly.Msg.LANG_MATH_CHANGE_TITLE_CHANGE = 'change';
-     Blockly.Msg.LANG_MATH_CHANGE_TITLE_ITEM = 'item';
-     Blockly.Msg.LANG_MATH_CHANGE_INPUT_BY = 'by';
-     Blockly.Msg.LANG_MATH_CHANGE_TOOLTIP = 'Add a number to variable "%1".';*/
-
-
-    Blockly.Msg.LANG_MATH_SINGLE_OP_ROOT = 'square root';
-    Blockly.Msg.LANG_MATH_SINGLE_OP_ABSOLUTE = 'absolute';
-    Blockly.Msg.LANG_MATH_SINGLE_OP_NEG = 'neg';
-    Blockly.Msg.LANG_MATH_SINGLE_OP_LN = 'log';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_ADD = 'Retourne la somme des deux nombres.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_DIVIDE = 'Retourne le quotient des deux nombres.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MINUS = 'Renvoie la différence entre les deux nombres.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MULTIPLY = 'Renvoie le produit des deux nombres.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_POWER = 'Retourne le premier nombre\nà la puissance du second nombre.';
+    Blockly.Msg.LANG_MATH_COMPARE_EQ = '=';
+    Blockly.Msg.LANG_MATH_COMPARE_GT = '>';
+    Blockly.Msg.LANG_MATH_COMPARE_GTE = '\u2265';
+    Blockly.Msg.LANG_MATH_COMPARE_LT = '<';
+    Blockly.Msg.LANG_MATH_COMPARE_LTE = '\u2264';
+    Blockly.Msg.LANG_MATH_COMPARE_NEQ = '\u2260';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_EQ = 'Retourne vrai si les deux nombres sont égaux.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GT = 'Retourne vrai si le premier nombre est plus grand\nque le deuxième nombre.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GTE = 'Retourne vrai si le premier nombre est plus grand\nou égal au second nombre.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = 'Retourne vrai si le premier nombre et plus petit  \nque le deuxième nombre.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LTE = 'Retourne vrai si le premier nombre est plus petit\nou égal au deuxième nombre.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_NEQ = 'Retourne vrai si les deux nombres ne sont pas égaux.';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_DEG_TO_RAD = 'degrés à radians';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_RAD_TO_DEG = 'radians à degrés\' ';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TITLE_CONVERT = 'convertir';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_DEG_TO_RAD = 'Retourne la valeur en radian dans l\'intervalle\ n[-u03C0, + u03C0) correspondant à son argument en degrés.';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_RAD_TO_DEG = 'Renvoie la valeur de degré dans l\'intervalle\ n[0, 360) correspondant à son argument en radians.';
+    Blockly.Msg.LANG_MATH_DIVIDE = 'u00F7';
+    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_MODULO = 'modulo de';
+    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_QUOTIENT = 'quotient de\' ';
+    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_REMAINDER = 'le reste de';
+    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_MODULO = 'Renvoie le module.';
+    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_QUOTIENT = 'Retourne le quotient.';
+    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_REMAINDER = 'Renvoie le reste.';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT = 'format décimal nombre %1 places %2';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_NUM = 'nombre';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_PLACES = 'places';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TITLE = 'format comme décimal';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TOOLTIP = 'Retourne le nombre au format décimal\navec un nombre spécifique de places\' ';
+    Blockly.Msg.LANG_MATH_IS_A_NUMBER_INPUT_NUM = 'est un nombre?';
+    Blockly.Msg.LANG_MATH_IS_A_NUMBER_TOOLTIP = 'Teste si quelque-chose est un nombre.';
+    Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = 'nombre';
+    Blockly.Msg.LANG_MATH_NUMBER_TOOLTIP = 'Signaler le numéro indiqué';
+    Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MAX = 'max';
+    Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MIN = 'min';
+    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TITLE_RANDOM = 'fraction aléatoire';
+    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TOOLTIP = 'Renvoie un nombre aléatoire entre 0 et 1.';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT = 'entier aléatoire entre %1 et %2';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_FROM = 'de';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_TO = 'à';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_TITLE_RANDOM = 'Entier aléatoire';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_TOOLTIP = 'Retourne un nombre aléatoire compris entre la limite supérieure\net la limite inférieur. Les limites seront coupées pour être plus petites\nque 2**30.';
+    Blockly.Msg.LANG_MATH_RANDOM_SEED_INPUT_TO = 'à';
+    Blockly.Msg.LANG_MATH_RANDOM_SEED_TITLE_RANDOM = 'génère des ensembles de nombres aléatoires répétables';
+    Blockly.Msg.LANG_MATH_RANDOM_SEED_TOOLTIP = 'spécifie la valeur de référence \npour le générateur de nombres aléatoires répétables';
+    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_CEILING = 'plafond';
+    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_FLOOR = 'plancher';
+    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_ROUND = 'arrondi';
+    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_CEILING = 'Arrondi l\'entrée au plus petit nombre\nmais pas moins que l\'entrée';
+    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_FLOOR = 'Arrondi l\'entrée au plus grand nombre\nnon supérieur à l\'entrée';
+    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_ROUND = 'Arrondi un nombre en l\'augmentant ou en le diminuant';
+    Blockly.Msg.LANG_MATH_SINGLE_OP_ABSOLUTE = 'absolue';
     Blockly.Msg.LANG_MATH_SINGLE_OP_EXP = 'e^';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ROOT = 'Return the square root of a number.';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ROOT = 'https://docs.makeroid.io/blocks/math.html#sqrt';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ABS = 'Return the absolute value of a number.';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ABS = 'https://docs.makeroid.io/blocks/math.html#abs';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = 'Return the negation of a number.';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_NEG = 'https://docs.makeroid.io/blocks/math.html#neg';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_LN = 'Return the natural logarithm of a number, i.e. the logarithm to the base e (2.71828...)';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_LN ='https://docs.makeroid.io/blocks/math.html#log';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_EXP = 'Return e (2.71828...) to the power of a number.';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_EXP ='https://docs.makeroid.io/blocks/math.html#e';
-    /*Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_POW10 = 'Return 10 to the power of a number.';*/
-
-    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_ROUND = 'Round a number up or down.';
-    Blockly.Msg.LANG_MATH_ROUND_HELPURL_ROUND = 'https://docs.makeroid.io/blocks/math.html#round';
-    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_CEILING = 'Rounds the input to the smallest\n' +
-        'number not less then the input';
-    Blockly.Msg.LANG_MATH_ROUND_HELPURL_CEILING =  'https://docs.makeroid.io/blocks/math.html#ceiling';
-    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_FLOOR = 'Rounds the input to the largest\n' +
-        'number not greater then the input';
-    Blockly.Msg.LANG_MATH_ROUND_HELPURL_FLOOR =  'https://docs.makeroid.io/blocks/math.html#floor';
-    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_ROUND = 'round';
-    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_CEILING = 'ceiling';
-    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_FLOOR = 'floor';
-
-    Blockly.Msg.LANG_MATH_TRIG_SIN = 'sin';
-    Blockly.Msg.LANG_MATH_TRIG_COS = 'cos';
-    Blockly.Msg.LANG_MATH_TRIG_TAN = 'tan';
-    Blockly.Msg.LANG_MATH_TRIG_ASIN = 'asin';
+    Blockly.Msg.LANG_MATH_SINGLE_OP_LN = 'log';
+    Blockly.Msg.LANG_MATH_SINGLE_OP_NEG = 'neg';
+    Blockly.Msg.LANG_MATH_SINGLE_OP_ROOT = 'racine carrée';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ABS = 'Renvoie la valeur absolue d\'un nombre.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_EXP = 'Renvoie e (2,71828...) à la puissance d\'un nombre.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_LN = 'Renvoie le logarithme népérien d\'un nombre, i.e. le logarithme de base e (2,71828...)';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = 'Renvoie l\'opposé d\'un nombre.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ROOT = 'Renvoie la racine carrée d\'un nombre.';
     Blockly.Msg.LANG_MATH_TRIG_ACOS = 'acos';
+    Blockly.Msg.LANG_MATH_TRIG_ASIN = 'asin';
     Blockly.Msg.LANG_MATH_TRIG_ATAN = 'atan';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2 = 'atan2';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_X = 'x';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_Y = 'y';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_SIN = 'Provides the sine of the given angle in degrees.';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_SIN = 'https://docs.makeroid.io/blocks/math.html#sin';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_COS = 'Provides the cosine of the given angle in degrees.';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_COS = 'https://docs.makeroid.io/blocks/math.html#cos';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_TAN = 'Provides the tangent of the given angle in degrees.';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_TAN = 'https://docs.makeroid.io/blocks/math.html#tan';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ASIN = 'Provides the angle in the range (-90,+90]\n' +
-        'degrees with the given sine value.';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ASIN = 'https://docs.makeroid.io/blocks/math.html#asin';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ACOS = 'Provides the angle in the range [0, 180)\n' +
-        'degrees with the given cosine value.';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ACOS = 'https://docs.makeroid.io/blocks/math.html#acos';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN = 'Provides the angle in the range (-90, +90)\n' +
-        'degrees with the given tangent value.';
-    ATAN : Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN = 'https://docs.makeroid.io/blocks/math.html#atan';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN2 = 'Provides the angle in the range (-180, +180]\n' +
-        'degrees with the given rectangular coordinates.';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN2 = 'https://docs.makeroid.io/blocks/math.html#atan2';
-
-    Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MIN = 'min';
-    Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MAX = 'max';
-    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MIN = 'Return the smallest of its arguments..';
-    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MAX = 'Return the largest of its arguments..';
-
-    Blockly.Msg.LANG_MATH_DIVIDE = '\u00F7';
-    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_MODULO = 'modulo of';
-    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_REMAINDER = 'remainder of';
-    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_QUOTIENT = 'quotient of';
-    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_MODULO = 'Return the modulo.';
-    Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_MODULO = 'https://docs.makeroid.io/blocks/math.html#modulo';
-    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_REMAINDER = 'Return the remainder.';
-    Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_REMAINDER = 'https://docs.makeroid.io/blocks/math.html#remainder';
-    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_QUOTIENT = 'Return the quotient.';
-    Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_QUOTIENT = 'https://docs.makeroid.io/blocks/math.html#quotient';
-
-    Blockly.Msg.LANG_MATH_RANDOM_INT_HELPURL = 'https://docs.makeroid.io/blocks/math.html#randomint';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_TITLE_RANDOM = 'random integer';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_FROM = 'from';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_TO = 'to';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT = 'random integer from %1 to %2';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_TOOLTIP = 'Returns a random integer between the upper bound\n' +
-        'and the lower bound. The bounds will be clipped to be smaller\n' +
-        'than 2**30.';
-
-    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_HELPURL = 'https://docs.makeroid.io/blocks/math.html#randomfrac';
-    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TITLE_RANDOM = 'random fraction';
-    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TOOLTIP = 'Return a random number between 0 and 1.';
-
-    Blockly.Msg.LANG_MATH_RANDOM_SEED_HELPURL = 'https://docs.makeroid.io/blocks/math.html#randomseed';
-    Blockly.Msg.LANG_MATH_RANDOM_SEED_TITLE_RANDOM = 'random set seed';
-    Blockly.Msg.LANG_MATH_RANDOM_SEED_INPUT_TO = 'to';
-    Blockly.Msg.LANG_MATH_RANDOM_SEED_TOOLTIP = 'specifies a numeric seed\n' +
-        'for the random number generator';
-
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TITLE_CONVERT = 'convert';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_RAD_TO_DEG = 'radians to degrees';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_DEG_TO_RAD = 'degrees to radians';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_RAD_TO_DEG = 'Returns the degree value in the range\n' +
-        '[0, 360) corresponding to its radians argument.';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_HELPURL_RAD_TO_DEG = 'https://docs.makeroid.io/blocks/math.html#convertrad';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_DEG_TO_RAD = 'Returns the radian value in the range\n' +
-        '[-\u03C0, +\u03C0) corresponding to its degrees argument.';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_HELPURL_DEG_TO_RAD = 'https://docs.makeroid.io/blocks/math.html#convertdeg';
-
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_HELPURL = 'https://docs.makeroid.io/blocks/math.html#format';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TITLE = 'format as decimal';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_NUM = 'number';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_PLACES = 'places';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT = 'format as decimal number %1 places %2';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TOOLTIP = 'Returns the number formatted as a decimal\n' +
-        'with a specified number of places.';
-
-    Blockly.Msg.LANG_MATH_IS_A_NUMBER_HELPURL = 'https://docs.makeroid.io/blocks/math.html#isnumber';
-    Blockly.Msg.LANG_MATH_IS_A_NUMBER_INPUT_NUM = 'is number?';
-    Blockly.Msg.LANG_MATH_IS_A_NUMBER_TOOLTIP = 'Tests if something is a number.';
-
-    Blockly.Msg.LANG_MATH_IS_A_DECIMAL_HELPURL = 'https://docs.makeroid.io/blocks/math.html#isnumber';
-    Blockly.Msg.LANG_MATH_IS_A_DECIMAL_INPUT_NUM = 'is Base 10?';
-    Blockly.Msg.LANG_MATH_IS_A_DECIMAL_TOOLTIP = 'Tests if something is a string that represents a positive base 10 integer.';
-
-    Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_HELPURL = 'https://docs.makeroid.io/blocks/math.html#isnumber';
-    Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_INPUT_NUM = 'is hexadecimal?';
-    Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_TOOLTIP = 'Tests if something is a string that represents a hexadecimal number.';
-
-    Blockly.Msg.LANG_MATH_IS_A_BINARY_HELPURL = 'https://docs.makeroid.io/blocks/math.html#isnumber';
-    Blockly.Msg.LANG_MATH_IS_A_BINARY_INPUT_NUM = 'is binary?';
-    Blockly.Msg.LANG_MATH_IS_A_BINARY_TOOLTIP = 'Tests if something is a string that represents a binary number.';
-
-
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TITLE_CONVERT = 'convert number';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_HEX = 'base 10 to hex';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_DEC_TO_HEX = '';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_HEX = 'Takes a positive integer in base 10 and returns the string that represents the number in hexadecimal';
-
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_HEX_TO_DEC = 'hex to base 10';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_HEX_TO_DEC = '';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_HEX_TO_DEC = 'Takes a string that represents a number in hexadecimal and returns the string that represents the number in base 10';
-
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_BIN = 'base 10 to binary';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_DEC_TO_BIN = '';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_BIN = 'Takes a positive integer in base 10 and returns the string that represents the number in binary';
-
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_BIN_TO_DEC = 'binary to base 10';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_BIN_TO_DEC = '';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_BIN_TO_DEC = 'Takes a string that represents a number in binary and returns the string that represents the number in base 10';
-
-// Text Blocks.
-    Blockly.Msg.LANG_CATEGORY_TEXT = 'Text';
-    Blockly.Msg.LANG_TEXT_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/text.html#string';
-    Blockly.Msg.LANG_TEXT_TEXT_TOOLTIP = 'A text string.';
-    Blockly.Msg.LANG_TEXT_TEXT_LEFT_QUOTE = '\u201C';
-    Blockly.Msg.LANG_TEXT_TEXT_RIGHT_QUOTE = '\u201D';
-
-    Blockly.Msg.LANG_TEXT_JOIN_HELPURL = 'https://docs.makeroid.io/blocks/text.html#join';
-    Blockly.Msg.LANG_TEXT_JOIN_TITLE_CREATEWITH = 'create text with';
-    Blockly.Msg.LANG_TEXT_JOIN_TOOLTIP = 'Appends all the inputs to form a single text string.\n'
-        + 'If there are no inputs, makes an empty text.';
-    Blockly.Msg.LANG_TEXT_JOIN_TITLE_JOIN = 'join';
-
-    Blockly.Msg.LANG_TEXT_JOIN_ITEM_TITLE_ITEM = 'string';
-    Blockly.Msg.LANG_TEXT_JOIN_ITEM_TOOLTIP = '';
-
-    Blockly.Msg.LANG_TEXT_APPEND_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode91.html';
-    Blockly.Msg.LANG_TEXT_APPEND_TO = 'to';
-    Blockly.Msg.LANG_TEXT_APPEND_APPENDTEXT = 'append text';
-    Blockly.Msg.LANG_TEXT_APPEND_VARIABLE = 'item';
-    Blockly.Msg.LANG_TEXT_APPEND_TOOLTIP = 'Append some text to variable "%1".';
-
-    Blockly.Msg.LANG_TEXT_LENGTH_HELPURL = 'https://docs.makeroid.io/blocks/text.html#length';
-    Blockly.Msg.LANG_TEXT_LENGTH_INPUT_LENGTH = 'length';
-    Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = 'Returns number of letters (including spaces)\n' +
-        'in the provided text.';
-
-    Blockly.Msg.LANG_TEXT_ISEMPTY_HELPURL = 'https://docs.makeroid.io/blocks/text.html#isempty';
-    Blockly.Msg.LANG_TEXT_ISEMPTY_INPUT_ISEMPTY = 'is empty';
-    Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = 'Returns true if the length of the\n' + 'text is 0, false otherwise.';
-
-    Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
+    Blockly.Msg.LANG_MATH_TRIG_COS = 'cos';
+    Blockly.Msg.LANG_MATH_TRIG_SIN = 'sin';
+    Blockly.Msg.LANG_MATH_TRIG_TAN = 'tan';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ACOS = 'Fournit l\'angle dans l\'intervalle [0, 180)\ndegrés avec la valeur cosinus donnée.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ASIN = 'Fournit l\'angle dans l\'intervalle  (-90,+90]\ndegrés avec la valeur sinus donnée.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN = 'Fournit l\'angle dans l\'intervalle (-90, 90) \ndegrés avec la valeur de la tangente donnée.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN2 = 'Fournit l\'angle dans l\'intervalle (-180, 180]\ndegrés avec les coordonnées rectangulaires donnés.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_COS = 'Fournit le cosinus de l\'angle donné en degrés';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_SIN = 'Fournit le sinus de l\'angle donné en degrés';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_TAN = 'Renvoie la tangente de l\'angle en degrés.';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL = 'appeler ';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_COLLAPSED_PREFIX = 'appeler ';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE = 'procédure';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TOOLTIP = 'Appeler une procédure sans retour de valeur.';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'Appeler sans retour';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_CALL = '';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = 'appeler ';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_PROCEDURE = '';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TOOLTIP = 'Appeler une procédure avec une valeur de retour.';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TRANSLATED_NAME = 'retour d\'appel';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_COLLAPSED_PREFIX = 'à';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = 'à';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO = 'faire';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE = 'procédure';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = 'Une procédure qui ne retourne pas de valeur.';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_COLLAPSED_PREFIX = 'à';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DEFINE = 'à';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DO = '';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_PROCEDURE = '';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_RETURN = 'résultat';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_TOOLTIP = 'Une procédure qui retourne une valeur résultat.';
+    Blockly.Msg.LANG_PROCEDURES_DEF_DUPLICATE_WARNING = 'Avertissement:\nCette procédure a\ndeux entrées dupliquées.';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_COLLAPSED_TEXT = 'faire/résultat';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_DO = 'faire';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_RETURN = 'résultat';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_THEN_RETURN = 'résultat';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_TOOLTIP = 'Exécute les blocs dans la partie \'faire\' et retourne un résultat. Pratique si vous avez besoin d\'exécuter une procédure avant de retourner une valeur à une variable.';
+    Blockly.Msg.LANG_PROCEDURES_HIGHLIGHT_DEF = 'Procédure en surbrillance';
+    Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TITLE = 'entrée :';
+    Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TOOLTIP = '';
+    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TITLE = 'entrées';
+    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TOOLTIP = '';
+    Blockly.Msg.LANG_TEXT_APPEND_APPENDTEXT = 'ajouter le texte';
+    Blockly.Msg.LANG_TEXT_APPEND_TO = 'à';
+    Blockly.Msg.LANG_TEXT_APPEND_TOOLTIP = 'Ajoute du texte à la variable "%1".';
+    Blockly.Msg.LANG_TEXT_APPEND_VARIABLE = 'élément';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_DOWNCASE = 'minuscule';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'majuscule';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_DOWNCASE = 'Retourne une copie de sa chaine de caractère en argument convertie en minuscule.';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_UPPERCASE = 'Retourne une copie de sa chaine de caractère en argument convertie en majuscule.';
     Blockly.Msg.LANG_TEXT_COMPARE_EQUAL = ' =';
     Blockly.Msg.LANG_TEXT_COMPARE_GT = ' >';
-    Blockly.Msg.LANG_TEXT_COMPARE_HELPURL = 'https://docs.makeroid.io/blocks/text.html#compare';
-    Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = 'compare texts';
-    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = 'Tests whether text1 is lexicographically less than text2.\n'
-        + 'if one text is the prefix of the other, the shorter text is\n'
-        + 'considered smaller. Uppercase characters precede lowercase characters.';
-    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_EQUAL = 'Tests whether text strings are identical, ie., have the same\n'
-        + 'characters in the same order. This is different from ordinary =\n'
-        + 'in the case where the text strings are numbers: 123 and 0123 are =\n'
-        + 'but not text =.';
-    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_GT = 'Reports whether text1 is lexicographically greater than text2.\n'
-        + 'if one text is the prefix of the other, the shorter text is considered smaller.\n'
-        + 'Uppercase characters precede lowercase characters.';
-    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_TOOLTIP = "Produces text, like a text block.  The difference is that the \n"
-        + "text is not easily discoverable by examining the app's APK.  Use this when creating apps \n"
-        + "to distribute that include confidential information, for example, API keys.  \n"
-        + "Warning: This provides only very low security against expert adversaries.";
-    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE = 'Obfuscated Text';
-    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_HELPURL = 'https://docs.makeroid.io/blocks/text.html#obfuscatetext';
-
-    /*Blockly.Msg.LANG_TEXT_ENDSTRING_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_TEXT_ENDSTRING_INPUT = 'letters in text';
-     Blockly.Msg.LANG_TEXT_ENDSTRING_TOOLTIP = 'Returns specified number of letters at the beginning or end of the text.';
-     Blockly.Msg.LANG_TEXT_ENDSTRING_OPERATOR_FIRST = 'first';
-     Blockly.Msg.LANG_TEXT_ENDSTRING_OPERATOR_LAST = 'last';*/
-
-    /*Blockly.Msg.LANG_TEXT_INDEXOF_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_TEXT_INDEXOF_TITLE_FIND = 'find';
-     Blockly.Msg.LANG_TEXT_INDEXOF_INPUT_OCCURRENCE = 'occurrence of text';
-     Blockly.Msg.LANG_TEXT_INDEXOF_INPUT_INTEXT = 'in text';
-     Blockly.Msg.LANG_TEXT_INDEXOF_TOOLTIP = 'Returns the index of the first/last occurrence\n' +
-     'of first text in the second text.\n' +
-     'Returns 0 if text is not found.';
-     Blockly.Msg.LANG_TEXT_INDEXOF_OPERATOR_FIRST = 'first';
-     Blockly.Msg.LANG_TEXT_INDEXOF_OPERATOR_LAST = 'last';*/
-
-    /*Blockly.Msg.LANG_TEXT_CHARAT_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_TEXT_CHARAT_INPUT_AT = 'letter at';
-     Blockly.Msg.LANG_TEXT_CHARAT_INPUT_INTEXT = 'in text';
-     Blockly.Msg.LANG_TEXT_CHARAT_TOOLTIP = 'Returns the letter at the specified position.';*/
-
-    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'upcase';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_DOWNCASE = 'downcase';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_UPPERCASE = 'Returns a copy of its text string argument converted to uppercase.';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_UPPERCASE = 'https://docs.makeroid.io/blocks/text.html#upcase';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_DOWNCASE = 'Returns a copy of its text string argument converted to lowercase.';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_DOWNCASE = 'https://docs.makeroid.io/blocks/text.html#downcase';
-
-    Blockly.Msg.LANG_TEXT_TRIM_HELPURL = 'https://docs.makeroid.io/blocks/text.html#trim';
-    Blockly.Msg.LANG_TEXT_TRIM_TITLE_TRIM = 'trim';
-    Blockly.Msg.LANG_TEXT_TRIM_TOOLTIP = 'Returns a copy of its text string arguments with any\n'
-        + 'leading or trailing spaces removed.';
-
-    Blockly.Msg.LANG_TEXT_STARTS_AT_HELPURL = 'https://docs.makeroid.io/blocks/text.html#startsat';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = 'starts at';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_PIECE = 'piece';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT = 'starts at  text %1 piece %2';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_TOOLTIP = 'Returns the starting index of the piece in the text.\n'
-        + 'where index 1 denotes the beginning of the text. Returns 0 if the\n'
-        + 'piece is not in the text.';
-
-    Blockly.Msg.LANG_TEXT_CONTAINS_HELPURL = 'https://docs.makeroid.io/blocks/text.html#contains';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_CONTAINS = 'contains';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_PIECE = 'piece';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = 'contains  text %1 piece %2';
-    Blockly.Msg.LANG_TEXT_CONTAINS_TOOLTIP = 'Tests whether the piece is contained in the text.';
-
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL = '';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT = 'at';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT_LIST = 'at (list)';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST = 'split at first';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST_OF_ANY = 'split at first of any';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT = 'split';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_ANY = 'split at any';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST = 'Divides the given text into two pieces using the location of the first occurrence of \n'
-        + 'the text \'at\' as the dividing point, and returns a two-item list consisting of the piece \n'
-        + 'before the dividing point and the piece after the dividing point. \n'
-        + 'Splitting "apple,banana,cherry,dogfood" with a comma as the splitting point \n'
-        + 'returns a list of two items: the first is the text "apple" and the second is the text \n'
-        + '"banana,cherry,dogfood". \n'
-        + 'Notice that the comma after "apple" does not appear in the result, \n'
-        + 'because that is the dividing point.';
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST = 'https://docs.makeroid.io/blocks/text.html#splitat';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST_OF_ANY = 'Divides the given text into a two-item list, using the first location of any item \n'
-        + 'in the list \'at\' as the dividing point. \n\n'
-        + 'Splitting "I love apples bananas apples grapes" by the list "(ba,ap)" returns \n'
-        + 'a list of two items, the first being "I love" and the second being \n'
-        + '"ples bananas apples grapes."';
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST_OF_ANY = 'https://docs.makeroid.io/blocks/text.html#splitatfirstofany';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT = 'Divides text into pieces using the text \'at\' as the dividing points and produces a list of the results.  \n'
-        + 'Splitting "one,two,three,four" at "," (comma) returns the list "(one two three four)". \n'
-        + 'Splitting "one-potato,two-potato,three-potato,four" at "-potato", returns the list "(one two three four)".';
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT = 'https://docs.makeroid.io/blocks/text.html#split';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_ANY = 'Divides the given text into a list, using any of the items in the list \'at\' as the \n'
-        + 'dividing point, and returns a list of the results. \n'
-        + 'Splitting "appleberry,banana,cherry,dogfood" with \'at\' as the two-element list whose \n'
-        + 'first item is a comma and whose second item is "rry" returns a list of four items: \n'
-        + '"(applebe banana che dogfood)".';
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_ANY = 'https://docs.makeroid.io/blocks/text.html#splitatany';
-
-    /*.LANG_TEXT_PRINT_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode91.html';
-     Blockly.Msg.LANG_TEXT_PRINT_TITLE_PRINT = 'print';
-     Blockly.Msg.LANG_TEXT_PRINT_TOOLTIP = 'Print the specified text, number or other value.';*/
-
-    /*Blockly.Msg.LANG_TEXT_PROMPT_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode92.html';
-     Blockly.Msg.LANG_TEXT_PROMPT_TITLE_PROMPT_FOR = 'prompt for';
-     Blockly.Msg.LANG_TEXT_PROMPT_TITILE_WITH_MESSAGE = 'with message';
-     Blockly.Msg.LANG_TEXT_PROMPT_TOOLTIP = 'Prompt for user input with the specified text.';
-     Blockly.Msg.LANG_TEXT_PROMPT_TYPE_TEXT = 'text';
-     Blockly.Msg.LANG_TEXT_PROMPT_TYPE_NUMBER = 'number';*/
-
-    Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_HELPURL = 'https://docs.makeroid.io/blocks/text.html#splitspaces';
-    Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_TITLE = 'split at spaces';
-    Blockly.Msg.LANG_TEXT_SPLIT_AT_TOOLTIP = 'Split the text into pieces separated by spaces.';
-
-    Blockly.Msg.LANG_TEXT_SEGMENT_HELPURL = 'https://docs.makeroid.io/blocks/text.html#segment';
-    Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = 'segment';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'start';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'length';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT = 'segment  text %1 start %2 length %3';
-    Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Extracts the segment of the given length from the given text\n'
-        + 'starting from the given text starting from the given position. Position\n'
-        + '1 denotes the beginning of the text.';
-
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_HELPURL = 'https://docs.makeroid.io/blocks/text.html#replaceall';
+    Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = 'comparer textes';
+    Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_EQUAL = 'Teste si les chaines de caractères sont identiques, c-à-d, ont les mêmes\ncaractères dans le même ordre. Ceci est différent du = ordinaire\ndans le case où les chaines sont des nombres: 123 et 0123 sont égales\nmais pas en tant que texte.';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_GT = 'Rapporte si text1 est supérieur à texte2 d\'une façon lexicographique.\n Si un texte est le préfixe de l\'autre, le texte le plus court est considéré plus petit.\nLes caractères en majuscules précèdent les caractères en minuscules.';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = 'Teste si text1 est inférieur à text2 (d\'une façon lexicographique).\nSi un texte est le préfixe de l\'autre, le texte le plus court est\nconsidéré comme plus petit. Les caractères en majuscules précèdent les caractères en minuscules.';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = 'contient       texte %1 sous-chaine %2';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_CONTAINS = 'contient';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_PIECE = 'sous-chaine';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'texte';
+    Blockly.Msg.LANG_TEXT_CONTAINS_TOOLTIP = 'Teste si la sous-chaine se trouve dans le texte';
+    Blockly.Msg.LANG_TEXT_ISEMPTY_INPUT_ISEMPTY = 'est vide';
+    Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = 'Retourne vrai si la taille du\ntexte est 0, sinon retourne faux.';
+    Blockly.Msg.LANG_TEXT_JOIN_ITEM_TITLE_ITEM = 'chaîne de caractères';
+    Blockly.Msg.LANG_TEXT_JOIN_ITEM_TOOLTIP = '';
+    Blockly.Msg.LANG_TEXT_JOIN_TITLE_CREATEWITH = 'créer un texte avec';
+    Blockly.Msg.LANG_TEXT_JOIN_TITLE_JOIN = 'joint';
+    Blockly.Msg.LANG_TEXT_JOIN_TOOLTIP = 'Joindre toutes les entrées pour former une seule chaine de caractère.\nS\'il n\'y a aucunes entrées, créé un texte vide.';
+    Blockly.Msg.LANG_TEXT_LENGTH_INPUT_LENGTH = 'longueur';
+    Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = 'Retourne le nombre de caractères (espaces inclus)\ndans le texte donnée.';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT = 'remplacer tout texte %1 segment %2 remplacent  %3';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_REPLACEMENT = 'remplacent';
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_SEGMENT = 'segment';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TITLE_REPLACE_ALL = 'replace all';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_REPLACEMENT = 'replacement';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT = 'replace all text %1 segment %2 replacement %3';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TOOLTIP = 'Returns a new text obtained by replacing all occurrences\n'
-        + 'of the segment with the replacement.';
-
-    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#isstring';
-    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TITLE = 'is string?';
-    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TOOLTIP = 'Returns true if input is a string.';
-
-// Lists Blocks.
-    Blockly.Msg.LANG_CATEGORY_LISTS = 'Lists';
-//Blockly.Msg.LANG_LISTS_CREATE_EMPTY_HELPURL = 'http://en.wikipedia.org/wiki/Linked_list#Empty_lists';
-    Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TITLE = 'create empty list';
-//Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TOOLTIP = 'Returns a list, of length 0, containing no data records';
-
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_EMPTY_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#makealist';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_TITLE_MAKE_LIST = 'make a list';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_TOOLTIP = 'Create a list with any number of items.';
-
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = 'list';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TOOLTIP = 'Add, remove, or reorder sections to reconfigure this list block.';
-
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TITLE = 'item';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TOOLTIP = 'Add an item to the list.';
-
-    Blockly.Msg.LANG_LISTS_ADD_ITEM_TITLE = 'item';
-    Blockly.Msg.LANG_LISTS_ADD_ITEM_TOOLTIP = 'Add an item to the list.';
-    Blockly.Msg.LANG_LISTS_ADD_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#additems';
-
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#selectlistitem';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_SELECT = 'select list item';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT = 'select list item  list %1 index %2';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TOOLTIP = 'Returns the item at position index in the list.';
-
-    Blockly.Msg.LANG_LISTS_IS_IN_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#inlist';
-    Blockly.Msg.LANG_LISTS_IS_IN_TITLE_IS_IN = 'is in list?';
-    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_THING = 'thing';
-    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_IS_IN_INPUT = 'is in list? thing %1 list %2'
-    Blockly.Msg.LANG_LISTS_IS_IN_TOOLTIP = 'Returns true if the the thing is an item in the list, and '
-        + 'false if not.';
-
-    Blockly.Msg.LANG_LISTS_POSITION_IN_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#indexinlist';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_TITLE_POSITION = 'index in list';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_THING = 'thing';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT = 'index in list  thing %1 list %2';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_TOOLTIP = 'Find the position of the thing in the list. If it\'s not in '
-        + 'the list, return 0.';
-
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#pickrandomitem';
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TITLE_PICK_RANDOM = 'pick a random item';
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = 'Pick an item at random from the list.';
-
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#replace';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TITLE_REPLACE = 'replace list item';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_REPLACEMENT = 'replacement';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT = 'replace list item  list %1 index %2 replacement %3';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TOOLTIP = 'Replaces the nth item in a list.';
-
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#removeitem';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TITLE_REMOVE = 'remove list item';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT = 'remove list item  list %1 index %2';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TOOLTIP = 'Removes the item at the specified position from the list.';
-
-    /*Blockly.Msg.LANG_LISTS_REPEAT_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_LISTS_REPEAT_TITLE_CREATE = 'create list with item';
-     Blockly.Msg.LANG_LISTS_REPEAT_INPUT_REPEATED = 'repeated';
-     Blockly.Msg.LANG_LISTS_REPEAT_INPUT_TIMES = 'times';
-     Blockly.Msg.LANG_LISTS_REPEAT_TOOLTIP = 'Creates a list consisting of the given value\n' +
-     'repeated the specified number of times.';*/
-
-    Blockly.Msg.LANG_LISTS_LENGTH_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#lengthoflist';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LENGTH = 'length of list';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT = 'length of list list %1';
-    Blockly.Msg.LANG_LISTS_LENGTH_TOOLTIP = 'Counts the number of items in a list.';
-
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#append';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_TITLE_APPEND = 'append to list';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = 'list1';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = 'list2';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT = 'append to list  list1 %1 list2 %2';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_TOOLTIP = 'Appends all the items in list2 onto the end of list1. After '
-        + 'the append, list1 will include these additional elements, but list2 will be unchanged.';
-
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#additems';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_TITLE_ADD = 'add items to list';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_LIST = ' list';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_ITEM = 'item';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT = 'add items to list list %1 item %2';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_TOOLTIP = 'Adds items to the end of a list.';
-
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TITLE_ADD = 'list';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TOOLTIP = 'Add, remove, or reorder sections to reconfigure this list block.';
-
-    Blockly.Msg.LANG_LISTS_COPY_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#copy';
-    Blockly.Msg.LANG_LISTS_COPY_TITLE_COPY = 'copy list';
-    Blockly.Msg.LANG_LISTS_COPY_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_COPY_TOOLTIP = 'Makes a copy of a list, including copying all sublists';
-
-    Blockly.Msg.LANG_LISTS_IS_LIST_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#isalist';
-    Blockly.Msg.LANG_LISTS_IS_LIST_TITLE_IS_LIST = 'is a list?';
-    Blockly.Msg.LANG_LISTS_IS_LIST_INPUT_THING = 'thing';
-    Blockly.Msg.LANG_LISTS_IS_LIST_TOOLTIP = 'Tests if something is a list.';
-
-    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#listtocsvrow';
-    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TITLE_TO_CSV = 'list to csv row';
-    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TOOLTIP = 'Interprets the list as a row of a table and returns a CSV '
-        + '\(comma-separated value\) text representing the row. Each item in the row list is '
-        + 'considered to be a field, and is quoted with double-quotes in the resulting CSV text. '
-        + 'Items are separated by commas. The returned row text does not have a line separator at '
-        + 'the end.';
-
-    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#listfromcsvrow';
-    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TITLE_FROM_CSV = 'list from csv row';
-    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TOOLTIP = 'Parses a text as a CSV \(comma-separated value\) formatted '
-        + 'row to produce a list of fields. It is an error for the row text to contain unescaped '
-        + 'newlines inside fields \(effectively, multiple lines\). It is okay for the row text to '
-        + 'end in a single newline or CRLF.';
-
-    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#listtocsvtable';
-    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TITLE_TO_CSV = 'list to csv table';
-    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TOOLTIP = 'Interprets the list as a table in row-major format and '
-        + 'returns a CSV \(comma-separated value\) text representing the table. Each item in the '
-        + 'list should itself be a list representing a row of the CSV table. Each item in the row '
-        + 'list is considered to be a field, and is quoted with double-quotes in the resulting CSV '
-        + 'text. In the returned text, items in rows are separated by commas and rows are '
-        + 'separated by CRLF \(\\r\\n\).';
-
-    Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#listfromcsvtable';
-    Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_TITLE_FROM_CSV = 'list from csv table';
-    Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_TOOLTIP = 'Parses a text as a CSV \(comma-separated value\) formatted '
-        + 'table to produce a list of rows, each of which is a list of fields. Rows can be '
-        + 'separated by newlines \(\\n\) or CRLF \(\\r\\n\).';
-
-    Blockly.Msg.LANG_LISTS_INSERT_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#insert';
-    Blockly.Msg.LANG_LISTS_INSERT_TITLE_INSERT_LIST = 'insert list item';
-    Blockly.Msg.LANG_LISTS_INSERT_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_INSERT_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_INSERT_INPUT_ITEM = 'item';
-    Blockly.Msg.LANG_LISTS_INSERT_INPUT = 'insert list item  list %1 index %2 item %3';
-    Blockly.Msg.LANG_LISTS_INSERT_TOOLTIP = 'Insert an item into a list at the specified position.';
-
-    Blockly.Msg.LANG_LISTS_IS_EMPTY_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#islistempty';
-    Blockly.Msg.LANG_LISTS_TITLE_IS_EMPTY = 'is list empty?';
-    Blockly.Msg.LANG_LISTS_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_IS_EMPTY_TOOLTIP = 'Returns true if the list is empty.';
-
-    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#lookuppairs';
-    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_TITLE_LOOKUP_IN_PAIRS = 'look up in pairs';
-    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT_KEY = 'key';
-    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT_PAIRS = 'pairs';
-    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT_NOT_FOUND = 'notFound';
-    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT = 'look up in pairs  key %1 pairs %2 notFound %3';
-    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_TOOLTIP = 'Returns the value associated with the key in the list of pairs';
-
-    /*Blockly.Msg.LANG_LISTS_INDEX_OF_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_LISTS_INDEX_OF_TITLE_FIND = 'find';
-     Blockly.Msg.LANG_LISTS_INDEX_OF_INPUT_OCCURRENCE = 'occurrence of item';
-     Blockly.Msg.LANG_LISTS_INDEX_OF_INPUT_IN_LIST = 'in list';
-     Blockly.Msg.LANG_LISTS_INDEX_OF_TOOLTIP = 'Returns the index of the first/last occurrence\n' +
-     'of the item in the list.\n' +
-     'Returns 0 if text is not found.';
-     Blockly.Msg.LANG_LISTS_INDEX_OF_FIRST = 'first';
-     Blockly.Msg.LANG_LISTS_INDEX_OF_LAST = 'last';
-
-     Blockly.Msg.LANG_LISTS_GET_INDEX_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_LISTS_GET_INDEX_TITLE_GET = 'get item at';
-     Blockly.Msg.LANG_LISTS_GET_INDEX_INPUT_IN_LIST = 'in list';
-     Blockly.Msg.LANG_LISTS_GET_INDEX_TOOLTIP = 'Returns the value at the specified position in a list.';
-
-     Blockly.Msg.LANG_LISTS_SET_INDEX_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_SET = 'set item at';
-     Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_IN_LIST = 'in list';
-     Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_TO = 'to';
-     Blockly.Msg.LANG_LISTS_SET_INDEX_TOOLTIP = 'Sets the value at the specified position in a list.';*/
-
-// Variables Blocks.
-    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#global';
-    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TITLE_INIT = 'initialize global';
-    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_NAME = 'name';
-    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TO = 'to';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_TEXT = 'texte';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TITLE_REPLACE_ALL = 'tout remplacer';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TOOLTIP = 'Retourne un nouveau texte obtenu par le remplacement de toutes les occurrences\ndu segment avec le remplacent';
+    Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Extraits le segment de la taille donnée à partir du texte donné\nen commençant du texte donnée à partir de la position donnée. Position\n1 donne le début du texte.';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT = 'segment       texte %1 début %2 taille %3';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'longueur';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'début';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'texte';
+    Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = 'segment';
+    Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_TITLE = 'diviser aux espaces';
+    Blockly.Msg.LANG_TEXT_SPLIT_AT_TOOLTIP = 'Diviser le texte en sous-chaines séparées par des espaces.';
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT = 'à';
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT_LIST = 'à (liste)';
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_TEXT = 'texte';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT = 'diviser';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_ANY = 'diviser à n\'importe';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST = 'diviser au début';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST_OF_ANY = 'diviser au début de n\'importe';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT = 'Divise le texte en sous-chaines en utilisant le texte \'à\' comme point de division et produit une liste\nde résultats. Diviser "one,two,three,four" à "," (virgule) retourne la liste "(one two three four)". \nDiviser "one-potato,two-potato,three-potato,four" à "-potato", retourne la liste "(one two three four)".';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_ANY = 'Divise le texte donné dans une liste, en utilisant n\'importe quels éléments dans la liste, \'à\' est le point de division, et retourne une liste de résultats.\nDiviser "appleberry,banana,cherry,dogfood" avec \'à\' contient une liste à deux éléments qui sont\nla virgule et "rry" va retourner une liste à 4 éléments: "(applebe banana che dogfood)".';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST = 'Divise le texte donné en deux partie en utilisant la position de la première occurrence du\ntexte \'à\' comme point de division, et retourne une liste à deux éléments consistant en la sous-chaine\navant le point de division et la sous-chaine d\'après.\nDiviser "apple,banana,cherry,dogfood" avec la virgule comme point de division retourne\nune liste de deux éléments: le premier est le texte  "apple" et le deuxième est le texte\n"banana,cherry,dogfood". \nNotez que la virgule après "apple" n\'apparaît pas dans le résultat,\n parce que c\'est le point diviseur.';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST_OF_ANY = 'Divise le texte donné en deux éléments de liste, en utilisant la première position de n\'importe\nquel élément dans la liste \'à\' comme point de division\n\nDiviser "I love apples bananas apples grapes" par la liste "(ba,ap)" retourne \nune liste de deux éléments, le premier est  "I love" et le deuxième est\n "ples bananas apples grapes."';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT = 'Commence à      texte %1 sous-chaine %2';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_PIECE = 'sous-chaine';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = 'commence avec';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = 'texte';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_TOOLTIP = 'Retourne l\'index de début de la sous-chaine dans le texte\noù index 1 indique le début du texte. Retourne 0 si la\nsous-chaine n\'est pas dans le texte.';
+    Blockly.Msg.LANG_TEXT_TEXT_LEFT_QUOTE = '\u201C';
+    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE = 'Texte masqué';
+    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_TOOLTIP = 'Produit un texte';
+    Blockly.Msg.LANG_TEXT_TEXT_RIGHT_QUOTE = '\u201D';
+    Blockly.Msg.LANG_TEXT_TEXT_TOOLTIP = 'Une chaine de caractère';
+    Blockly.Msg.LANG_TEXT_TRIM_TITLE_TRIM = 'couper';
+    Blockly.Msg.LANG_TEXT_TRIM_TOOLTIP = 'Retourne une copie de ses arguments textes avec\nla suppression des espaces de début et de fin.\' ';
+    Blockly.Msg.LANG_VARIABLES_GET_COLLAPSED_TEXT = 'obtenir';
+    Blockly.Msg.LANG_VARIABLES_GET_TITLE_GET = 'obtenir';
+    Blockly.Msg.LANG_VARIABLES_GET_TOOLTIP = 'Retourne la valeur de cette variable.';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_COLLAPSED_TEXT = 'global';
-    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TOOLTIP = 'Creates a global variable and gives it the value of the attached blocks.';
-
-    Blockly.Msg.LANG_VARIABLES_GET_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#get';
-    Blockly.Msg.LANG_VARIABLES_GET_TITLE_GET = 'get';
-    /* Blockly.Msg.LANG_VARIABLES_GET_INPUT_ITEM = 'item'; */ // [lyn, 10/14/13] unused
-    Blockly.Msg.LANG_VARIABLES_GET_COLLAPSED_TEXT = 'get';
-    Blockly.Msg.LANG_VARIABLES_GET_TOOLTIP = 'Returns the value of this variable.';
-
-    Blockly.Msg.LANG_VARIABLES_SET_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#set';
-    Blockly.Msg.LANG_VARIABLES_SET_TITLE_SET = 'set';
-    /* Blockly.Msg.LANG_VARIABLES_SET_INPUT_ITEM = 'item'; */ // [lyn, 10/14/13] unused
-    Blockly.Msg.LANG_VARIABLES_SET_TITLE_TO = 'to';
-    Blockly.Msg.LANG_VARIABLES_SET_COLLAPSED_TEXT = 'set';
-    Blockly.Msg.LANG_VARIABLES_SET_TOOLTIP = 'Sets this variable to be equal to the input.';
-    Blockly.Msg.LANG_VARIABLES_VARIABLE = ' variable';
-
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#do';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TITLE_INIT = 'initialize local';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_DEFAULT_NAME = 'name';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_INPUT_TO = 'to';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_IN_DO = 'in';
+    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_NAME = 'nom';
+    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TITLE_INIT = 'initialise global';
+    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TO = 'à';
+    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TOOLTIP = 'Créé une variable globale et lui donne la valeur du bloc attaché ';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_COLLAPSED_TEXT = 'local';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TOOLTIP = 'Allows you to create variables that are only accessible in the do part of this block.';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TRANSLATED_NAME = 'initialize local in do';
-
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#return';
-    /* // These don't differ between the statement and expression
-     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TITLE_INIT = 'initialize local';
-     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_INPUT_NAME = 'name';
-     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_INPUT_TO = 'to';
-     */
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_IN_RETURN = 'in';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_DEFAULT_NAME = 'nom';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_COLLAPSED_TEXT = 'local';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TOOLTIP = 'Allows you to create variables that are only accessible in the return part of this block.';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TRANSLATED_NAME = 'initialize local in return';
-
-    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TITLE_LOCAL_NAMES = 'local names';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TOOLTIP = '';
-
-    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_ARG_TITLE_NAME = 'name';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_IN_RETURN = 'dans';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TOOLTIP = 'Vous permet de créer des variables qui sont accessibles uniquement dans la partie retour de ce bloc.';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TRANSLATED_NAME = 'initialise local en retour';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_INPUT_TO = 'à';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_IN_DO = 'dans';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TITLE_INIT = 'initialise local';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TOOLTIP = 'Vous permet de créer des variables qui sont uniquement accessibles dans la partie faire de ce bloc.';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TRANSLATED_NAME = 'initialise local dans faire?';
     Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_ARG_DEFAULT_VARIABLE = 'x';
-
-// Procedures Blocks.
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#do';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = 'to';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE = 'procedure';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO = 'do';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_COLLAPSED_PREFIX = 'to ';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = 'A procedure that does not return a value.';
-
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#doreturn';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_THEN_RETURN = 'result';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_DO = 'do';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_RETURN = 'result';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_TOOLTIP = 'Runs the blocks in \'do\' and returns a statement. Useful if you need to run a procedure before returning a value to a variable.';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_COLLAPSED_TEXT = 'do/result';
-
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#return';
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DEFINE = 'to';
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_PROCEDURE = Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE;
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DO = Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO;
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_RETURN = 'result';
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_COLLAPSED_PREFIX = 'to ';
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_TOOLTIP = 'A procedure returning a result value.';
-
-    Blockly.Msg.LANG_PROCEDURES_DEF_DUPLICATE_WARNING = 'Warning:\n' +
-        'This procedure has\n' +
-        'duplicate inputs.';
-
-    Blockly.Msg.LANG_PROCEDURES_GET_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#get';
-
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#do';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL = 'call ';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE = 'procedure';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_COLLAPSED_PREFIX = 'call ';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TOOLTIP = 'Call a procedure with no return value.';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'call no return';
-
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#return';
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_CALL = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL;
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_PROCEDURE = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE;
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = 'call ';
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TOOLTIP = 'Call a procedure with a return value.';
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TRANSLATED_NAME = 'call return';
-
-    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TITLE = 'inputs';
-    Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TITLE = 'input:';
-
-    Blockly.Msg.LANG_PROCEDURES_HIGHLIGHT_DEF = 'Highlight Procedure';
-
-    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TOOLTIP = '';
-    Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TOOLTIP = '';
-
-// Components Blocks.
-    Blockly.Msg.UNDEFINED_BLOCK_TOOLTIP = "This block is not defined. Delete this block!";
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_WHEN = 'when ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_DO = 'do';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'call ';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_CALL = 'call ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'for component';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GETTER_HELPURL = '';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'of component';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_SET = 'set ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_TO = ' to';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'set ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' to';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'of component';
-
-///////////////////
-    /* HelpURLs for Component Blocks */
-
-//User Interface Components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_HELPURL = '/components/user-interface/Button';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_PROPERTIES_HELPURL = '/components/user-interface/buttonproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_EVENTS_HELPURL = '/components/user-interface/buttonevents';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_HELPURL = '/components/user-interface/CheckBox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_PROPERTIES_HELPURL = '/components/user-interface/checkboxproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_EVENTS_HELPURL = '/components/user-interface/checkboxevents';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_HELPURL = '/components/sensors/Clock';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_PROPERTIES_HELPURL = '/components/sensors/Clock';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_EVENTS_HELPURL = '/components/sensors/Clock';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_METHODS_HELPURL = '/components/sensors/Clock';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_HELPURL = '/components/user-interface/Image';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_PROPERTIES_HELPURL = '/components/user-interface/imageproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_EVENTS_HELPURL = '/components/user-interface/imageevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_METHODS_HELPURL = '/components/user-interface/imagemethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_HELPURL = '/components/user-interface/Label';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_PROPERTIES_HELPURL = '/components/user-interface/labelproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_EVENTS_HELPURL = '/components/user-interface/labelevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_METHODS_HELPURL = '/components/user-interface/labelmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_HELPURL = '/components/user-interface/ListPicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_PROPERTIES_HELPURL = '/components/user-interface/listpickerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_EVENTS_HELPURL = '/components/user-interface/listpickerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_METHODS_HELPURL = '/components/user-interface/listpickermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_HELPURL = "/components/user-interface/Notifier";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_PROPERTIES_HELPURL = '/components/user-interface/notifierproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_EVENTS_HELPURL = '/components/user-interface/notifierevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_METHODS_HELPURL = '/components/user-interface/notifiermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PASSWORDTEXTBOX_HELPURL = '/components/user-interface/PasswordTextBox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PASSWORDTEXTBOX_PROPERTIES_HELPURL = '/components/user-interface/pwdboxproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PASSWORDTEXTBOX_EVENTS_HELPURL = '/components/user-interface/pwdboxevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PASSWORDTEXTBOX_METHODS_HELPURL = '/components/user-interface/pwdboxmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_HELPURL = '/components/user-interface/Screen';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_PROPERTIES_HELPURL = '/components/user-interface/screenproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_EVENTS_HELPURL = '/components/user-interface/screenevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_METHODS_HELPURL = '/components/user-interface/screenmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_HELPURL = '/components/user-interface/Slider';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_PROPERTIES_HELPURL = '/components/user-interface/sliderproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_EVENTS_HELPURL = '/components/user-interface/sliderevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_METHODS_HELPURL = '/components/user-interface/slidermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_HELPURL = '/components/user-interface/TextBox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_PROPERTIES_HELPURL = '/components/user-interface/textboxproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_EVENTS_HELPURL = '/components/user-interface/textboxevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_METHODS_HELPURL = '/components/user-interface/textboxmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_HELPURL = "/components/user-interface/WebViewer";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_PROPERTIES_HELPURL = '/components/user-interface/webviewerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_EVENTS_HELPURL = '/components/user-interface/webviewerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_METHODS_HELPURL = '/components/user-interface/webviewermethods';
-
-//Layout components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZARRANGE_HELPURL = "/components/layout/HorizontalArrangement";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZARRANGE_PROPERTIES_HELPURL = '/components/layout/horizarrangeproperties';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTARRANGE_HELPURL = "/components/layout/VerticalArrangement";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTARRANGE_PROPERTIES_HELPURL = '/components/layout/vertarrangeproperties';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TABLEARRANGE_HELPURL = "/components/layout/TableArrangement";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TABLEARRANGE_PROPERTIES_HELPURL = '/components/layout/tablearrangeproperties';
-
-//Media components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_HELPURL = '/components/media/Camcorder';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_PROPERTIES_HELPURL = '/components/media/camcorderproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_EVENTS_HELPURL = '/components/media/camcorderevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_METHODS_HELPURL = '/components/media/camcordermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_HELPURL = '/components/media/Camera';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_PROPERTIES_HELPURL = '/components/media/cameraproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_EVENTS_HELPURL = '/components/media/cameraevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_METHODS_HELPURL = '/components/media/cameramethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGEPICKER_HELPURL = '/components/media/ImagePicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGEPICKER_PROPERTIES_HELPURL = '/components/media/imagepickerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGEPICKER_EVENTS_HELPURL = '/components/media/imagepickerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGEPICKER_METHODS_HELPURL = '/components/media/imagepickermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_HELPURL = '/components/media/Player';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_PROPERTIES_HELPURL = '/components/media/playerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_EVENTS_HELPURL = '/components/media/playerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_METHODS_HELPURL = '/components/media/playermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_HELPURL = '/components/media/Sound';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_PROPERTIES_HELPURL = '/components/media/soundproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_EVENTS_HELPURL = '/components/media/soundevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_METHODS_HELPURL = '/components/media/soundmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUNDRECORDER_HELPURL = "/components/media/SoundRecorder";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUNDRECORDER_PROPERTIES_HELPURL = '/components/media/soundrecorderproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUNDRECORDER_EVENTS_HELPURL = '/components/media/soundrecorderevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUNDRECORDER_METHODS_HELPURL = '/components/media/soundrecordermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECHRECOGNIZER_HELPURL = "/components/media/SpeechRecognizer";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECHRECOGNIZER_PROPERTIES_HELPURL = '/components/media/speechrecognizerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECHRECOGNIZER_EVENTS_HELPURL = '/components/media/speechrecognizerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECHRECOGNIZER_METHODS_HELPURL = '/components/media/speechrecognizermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTTOSPEECH_HELPURL = "/components/media/TextToSpeech";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTTOSPEECH_PROPERTIES_HELPURL = '/components/media/texttospeechproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTTOSPEECH_EVENTS_HELPURL = '/components/media/texttospeechevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTTOSPEECH_METHODS_HELPURL = '/components/media/texttospeechmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEOPLAYER_HELPURL = '/components/media/VideoPlayer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEOPLAYER_PROPERTIES_HELPURL = '/components/media/videoplayerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEOPLAYER_EVENTS_HELPURL = '/components/media/videoplayerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEOPLAYER_METHODS_HELPURL = '/components/media/videoplayermethods';
-
-// Drawing and Animation components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_HELPURL = "/components/drawing-and-animation/Ball";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_PROPERTIES_HELPURL = '/components/drawing-and-animation/ballproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_EVENTS_HELPURL = '/components/drawing-and-animation/ballevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_METHODS_HELPURL = '/components/drawing-and-animation/ballmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_HELPURL = '/components/drawing-and-animation/Canvas';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_PROPERTIES_HELPURL = '/components/drawing-and-animation/canvasproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_EVENTS_HELPURL = '/components/drawing-and-animation/canvasevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_METHODS_HELPURL = '/components/drawing-and-animation/canvasmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGESPRITE_HELPURL = "/components/drawing-and-animation/ImageSprite";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGESPRITE_PROPERTIES_HELPURL = '/components/drawing-and-animation/imagespriteproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGESPRITE_EVENTS_HELPURL = '/components/drawing-and-animation/imagespriteevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGESPRITE_METHODS_HELPURL = '/components/drawing-and-animation/imagespritemethods';
-
-//Sensor components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETERSENSOR_HELPURL = "/components/sensors/AccelerometerSensor";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETERSENSOR_PROPERTIES_HELPURL = '/components/sensors/accelerometersensorproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETERSENSOR_EVENTS_HELPURL = '/components/sensors/accelerometersensorevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETERSENSOR_METHODS_HELPURL = '/components/sensors/accelerometersensormethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODESCANNER_HELPURL = "/components/sensors/BarcodeScanner";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODESCANNER_PROPERTIES_HELPURL = '/components/sensors/barcodescannerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODESCANNER_EVENTS_HELPURL = '/components/sensors/barcodescannerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODESCANNER_METHODS_HELPURL = '/components/sensors/barcodescannermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPESENSOR_HELPURL = "/components/sensors/GyroscopeSensor";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPESENSOR_PROPERTIES_HELPURL = '/components/sensors/gyroscopesensorproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPESENSOR_EVENTS_HELPURL = '/components/sensors/gyroscopesensorevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPESENSOR_METHODS_HELPURL = '/components/sensors/gyroscopesensormethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATIONSENSOR_HELPURL = "/components/sensors/LocationSensor";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATIONSENSOR_PROPERTIES_HELPURL = '/components/sensors/locationsensorproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATIONSENSOR_EVENTS_HELPURL = '/components/sensors/locationsensorevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATIONSENSOR_METHODS_HELPURL = '/components/sensors/locationsensormethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATIONSENSOR_HELPURL = "/components/sensors/OrientationSensor";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATIONSENSOR_PROPERTIES_HELPURL = '/components/sensors/orientationsensorproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATIONSENSOR_EVENTS_HELPURL = '/components/sensors/orientationsensorevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATIONSENSOR_METHODS_HELPURL = '/components/sensors/orientationsensormethods';
-
-//Social components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACTPICKER_HELPURL = "/components/social/ContactPicker";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACTPICKER_PROPERTIES_HELPURL = '/components/social/contactpickerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACTPICKER_EVENTS_HELPURL = '/components/social/contactpickerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACTPICKER_METHODS_HELPURL = '/components/social/contactpickermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAILPICKER_HELPURL = "/components/social/EmailPicker";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAILPICKER_PROPERTIES_HELPURL = '/components/social/emailpickerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAILPICKER_EVENTS_HELPURL = '/components/social/emailpickerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAILPICKER_METHODS_HELPURL = '/components/social/emailpickermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONECALL_HELPURL = "/components/social/PhoneCall";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONECALL_PROPERTIES_HELPURL = '/components/social/phonecallproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONECALL_EVENTS_HELPURL = '/components/social/phonecallevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONECALL_METHODS_HELPURL = '/components/social/phonecallmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONENUMBERPICKER_HELPURL = "/components/social/PhoneNumberPicker";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONENUMBERPICKER_PROPERTIES_HELPURL = '/components/social/phonenumberpickerproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONENUMBERPICKER_EVENTS_HELPURL = '/components/social/phonenumberpickerevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONENUMBERPICKER_METHODS_HELPURL = '/components/social/phonenumberpickermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_HELPURL = "/components/social/Texting";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_PROPERTIES_HELPURL = '/components/social/textingproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_EVENTS_HELPURL = '/components/social/textingevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_METHODS_HELPURL = '/components/social/textingmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_HELPURL = "/components/social/Twitter";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_PROPERTIES_HELPURL = '/components/social/twitterproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_EVENTS_HELPURL = '/components/social/twitterevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_METHODS_HELPURL = '/components/social/twittermethods';
-
-//Storage Components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLESCONTROL_HELPURL = "/components/storage/FusiontablesControl";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLESCONTROL_PROPERTIES_HELPURL = '/components/storage/fusiontablescontrolproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLESCONTROL_EVENTS_HELPURL = '/components/storage/fusiontablescontrolevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLESCONTROL_METHODS_HELPURL = '/components/storage/fusiontablescontrolmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_HELPURL = '/components/storage/TinyDB';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_PROPERTIES_HELPURL = '/components/storage/tinydbproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_EVENTS_HELPURL = '/components/storage/tinydbevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_METHODS_HELPURL = '/components/storage/tinydbmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_HELPURL = "/components/storage/TinyWebDB";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_PROPERTIES_HELPURL = '/components/storage/tinywebdbproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_EVENTS_HELPURL = '/components/storage/tinywebdbevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_METHODS_HELPURL = '/components/storage/tinywebdbmethods';
-
-//Connectivity components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_HELPURL = "/components/connectivity/ActivityStarter";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_PROPERTIES_HELPURL = '/components/connectivity/activitystarterproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_EVENTS_HELPURL = '/components/connectivity/activitystarterevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_METHODS_HELPURL = '/components/connectivity/activitystartermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_HELPURL = "/components/connectivity/BluetoothClient";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_PROPERTIES_HELPURL = '/components/connectivity/bluetoothclientproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_EVENTS_HELPURL = '/components/connectivity/bluetoothclientevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_METHODS_HELPURL = '/components/connectivity/bluetoothclientmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_HELPURL = "/components/connectivity/BluetoothServer";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_PROPERTIES_HELPURL = '/components/connectivity/bluetoothserverproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_EVENTS_HELPURL = '/components/connectivity/bluetoothserverevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_METHODS_HELPURL = '/components/connectivity/bluetoothservermethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_HELPURL = "/components/connectivity/Web";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_PROPERTIES_HELPURL = '/components/connectivity/webproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_EVENTS_HELPURL = '/components/connectivity/webevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_METHODS_HELPURL = '/components/connectivity/webmethods';
-
-//Lego mindstorms components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDIRECT_HELPURL = "/components/lego-mindstorms/NxtDirectCommands";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDIRECT_PROPERTIES_HELPURL = '/components/lego-mindstorms/nxtdirectproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDIRECT_METHODS_HELPURL = '/components/lego-mindstorms/nxtdirectmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_HELPURL = "/components/lego-mindstorms/NxtColorSensor";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_PROPERTIES_HELPURL = '/components/lego-mindstorms/nxtcolorproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_EVENTS_HELPURL = '/components/lego-mindstorms/nxtcolorevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_METHODS_HELPURL = '/components/lego-mindstorms/nxtcolormethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_HELPURL = "/components/lego-mindstorms/NxtLightSensor";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_PROPERTIES_HELPURL = '/components/lego-mindstorms/nxtlightproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_EVENTS_HELPURL = '/components/lego-mindstorms/nxtlightevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_METHODS_HELPURL = '/components/lego-mindstorms/nxtlightmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_HELPURL = "/components/lego-mindstorms/NxtSoundSensor";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_PROPERTIES_HELPURL = '/components/lego-mindstorms/nxtsoundproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_EVENTS_HELPURL = '/components/lego-mindstorms/nxtsoundevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_METHODS_HELPURL = '/components/lego-mindstorms/nxtsoundmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_HELPURL = "/components/lego-mindstorms/NxtTouchSensor";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_PROPERTIES_HELPURL = '/components/lego-mindstorms/nxttouchproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_EVENTS_HELPURL = '/components/lego-mindstorms/nxttouchevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_METHODS_HELPURL = '/components/lego-mindstorms/nxttouchmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_HELPURL = "/components/lego-mindstorms/NxtUltrasonicSensor";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_PROPERTIES_HELPURL = '/components/lego-mindstorms/nxtultrasonicproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_EVENTS_HELPURL = '/components/lego-mindstorms/nxtultrasonicevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_METHODS_HELPURL = '/components/lego-mindstorms/nxtultrasonicmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDRIVE_HELPURL = "/components/lego-mindstorms/NxtDrive";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDRIVE_PROPERTIES_HELPURL = '/components/lego-mindstorms/nxtdriveproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDRIVE_METHODS_HELPURL = '/components/lego-mindstorms/nxtdrivemethods';
-
-//Experimental components
-    // FirebaseDB
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_HELPURL = "/components/experimentalFirebaseDB";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_PROPERTIES_HELPURL = "/components/experimentalfirebasedbproperties";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_EVENTS_HELPURL = "/components/experimentalfirebasedbevents";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_METHODS_HELPURL = "/components/experimentalfirebasedbmethods";
-
-//Internal components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GAMECLIENT_HELPURL = "/components/internal.html#GameClient";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GAMECLIENT_PROPERTIES_HELPURL = '/components/internal.html#gameclientproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GAMECLIENT_EVENTS_HELPURL = '/components/internal.html#gameclientevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GAMECLIENT_METHODS_HELPURL = '/components/internal.html#gameclientmethods';
-
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_HELPURL = "/components/internal.html#Voting";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_PROPERTIES_HELPURL = '/components/internal.html#votingproperties';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_EVENTS_HELPURL = '/components/internal.html#votingevents';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_METHODS_HELPURL = '/components/internal.html#votingmethods';
-
-//Misc
-    Blockly.Msg.SHOW_WARNINGS = "Show Warnings";
-    Blockly.Msg.HIDE_WARNINGS = "Hide Warnings";
-    Blockly.Msg.MISSING_SOCKETS_WARNINGS = "You should fill all of the sockets with blocks";
-    Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "This block should be connected to an event block or a procedure definition";
-
-// Messages from replmgr.js
-    Blockly.Msg.REPL_ERROR_FROM_COMPANION = "Error from Companion";
-    Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = "Network Connection Error";
-    Blockly.Msg.REPL_NETWORK_ERROR = "Network Error";
-    Blockly.Msg.REPL_NETWORK_ERROR_RESTART = "Network Error Communicating with Companion.<br />Try restarting the Companion and reconnecting";
-    Blockly.Msg.REPL_OK = "OK";
-    Blockly.Msg.REPL_COMPANION_VERSION_CHECK = "Companion Version Check";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Your Companion App is out of date. Click "OK" to start the update. Watch your ';
-    Blockly.Msg.REPL_EMULATORS = "emulator's";
-    Blockly.Msg.REPL_DEVICES = "device's";
-    Blockly.Msg.REPL_APPROVE_UPDATE = " screen because you will be asked to approve the update.";
-    Blockly.Msg.REPL_NOT_NOW = "Not Now";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = "The Companion you are using is out of date.<br/><br/>This Version of Makeroid should be used with Companion version";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = "You are using an out-of-date Companion. You should update the Makeroid Companion as soon as possible. If you have auto-update setup in the store, the update will happen by itself shortly.";
-    Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "The Companion you are using was built for different instance of Makeroid. To obtain the correct companion look on the Makeroid screen under Help->Companion Information menu.";
-    Blockly.Msg.REPL_DISMISS = "Dismiss";
-    Blockly.Msg.REPL_SOFTWARE_UPDATE = "Software Update";
-    Blockly.Msg.REPL_OK_LOWER = "Ok";
-    Blockly.Msg.REPL_GOT_IT = "Got It";
-    Blockly.Msg.REPL_UPDATE_INFO = 'The update is now being installed on your device. Watch your device (or emulator) screen and approve the software installation when prompted.<br /><br />IMPORTANT: When the update finishes, choose "DONE" (don\'t click "open"). Then go to Makeroid in your web browser, click the "Connect" menu and choose "Reset Connection".  Then reconnect the device.';
-
-    Blockly.Msg.REPL_UPDATE_NO_UPDATE = "No Update is Available";
-    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "You must be connected to a Companion to update it";
-    Blockly.Msg.REPL_UNABLE_TO_UPDATE = "Unable to send update to device/emulator";
-    Blockly.Msg.REPL_UNABLE_TO_LOAD = "Unable to load update from Makeroid server";
-    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "Unable to load update from Makeroid server (server not responding)";
-    Blockly.Msg.REPL_NOW_DOWNLOADING = "We are now downloading update from the Makeroid Server, please standby";
-    Blockly.Msg.REPL_RUNTIME_ERROR = "Runtime Error";
-    Blockly.Msg.REPL_NO_ERROR_FIVE_SECONDS = "<br/><i>Note:</i>&nbsp;You will not see another error reported for 5 seconds.";
-    Blockly.Msg.REPL_CONNECTING_USB_CABLE = "Connecting via USB Cable";
-    Blockly.Msg.REPL_STARTING_EMULATOR = "Starting the Android Emulator<br/>Please wait: This might take a minute or two.";
-    Blockly.Msg.REPL_CONNECTING = "Connecting...";
-    Blockly.Msg.REPL_CANCEL = "Cancel";
-    Blockly.Msg.REPL_GIVE_UP = "Give Up";
-    Blockly.Msg.REPL_KEEP_TRYING = "Keep Trying";
-    Blockly.Msg.REPL_CONNECTION_FAILURE1 = "Connection Failure";
-    Blockly.Msg.REPL_NO_START_EMULATOR = "We could not start the Makeroid Companion within the Emulator";
-    Blockly.Msg.REPL_PLUGGED_IN_Q = "Plugged In?";
-    Blockly.Msg.REPL_AI_NO_SEE_DEVICE = "Makeroid does not see your device, make sure the cable is plugged in and drivers are correct.";
-    Blockly.Msg.REPL_HELPER_Q = "Helper?";
-    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'The Makeroid Starter helper does not appear to be running<br /><a href="https://starter.makeroid.io" target="_blank">Need Help?</a>';
-    Blockly.Msg.REPL_USB_CONNECTED_WAIT = "USB Connected, waiting ";
-    Blockly.Msg.REPL_SECONDS_ENSURE_RUNNING = " seconds to ensure all is running.";
-    Blockly.Msg.REPL_EMULATOR_STARTED = "Emulator started, waiting ";
-    Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE = "Starting the Companion App on the connected phone.";
-    Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR = "Starting the Companion App in the emulator.";
-    Blockly.Msg.REPL_COMPANION_STARTED_WAITING = "Companion starting, waiting ";
-    Blockly.Msg.REPL_VERIFYING_COMPANION = "Verifying that the Companion Started....";
-    Blockly.Msg.REPL_CONNECT_TO_COMPANION = "Connect to Companion";
-    Blockly.Msg.REPL_TRY_AGAIN1 = "Failed to Connect to the Makeroid Companion, try again.";
-    Blockly.Msg.REPL_YOUR_CODE_IS = "Your code is";
-    Blockly.Msg.REPL_DO_YOU_REALLY_Q = "Do You Really?";
-    Blockly.Msg.REPL_FACTORY_RESET = 'This will attempt to reset your Emulator to its "factory" state. If you had previously updated the Companion installed in the Emulator, you will likely have to do this again.';
-
-// Messages from Blockly.js
-    Blockly.Msg.WARNING_DELETE_X_BLOCKS = "Are you sure you want to delete all %1 of these blocks?";
-
-// Blocklyeditor.js
-    Blockly.Msg.GENERATE_YAIL = "Generate Yail";
-    Blockly.Msg.DO_IT = "Do It";
-    Blockly.Msg.CLEAR_DO_IT_ERROR = "Clear Error";
-    Blockly.Msg.CAN_NOT_DO_IT = "Cannot Do it";
-    Blockly.Msg.CONNECT_TO_DO_IT = 'You must be connected to the companion or emulator to use "Do It"';
-
-// Clock Component Menu Items
-    Blockly.Msg.TIME_YEARS = "Years";
-    Blockly.Msg.TIME_MONTHS = "Months";
-    Blockly.Msg.TIME_WEEKS = "Weeks";
-    Blockly.Msg.TIME_DAYS = "Days";
-    Blockly.Msg.TIME_HOURS = "Hours";
+    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_ARG_TITLE_NAME = 'nom';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TITLE_LOCAL_NAMES = 'noms locaux';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TOOLTIP = '';
+    Blockly.Msg.LANG_VARIABLES_SET_COLLAPSED_TEXT = 'mettre';
+    Blockly.Msg.LANG_VARIABLES_SET_TITLE_SET = 'mettre';
+    Blockly.Msg.LANG_VARIABLES_SET_TITLE_TO = 'à';
+    Blockly.Msg.LANG_VARIABLES_SET_TOOLTIP = 'Fixe cette variable pour être égale à l\'entrée.';
+    Blockly.Msg.LANG_VARIABLES_VARIABLE = ' variable';
+    Blockly.Msg.MISSING_SOCKETS_WARNINGS = 'Vous devez remplir tous les trous avec des blocs';
+    Blockly.Msg.REMOVE_COMMENT = 'Supprimer le commentaire';
+    Blockly.Msg.REPL_AI_NO_SEE_DEVICE = 'AI2 ne peut pas voir votre appareil, soyez sûr que le câble est branché et que les pilotes sont corrects.';
+    Blockly.Msg.REPL_APPROVE_UPDATE = ' écran car vous allez être appelé à accepter la mise à jour.';
+    Blockly.Msg.REPL_CANCEL = 'Annuler';
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Votre application compagnon est obsolète. Cliquez sur "OK" pour démarrer la mise à jour. Regardez votre ';
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = 'Le compagnon que vous utilisez et obsolète.<br/><br/>Cette version de App Inventor doit être utilisé avec le compagnon version ';
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = 'Vous utilisez un compagnon obsolète. Vous n\'avez pas besoin de mettre à jour le compagnon immédiatement mais vous devriez le faire prochainement.';
+    Blockly.Msg.REPL_COMPANION_STARTED_WAITING = 'Compagnon en cours de lancement, attente ';
+    Blockly.Msg.REPL_COMPANION_VERSION_CHECK = 'Contrôle de la version compagnon';
+    Blockly.Msg.REPL_CONNECTING = 'Connexion en cours...';
+    Blockly.Msg.REPL_CONNECTING_USB_CABLE = 'Connexion via le câble USB\' ';
+    Blockly.Msg.REPL_CONNECTION_FAILURE1 = 'Échec de connexion';
+    Blockly.Msg.REPL_CONNECT_TO_COMPANION = 'Se connecter au Compagnon';
+    Blockly.Msg.REPL_DEVICES = 'appareil(s)';
+    Blockly.Msg.REPL_DISMISS = 'Rejeter';
+    Blockly.Msg.REPL_DO_YOU_REALLY_Q = 'Voulez-vous vraiment ?';
+    Blockly.Msg.REPL_EMULATORS = 'Émulateurs';
+    Blockly.Msg.REPL_EMULATOR_STARTED = 'Émulateur démarré, en attente ';
+    Blockly.Msg.REPL_ERROR_FROM_COMPANION = 'Erreur de Compagnon';
+    Blockly.Msg.REPL_FACTORY_RESET = 'Ceci va essayer de réinitialiser votre Émulateur à son état d\'usine. Si vous avez auparavant mis à jour le Compagnon installé dans l\'émulateur, vous allez probablement devoir le faire une autre fois. ';
+    Blockly.Msg.REPL_GIVE_UP = 'Abandonner';
+    Blockly.Msg.REPL_GOT_IT = 'Entendu';
+    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'L\'assistant aiStarter semble ne pas fonctionné<br /><a href="http://appinventor.mit.edu" target="_blank">Besoin d\'aide?</a>';
+    Blockly.Msg.REPL_HELPER_Q = 'Assistant?';
+    Blockly.Msg.REPL_KEEP_TRYING = 'Continuer à essayer';
+    Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = 'Erreur de connexion réseau';
+    Blockly.Msg.REPL_NETWORK_ERROR = 'Erreur réseau';
+    Blockly.Msg.REPL_NETWORK_ERROR_RESTART = 'Erreur de communication réseau avec le compagnon .<br />Essayez de redémarrer le compagnon et reconnecter\'  ';
+    Blockly.Msg.REPL_NOT_NOW = 'Pas maintenant';
+    Blockly.Msg.REPL_NOW_DOWNLOADING = 'Nous sommes en train de télécharger des mises à jour du serveur App Inventor, attendez svp';
+    Blockly.Msg.REPL_NO_ERROR_FIVE_SECONDS = '<br/><i>Note:</i>&nbsp;Vous n\'allez pas voir une autre erreur rapportée pour 5 secondes.';
+    Blockly.Msg.REPL_NO_START_EMULATOR = 'On ne peut pas ouvrir le compagnon avec l\'émulateur';
+    Blockly.Msg.REPL_OK = 'OK';
+    Blockly.Msg.REPL_OK_LOWER = 'Ok';
+    Blockly.Msg.REPL_PLUGGED_IN_Q = 'Branché?';
+    Blockly.Msg.REPL_RUNTIME_ERROR = 'Erreur d\'exécution';
+    Blockly.Msg.REPL_SECONDS_ENSURE_RUNNING = ' secondes pour être sûr que tout fonctionne.';
+    Blockly.Msg.REPL_SOFTWARE_UPDATE = 'Rejeter';
+    Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR = 'Lancement de l\'application Compagnon dans l\'émulateur.';
+    Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE = 'Lancement de l\'application compagnon dans l\'appareil connecté.';
+    Blockly.Msg.REPL_STARTING_EMULATOR = 'Lancement de l\'émulateur Android <br/>Attendez svp: ceci peut prendre une minute ou deux.';
+    Blockly.Msg.REPL_TRY_AGAIN1 = 'Impossible de se connecter au compagnon, essayez une autre fois.';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD = 'Impossible de charger les mises à jour du serveur App Inventor';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = 'Impossible de charger les mises à jour du serveur App Inventor (le serveur ne répond pas)';
+    Blockly.Msg.REPL_UNABLE_TO_UPDATE = 'Impossible d\'envoyer les mises à jour à l\'appareil/émulateur';
+    Blockly.Msg.REPL_UPDATE_INFO = 'La mise à jour est actuellement en cours d\'installation sur votre appareil. Regardez votre appareil (ou émulateur) et acceptez l\'installation du logiciel quand c\'est demandé.<br /><br />IMPORTANT:  Quand la mise à jour est terminée, choisissez "terminé" (ne pas cliquer sur "Ouvrir"). Ensuite, allez à App Inventor dans votre navigateur, cliquez sur le menu "Connecte" et choisissez "Réinitialiser Connexion". Ensuite, reconnectez l\'appareil.';
+    Blockly.Msg.REPL_USB_CONNECTED_WAIT = 'USB connecté, attente \' ';
+    Blockly.Msg.REPL_VERIFYING_COMPANION = 'Vérification que le Compagnon est lancé ...';
+    Blockly.Msg.REPL_YOUR_CODE_IS = 'Votre code est';
+    Blockly.Msg.SHOW_WARNINGS = 'Afficher les avertissements';
+    Blockly.Msg.SORT_C = 'Trier les blocs par catégorie';
+    Blockly.Msg.SORT_H = 'Trier les blocs par hauteur\' ';
+    Blockly.Msg.SORT_W = 'Trier les blocs par largeur\' ';
+    Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange les paramètres verticalement';
+    Blockly.Msg.WARNING_DELETE_X_BLOCKS = 'Voulez-vous vraiment supprimer tous les %1 blocs ?';
+    Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = 'Ce bloc doit être connecté à un bloc d\'évènement ou la définition d\'une procédure';
+
+    Blockly.Msg.TIME_YEARS = "Années";
+    Blockly.Msg.TIME_MONTHS = "Mois";
+    Blockly.Msg.TIME_WEEKS = "Semaines";
+    Blockly.Msg.TIME_DAYS = "Jours";
+    Blockly.Msg.TIME_HOURS = "Heures";
     Blockly.Msg.TIME_MINUTES = "Minutes";
-    Blockly.Msg.TIME_SECONDS = "Seconds";
-    Blockly.Msg.TIME_DURATION = "Duration";
+    Blockly.Msg.TIME_SECONDS = "Secondes";
+    Blockly.Msg.TIME_DURATION = "Durée";
+
   }
 };
 
