@@ -97,7 +97,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "元件不存在";
     Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "該程式方塊未定義。刪除該程式方塊！";
 
-    Blockly.ERROR_CAN_NOT_DO_IT_CONTENT = '只有連接「AI Companion」或「模擬器」才能執行';
+    Blockly.ERROR_CAN_NOT_DO_IT_CONTENT = '只有連接「Makeroid Companion」或「模擬器」才能執行';
     Blockly.ERROR_CAN_NOT_DO_IT_TITLE = '無法執行該程式方塊';
 
 // Colour Blocks.
@@ -1272,20 +1272,20 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "本程式方塊應該與某個事件或程序連接";
 
 // Messages from replmgr.js
-    Blockly.Msg.REPL_ERROR_FROM_COMPANION ="AI Companion出現錯誤";
+    Blockly.Msg.REPL_ERROR_FROM_COMPANION ="Makeroid Companion出現錯誤";
     Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = "網路連線故障";
     Blockly.Msg.REPL_NETWORK_ERROR = "網路故障";
-    Blockly.Msg.REPL_NETWORK_ERROR_RESTART ="與AI Companion通訊故障，<br />請嘗試重啟AI Companion程序並重新連接";
+    Blockly.Msg.REPL_NETWORK_ERROR_RESTART ="與Makeroid Companion通訊故障，<br />請嘗試重啟Makeroid Companion程序並重新連接";
     Blockly.Msg.REPL_OK = "確定";
-    Blockly.Msg.REPL_COMPANION_VERSION_CHECK ="檢查AI Companion程式版本";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'AI Companion程式已過期，點選「確定」升級。';
+    Blockly.Msg.REPL_COMPANION_VERSION_CHECK ="檢查Makeroid Companion程式版本";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Makeroid Companion程式已過期，點選「確定」升級。';
     Blockly.Msg.REPL_EMULATORS = "查看模擬器";
     Blockly.Msg.REPL_DEVICES = "裝置";
     Blockly.Msg.REPL_APPROVE_UPDATE = "系統將詢問您是否允許更新。";
     Blockly.Msg.REPL_NOT_NOW = "現在不";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 ="您使用的AI Companion程式已經過期，<br/><br/>本版Makeroid適用的AI Companion程式版本為";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE ="您正在使用一個過期版本的AI Companion程式，請盡快升級";
-    Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "您現在使用的AI Companion是針對不同版本的Makeroid建立的。請前往功能表的「求助——>AI Companion訊息」獲取正確的AI Companion版本。";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 ="您使用的Makeroid Companion程式已經過期，<br/><br/>本版Makeroid適用的Makeroid Companion程式版本為";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE ="您正在使用一個過期版本的Makeroid Companion程式，請盡快升級";
+    Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "您現在使用的Makeroid Companion是針對不同版本的Makeroid建立的。請前往功能表的「求助——>Makeroid Companion訊息」獲取正確的Makeroid Companion版本。";
     Blockly.Msg.REPL_DISMISS = "放棄";
     Blockly.Msg.REPL_SOFTWARE_UPDATE = "軟體升級";
     Blockly.Msg.REPL_OK_LOWER = "確定";
@@ -1293,7 +1293,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.REPL_UPDATE_INFO = '正在安裝更新套件，請在裝置（或模擬器）上檢查確認。<br /><br />注意：升級完成後，請選擇“完成”（不要選開啟）。然後在瀏覽器中開啟並進入Makeroid，點選“連接裝置”並選擇“重置連線”項。';
 
     Blockly.Msg.REPL_UPDATE_NO_UPDATE = "無可用更新";
-    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "請先與AI Companion連線才能開始更新";
+    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "請先與Makeroid Companion連線才能開始更新";
     Blockly.Msg.REPL_UNABLE_TO_UPDATE = "無法將升級套件發送給裝置或模擬器";
     Blockly.Msg.REPL_UNABLE_TO_LOAD = "無法從Makeroid伺服器下載更新套件";
     Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "無法從Makeroid伺服器取得更新信息(伺服器無回應)";
@@ -1307,7 +1307,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.REPL_GIVE_UP = "放棄";
     Blockly.Msg.REPL_KEEP_TRYING = "重試";
     Blockly.Msg.REPL_CONNECTION_FAILURE1 = "連接失敗";
-    Blockly.Msg.REPL_NO_START_EMULATOR ="無法在模擬器中啟動AI Companion程式";
+    Blockly.Msg.REPL_NO_START_EMULATOR ="無法在模擬器中啟動Makeroid Companion程式";
     Blockly.Msg.REPL_PLUGGED_IN_Q = "是否已插入USB線？";
     Blockly.Msg.REPL_AI_NO_SEE_DEVICE ="AI2沒有偵測到裝置，請確認傳輸線連接以及驅動程式安裝是否正常。";
     Blockly.Msg.REPL_HELPER_Q = "是否已執行aiStarter程式？";
@@ -1315,15 +1315,15 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.REPL_USB_CONNECTED_WAIT = "USB已連接，請等待";
     Blockly.Msg.REPL_SECONDS_ENSURE_RUNNING = "秒，確保相關資源全部載入。";
     Blockly.Msg.REPL_EMULATOR_STARTED = "模擬器已啟動，請等待";
-    Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE ="正在所連接裝置中啟動AI Companion程式";
-    Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR ="正在模擬器中啟動AI Companion程式";
-    Blockly.Msg.REPL_COMPANION_STARTED_WAITING ="AI Companion程式啟動中，請等待";
-    Blockly.Msg.REPL_VERIFYING_COMPANION ="檢查AI Companion程式啟動狀態....";
-    Blockly.Msg.REPL_CONNECT_TO_COMPANION ="連接AI Companion程式";
-    Blockly.Msg.REPL_TRY_AGAIN1 ="無法連接AI Companion程式，請再試一次。";
+    Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE ="正在所連接裝置中啟動Makeroid Companion程式";
+    Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR ="正在模擬器中啟動Makeroid Companion程式";
+    Blockly.Msg.REPL_COMPANION_STARTED_WAITING ="Makeroid Companion程式啟動中，請等待";
+    Blockly.Msg.REPL_VERIFYING_COMPANION ="檢查Makeroid Companion程式啟動狀態....";
+    Blockly.Msg.REPL_CONNECT_TO_COMPANION ="連接Makeroid Companion程式";
+    Blockly.Msg.REPL_TRY_AGAIN1 ="無法連接Makeroid Companion程式，請再試一次。";
     Blockly.Msg.REPL_YOUR_CODE_IS ="編碼為：";
     Blockly.Msg.REPL_DO_YOU_REALLY_Q = "您真的要這麼做嗎？";
-    Blockly.Msg.REPL_FACTORY_RESET = "這將使模擬器重置為出廠模式，如果此前升級過AI Companion程式，則需要重新升級。";
+    Blockly.Msg.REPL_FACTORY_RESET = "這將使模擬器重置為出廠模式，如果此前升級過Makeroid Companion程式，則需要重新升級。";
 
 // Messages from Blockly.js
     Blockly.Msg.WARNING_DELETE_X_BLOCKS = "確定要刪除 %1 個這些程式方塊嗎?";
@@ -1333,7 +1333,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.DO_IT = "執行";
     Blockly.Msg.CLEAR_DO_IT_ERROR = "清除錯誤";
     Blockly.Msg.CAN_NOT_DO_IT = "無法執行";
-    Blockly.Msg.CONNECT_TO_DO_IT = '請先連接AI Companion或者模擬器才能使用"執行"功能';
+    Blockly.Msg.CONNECT_TO_DO_IT = '請先連接Makeroid Companion或者模擬器才能使用"執行"功能';
 
 // Clock Component Menu Items
     Blockly.Msg.TIME_YEARS = "年";

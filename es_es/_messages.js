@@ -1288,7 +1288,7 @@ goog.require('Blockly.Msg.es');
      Blockly.Msg.REPL_GIVE_UP = "Abandonar";
      Blockly.Msg.REPL_KEEP_TRYING = "Intentar de nuevo";
      Blockly.Msg.REPL_CONNECTION_FAILURE1 = "Conexión fallida";
-     Blockly.Msg.REPL_NO_START_EMULATOR = "No se pudo iniciar el MIT AI Companion en el emulador";
+     Blockly.Msg.REPL_NO_START_EMULATOR = "No se pudo iniciar el MIT Makeroid Companion en el emulador";
      Blockly.Msg.REPL_PLUGGED_IN_Q = "¿Está conectado?";
      Blockly.Msg.REPL_AI_NO_SEE_DEVICE = "AI2 no detecta tu dispositivo, comprueba que el cable está conectado y que los controladores son los adecuados.";
      Blockly.Msg.REPL_HELPER_Q = "¿Asistente?";
