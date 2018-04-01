@@ -104,6 +104,7 @@ Blockly.Msg.de.switch_language_to_german = {
     Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "Dies ist ein doppelter Ereignishandler für diese Komponente.";
     Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Komponente existiert nicht";
     Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "Dieser Block ist nicht definiert. Lösche diesen Block!";
+    Blockly.ERROR_BREAK_ONLY_IN_LOOP = "The break block should be used only within loops";
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#basic';
@@ -313,6 +314,11 @@ Blockly.Msg.de.switch_language_to_german = {
         + 'Dieser Befehl dient zum Zurückgeben von Text an Nicht-Makeroid-Aktivitäten, nicht an Makeroid-Bildschirme. Verwenden Sie für Makeroid-Bildschirme, '
         + 'wie bei Anwendungen mit mehreren Bildschirmen, "Bildschirm mit Wert schließen" und nicht "Bildschirm mit Nur-Text schließen".';
 
+    Blockly.Msg.LANG_CONTROLS_BREAK_HELPURL = "https://docs.makeroid.io/blocks/control#break";
+    Blockly.Msg.LANG_CONTROLS_BREAK_TITLE = "break";
+    Blockly.Msg.LANG_CONTROLS_BREAK_INPUT_TEXT = "value";
+    Blockly.Msg.LANG_CONTROLS_BREAK_COLLAPSED_TEXT = "break";
+    
 // Logic Blocks.
     Blockly.Msg.LANG_CATEGORY_LOGIC = 'Logik';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL = 'http://en.wikipedia.org/wiki/Inequality_(mathematics)';
