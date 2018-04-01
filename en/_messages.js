@@ -317,7 +317,7 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Closes the current screen and returns text to the app that '
         + 'opened this one.   This command is for returning text to non-Makeroid activities, not to Makeroid screens. '
         + 'For Makeroid Screens, as in multiple screen apps, use Close Screen with Value, not Close Screen with Plain Text.';
-    
+
     Blockly.Msg.LANG_CONTROLS_BREAK_HELPURL = "https://docs.makeroid.io/blocks/control#break";
     Blockly.Msg.LANG_CONTROLS_BREAK_TITLE = "break";
     Blockly.Msg.LANG_CONTROLS_BREAK_INPUT_TEXT = "value";
@@ -725,7 +725,7 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_TOOLTIP = 'Returns a new text obtained by replacing all occurrences\n'
         + 'of the segment with the replacement.';
 
-    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#isstring';
+    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_HELPURL = 'https://docs.makeroid.io/blocks/text#isstring';
     Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TITLE = 'is string?';
     Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TOOLTIP = 'Returns true if input is a string.';
 
