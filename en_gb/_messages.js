@@ -1,27 +1,14 @@
 // -*- mode: java; c-basic-offset: 2; -*-
-// Copyright © 2017 Pavitra, Makeroid. All rights reserved.
+// Copyright © 2018 Makeroid. All rights reserved.
 
 /**
  * Visual Blocks Language
  *
- * Copyright © 2017 Pavitra, Makeroid. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Copyright © 2018 Makeroid. All rights reserved.
  */
 
 /**
- * @fileoverview Traditional English strings.
- * @author mckinney@gmail.com (Andrew F. McKinney)
+ * @fileoverview British English strings.
  */
 'use strict';
 
@@ -317,7 +304,7 @@ Blockly.Msg.en.gb.switch_language_to_english_gb = {
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Closes the current screen and returns text to the app that '
         + 'opened this one.   This command is for returning text to non-Makeroid activities, not to Makeroid screens. '
         + 'For Makeroid Screens, as in multiple screen apps, use Close Screen with Value, not Close Screen with Plain Text.';
-    
+
     Blockly.Msg.LANG_CONTROLS_BREAK_HELPURL = "https://docs.makeroid.io/blocks/control#break";
     Blockly.Msg.LANG_CONTROLS_BREAK_TITLE = "break";
     Blockly.Msg.LANG_CONTROLS_BREAK_INPUT_TEXT = "value";

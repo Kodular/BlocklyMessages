@@ -1,27 +1,14 @@
 // -*- mode: java; c-basic-offset: 2; -*-
-// Copyright © 2017 Pavitra, Makeroid. All rights reserved.
+// Copyright © 2018 Makeroid. All rights reserved.
 
 /**
  * Visual Blocks Language
  *
- * Copyright © 2017 Pavitra, Makeroid. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Copyright © 2018 Makeroid. All rights reserved.
  */
 
 /**
- * @fileoverview Traditional English strings.
- * @author mckinney@gmail.com (Andrew F. McKinney)
+ * @fileoverview Italian strings.
  */
 'use strict';
 
@@ -87,7 +74,7 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.DISABLE_GRID = 'Disattiva Griglia Spazio di Lavoro';
     Blockly.Msg.ENABLE_SNAPPING = 'Attiva Collegamento alla Griglia'; //da rivedere
     Blockly.Msg.DISABLE_SNAPPING = 'Disattiva Collegamento alla Griglia'; //da rivederre
-    
+
 // Variable renaming.
     Blockly.MSG_CHANGE_VALUE_TITLE = 'Cambia valore:';
     Blockly.MSG_NEW_VARIABLE = 'Nuova variabile...';
@@ -139,7 +126,7 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'crea colore';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#make';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "Un colore con le componenti rosso, verde, blu e opzionalmente alfa date"; //da rivedere
-    
+
 // Control Blocks
     Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Controllo';
     Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.makeroid.io/blocks/control.html#if';
