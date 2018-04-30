@@ -83,7 +83,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
 
 // Toolbox.
-    Blockly.MSG_VARIABLE_CATEGORY = 'Variables';
+    Blockly.MSG_VARIABLE_CATEGORY = 'Değişkenler';
     Blockly.MSG_PROCEDURE_CATEGORY = 'Procedures';
 
 // Warnings/Errors
@@ -1353,8 +1353,8 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.REPL_VERIFYING_COMPANION = "Verifying that the Companion Started....";
     Blockly.Msg.REPL_CONNECT_TO_COMPANION = "Connect to Companion";
     Blockly.Msg.REPL_TRY_AGAIN1 = "Failed to Connect to the Makeroid Companion, try again.";
-    Blockly.Msg.REPL_YOUR_CODE_IS = "Your code is";
-    Blockly.Msg.REPL_DO_YOU_REALLY_Q = "Do You Really?";
+    Blockly.Msg.REPL_YOUR_CODE_IS = "Kodun";
+    Blockly.Msg.REPL_DO_YOU_REALLY_Q = "Gerçekten mi?";
     Blockly.Msg.REPL_FACTORY_RESET = 'This will attempt to reset your Emulator to its "factory" state. If you had previously updated the Companion installed in the Emulator, you will likely have to do this again.';
 
 // Messages from Blockly.js
@@ -1363,19 +1363,19 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 // Blocklyeditor.js
     Blockly.Msg.GENERATE_YAIL = "Generate Yail";
     Blockly.Msg.DO_IT = "Do It";
-    Blockly.Msg.CLEAR_DO_IT_ERROR = "Clear Error";
+    Blockly.Msg.CLEAR_DO_IT_ERROR = "Temizleme Hatası";
     Blockly.Msg.CAN_NOT_DO_IT = "Cannot Do it";
     Blockly.Msg.CONNECT_TO_DO_IT = 'You must be connected to the companion or emulator to use "Do It"';
 
 // Clock Component Menu Items
-    Blockly.Msg.TIME_YEARS = "Years";
-    Blockly.Msg.TIME_MONTHS = "Months";
-    Blockly.Msg.TIME_WEEKS = "Weeks";
-    Blockly.Msg.TIME_DAYS = "Days";
-    Blockly.Msg.TIME_HOURS = "Hours";
-    Blockly.Msg.TIME_MINUTES = "Minutes";
-    Blockly.Msg.TIME_SECONDS = "Seconds";
-    Blockly.Msg.TIME_DURATION = "Duration";
+    Blockly.Msg.TIME_YEARS = "Yıl";
+    Blockly.Msg.TIME_MONTHS = "Ay";
+    Blockly.Msg.TIME_WEEKS = "Hafta";
+    Blockly.Msg.TIME_DAYS = "Gün";
+    Blockly.Msg.TIME_HOURS = "Saat";
+    Blockly.Msg.TIME_MINUTES = "Dakika";
+    Blockly.Msg.TIME_SECONDS = "Saniye";
+    Blockly.Msg.TIME_DURATION = "Süre";
   }
 };
 
