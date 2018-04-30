@@ -1,4 +1,4 @@
-# Blocks Editor
+# Blocks Editor Translations
 Translate Blocks Editor for Makeroid here!
 
 ---
