@@ -76,11 +76,11 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
 
 // Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Change value:';
-    Blockly.MSG_NEW_VARIABLE = 'New variable...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'New variable name:';
-    Blockly.MSG_RENAME_VARIABLE = 'Rename variable...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
+    Blockly.MSG_CHANGE_VALUE_TITLE = 'Değeri değiştir:';
+    Blockly.MSG_NEW_VARIABLE = 'Yeni değişken...';
+    Blockly.MSG_NEW_VARIABLE_TITLE = 'Yeni değişken adı:';
+    Blockly.MSG_RENAME_VARIABLE = 'Değişkenin adını değiştir...';
+    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Tüm değişkenlerin adını değiştir "%1":';
 
 // Toolbox.
     Blockly.MSG_VARIABLE_CATEGORY = 'Değişkenler';
@@ -96,38 +96,38 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#basic';
     Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
-    Blockly.Msg.LANG_COLOUR_WHITE = 'white';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'light gray';
-    Blockly.Msg.LANG_COLOUR_GRAY = 'gray';
-    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'blue gray';
-    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'dark gray';
-    Blockly.Msg.LANG_COLOUR_BLACK = 'black';
-    Blockly.Msg.LANG_COLOUR_RED = 'red';
-    Blockly.Msg.LANG_COLOUR_PINK = 'pink';
-    Blockly.Msg.LANG_COLOUR_PURPLE = 'purple';
-    Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'deep purple';
+    Blockly.Msg.LANG_COLOUR_WHITE = 'beyaz';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'açık gri';
+    Blockly.Msg.LANG_COLOUR_GRAY = 'gri';
+    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'mavi gri';
+    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'koyu gri';
+    Blockly.Msg.LANG_COLOUR_BLACK = 'siyah';
+    Blockly.Msg.LANG_COLOUR_RED = 'kırmızı';
+    Blockly.Msg.LANG_COLOUR_PINK = 'pembe';
+    Blockly.Msg.LANG_COLOUR_PURPLE = 'mor';
+    Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'koyu mor';
     Blockly.Msg.LANG_COLOUR_INDIGO = 'indigo';
-    Blockly.Msg.LANG_COLOUR_BLUE = 'blue';
-    Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'light blue';
+    Blockly.Msg.LANG_COLOUR_BLUE = 'mavi';
+    Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'açık mavi';
     Blockly.Msg.LANG_COLOUR_CYAN = 'cyan';
     Blockly.Msg.LANG_COLOUR_TEAL = 'teal';
-    Blockly.Msg.LANG_COLOUR_GREEN = 'green';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'light green';
+    Blockly.Msg.LANG_COLOUR_GREEN = 'yeşil';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'açık yeşil';
     Blockly.Msg.LANG_COLOUR_LIME = 'lime';
-    Blockly.Msg.LANG_COLOUR_YELLOW = 'yellow';
+    Blockly.Msg.LANG_COLOUR_YELLOW = 'sarı';
     Blockly.Msg.LANG_COLOUR_AMBER = 'amber';
-    Blockly.Msg.LANG_COLOUR_ORANGE = 'orange';
-    Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'deep orange';
-    Blockly.Msg.LANG_COLOUR_BROWN = 'brown';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'split color';
+    Blockly.Msg.LANG_COLOUR_ORANGE = 'turuncu';
+    Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'koyu turuncu';
+    Blockly.Msg.LANG_COLOUR_BROWN = 'kahverengi';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'rengi böl';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#split';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "A list of four elements, each in the range 0 to 255, representing the red, green, blue and alpha components.";
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'make color';
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'rengi oluştur';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#make';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A color with the given red, green, blue, and optionally alpha components";
 
 // Control Blocks
-    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Control';
+    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Kontrol';
     Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.makeroid.io/blocks/control.html#if';
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'If a value is true, then do some statements.';
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'If a value is true, then do the first block of statements.\n' +
@@ -137,13 +137,13 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
         'Otherwise, if the second value is true, do the second block of statements.\n' +
         'If none of the values are true, do the last block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'if';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'eğer';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'else';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'then';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'değilse';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'öyleyse';
 
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'if';
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'eğer';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Ekle, kaldır, veya yerlerini değiştir\n' +
         'to reconfigure this if block.';
 
     Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'else if';
@@ -153,10 +153,10 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
 
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'https://docs.makeroid.io/blocks/control.html#while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repeat';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'until';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'tekrarla';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'yap';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'iken';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'kadar';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Runs the blocks in the \'do\' section while the test is '
@@ -175,7 +175,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_CONTROLS_FORRANGE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#forrange';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'number';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'numara';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'from';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'to';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'by';
