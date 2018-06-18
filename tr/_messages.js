@@ -35,8 +35,8 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.ADD_COMMENT = 'Yorum Ekle';
     Blockly.Msg.EXTERNAL_INPUTS = 'Dış Girişler';
     Blockly.Msg.INLINE_INPUTS = 'İç Girişler';
-    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
-    Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
+    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Parametreleri Yatay Diz';
+    Blockly.Msg.VERTICAL_PARAMETERS = 'Parametreleri Dikey Diz';
     Blockly.Msg.CONFIRM_DELETE = 'Silmeyi Onayla';
     Blockly.Msg.DELETE_ALL_BLOCKS = "Tüm %1 blokları silmeyi onayla?";
     Blockly.Msg.DELETE_BLOCK = 'Bloku Sil';
@@ -49,19 +49,19 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.EXPORT_IMAGE = 'Blokları ekran görüntüsü olarak indir';
     Blockly.Msg.COLLAPSE_ALL = 'Blokları küçült';
     Blockly.Msg.EXPAND_ALL = 'Blokların hepsini genişlet';
-    Blockly.Msg.ARRANGE_H = 'Arrange Blocks Horizontally';
-    Blockly.Msg.ARRANGE_V = 'Arrange Blocks Vertically';
+    Blockly.Msg.ARRANGE_H = 'Blokları Yatay Diz';
+    Blockly.Msg.ARRANGE_V = 'Blokları Dikey Diz';
     Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
-    Blockly.Msg.SORT_W = 'Sort Blocks by Width';
-    Blockly.Msg.SORT_H = 'Sort Blocks by Height';
-    Blockly.Msg.SORT_C = 'Sort Blocks by Category';
+    Blockly.Msg.SORT_W = 'Blokları Genişliklerine Göre Sırala';
+    Blockly.Msg.SORT_H = 'Blokları Yüksekliklerine Göre Sırala';
+    Blockly.Msg.SORT_C = 'Blokları Kategorilerine Göre Sırala';
     Blockly.Msg.COPY_TO_BACKPACK = 'Sırt çantasına ekle';
     Blockly.Msg.COPY_ALLBLOCKS = 'Tüm blokları sırt çantasına kopyala';
     Blockly.Msg.BACKPACK_GET = 'Tüm blokları sırt çantasından kopyala';
     Blockly.Msg.BACKPACK_EMPTY = 'Sırt çantasını temizle';
     Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Sırt çantasını temizlemek istediğinizden emin misiniz?';
     Blockly.Msg.BACKPACK_DOC_TITLE = "Sırt çantası hakkında bilgi";
-    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Show Backpack documentation";
+    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Sırt Çantası Dökümantasyonunu Göster";
     Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
    " and paste them into another project or screen. " +
    " To copy, you can drag-and-drop blocks into the Backpack. To paste, click on the Backpack icon and " +
@@ -968,23 +968,23 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_PROCEDURES_GET_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#get';
 
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#do';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL = 'call ';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE = 'procedure';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_COLLAPSED_PREFIX = 'call ';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL = 'çağır ';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE = 'prosedür';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_COLLAPSED_PREFIX = 'çağır ';
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TOOLTIP = 'Call a procedure with no return value.';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'call no return';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'çağır geri gönderme';
 
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#return';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_CALL = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL;
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_PROCEDURE = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE;
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = 'call ';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TOOLTIP = 'Call a procedure with a return value.';
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TRANSLATED_NAME = 'call return';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TRANSLATED_NAME = 'çağır geri gönder';
 
-    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TITLE = 'inputs';
-    Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TITLE = 'input:';
+    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TITLE = 'girişler';
+    Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TITLE = 'giriş:';
 
-    Blockly.Msg.LANG_PROCEDURES_HIGHLIGHT_DEF = 'Highlight Procedure';
+    Blockly.Msg.LANG_PROCEDURES_HIGHLIGHT_DEF = 'Prosedürü Öne Çıkart';
 
     Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TOOLTIP = '';
     Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TOOLTIP = '';
@@ -993,29 +993,29 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.UNDEFINED_BLOCK_TOOLTIP = "This block is not defined. Delete this block!";
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_WHEN = 'when ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_DO = 'do';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_WHEN = 'olduğu zaman ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_DO = 'yap';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'call ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'çağır ';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_CALL = 'call ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'for component';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_CALL = 'çağır ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'bileşen için';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GETTER_HELPURL = '';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'of component';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'bileşenin';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_SET = 'set ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_TO = ' to';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_SET = 'ayarla ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_TO = ' ona';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'set ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' to';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'of component';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'ayarla ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' ona';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'bileşenin';
 
 ///////////////////
     /* HelpURLs for Component Blocks */
@@ -1298,8 +1298,8 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_METHODS_HELPURL = '/components/internal.html#votingmethods';
 
 //Misc
-    Blockly.Msg.SHOW_WARNINGS = "Show Warnings";
-    Blockly.Msg.HIDE_WARNINGS = "Hide Warnings";
+    Blockly.Msg.SHOW_WARNINGS = "Uyarıları Göster";
+    Blockly.Msg.HIDE_WARNINGS = "Uyarıları Gizle";
     Blockly.Msg.MISSING_SOCKETS_WARNINGS = "You should fill all of the sockets with blocks";
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "This block should be connected to an event block or a procedure definition";
 
@@ -1319,13 +1319,13 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = "You are using an out-of-date Companion. You should update the Makeroid Companion as soon as possible. If you have auto-update setup in the store, the update will happen by itself shortly.";
     Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "The Companion you are using was built for different instance of Makeroid. To obtain the correct companion look on the Makeroid screen under Help->Companion Information menu.";
     Blockly.Msg.REPL_DISMISS = "Dismiss";
-    Blockly.Msg.REPL_SOFTWARE_UPDATE = "Software Update";
+    Blockly.Msg.REPL_SOFTWARE_UPDATE = "Yazılım Güncelleştirmesi";
     Blockly.Msg.REPL_OK_LOWER = "Ok";
     Blockly.Msg.REPL_GOT_IT = "Got It";
     Blockly.Msg.REPL_UPDATE_INFO = 'The update is now being installed on your device. Watch your device (or emulator) screen and approve the software installation when prompted.<br /><br />IMPORTANT: When the update finishes, choose "DONE" (don\'t click "open"). Then go to Makeroid in your web browser, click the "Connect" menu and choose "Reset Connection".  Then reconnect the device.';
 
-    Blockly.Msg.REPL_UPDATE_NO_UPDATE = "No Update is Available";
-    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "You must be connected to a Companion to update it";
+    Blockly.Msg.REPL_UPDATE_NO_UPDATE = "Herhangi bir güncelleme mevcut değil";
+    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "Güncelleyebilmeniz için öncelikle bir yardımcıya bağlı olmanız gerekmektedir";
     Blockly.Msg.REPL_UNABLE_TO_UPDATE = "Unable to send update to device/emulator";
     Blockly.Msg.REPL_UNABLE_TO_LOAD = "Unable to load update from Makeroid server";
     Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "Unable to load update from Makeroid server (server not responding)";
@@ -1334,10 +1334,10 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.REPL_NO_ERROR_FIVE_SECONDS = "<br/><i>Note:</i>&nbsp;You will not see another error reported for 5 seconds.";
     Blockly.Msg.REPL_CONNECTING_USB_CABLE = "Connecting via USB Cable";
     Blockly.Msg.REPL_STARTING_EMULATOR = "Starting the Android Emulator<br/>Please wait: This might take a minute or two.";
-    Blockly.Msg.REPL_CONNECTING = "Connecting...";
-    Blockly.Msg.REPL_CANCEL = "Cancel";
-    Blockly.Msg.REPL_GIVE_UP = "Give Up";
-    Blockly.Msg.REPL_KEEP_TRYING = "Keep Trying";
+    Blockly.Msg.REPL_CONNECTING = "Bağlanılıyor...";
+    Blockly.Msg.REPL_CANCEL = "İptal et";
+    Blockly.Msg.REPL_GIVE_UP = "Pes et";
+    Blockly.Msg.REPL_KEEP_TRYING = "Denemeye Devam Et";
     Blockly.Msg.REPL_CONNECTION_FAILURE1 = "Connection Failure";
     Blockly.Msg.REPL_NO_START_EMULATOR = "We could not start the Makeroid Companion within the Emulator";
     Blockly.Msg.REPL_PLUGGED_IN_Q = "Plugged In?";
@@ -1351,7 +1351,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR = "Starting the Companion App in the emulator.";
     Blockly.Msg.REPL_COMPANION_STARTED_WAITING = "Companion starting, waiting ";
     Blockly.Msg.REPL_VERIFYING_COMPANION = "Verifying that the Companion Started....";
-    Blockly.Msg.REPL_CONNECT_TO_COMPANION = "Connect to Companion";
+    Blockly.Msg.REPL_CONNECT_TO_COMPANION = "Yardımcıya bağlan";
     Blockly.Msg.REPL_TRY_AGAIN1 = "Failed to Connect to the Makeroid Companion, try again.";
     Blockly.Msg.REPL_YOUR_CODE_IS = "Kodun";
     Blockly.Msg.REPL_DO_YOU_REALLY_Q = "Gerçekten mi?";
@@ -1361,11 +1361,11 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.WARNING_DELETE_X_BLOCKS = "Are you sure you want to delete all %1 of these blocks?";
 
 // Blocklyeditor.js
-    Blockly.Msg.GENERATE_YAIL = "Generate Yail";
-    Blockly.Msg.DO_IT = "Do It";
+    Blockly.Msg.GENERATE_YAIL = "Yail oluştur";
+    Blockly.Msg.DO_IT = "Yap";
     Blockly.Msg.CLEAR_DO_IT_ERROR = "Temizleme Hatası";
-    Blockly.Msg.CAN_NOT_DO_IT = "Cannot Do it";
-    Blockly.Msg.CONNECT_TO_DO_IT = 'You must be connected to the companion or emulator to use "Do It"';
+    Blockly.Msg.CAN_NOT_DO_IT = "Yapamıyorum";
+    Blockly.Msg.CONNECT_TO_DO_IT = 'Bunu kullanmak için bir yardımcıya veya emülatöre bağlı olmanız gerekmektedir "Yap"';
 
 // Clock Component Menu Items
     Blockly.Msg.TIME_YEARS = "Yıl";
