@@ -84,7 +84,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
 // Toolbox.
     Blockly.MSG_VARIABLE_CATEGORY = 'Değişkenler';
-    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedures';
+    Blockly.MSG_PROCEDURE_CATEGORY = 'Prosedürler';
 
 // Warnings/Errors
     Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
@@ -95,7 +95,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors.html#basic';
-    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
+    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Bir renk seçmek için kareye basın.';
     Blockly.Msg.LANG_COLOUR_WHITE = 'beyaz';
     Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'açık gri';
     Blockly.Msg.LANG_COLOUR_GRAY = 'gri';
@@ -178,8 +178,8 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'numara';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'from';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'to';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'by';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'do';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'tarafından';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'yap';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'for number in range';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'for ';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' in range';
@@ -189,8 +189,8 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_CONTROLS_FOREACH_HELPURL = 'https://docs.makeroid.io/blocks/control.html#foreach';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'item';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'in list';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'madde';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'listede';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'do';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'for item in list';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'for ';
@@ -942,16 +942,16 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#do';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = 'to';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE = 'procedure';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO = 'do';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO = 'yap';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_COLLAPSED_PREFIX = 'to ';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = 'A procedure that does not return a value.';
 
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#doreturn';
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_THEN_RETURN = 'result';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_DO = 'do';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_DO = 'yap';
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_RETURN = 'result';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_TOOLTIP = 'Runs the blocks in \'do\' and returns a statement. Useful if you need to run a procedure before returning a value to a variable.';
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_COLLAPSED_TEXT = 'do/result';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_TOOLTIP = 'Runs the blocks in \'yap\' and returns a statement. Useful if you need to run a procedure before returning a value to a variable.';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_COLLAPSED_TEXT = 'yap/sonuç';
 
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures.html#return';
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DEFINE = 'to';
@@ -1300,7 +1300,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 //Misc
     Blockly.Msg.SHOW_WARNINGS = "Uyarıları Göster";
     Blockly.Msg.HIDE_WARNINGS = "Uyarıları Gizle";
-    Blockly.Msg.MISSING_SOCKETS_WARNINGS = "You should fill all of the sockets with blocks";
+    Blockly.Msg.MISSING_SOCKETS_WARNINGS = "Bütün soketleri bloklarla doldurmanız gerekmektedir.";
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "This block should be connected to an event block or a procedure definition";
 
 // Messages from replmgr.js
