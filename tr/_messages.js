@@ -188,7 +188,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
         + 'variable name to refer to the current value.';
 
     Blockly.Msg.LANG_CONTROLS_FOREACH_HELPURL = 'https://docs.makeroid.io/blocks/control.html#foreach';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'for each';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'her bir';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'madde';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'listede';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'do';
@@ -213,7 +213,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
         'be used within a loop.';
 
     Blockly.Msg.LANG_CONTROLS_WHILE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#while';;
-    Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = 'while';
+    Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = 'süre';
     Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_TEST = 'test';
     Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_DO = 'do';
     Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'while';
@@ -233,12 +233,12 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#doreturn';
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'result';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'sonuç';
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TOOLTIP = 'Runs the blocks in \'do\' and returns a statement. Useful if you need to run a procedure before returning a value to a variable.';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_COLLAPSED_TEXT = 'do/result';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'do result';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_COLLAPSED_TEXT = 'yap/sonuç';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'sonuç yap';
 
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'evaluate but ignore result'
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'değerlendir ancak sonucu yoksay'
     Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#evaluate';
     Blockly.Msg.LANG_CONTROLS_EVAL_BUT_COLLAPSED_TEXT = 'eval but ignore'
     Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = 'Runs the connected block of code and ignores the return value (if any). Useful if need to call a procedure with a return value but don\'t need the value.';
@@ -250,43 +250,43 @@ Blockly.Msg.tr.switch_language_to_turkish = {
      */
 
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#openscreen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'open another screen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'open screen';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'başka bir ekran aç';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'ekranAdı';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'ekran aç';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Opens a new screen in a multiple screen app.';
 
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#openscreenwithvalue';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = 'open another screen with start value';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'startValue';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'open screen with value'
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'ekranAdı';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'başlangıçDeğeri';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'değer ile yeni bir ekran aç'
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TOOLTIP = 'Opens a new screen in a multiple screen app and passes the '
         + 'start value to that screen.';
 
     Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#getstartvalue';
     Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TITLE = 'get start value';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'startValue';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'get start value';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'ekranAdı';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'başlangıçDeğeri';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'başlangıç değeri al';
     Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TOOLTIP = 'Returns the value that was passed to this screen when it '
         + 'was opened, typically by another screen in a multiple-screen app. If no value was '
         + 'passed, returns the empty text.';
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closescreen';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'close screen';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'close screen';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = 'Close the current screen';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'ekranı kapat';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'ekranı kapat';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = 'Şimdiki ekranı kapat.';
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closescreenwithvalue';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'close screen with value';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'result';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'ekranı değer ile kapat';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'sonuç';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'close screen with value';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TOOLTIP = 'Closes the current screen and returns a result to the '
         + 'screen that opened this one.';
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closeapp';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = 'close application';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = 'close application';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = 'uygulamayı kapat';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = 'uygulamayı kapat';
     Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TOOLTIP = 'Closes all screens in this app and stops the app.';
 
     Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/control.html#getplainstarttext';
@@ -467,7 +467,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_MATH_RANDOM_INT_HELPURL = 'https://docs.makeroid.io/blocks/math.html#randomint';
     Blockly.Msg.LANG_MATH_RANDOM_INT_TITLE_RANDOM = 'random integer';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_FROM = 'from';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_FROM = 'itibaren';
     Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_TO = 'to';
     Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT = 'random integer from %1 to %2';
     Blockly.Msg.LANG_MATH_RANDOM_INT_TOOLTIP = 'Returns a random integer between the upper bound\n' +
@@ -519,7 +519,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_MATH_IS_A_BINARY_TOOLTIP = 'Tests if something is a string that represents a binary number.';
 
 
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TITLE_CONVERT = 'convert number';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TITLE_CONVERT = 'numarayı çevir';
     Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_HEX = 'base 10 to hex';
     Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_DEC_TO_HEX = '';
     Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_HEX = 'Takes a positive integer in base 10 and returns the string that represents the number in hexadecimal';
@@ -553,7 +553,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_TEXT_JOIN_ITEM_TOOLTIP = '';
 
     Blockly.Msg.LANG_TEXT_APPEND_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode91.html';
-    Blockly.Msg.LANG_TEXT_APPEND_TO = 'to';
+    Blockly.Msg.LANG_TEXT_APPEND_TO = 'ona';
     Blockly.Msg.LANG_TEXT_APPEND_APPENDTEXT = 'append text';
     Blockly.Msg.LANG_TEXT_APPEND_VARIABLE = 'item';
     Blockly.Msg.LANG_TEXT_APPEND_TOOLTIP = 'Append some text to variable "%1".';
