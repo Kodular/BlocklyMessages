@@ -51,7 +51,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.EXPAND_ALL = 'Blokların hepsini genişlet';
     Blockly.Msg.ARRANGE_H = 'Blokları Yatay Diz';
     Blockly.Msg.ARRANGE_V = 'Blokları Dikey Diz';
-    Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
+    Blockly.Msg.ARRANGE_S = 'Blokları Diyagonal Olarak Sırala';
     Blockly.Msg.SORT_W = 'Blokları Genişliklerine Göre Sırala';
     Blockly.Msg.SORT_H = 'Blokları Yüksekliklerine Göre Sırala';
     Blockly.Msg.SORT_C = 'Blokları Kategorilerine Göre Sırala';
@@ -62,16 +62,16 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Sırt çantasını temizlemek istediğinizden emin misiniz?';
     Blockly.Msg.BACKPACK_DOC_TITLE = "Sırt çantası hakkında bilgi";
     Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Sırt Çantası Dökümantasyonunu Göster";
-    Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
-   " and paste them into another project or screen. " +
-   " To copy, you can drag-and-drop blocks into the Backpack. To paste, click on the Backpack icon and " +
-   " drag-and-drop blocks into the workspace." +
-   "</p><p>If you leave Makeroid with blocks left in your backpack, " +
-   " they will be there the next time you login." +
-   "</p><p>For further documentation and a 'how to' video, see:" +
+    Blockly.Msg.BACKPACK_DOCUMENTATION = "Sırt çantası, bir kopyala/yapıştır özelliğidir. Blokları bir proje veya ekrandan başka bir proje veya ekrana kopyalayıp yapıştırmanızı sağlar. " +
+   " ve başka bir projeye veya ekrana yapıştır. " +
+   " Kopyalamak için, blokları sırt çantasına sürükleyip bırakabilirsiniz. Yapıştırmak için, sırt çantasına tıklayın ve " +
+   " çalışma alanına istediğiniz bloğu sürükleyip bırakın." +
+   "</p><p>Eğer Makeroid'i sırt çantanızda bloklar olarak bırakırsanız " +
+   " bir sonraki girişinize kadar onlar orada olacaklar." +
+   "</p><p>Detaylı bilgi ve nasıl-yapılır için: " +
    '</p><p><a href="https://docs.makeroid.io/other/backpack.html" target="_blank">https://docs.makeroid.io/other/backpack.html</a>';
-    Blockly.Msg.ENABLE_GRID = 'Enable Workspace Grid';
-    Blockly.Msg.DISABLE_GRID = 'Disable Workspace Grid';
+    Blockly.Msg.ENABLE_GRID = 'Çalışma masası maşasını etkinleştir';
+    Blockly.Msg.DISABLE_GRID = 'Çalışma masası maşasını kapat';
     Blockly.Msg.ENABLE_SNAPPING = 'Enable Snap to Grid';
     Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
 
@@ -90,7 +90,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
     Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Select a valid item in the drop down.";
     Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
-    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
+    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Bu bileşen yok.";
     Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "This block is not defined. Delete this block!";
 
 // Colour Blocks.
