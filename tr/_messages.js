@@ -163,11 +163,11 @@ Blockly.Msg.tr.switch_language_to_turkish = {
         + 'true.';
 
     Blockly.Msg.LANG_CONTROLS_FOR_HELPURL = '';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'count with';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'ile say';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_VAR = 'x';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'from';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'to';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'do';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'tarafından';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'itibaren';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'yap';
 
     Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.\n' +
         'For each count, set the current count number to\n' +
@@ -191,10 +191,10 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'her bir';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'madde';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'listede';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'do';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'yap';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'for item in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'for ';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' in list';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = ' için';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' listede';
     Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'Runs the blocks in the \'do\'  section for each item in '
         + 'the list.  Use the given variable name to refer to the current list item.';
 
@@ -202,7 +202,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
 
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_HELPURL = 'http://en.wikipedia.org/wiki/Control_flow';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'of loop';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'değişkenin';
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'break out';
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'continue with next iteration';
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'Break out of the containing loop.';
@@ -225,7 +225,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_TEST = '';
     Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_THEN_RETURN = 'then';
     Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_ELSE_RETURN = 'else';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'if';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'eğer';
     Blockly.Msg.LANG_CONTROLS_CHOOSE_TOOLTIP = 'If the condition being tested is true,'
         + 'return the result of evaluating the expression attached to the \'then-return\' slot;'
         + 'otherwise return the result of evaluating the expression attached to the \'else-return\' slot;'
@@ -287,7 +287,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closeapp';;
     Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = 'uygulamayı kapat';
     Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = 'uygulamayı kapat';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TOOLTIP = 'Closes all screens in this app and stops the app.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TOOLTIP = 'Uygulamada açık tüm ekranları ve uygulamayı kapatır.';
 
     Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/control.html#getplainstarttext';
     Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TITLE = 'get plain start text';
@@ -298,14 +298,14 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/control.html#closescreenwithplaintext';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = 'close screen with plain text';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_INPUT_TEXT = 'text';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_INPUT_TEXT = 'yazı';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = 'close screen with plain text';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Closes the current screen and returns text to the app that '
         + 'opened this one.   This command is for returning text to non-Makeroid activities, not to Makeroid screens. '
         + 'For Makeroid Screens, as in multiple screen apps, use Close Screen with Value, not Close Screen with Plain Text.';
 
 // Logic Blocks.
-    Blockly.Msg.LANG_CATEGORY_LOGIC = 'Logic';
+    Blockly.Msg.LANG_CATEGORY_LOGIC = 'Mantık';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL = 'http://en.wikipedia.org/wiki/Inequality_(mathematics)';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_EQ = 'https://docs.makeroid.io/blocks/logic.html#=';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_NEQ = 'https://docs.makeroid.io/blocks/logic.html#not=';
@@ -334,16 +334,16 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#true';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE_HELPURL = 'https://docs.makeroid.io/blocks/logic.html#false';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'true';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = 'false';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'olumlu';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = 'olumsuz';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Returns the boolean true.';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Returns the boolean false.';
 
 // Math Blocks.
-    Blockly.Msg.LANG_CATEGORY_MATH = 'Math';
+    Blockly.Msg.LANG_CATEGORY_MATH = 'Matematik';
     Blockly.Msg.LANG_MATH_NUMBER_HELPURL = 'https://docs.makeroid.io/blocks/math.html#number';
     Blockly.Msg.LANG_MATH_NUMBER_TOOLTIP = 'Report the number shown.';
-    Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = 'number';
+    Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = 'numara';
 
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL = '';
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL_EQ = 'https://docs.makeroid.io/blocks/math.html#=';
@@ -689,9 +689,9 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_TEXT_SEGMENT_HELPURL = 'https://docs.makeroid.io/blocks/text.html#segment';
     Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = 'segment';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'start';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'başlangıç';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'length';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'text';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'yazı';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT = 'segment  text %1 start %2 length %3';
     Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Extracts the segment of the given length from the given text\n'
         + 'starting from the given text starting from the given position. Position\n'
@@ -717,16 +717,16 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 //Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TOOLTIP = 'Returns a list, of length 0, containing no data records';
 
     Blockly.Msg.LANG_LISTS_CREATE_WITH_EMPTY_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#makealist';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_TITLE_MAKE_LIST = 'make a list';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_TITLE_MAKE_LIST = 'liste oluştur';
     Blockly.Msg.LANG_LISTS_CREATE_WITH_TOOLTIP = 'Create a list with any number of items.';
 
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = 'list';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = 'liste';
     Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TOOLTIP = 'Add, remove, or reorder sections to reconfigure this list block.';
 
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TITLE = 'item';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TITLE = 'madde';
     Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TOOLTIP = 'Add an item to the list.';
 
-    Blockly.Msg.LANG_LISTS_ADD_ITEM_TITLE = 'item';
+    Blockly.Msg.LANG_LISTS_ADD_ITEM_TITLE = 'madde';
     Blockly.Msg.LANG_LISTS_ADD_ITEM_TOOLTIP = 'Add an item to the list.';
     Blockly.Msg.LANG_LISTS_ADD_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#additems';
 
@@ -1358,7 +1358,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.REPL_FACTORY_RESET = 'This will attempt to reset your Emulator to its "factory" state. If you had previously updated the Companion installed in the Emulator, you will likely have to do this again.';
 
 // Messages from Blockly.js
-    Blockly.Msg.WARNING_DELETE_X_BLOCKS = "Are you sure you want to delete all %1 of these blocks?";
+    Blockly.Msg.WARNING_DELETE_X_BLOCKS = "Butün %1 blokları silmek istediğinize emin misiniz?";
 
 // Blocklyeditor.js
     Blockly.Msg.GENERATE_YAIL = "Yail oluştur";
