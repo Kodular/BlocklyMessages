@@ -599,8 +599,8 @@ Blockly.Msg.tr.switch_language_to_turkish = {
      Blockly.Msg.LANG_TEXT_INDEXOF_TITLE_FIND = 'bul';
      Blockly.Msg.LANG_TEXT_INDEXOF_INPUT_OCCURRENCE = 'yazının görülebilirliği';
      Blockly.Msg.LANG_TEXT_INDEXOF_INPUT_INTEXT = 'yazıda';
-     Blockly.Msg.LANG_TEXT_INDEXOF_TOOLTIP = 'Returns the index of the first/last occurrence\n' +
-     'of first text in the second text.\n' +
+     Blockly.Msg.LANG_TEXT_INDEXOF_TOOLTIP = 'İlk / son oluşumun dizinini çağırır\n' +
+     'ikinci metindeki ilk metnin\n' +
      'Returns 0 if text is not found.';
      Blockly.Msg.LANG_TEXT_INDEXOF_OPERATOR_FIRST = 'ilk';
      Blockly.Msg.LANG_TEXT_INDEXOF_OPERATOR_LAST = 'son';*/
@@ -608,7 +608,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     /*Blockly.Msg.LANG_TEXT_CHARAT_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_TEXT_CHARAT_INPUT_AT = 'harf';
      Blockly.Msg.LANG_TEXT_CHARAT_INPUT_INTEXT = 'yazıda';
-     Blockly.Msg.LANG_TEXT_CHARAT_TOOLTIP = 'Harfi istenilen lokasyona çağırır.';*/
+     Blockly.Msg.LANG_TEXT_CHARAT_TOOLTIP = 'Harfi istenilen konuma çağırır.';*/
 
     Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'upcase';
     Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_DOWNCASE = 'downcase';
@@ -674,7 +674,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     /*.LANG_TEXT_PRINT_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode91.html';
      Blockly.Msg.LANG_TEXT_PRINT_TITLE_PRINT = 'yazdır';
-     Blockly.Msg.LANG_TEXT_PRINT_TOOLTIP = 'Print the specified text, number or other value.';*/
+     Blockly.Msg.LANG_TEXT_PRINT_TOOLTIP = 'Belirtilen metni, sayıyı veya diğer değeri yazdır.';*/
 
     /*Blockly.Msg.LANG_TEXT_PROMPT_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode92.html';
      Blockly.Msg.LANG_TEXT_PROMPT_TITLE_PROMPT_FOR = 'için sun ';
@@ -774,22 +774,22 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TOOLTIP = 'Removes the item at the specified position from the list.';
 
     /*Blockly.Msg.LANG_LISTS_REPEAT_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
-     Blockly.Msg.LANG_LISTS_REPEAT_TITLE_CREATE = 'create list with item';
+     Blockly.Msg.LANG_LISTS_REPEAT_TITLE_CREATE = 'madde ile liste oluştur';
      Blockly.Msg.LANG_LISTS_REPEAT_INPUT_REPEATED = 'tekrar edildi';
      Blockly.Msg.LANG_LISTS_REPEAT_INPUT_TIMES = 'sefer';
-     Blockly.Msg.LANG_LISTS_REPEAT_TOOLTIP = 'Creates a list consisting of the given value\n' +
-     'repeated the specified number of times.';*/
+     Blockly.Msg.LANG_LISTS_REPEAT_TOOLTIP = 'Verilen değerden oluşan bir liste oluşturur\n' +
+     'belirtilen sayıda tekrarladı.';*/
 
     Blockly.Msg.LANG_LISTS_LENGTH_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#lengthoflist';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LENGTH = 'length of list';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LIST = 'list';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LENGTH = 'listenin uzunluğu';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LIST = 'liste';
     Blockly.Msg.LANG_LISTS_LENGTH_INPUT = 'length of list list %1';
     Blockly.Msg.LANG_LISTS_LENGTH_TOOLTIP = 'Counts the number of items in a list.';
 
     Blockly.Msg.LANG_LISTS_APPEND_LIST_HELPURL = 'https://docs.makeroid.io/blocks/lists.html#append';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_TITLE_APPEND = 'append to list';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = 'list1';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = 'list2';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = 'liste1';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = 'liste2';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT = 'append to list  list1 %1 list2 %2';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_TOOLTIP = 'Appends all the items in list2 onto the end of list1. After '
         + 'the append, list1 will include these additional elements, but list2 will be unchanged.';
@@ -871,24 +871,24 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     /*Blockly.Msg.LANG_LISTS_INDEX_OF_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_INDEX_OF_TITLE_FIND = 'bul';
-     Blockly.Msg.LANG_LISTS_INDEX_OF_INPUT_OCCURRENCE = 'occurrence of item';
+     Blockly.Msg.LANG_LISTS_INDEX_OF_INPUT_OCCURRENCE = 'maddenin oluşumu';
      Blockly.Msg.LANG_LISTS_INDEX_OF_INPUT_IN_LIST = 'listede';
-     Blockly.Msg.LANG_LISTS_INDEX_OF_TOOLTIP = 'Returns the index of the first/last occurrence\n' +
-     'of the item in the list.\n' +
-     'Returns 0 if text is not found.';
+     Blockly.Msg.LANG_LISTS_INDEX_OF_TOOLTIP = 'İlk / son oluşumun dizinini döndürür\n' +
+     'Listedeki öğenin.\n' +
+     'Eğer yazı bulunamazsa 0 çağırır.';
      Blockly.Msg.LANG_LISTS_INDEX_OF_FIRST = 'ilk';
      Blockly.Msg.LANG_LISTS_INDEX_OF_LAST = 'son';
 
      Blockly.Msg.LANG_LISTS_GET_INDEX_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_GET_INDEX_TITLE_GET = 'maddeyi al';
      Blockly.Msg.LANG_LISTS_GET_INDEX_INPUT_IN_LIST = 'listede';
-     Blockly.Msg.LANG_LISTS_GET_INDEX_TOOLTIP = 'Returns the value at the specified position in a list.';
+     Blockly.Msg.LANG_LISTS_GET_INDEX_TOOLTIP = 'Listede belirtilen konumdaki değeri döndürür.';
 
      Blockly.Msg.LANG_LISTS_SET_INDEX_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_SET = 'set item at';
      Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_IN_LIST = 'listede';
      Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_TO = 'ona';
-     Blockly.Msg.LANG_LISTS_SET_INDEX_TOOLTIP = 'Sets the value at the specified position in a list.';*/
+     Blockly.Msg.LANG_LISTS_SET_INDEX_TOOLTIP = 'Listede belirtilen konumdaki değeri ayarlar.';*/
 
 // Variables Blocks.
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#global';
@@ -900,13 +900,13 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_VARIABLES_GET_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#get';
     Blockly.Msg.LANG_VARIABLES_GET_TITLE_GET = 'al';
-    /* Blockly.Msg.LANG_VARIABLES_GET_INPUT_ITEM = 'item'; */ // [lyn, 10/14/13] unused
+    /* Blockly.Msg.LANG_VARIABLES_GET_INPUT_ITEM = 'madde'; */ // [lyn, 10/14/13] kullanılmadı
     Blockly.Msg.LANG_VARIABLES_GET_COLLAPSED_TEXT = 'al';
     Blockly.Msg.LANG_VARIABLES_GET_TOOLTIP = 'Returns the value of this variable.';
 
     Blockly.Msg.LANG_VARIABLES_SET_HELPURL = 'https://docs.makeroid.io/blocks/variables.html#set';
     Blockly.Msg.LANG_VARIABLES_SET_TITLE_SET = 'ayarla';
-    /* Blockly.Msg.LANG_VARIABLES_SET_INPUT_ITEM = 'item'; */ // [lyn, 10/14/13] unused
+    /* Blockly.Msg.LANG_VARIABLES_SET_INPUT_ITEM = 'madde'; */ // [lyn, 10/14/13] kullanılmadı
     Blockly.Msg.LANG_VARIABLES_SET_TITLE_TO = 'to';
     Blockly.Msg.LANG_VARIABLES_SET_COLLAPSED_TEXT = 'ayarla';
     Blockly.Msg.LANG_VARIABLES_SET_TOOLTIP = 'Sets this variable to be equal to the input.';
