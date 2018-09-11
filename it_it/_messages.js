@@ -57,6 +57,7 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.SORT_C = 'Ordina Blocchi per Categoria';
     Blockly.Msg.COPY_TO_BACKPACK = 'Aggiungi allo Zaino';
     Blockly.Msg.COPY_ALLBLOCKS = 'Copia Tutti i Blocchi nello Zaino';
+    Blockly.Msg.REMOVE_FROM_BACKPACK = 'Rimuovi dallo zaino';
     Blockly.Msg.BACKPACK_GET = 'Incolla Tutti i Blocchi dallo Zaino';
     Blockly.Msg.BACKPACK_EMPTY = 'Svuota lo Zaino';
     Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Sei sicuro di voler svuotare lo zaino?';
@@ -72,8 +73,10 @@ Blockly.Msg.it.switch_language_to_italian = {
    '</p><p><a href="https://docs.makeroid.io/other/backpack.html" target="_blank">https://docs.makeroid.io/other/backpack.html</a>';
     Blockly.Msg.ENABLE_GRID = 'Attiva Griglia Spazio di Lavoro';
     Blockly.Msg.DISABLE_GRID = 'Disattiva Griglia Spazio di Lavoro';
-    Blockly.Msg.ENABLE_SNAPPING = 'Attiva Collegamento alla Griglia'; //da rivedere
-    Blockly.Msg.DISABLE_SNAPPING = 'Disattiva Collegamento alla Griglia'; //da rivederre
+    Blockly.Msg.ENABLE_SNAPPING = 'Attiva allineamento alla Griglia';
+    Blockly.Msg.DISABLE_SNAPPING = 'Disattiva allineamento alla Griglia';
+    Blockly.Msg.DISABLE_ALL_BLOCKS = 'Disattiva tutti i blocchi';
+    Blockly.Msg.ENABLE_ALL_BLOCKS = 'Attiva tutti i blocchi';
 
 // Variable renaming.
     Blockly.MSG_CHANGE_VALUE_TITLE = 'Cambia valore:';
