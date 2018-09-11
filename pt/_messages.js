@@ -1,10 +1,14 @@
 // -*- mode: java; c-basic-offset: 2; -*-
-// Copyright 2015 Massachusetts Institute of Technology. All rights reserved.
+// Copyright © 2018 Makeroid. All rights reserved.
 
 /**
- * @fileoverview Portuguese Strings 
- * @author plcarvalho@gmail.com (Paulo Carvalho)
- * Adapted from the pt_BR translation by mail@eduardovalle.com (Eduardo Valle)
+ * Visual Blocks Language
+ *
+ * Copyright © 2018 Makeroid. All rights reserved.
+ */
+
+/**
+ * @fileoverview Traditional Portuguese strings.
  */
 'use strict';
 
@@ -18,11 +22,10 @@ goog.require('Blockly.Msg.pt');
  */
 
 Blockly.Msg.pt.switch_language_to_portuguese = {
-  // Switch language to Portuguese 
+  // Switch language to Portuguese
   category: '',
   helpUrl: '',
   init: function() {
-
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT = 'busca nos pares  chave %1 pares %2 nãoEncontrado %3';
     Blockly.MSG_VARIABLE_CATEGORY = 'Variáveis';
     Blockly.Msg.ADD_COMMENT = 'Adicionar Comentário';
@@ -48,7 +51,7 @@ Blockly.Msg.pt.switch_language_to_portuguese = {
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'fechar ecrã com valor';
     Blockly.Msg.LANG_MATH_TRIG_ASIN = 'arcsen';
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TITLE_TO_CSV = 'de lista para tabela csv';
-    Blockly.Msg.REPL_NOW_DOWNLOADING = 'Uma atualização está a ser descarregada a partir do servidor do App Inventor, por favor aguarde';
+    Blockly.Msg.REPL_NOW_DOWNLOADING = 'Uma atualização está a ser descarregada a partir do servidor do Makeroid, por favor aguarde';
     Blockly.Msg.LANG_MATH_RANDOM_SEED_TOOLTIP = 'especifica uma semente numérica\npara o gerador de números aleatórios';
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TITLE_CONVERT = 'converter';
     Blockly.Msg.LANG_MATH_SINGLE_OP_EXP = 'e^';
@@ -90,7 +93,7 @@ Blockly.Msg.pt.switch_language_to_portuguese = {
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'chamar sem retorno';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'texto';
     Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'Executa os blocos na seção "fazer" enquanto o teste for verdadeiro.';
-    Blockly.Msg.BACKPACK_DOCUMENTATION = 'A Mochila é uma facilidade para copiar/colar. Ela permite copiar blocos de um projeto ou ecrã e colá-los em outro projeto ou ecrã. Para copiar, você pode arrastar-e-soltar blocos para a Mochila. Para colar, clique no ícone da Mochila, e arraste-e-solte os blocos para a área de trabalho.</p><p>O conteúdo da Mochila irá durar enquanto durar a sessão do App Inventor. Quando você sair do App Inventor (ou refrescar a página web no navegador) a Mochila será reiniciada, ou seja, esvaziada.</p><p>Para mais informações e para um vídeo de \'como fazer\', veja:</p><p><a href="http://ai2.appinventor.mit.edu/reference/other/backpack.html" target="_blank">http://ai2.appinventor.mit.edu/reference/other/backpack.html</a>';
+    Blockly.Msg.BACKPACK_DOCUMENTATION = 'A Mochila é uma facilidade para copiar/colar. Ela permite copiar blocos de um projeto ou ecrã e colá-los em outro projeto ou ecrã. Para copiar, você pode arrastar-e-soltar blocos para a Mochila. Para colar, clique no ícone da Mochila, e arraste-e-solte os blocos para a área de trabalho.</p><p>O conteúdo da Mochila irá durar enquanto durar a sessão do Makeroid. Quando você sair do Makeroid (ou refrescar a página web no navegador) a Mochila será reiniciada, ou seja, esvaziada.</p><p>Para mais informações e para um vídeo de \'como fazer\', veja:</p><p><a href="https://docs.makeroid.io/other/backpack.html" target="_blank">https://docs.makeroid.io/other/backpack.html</a>';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2 = 'arctan2';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = 'chamar ';
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'fazer';
@@ -134,7 +137,7 @@ Blockly.Msg.pt.switch_language_to_portuguese = {
     Blockly.Msg.LANG_TEXT_JOIN_TITLE_JOIN = 'juntar';
     Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = 'Retorna o número de caracteres (incluindo espaços)\ndo texto informado.';
     Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Adicionar, remover, ou reordenar seções\npara reconfigurar este bloco "se".';
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = 'O seu Assistente está desatualizado.<br/><br/>Esta versão do App Inventor requer o Assistente de versão';
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = 'O seu Assistente está desatualizado.<br/><br/>Esta versão do Makeroid requer o Assistente de versão';
     Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'maiúsculas';
     Blockly.Msg.LANG_MATH_ARITHMETIC_ADD = '+';
     Blockly.Msg.REPL_COMPANION_VERSION_CHECK = 'Verificação da Versão do Assistente';
@@ -312,7 +315,7 @@ Blockly.Msg.pt.switch_language_to_portuguese = {
     Blockly.Msg.REPL_CONNECTING = 'Conectando...';
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_TOOLTIP = 'Retorna o valor associado a esta chave em uma lista de pares';
     Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = 'Retorna o número com o sinal trocado.';
-    Blockly.Msg.REPL_UNABLE_TO_LOAD = 'Impossível carregar a atualização desde o servidor do App Inventor';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD = 'Impossível carregar a atualização desde o servidor do Makeroid';
     Blockly.Msg.LANG_LISTS_COPY_TOOLTIP = 'Faz uma cópia profunda da lista (i.e., copia todas as sublistas)';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Retorna o valor lógico (booleano) falso.';
     Blockly.Msg.LANG_TEXT_TEXT_OBSFUCATE = 'texto ofuscado';
@@ -336,7 +339,7 @@ Blockly.Msg.pt.switch_language_to_portuguese = {
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_IN_DO = 'dentro de';
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = 'Retornar verdadeiro se o primeiro\nnúmero for menor que segundo.';
     Blockly.Msg.LANG_COLOUR_BLACK = 'preto';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Fecha o ecrã atual e retorna texto para a app que abriu a app atual. Este comando serve para retornar texto para atividades que não são do App Inventor, e não para ecrãs do App Inventor. Para ecrãs do App Inventor, prefira Fechar Ecrã com Valor, e não Fechar Ecrã com Texto Puro.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Fecha o ecrã atual e retorna texto para a app que abriu a app atual. Este comando serve para retornar texto para atividades que não são do Makeroid, e não para ecrãs do Makeroid. Para ecrãs do Makeroid, prefira Fechar Ecrã com Valor, e não Fechar Ecrã com Texto Puro.';
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Seu App Assistente está desatualizado. Clique “OK” para atualizar. Veja, no ';
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = 'Retornar verdadeiro se todas as entradas forem verdadeiras.';
     Blockly.Msg.REPL_NO_START_EMULATOR = 'Não conseguimos iniciar o Assistente MIT AI no Emulador';
@@ -391,7 +394,7 @@ Blockly.Msg.pt.switch_language_to_portuguese = {
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_INPUT_LIST = 'lista';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = 'lista1';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = 'lista2';
-    Blockly.Msg.REPL_UPDATE_INFO = 'Instalando a atualização no seu dispositivo. Veja o ecrã do seu dispositivo (ou emulador) e autorize a instalação se a pergunta aparecer.<br /><br />IMPORTANTE: Quando a atualização terminar, escolha a opção "DONE" (Concluído) — NÃO clique em "Open" (Abrir). Então vá para o App Inventor no seu navegador web, e clique no menu "Conectar" e escolha "Reiniciar Conexão". Então reconecte o dispositivo.';
+    Blockly.Msg.REPL_UPDATE_INFO = 'Instalando a atualização no seu dispositivo. Veja o ecrã do seu dispositivo (ou emulador) e autorize a instalação se a pergunta aparecer.<br /><br />IMPORTANTE: Quando a atualização terminar, escolha a opção "DONE" (Concluído) — NÃO clique em "Open" (Abrir). Então vá para o Makeroid no seu navegador web, e clique no menu "Conectar" e escolha "Reiniciar Conexão". Então reconecte o dispositivo.';
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LTE = 'Retornar verdadeiro se o primeiro\nnúmero for menor ou igual ao segundo.';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = 'fechar ecrã com texto puro';
     Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'enquanto';
@@ -517,7 +520,7 @@ Blockly.Msg.pt.switch_language_to_portuguese = {
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_Y = 'y';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_PROCEDURE = 'procedimento';
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DO = 'fazer';
-    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'O auxiliar aiStarter não está executando<br /><a href="http://appinventor.mit.edu" target="_blank">Quer Ajuda?</a>';
+    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'O auxiliar aiStarter não está executando<br /><a href="https://starter.makeroid.io" target="_blank">Quer Ajuda?</a>';
     Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Extrai o segmento de comprimento especificado do texto dado\ncomeçando da posição informada. A posição 1 significa o\ninício do texto.';
     Blockly.Msg.LANG_LOGIC_OPERATION_OR = 'ou';
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = 'Este bloco deve estar conectado a um bloco de evento ou a uma definição de procedimento';
@@ -554,7 +557,7 @@ Blockly.Msg.pt.switch_language_to_portuguese = {
     Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = 'Escolhe um elemento da lista ao acaso.';
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_REPLACEMENT = 'substituição';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = 'fechar ecrã com texto puro';
-    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = 'Impossível descarregar a atualização do servidor do App Inventor (o servidor não responde)';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = 'Impossível descarregar a atualização do servidor do Makeroid (o servidor não responde)';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'início';
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'fazer resultar';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = 'Um procedimento que não retorna um valor.';

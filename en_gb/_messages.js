@@ -8,60 +8,60 @@
  */
 
 /**
- * @fileoverview Turkish strings.
+ * @fileoverview British English strings.
  */
 'use strict';
 
-goog.provide('AI.Blockly.Msg.tr');
+goog.provide('AI.Blockly.Msg.en_gb');
 
-goog.require('Blockly.Msg.tr');
+goog.require('Blockly.Msg.en.gb');
 
 /**
  * Due to the frequency of long strings, the 80-column wrap rule need not apply
  * to message files.
  */
 
-Blockly.Msg.tr.switch_language_to_turkish = {
-  // Switch language to Turkish.
+Blockly.Msg.en.gb.switch_language_to_english_gb = {
+  // Switch language to English (British).
   category: '',
   helpUrl: '',
   init: function() {
 // Context menus.
-    Blockly.Msg.UNDO = 'Geri al';
-    Blockly.Msg.REDO = 'Yeniden uygula';
-    Blockly.Msg.CLEAN_UP = 'Blokları temizle';
-    Blockly.Msg.DUPLICATE_BLOCK = 'Çoğalt';
-    Blockly.Msg.REMOVE_COMMENT = 'Yorumu Kaldır';
-    Blockly.Msg.ADD_COMMENT = 'Yorum Ekle';
-    Blockly.Msg.EXTERNAL_INPUTS = 'Dış Girişler';
-    Blockly.Msg.INLINE_INPUTS = 'İç Girişler';
-    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Parametreleri Yatay Diz';
-    Blockly.Msg.VERTICAL_PARAMETERS = 'Parametreleri Dikey Diz';
-    Blockly.Msg.CONFIRM_DELETE = 'Silmeyi Onayla';
-    Blockly.Msg.DELETE_ALL_BLOCKS = "Tüm %1 blokları silmeyi onayla?";
-    Blockly.Msg.DELETE_BLOCK = 'Bloku Sil';
-    Blockly.Msg.DELETE_X_BLOCKS = 'Blokları %1 Sil';
-    Blockly.Msg.COLLAPSE_BLOCK = 'Bloku Küçült';
-    Blockly.Msg.EXPAND_BLOCK = 'Bloku Genişlet';
-    Blockly.Msg.DISABLE_BLOCK = 'Bloku Devre Dışı Bırak';
-    Blockly.Msg.ENABLE_BLOCK = 'Bloku Etkinleştir';
-    Blockly.Msg.HELP = 'Yardım';
-    Blockly.Msg.EXPORT_IMAGE = 'Blokları ekran görüntüsü olarak indir';
-    Blockly.Msg.COLLAPSE_ALL = 'Blokları küçült';
-    Blockly.Msg.EXPAND_ALL = 'Blokların hepsini genişlet';
-    Blockly.Msg.ARRANGE_H = 'Blokları Yatay Diz';
-    Blockly.Msg.ARRANGE_V = 'Blokları Dikey Diz';
+    Blockly.Msg.UNDO = 'Undo';
+    Blockly.Msg.REDO = 'Redo';
+    Blockly.Msg.CLEAN_UP = 'Clean up Blocks';
+    Blockly.Msg.DUPLICATE_BLOCK = 'Duplicate';
+    Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
+    Blockly.Msg.ADD_COMMENT = 'Add Comment';
+    Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
+    Blockly.Msg.INLINE_INPUTS = 'Inline Inputs';
+    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
+    Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
+    Blockly.Msg.CONFIRM_DELETE = 'Confirm deletion';
+    Blockly.Msg.DELETE_ALL_BLOCKS = "Delete all %1 blocks?";
+    Blockly.Msg.DELETE_BLOCK = 'Delete Block';
+    Blockly.Msg.DELETE_X_BLOCKS = 'Delete %1 Blocks';
+    Blockly.Msg.COLLAPSE_BLOCK = 'Collapse Block';
+    Blockly.Msg.EXPAND_BLOCK = 'Expand Block';
+    Blockly.Msg.DISABLE_BLOCK = 'Disable Block';
+    Blockly.Msg.ENABLE_BLOCK = 'Enable Block';
+    Blockly.Msg.HELP = 'Help';
+    Blockly.Msg.EXPORT_IMAGE = 'Download Blocks as Image';
+    Blockly.Msg.COLLAPSE_ALL = 'Collapse Blocks';
+    Blockly.Msg.EXPAND_ALL = 'Expand Blocks';
+    Blockly.Msg.ARRANGE_H = 'Arrange Blocks Horizontally';
+    Blockly.Msg.ARRANGE_V = 'Arrange Blocks Vertically';
     Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
-    Blockly.Msg.SORT_W = 'Blokları Genişliklerine Göre Sırala';
-    Blockly.Msg.SORT_H = 'Blokları Yüksekliklerine Göre Sırala';
-    Blockly.Msg.SORT_C = 'Blokları Kategorilerine Göre Sırala';
-    Blockly.Msg.COPY_TO_BACKPACK = 'Sırt çantasına ekle';
-    Blockly.Msg.COPY_ALLBLOCKS = 'Tüm blokları sırt çantasına kopyala';
-    Blockly.Msg.BACKPACK_GET = 'Tüm blokları sırt çantasından kopyala';
-    Blockly.Msg.BACKPACK_EMPTY = 'Sırt çantasını temizle';
-    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Sırt çantasını temizlemek istediğinizden emin misiniz?';
-    Blockly.Msg.BACKPACK_DOC_TITLE = "Sırt çantası hakkında bilgi";
-    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Sırt Çantası Dökümantasyonunu Göster";
+    Blockly.Msg.SORT_W = 'Sort Blocks by Width';
+    Blockly.Msg.SORT_H = 'Sort Blocks by Height';
+    Blockly.Msg.SORT_C = 'Sort Blocks by Category';
+    Blockly.Msg.COPY_TO_BACKPACK = 'Add to Backpack';
+    Blockly.Msg.COPY_ALLBLOCKS = 'Copy All Blocks to Backpack';
+    Blockly.Msg.BACKPACK_GET = 'Paste All Blocks from Backpack';
+    Blockly.Msg.BACKPACK_EMPTY = 'Empty the Backpack';
+    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Are you sure you want to empty the backpack?';
+    Blockly.Msg.BACKPACK_DOC_TITLE = "Backpack Information";
+    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Show Backpack documentation";
     Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
    " and paste them into another project or screen. " +
    " To copy, you can drag-and-drop blocks into the Backpack. To paste, click on the Backpack icon and " +
@@ -76,14 +76,14 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
 
 // Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Değeri değiştir:';
-    Blockly.MSG_NEW_VARIABLE = 'Yeni değişken...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'Yeni değişken adı:';
-    Blockly.MSG_RENAME_VARIABLE = 'Değişkenin adını değiştir...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Tüm değişkenlerin adını değiştir "%1":';
+    Blockly.MSG_CHANGE_VALUE_TITLE = 'Change value:';
+    Blockly.MSG_NEW_VARIABLE = 'New variable...';
+    Blockly.MSG_NEW_VARIABLE_TITLE = 'New variable name:';
+    Blockly.MSG_RENAME_VARIABLE = 'Rename variable...';
+    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
 
 // Toolbox.
-    Blockly.MSG_VARIABLE_CATEGORY = 'Değişkenler';
+    Blockly.MSG_VARIABLE_CATEGORY = 'Variables';
     Blockly.MSG_PROCEDURE_CATEGORY = 'Procedures';
 
 // Warnings/Errors
@@ -92,42 +92,43 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
     Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
     Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "This block is not defined. Delete this block!";
+    Blockly.ERROR_BREAK_ONLY_IN_LOOP = "The break block should be used only within loops";
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors#basic';
-    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
-    Blockly.Msg.LANG_COLOUR_WHITE = 'beyaz';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'açık gri';
-    Blockly.Msg.LANG_COLOUR_GRAY = 'gri';
-    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'mavi gri';
-    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'koyu gri';
-    Blockly.Msg.LANG_COLOUR_BLACK = 'siyah';
-    Blockly.Msg.LANG_COLOUR_RED = 'kırmızı';
-    Blockly.Msg.LANG_COLOUR_PINK = 'pembe';
-    Blockly.Msg.LANG_COLOUR_PURPLE = 'mor';
-    Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'koyu mor';
+    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a colour.';
+    Blockly.Msg.LANG_COLOUR_WHITE = 'white';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'light grey';
+    Blockly.Msg.LANG_COLOUR_GRAY = 'grey';
+    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'blue grey';
+    Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'dark grey';
+    Blockly.Msg.LANG_COLOUR_BLACK = 'black';
+    Blockly.Msg.LANG_COLOUR_RED = 'red';
+    Blockly.Msg.LANG_COLOUR_PINK = 'pink';
+    Blockly.Msg.LANG_COLOUR_PURPLE = 'purple';
+    Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'deep purple';
     Blockly.Msg.LANG_COLOUR_INDIGO = 'indigo';
-    Blockly.Msg.LANG_COLOUR_BLUE = 'mavi';
-    Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'açık mavi';
+    Blockly.Msg.LANG_COLOUR_BLUE = 'blue';
+    Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'light blue';
     Blockly.Msg.LANG_COLOUR_CYAN = 'cyan';
     Blockly.Msg.LANG_COLOUR_TEAL = 'teal';
-    Blockly.Msg.LANG_COLOUR_GREEN = 'yeşil';
-    Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'açık yeşil';
+    Blockly.Msg.LANG_COLOUR_GREEN = 'green';
+    Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'light green';
     Blockly.Msg.LANG_COLOUR_LIME = 'lime';
-    Blockly.Msg.LANG_COLOUR_YELLOW = 'sarı';
+    Blockly.Msg.LANG_COLOUR_YELLOW = 'yellow';
     Blockly.Msg.LANG_COLOUR_AMBER = 'amber';
-    Blockly.Msg.LANG_COLOUR_ORANGE = 'turuncu';
-    Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'koyu turuncu';
-    Blockly.Msg.LANG_COLOUR_BROWN = 'kahverengi';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'rengi böl';
+    Blockly.Msg.LANG_COLOUR_ORANGE = 'orange';
+    Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'deep orange';
+    Blockly.Msg.LANG_COLOUR_BROWN = 'brown';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'split colour';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors#split';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "A list of four elements, each in the range 0 to 255, representing the red, green, blue and alpha components.";
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'rengi oluştur';
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'make colour';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors#make';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A color with the given red, green, blue, and optionally alpha components";
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A colour with the given red, green, blue, and optionally alpha components";
 
 // Control Blocks
-    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Kontrol';
+    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Control';
     Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.makeroid.io/blocks/control#if';
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'If a value is true, then do some statements.';
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'If a value is true, then do the first block of statements.\n' +
@@ -137,13 +138,13 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
         'Otherwise, if the second value is true, do the second block of statements.\n' +
         'If none of the values are true, do the last block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'eğer';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'if';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'değilse';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'öyleyse';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'else';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'then';
 
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'eğer';
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Ekle, kaldır, veya yerlerini değiştir\n' +
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'if';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
         'to reconfigure this if block.';
 
     Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'else if';
@@ -153,10 +154,10 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
 
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'https://docs.makeroid.io/blocks/control#while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'tekrarla';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'yap';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'iken';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'kadar';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repeat';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'do';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'while';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'until';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Runs the blocks in the \'do\' section while the test is '
@@ -175,7 +176,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_CONTROLS_FORRANGE_HELPURL = 'https://docs.makeroid.io/blocks/control#forrange';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'numara';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'number';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'from';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'to';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'by';
@@ -246,7 +247,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     /* [lyn, 10/14/13] Removed for now. May come back some day.
      Blockly.Msg.LANG_CONTROLS_NOTHING_TITLE = 'nothing';
      Blockly.Msg.LANG_CONTROLS_NOTHING_HELPURL = 'https://docs.makeroid.io/blocks/control#nothing';
-     Blockly.Msg.LANG_CONTROLS_NOTHING_TOOLTIP = 'Returns nothing. Used to initialize variables or can be plugged into a return socket if no value needed to return. this is equivalent to null or None.';
+     Blockly.Msg.LANG_CONTROLS_NOTHING_TOOLTIP = 'Returns nothing. Used to initialise variables or can be plugged into a return socket if no value needed to return. this is equivalent to null or None.';
      */
 
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control#openscreen';
@@ -304,6 +305,11 @@ Blockly.Msg.tr.switch_language_to_turkish = {
         + 'opened this one.   This command is for returning text to non-Makeroid activities, not to Makeroid screens. '
         + 'For Makeroid Screens, as in multiple screen apps, use Close Screen with Value, not Close Screen with Plain Text.';
 
+    Blockly.Msg.LANG_CONTROLS_BREAK_HELPURL = "https://docs.makeroid.io/blocks/control#break";
+    Blockly.Msg.LANG_CONTROLS_BREAK_TITLE = "break";
+    Blockly.Msg.LANG_CONTROLS_BREAK_INPUT_TEXT = "value";
+    Blockly.Msg.LANG_CONTROLS_BREAK_COLLAPSED_TEXT = "break";
+
 // Logic Blocks.
     Blockly.Msg.LANG_CATEGORY_LOGIC = 'Logic';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL = 'http://en.wikipedia.org/wiki/Inequality_(mathematics)';
@@ -340,7 +346,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Returns the boolean false.';
 
 // Math Blocks.
-    Blockly.Msg.LANG_CATEGORY_MATH = 'Math';
+    Blockly.Msg.LANG_CATEGORY_MATH = 'Maths';
     Blockly.Msg.LANG_MATH_NUMBER_HELPURL = 'https://docs.makeroid.io/blocks/math#number';
     Blockly.Msg.LANG_MATH_NUMBER_TOOLTIP = 'Report the number shown.';
     Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = 'number';
@@ -878,12 +884,10 @@ Blockly.Msg.tr.switch_language_to_turkish = {
      'Returns 0 if text is not found.';
      Blockly.Msg.LANG_LISTS_INDEX_OF_FIRST = 'first';
      Blockly.Msg.LANG_LISTS_INDEX_OF_LAST = 'last';
-
      Blockly.Msg.LANG_LISTS_GET_INDEX_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_GET_INDEX_TITLE_GET = 'get item at';
      Blockly.Msg.LANG_LISTS_GET_INDEX_INPUT_IN_LIST = 'in list';
      Blockly.Msg.LANG_LISTS_GET_INDEX_TOOLTIP = 'Returns the value at the specified position in a list.';
-
      Blockly.Msg.LANG_LISTS_SET_INDEX_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_SET = 'set item at';
      Blockly.Msg.LANG_LISTS_SET_INDEX_INPUT_IN_LIST = 'in list';
@@ -892,7 +896,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
 // Variables Blocks.
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables#global';
-    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TITLE_INIT = 'initialize global';
+    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TITLE_INIT = 'initialise global';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_NAME = 'name';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TO = 'to';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_COLLAPSED_TEXT = 'global';
@@ -913,24 +917,24 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_VARIABLES_VARIABLE = ' variable';
 
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables#do';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TITLE_INIT = 'initialize local';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TITLE_INIT = 'initialise local';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_DEFAULT_NAME = 'name';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_INPUT_TO = 'to';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_IN_DO = 'in';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_COLLAPSED_TEXT = 'local';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TOOLTIP = 'Allows you to create variables that are only accessible in the do part of this block.';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TRANSLATED_NAME = 'initialize local in do';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TRANSLATED_NAME = 'initialise local in do';
 
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_HELPURL = 'https://docs.makeroid.io/blocks/variables#return';
     /* // These don't differ between the statement and expression
-     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TITLE_INIT = 'initialize local';
+     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TITLE_INIT = 'initialise local';
      Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_INPUT_NAME = 'name';
      Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_INPUT_TO = 'to';
      */
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_IN_RETURN = 'in';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_COLLAPSED_TEXT = 'local';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TOOLTIP = 'Allows you to create variables that are only accessible in the return part of this block.';
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TRANSLATED_NAME = 'initialize local in return';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TRANSLATED_NAME = 'initialise local in return';
 
     Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TITLE_LOCAL_NAMES = 'local names';
     Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TOOLTIP = '';
@@ -968,23 +972,23 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_PROCEDURES_GET_HELPURL = 'https://docs.makeroid.io/blocks/procedures#get';
 
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#do';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL = 'çağır ';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE = 'prosedür';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_COLLAPSED_PREFIX = 'çağır ';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL = 'call ';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE = 'procedure';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_COLLAPSED_PREFIX = 'call ';
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TOOLTIP = 'Call a procedure with no return value.';
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'çağır geri gönderme';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'call no return';
 
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#return';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_CALL = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL;
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_PROCEDURE = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE;
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = 'call ';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TOOLTIP = 'Call a procedure with a return value.';
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TRANSLATED_NAME = 'çağır geri gönder';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_TRANSLATED_NAME = 'call return';
 
-    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TITLE = 'girişler';
-    Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TITLE = 'giriş:';
+    Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TITLE = 'inputs';
+    Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TITLE = 'input:';
 
-    Blockly.Msg.LANG_PROCEDURES_HIGHLIGHT_DEF = 'Prosedürü Öne Çıkart';
+    Blockly.Msg.LANG_PROCEDURES_HIGHLIGHT_DEF = 'Highlight Procedure';
 
     Blockly.Msg.LANG_PROCEDURES_MUTATORCONTAINER_TOOLTIP = '';
     Blockly.Msg.LANG_PROCEDURES_MUTATORARG_TOOLTIP = '';
@@ -993,29 +997,29 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.UNDEFINED_BLOCK_TOOLTIP = "This block is not defined. Delete this block!";
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_WHEN = 'olduğu zaman ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_DO = 'yap';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_WHEN = 'when ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_DO = 'do';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'çağır ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'call ';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_CALL = 'çağır ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'bileşen için';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_CALL = 'call ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'for component';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GETTER_HELPURL = '';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'bileşenin';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'of component';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_SET = 'ayarla ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_TO = ' ona';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_SET = 'set ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_TO = ' to';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_HELPURL = '';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'ayarla ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' ona';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'bileşenin';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'set ';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' to';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'of component';
 
 ///////////////////
     /* HelpURLs for Component Blocks */
@@ -1298,8 +1302,8 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_METHODS_HELPURL = 'https://docs.makeroid.io/components/internal#voting';
 
 //Misc
-    Blockly.Msg.SHOW_WARNINGS = "Uyarıları Göster";
-    Blockly.Msg.HIDE_WARNINGS = "Uyarıları Gizle";
+    Blockly.Msg.SHOW_WARNINGS = "Show Warnings";
+    Blockly.Msg.HIDE_WARNINGS = "Hide Warnings";
     Blockly.Msg.MISSING_SOCKETS_WARNINGS = "You should fill all of the sockets with blocks";
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "This block should be connected to an event block or a procedure definition";
 
@@ -1319,13 +1323,13 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = "You are using an out-of-date Companion. You should update the Makeroid Companion as soon as possible. If you have auto-update setup in the store, the update will happen by itself shortly.";
     Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "The Companion you are using was built for different instance of Makeroid. To obtain the correct companion look on the Makeroid screen under Help->Companion Information menu.";
     Blockly.Msg.REPL_DISMISS = "Dismiss";
-    Blockly.Msg.REPL_SOFTWARE_UPDATE = "Yazılım Güncelleştirmesi";
+    Blockly.Msg.REPL_SOFTWARE_UPDATE = "Software Update";
     Blockly.Msg.REPL_OK_LOWER = "Ok";
     Blockly.Msg.REPL_GOT_IT = "Got It";
     Blockly.Msg.REPL_UPDATE_INFO = 'The update is now being installed on your device. Watch your device (or emulator) screen and approve the software installation when prompted.<br /><br />IMPORTANT: When the update finishes, choose "DONE" (don\'t click "open"). Then go to Makeroid in your web browser, click the "Connect" menu and choose "Reset Connection".  Then reconnect the device.';
 
-    Blockly.Msg.REPL_UPDATE_NO_UPDATE = "Herhangi bir güncelleme mevcut değil";
-    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "Güncelleyebilmeniz için öncelikle bir yardımcıya bağlı olmanız gerekmektedir";
+    Blockly.Msg.REPL_UPDATE_NO_UPDATE = "No Update is Available";
+    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "You must be connected to a Companion to update it";
     Blockly.Msg.REPL_UNABLE_TO_UPDATE = "Unable to send update to device/emulator";
     Blockly.Msg.REPL_UNABLE_TO_LOAD = "Unable to load update from Makeroid server";
     Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "Unable to load update from Makeroid server (server not responding)";
@@ -1334,10 +1338,10 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.REPL_NO_ERROR_FIVE_SECONDS = "<br/><i>Note:</i>&nbsp;You will not see another error reported for 5 seconds.";
     Blockly.Msg.REPL_CONNECTING_USB_CABLE = "Connecting via USB Cable";
     Blockly.Msg.REPL_STARTING_EMULATOR = "Starting the Android Emulator<br/>Please wait: This might take a minute or two.";
-    Blockly.Msg.REPL_CONNECTING = "Bağlanılıyor...";
-    Blockly.Msg.REPL_CANCEL = "İptal et";
-    Blockly.Msg.REPL_GIVE_UP = "Pes et";
-    Blockly.Msg.REPL_KEEP_TRYING = "Denemeye Devam Et";
+    Blockly.Msg.REPL_CONNECTING = "Connecting...";
+    Blockly.Msg.REPL_CANCEL = "Cancel";
+    Blockly.Msg.REPL_GIVE_UP = "Give Up";
+    Blockly.Msg.REPL_KEEP_TRYING = "Keep Trying";
     Blockly.Msg.REPL_CONNECTION_FAILURE1 = "Connection Failure";
     Blockly.Msg.REPL_NO_START_EMULATOR = "We could not start the Makeroid Companion within the Emulator";
     Blockly.Msg.REPL_PLUGGED_IN_Q = "Plugged In?";
@@ -1351,34 +1355,34 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR = "Starting the Companion App in the emulator.";
     Blockly.Msg.REPL_COMPANION_STARTED_WAITING = "Companion starting, waiting ";
     Blockly.Msg.REPL_VERIFYING_COMPANION = "Verifying that the Companion Started....";
-    Blockly.Msg.REPL_CONNECT_TO_COMPANION = "Yardımcıya bağlan";
+    Blockly.Msg.REPL_CONNECT_TO_COMPANION = "Connect to Companion";
     Blockly.Msg.REPL_TRY_AGAIN1 = "Failed to Connect to the Makeroid Companion, try again.";
-    Blockly.Msg.REPL_YOUR_CODE_IS = "Kodun";
-    Blockly.Msg.REPL_DO_YOU_REALLY_Q = "Gerçekten mi?";
+    Blockly.Msg.REPL_YOUR_CODE_IS = "Your code is";
+    Blockly.Msg.REPL_DO_YOU_REALLY_Q = "Do You Really?";
     Blockly.Msg.REPL_FACTORY_RESET = 'This will attempt to reset your Emulator to its "factory" state. If you had previously updated the Companion installed in the Emulator, you will likely have to do this again.';
 
 // Messages from Blockly.js
     Blockly.Msg.WARNING_DELETE_X_BLOCKS = "Are you sure you want to delete all %1 of these blocks?";
 
 // Blocklyeditor.js
-    Blockly.Msg.GENERATE_YAIL = "Yail oluştur";
-    Blockly.Msg.DO_IT = "Yap";
-    Blockly.Msg.CLEAR_DO_IT_ERROR = "Temizleme Hatası";
-    Blockly.Msg.CAN_NOT_DO_IT = "Yapamıyorum";
-    Blockly.Msg.CONNECT_TO_DO_IT = 'Bunu kullanmak için bir yardımcıya veya emülatöre bağlı olmanız gerekmektedir "Yap"';
+    Blockly.Msg.GENERATE_YAIL = "Generate Yail";
+    Blockly.Msg.DO_IT = "Do It";
+    Blockly.Msg.CLEAR_DO_IT_ERROR = "Clear Error";
+    Blockly.Msg.CAN_NOT_DO_IT = "Cannot Do it";
+    Blockly.Msg.CONNECT_TO_DO_IT = 'You must be connected to the companion or emulator to use "Do It"';
 
 // Clock Component Menu Items
-    Blockly.Msg.TIME_YEARS = "Yıl";
-    Blockly.Msg.TIME_MONTHS = "Ay";
-    Blockly.Msg.TIME_WEEKS = "Hafta";
-    Blockly.Msg.TIME_DAYS = "Gün";
-    Blockly.Msg.TIME_HOURS = "Saat";
-    Blockly.Msg.TIME_MINUTES = "Dakika";
-    Blockly.Msg.TIME_SECONDS = "Saniye";
-    Blockly.Msg.TIME_DURATION = "Süre";
+    Blockly.Msg.TIME_YEARS = "Years";
+    Blockly.Msg.TIME_MONTHS = "Months";
+    Blockly.Msg.TIME_WEEKS = "Weeks";
+    Blockly.Msg.TIME_DAYS = "Days";
+    Blockly.Msg.TIME_HOURS = "Hours";
+    Blockly.Msg.TIME_MINUTES = "Minutes";
+    Blockly.Msg.TIME_SECONDS = "Seconds";
+    Blockly.Msg.TIME_DURATION = "Duration";
   }
 };
 
-// Initalize language definition to Turkish
-Blockly.Msg.tr.switch_blockly_language_to_tr.init();
-Blockly.Msg.tr.switch_language_to_turkish.init();
+// Initalize language definition to English
+Blockly.Msg.en.gb.switch_blockly_language_to_en_gb.init();
+Blockly.Msg.en.gb.switch_language_to_english_gb.init();
