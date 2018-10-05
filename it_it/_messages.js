@@ -947,10 +947,10 @@ Blockly.Msg.it.switch_language_to_italian = {
 
 // Procedures Blocks.
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#do';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = 'a';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = 'crea';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE = 'procedura';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO = 'esegui';
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_COLLAPSED_PREFIX = 'a ';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_COLLAPSED_PREFIX = 'crea ';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = 'Una procedura che non ritorna un valore.';
 
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#doreturn';
@@ -961,11 +961,11 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_COLLAPSED_TEXT = 'esegui/risultato';
 
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#return';
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DEFINE = 'a';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DEFINE = 'crea';
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_PROCEDURE = Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE;
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DO = Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO;
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_RETURN = 'risultato';
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_COLLAPSED_PREFIX = 'a ';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_COLLAPSED_PREFIX = 'crea ';
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_TOOLTIP = 'Una procedura che restituisce un valore di risultato.';
 
     Blockly.Msg.LANG_PROCEDURES_DEF_DUPLICATE_WARNING = 'Attenzione:\n' +
