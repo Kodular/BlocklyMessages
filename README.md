@@ -17,7 +17,7 @@ If you want to improve an existing translation, follow this few steps:
 2. Open the folder called with the same code language of what you want to improve
 3. Edit the _\_messages.js_ file and edit the strings you want
 
-<br>
+---
 
 ### Create a new language
 
