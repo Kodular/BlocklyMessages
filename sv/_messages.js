@@ -1,10 +1,10 @@
 // -*- mode: java; c-basic-offset: 2; -*-
-// Copyright © 2018 Makeroid. All rights reserved.
+// Copyright © 2018 Kodular. All rights reserved.
 
 /**
  * Visual Blocks Language
  *
- * Copyright © 2018 Makeroid. All rights reserved.
+ * Copyright © 2018 Kodular. All rights reserved.
  */
 
 /**
@@ -52,7 +52,7 @@ Blockly.Msg.sv.switch_language_to_swedish = {
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = "stäng skärmen med värdet"
     Blockly.Msg.LANG_MATH_TRIG_ASIN = "asin"
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TITLE_TO_CSV = "lista till kommaseparerad tabell"
-    Blockly.Msg.REPL_NOW_DOWNLOADING = "Vi laddar nu ner en uppdatering från Makeroid-servern. Vänta"
+    Blockly.Msg.REPL_NOW_DOWNLOADING = "Vi laddar nu ner en uppdatering från Kodular-servern. Vänta"
     Blockly.Msg.LANG_MATH_RANDOM_SEED_TOOLTIP = "anger ett numeriskt startfrö\nför slumptalsgeneratorn"
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TITLE_CONVERT = "omvandla"
     Blockly.Msg.LANG_MATH_SINGLE_OP_EXP = "e^"
@@ -94,7 +94,7 @@ Blockly.Msg.sv.switch_language_to_swedish = {
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = "anrop utan retur"
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = "text"
     Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = "Kör block i 'gör'-sektionen så länge testvillkoret är sant."
-    Blockly.Msg.BACKPACK_DOCUMENTATION = "Ryggsäcken är en funktion för att klippa och klistra. Den låter dig kopiera block från ett projekt eller skärm   och sen klistra in dem i ett annat projekt eller annan skärm.  För att kopiera kan du dra och släppa block i ryggsäcken. För att klistra in, klicka på ryggsäcksikonen och  dra och släpp block på arbetsytan.</p><p>Innehållet i ryggsäcken finns kvar under  en Makeroid-session. När du avslutar Makeroid eller laddar om webbsidan i webbläsaren  så kommer ryggsäcken att återställas, dvs. tömmas.</p><p>Mer dokumentation och en 'gör så här'-video hittar du på</p><p><a href=\"https://docs.makeroid.io/other/backpack.html\" target=\"_blank\">https://docs.makeroid.io/other/backpack.html</a>"
+    Blockly.Msg.BACKPACK_DOCUMENTATION = "Ryggsäcken är en funktion för att klippa och klistra. Den låter dig kopiera block från ett projekt eller skärm   och sen klistra in dem i ett annat projekt eller annan skärm.  För att kopiera kan du dra och släppa block i ryggsäcken. För att klistra in, klicka på ryggsäcksikonen och  dra och släpp block på arbetsytan.</p><p>Innehållet i ryggsäcken finns kvar under  en Kodular-session. När du avslutar Kodular eller laddar om webbsidan i webbläsaren  så kommer ryggsäcken att återställas, dvs. tömmas.</p><p>Mer dokumentation och en 'gör så här'-video hittar du på</p><p><a href=\"https://docs.kodular.io/other/backpack.html\" target=\"_blank\">https://docs.kodular.io/other/backpack.html</a>"
     Blockly.Msg.LANG_MATH_TRIG_ATAN2 = "atan2"
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = "anropa "
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = "gör"
@@ -137,7 +137,7 @@ Blockly.Msg.sv.switch_language_to_swedish = {
     Blockly.Msg.LANG_TEXT_JOIN_TITLE_JOIN = "slå ihop"
     Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = "Ger antalet bokstäver (inklusive mellanslag)}\ni den givna texten."
     Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = "Lägg till, ta bort eller flytta om sektioner\nför att konfigurera det här om-blocket."
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = "Du använder en gammal Companion-app.<br/><br/>Den här versionen av Makeroid ska användas med Companion-version"
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = "Du använder en gammal Companion-app.<br/><br/>Den här versionen av Kodular ska användas med Companion-version"
     Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = "gör till stora"
     Blockly.Msg.LANG_MATH_ARITHMETIC_ADD = "+"
     Blockly.Msg.REPL_COMPANION_VERSION_CHECK = "Versionskontroll av Companion"
@@ -315,7 +315,7 @@ Blockly.Msg.sv.switch_language_to_swedish = {
     Blockly.Msg.REPL_CONNECTING = "Ansluter ..."
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_TOOLTIP = "Ger värdet som är kopplat till nyckeln i listan med par"
     Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = "Ger negationen av ett tal."
-    Blockly.Msg.REPL_UNABLE_TO_LOAD = "Kan inte ladda uppdatering från Makeroid-servern"
+    Blockly.Msg.REPL_UNABLE_TO_LOAD = "Kan inte ladda uppdatering från Kodular-servern"
     Blockly.Msg.LANG_LISTS_COPY_TOOLTIP = "Kopierar en lista och också alla dellistor i den"
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = "Ger logiska värdet 'sant'."
     Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE = "Förvanskad text"
@@ -339,10 +339,10 @@ Blockly.Msg.sv.switch_language_to_swedish = {
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_IN_DO = "i"
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = "Ger sant om det första talet är mindre\nän det andra talet."
     Blockly.Msg.LANG_COLOUR_BLACK = "svart"
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = "Stänger aktuell skärm och returnerar text till appen som öppnade den. Kommandot är tänkt för att returnera text till aktiviteter utanför Makeroid, inte Makeroid-skärmar. För Makeroid-skärmar som t.ex. flerskärmsappar används 'Stäng skärm med värdet', inte 'Stäng skärm med klartext'."
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = "Stänger aktuell skärm och returnerar text till appen som öppnade den. Kommandot är tänkt för att returnera text till aktiviteter utanför Kodular, inte Kodular-skärmar. För Kodular-skärmar som t.ex. flerskärmsappar används 'Stäng skärm med värdet', inte 'Stäng skärm med klartext'."
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = "Din Companion-app är gammal. Klicka på \"OK\" för att starta uppdateringen. Följ "
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = "Ge sant om alla indata är sanna."
-    Blockly.Msg.REPL_NO_START_EMULATOR = "Vi kunde inte starta MIT Makeroid Companion i emulatorn."
+    Blockly.Msg.REPL_NO_START_EMULATOR = "Vi kunde inte starta MIT Kodular Companion i emulatorn."
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = "Hoppar ut ur den omkringliggande loopen."
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_EQ = "Ger sant om talen är lika med varann."
     Blockly.Msg.LANG_LOGIC_OPERATION_AND = "och"
@@ -393,7 +393,7 @@ Blockly.Msg.sv.switch_language_to_swedish = {
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_INPUT_LIST = "lista"
     Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = "lista1"
     Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = "lista2"
-    Blockly.Msg.REPL_UPDATE_INFO = "Uppdateringen installeras nu på din enhet. Kolla enhetens (eller emulatorns) skärm och godkänn programinstallationen när du blir ombedd.<br /><br />VIKTIGT: När uppdateringen är klar, välj \"KLAR\" (klicka inte på \"Öppna\"). Gå sen till Makeroid i din webbläsare, klicka på \"Anslut\"-menyn och välj \"Återställ anslutning\". Koppla sedan in enheten igen."
+    Blockly.Msg.REPL_UPDATE_INFO = "Uppdateringen installeras nu på din enhet. Kolla enhetens (eller emulatorns) skärm och godkänn programinstallationen när du blir ombedd.<br /><br />VIKTIGT: När uppdateringen är klar, välj \"KLAR\" (klicka inte på \"Öppna\"). Gå sen till Kodular i din webbläsare, klicka på \"Anslut\"-menyn och välj \"Återställ anslutning\". Koppla sedan in enheten igen."
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LTE = "Ger sant om det första talet är mindre\nän eller lika med det andra talet."
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = "stäng skärm med klartext"
     Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = "medan"
@@ -519,7 +519,7 @@ Blockly.Msg.sv.switch_language_to_swedish = {
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_Y = "y"
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_PROCEDURE = "procedur"
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DO = "gör"
-    Blockly.Msg.REPL_HELPER_NOT_RUNNING = "Hjälpappen aiStarter verkar inte vara igång<br /><a href=\"https://starter.makeroid.io\" target=\"_blank\">Behöver du hjälp?</a>"
+    Blockly.Msg.REPL_HELPER_NOT_RUNNING = "Hjälpappen aiStarter verkar inte vara igång<br /><a href=\"https://starter.kodular.io\" target=\"_blank\">Behöver du hjälp?</a>"
     Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = "Plockar ut ett segment av given längd från den givna texten\nmed början från den givna texten och givna positionen. Position 1\nanger början på texten."
     Blockly.Msg.LANG_LOGIC_OPERATION_OR = "eller"
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "Blocket behöver kopplas till ett händelseblock eller en procedurdefinition"
@@ -556,7 +556,7 @@ Blockly.Msg.sv.switch_language_to_swedish = {
     Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = "Välj ett slumpmässigt element från listan."
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_REPLACEMENT = "ersättning"
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = "stäng skärm med klartexten"
-    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "Går inte att ladda en uppdatering från Makeroid-servern (servern svarar inte)"
+    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "Går inte att ladda en uppdatering från Kodular-servern (servern svarar inte)"
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = "start"
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = "gör resultat"
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = "En procedur som inte returnerar något värde."

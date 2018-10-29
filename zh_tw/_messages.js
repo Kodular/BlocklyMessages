@@ -1,10 +1,10 @@
 // -*- mode: java; c-basic-offset: 2; -*-
-// Copyright © 2018 Makeroid. All rights reserved.
+// Copyright © 2018 Kodular. All rights reserved.
 
 /**
  * Visual Blocks Language
  *
- * Copyright © 2018 Makeroid. All rights reserved.
+ * Copyright © 2018 Kodular. All rights reserved.
  */
 
 /**
@@ -62,9 +62,9 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.BACKPACK_DOC_TITLE = "背包介紹";
     Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "顯示背包說明";
     Blockly.Msg.BACKPACK_DOCUMENTATION = "背包具有備份功能。它允許您從專案或螢幕中複製程式方塊到另一個專案或螢幕。複製時，將程式方塊從工作區域拖放入背包；接著另一個專案或畫面，點選背包圖標將其中的程式方塊拖放入工作區域。"
-    + "</p><p>退出MIT Makeroid時，程式方塊將留在背包中，並保存到您下次登入。"
+    + "</p><p>退出MIT Kodular時，程式方塊將留在背包中，並保存到您下次登入。"
     + "</p><p>想要了解更多有關背包的介紹，請參考："
-    + '</p><p><a href="https://docs.makeroid.io/other/backpack.html" target="_blank">https://docs.makeroid.io/other/backpack.html</a>';
+    + '</p><p><a href="https://docs.kodular.io/other/backpack.html" target="_blank">https://docs.kodular.io/other/backpack.html</a>';
 
 // Variable renaming.
     Blockly.MSG_CHANGE_VALUE_TITLE = '修改數值:';
@@ -84,11 +84,11 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "元件不存在";
     Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "該程式方塊未定義。刪除該程式方塊！";
 
-    Blockly.ERROR_CAN_NOT_DO_IT_CONTENT = '只有連接「Makeroid Companion」或「模擬器」才能執行';
+    Blockly.ERROR_CAN_NOT_DO_IT_CONTENT = '只有連接「Kodular Companion」或「模擬器」才能執行';
     Blockly.ERROR_CAN_NOT_DO_IT_TITLE = '無法執行該程式方塊';
 
 // Colour Blocks.
-    Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.makeroid.io/blocks/colors#basic';
+    Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.kodular.io/blocks/colors#basic';
     Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = '點擊方形區域來選取顏色';
     Blockly.Msg.LANG_COLOUR_BLACK = '黑色';
     Blockly.Msg.LANG_COLOUR_WHITE = '白色';
@@ -104,15 +104,15 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_COLOUR_DARK_GRAY = '深灰';
     Blockly.Msg.LANG_COLOUR_GRAY = '灰色';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = '分解顏色值';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors#split';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'https://docs.kodular.io/blocks/colors#split';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = '回傳包含紅、綠、藍色以及透明度值（0-255）的清單';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = '合成顏色';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.makeroid.io/blocks/colors#make';
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.kodular.io/blocks/colors#make';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = '回傳由指定紅、綠、藍色值以及透明度值合成的顏色。';
 
 // Control Blocks
     Blockly.Msg.LANG_CATEGORY_CONTROLS = '控制';
-    Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.makeroid.io/blocks/control#if';
+    Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.kodular.io/blocks/control#if';
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = '如果值為真，則執行「則」內的程式方塊';
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = '如果值為真，則執行「則」內的程式方塊\n' +
         '否則, 執行「否則」內的程式方塊';
@@ -136,7 +136,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = '否則';
     Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = '最終條件，當所有條件均不滿足時執行本項';
 
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'https://docs.makeroid.io/blocks/control#while';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'https://docs.kodular.io/blocks/control#while';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = '當滿足條件…執行';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = '執行';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = '當';
@@ -156,7 +156,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
         '每取一個數，都將其值賦值予\n' +
         '變數 "%1"，並執行程式方塊。';
 
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_HELPURL = 'https://docs.makeroid.io/blocks/control#forrange';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_HELPURL = 'https://docs.kodular.io/blocks/control#forrange';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = '對於任意';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = '數字';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = '範圍從';
@@ -170,7 +170,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
 	+ '每次循環均將數值賦予指定變數，'
 	+ '並執行「執行」區段中的程式方塊';
 
-    Blockly.Msg.LANG_CONTROLS_FOREACH_HELPURL = 'https://docs.makeroid.io/blocks/control#foreach';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_HELPURL = 'https://docs.kodular.io/blocks/control#foreach';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = '對於任意';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = '清單項目';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = '清單';
@@ -181,7 +181,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = '針對清單中的每一項執行「對於任意」區域所包含的程式方塊，'
     + ' 採用指定變數名來引用目前的清單項。';
 
-    Blockly.Msg.LANG_CONTROLS_GET_HELPURL = 'https://docs.makeroid.io/blocks/control#get';
+    Blockly.Msg.LANG_CONTROLS_GET_HELPURL = 'https://docs.kodular.io/blocks/control#get';
 
 
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_HELPURL = 'http://en.wikipedia.org/wiki/Control_flow';
@@ -195,13 +195,13 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     '本程式方塊只能於\n' +
     '循序(Flow)程式方塊中。';
 
-    Blockly.Msg.LANG_CONTROLS_WHILE_HELPURL = 'https://docs.makeroid.io/blocks/control#while';
+    Blockly.Msg.LANG_CONTROLS_WHILE_HELPURL = 'https://docs.kodular.io/blocks/control#while';
     Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = '當';
     Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_TEST = '滿足條件';
     Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_DO = '執行';
     Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = '滿足條件';
     Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = '當檢查條件結果為真時，執行「當」內的程式方塊。';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_HELPURL = 'https://docs.makeroid.io/blocks/control#choose';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_HELPURL = 'https://docs.kodular.io/blocks/control#choose';
 
     Blockly.Msg.LANG_CONTROLS_CHOOSE_TITLE = '如果'
     Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_TEST = '';
@@ -213,7 +213,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
       '否則的話回傳「否則」後的程式方塊結果；' +
       '一般狀況下每次只會回傳一個結果。';
 
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_HELPURL = 'https://docs.makeroid.io/blocks/control#doreturn';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_HELPURL = 'https://docs.kodular.io/blocks/control#doreturn';
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = '執行方塊';
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = '回傳結果';
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TOOLTIP = '執行「執行方塊」內的程式方塊並傳回一個結果，用在設定值前插入執行某個程式方塊。';
@@ -221,23 +221,23 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = '執行並回傳';
 
     Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = '求值但忽略結果'
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_HELPURL = 'https://docs.makeroid.io/blocks/control#evaluate';
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_HELPURL = 'https://docs.kodular.io/blocks/control#evaluate';
     Blockly.Msg.LANG_CONTROLS_EVAL_BUT_COLLAPSED_TEXT = '求值但不回傳';
     Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = '執行所連接的程式方塊但不傳回運算值，用於呼叫求值程序但不需要其運算值。';
 
     /* [lyn 13/10/14] Removed for now. May come back some day.
     Blockly.Msg.LANG_CONTROLS_NOTHING_TITLE = '空值';
-    Blockly.Msg.LANG_CONTROLS_NOTHING_HELPURL = 'https://docs.makeroid.io/blocks/control#nothing';
+    Blockly.Msg.LANG_CONTROLS_NOTHING_HELPURL = 'https://docs.kodular.io/blocks/control#nothing';
     Blockly.Msg.LANG_CONTROLS_NOTHING_TOOLTIP = ' 回傳空值。可用於初始化變數或插入到回傳槽中（如果沒有值需要回傳，相當於為空）。';
     */
 
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control#openscreen';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'https://docs.kodular.io/blocks/control#openscreen';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = '開啟另一螢幕';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = '螢幕名稱';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = '開啟螢幕';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = '在多重畫面應用中開啟其他螢幕。';
 
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control#openscreenwithvalue';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_HELPURL = 'https://docs.kodular.io/blocks/control#openscreenwithvalue';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = '開啟其他畫面並傳值';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = '螢幕名稱';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = '初始值';
@@ -245,7 +245,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TOOLTIP = '在多重畫面應用中開啟其他螢幕，並'
     + '傳送初始值過去。';
 
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control#getstartvalue';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_HELPURL = 'https://docs.kodular.io/blocks/control#getstartvalue';
     Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TITLE = '取得初始值';
     Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = '螢幕名稱';
     Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = '初始值';
@@ -254,30 +254,30 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     + '此螢幕通常是由具備多個螢幕之App的另一個螢幕開啟。如沒有內容傳過來，'
     + '則回傳空字串。';
 
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_HELPURL = 'https://docs.makeroid.io/blocks/control#closescreen';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_HELPURL = 'https://docs.kodular.io/blocks/control#closescreen';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TITLE = '關閉螢幕 ';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = '關閉螢幕 ';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = '關閉目前螢幕';
 
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_HELPURL = 'https://docs.makeroid.io/blocks/control#closescreenwithvalue';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_HELPURL = 'https://docs.kodular.io/blocks/control#closescreenwithvalue';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = '關閉螢幕並回傳值';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = '回傳值';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = '關閉螢幕並回傳值';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TOOLTIP = ' 關閉目前螢幕並將值傳送給新的螢幕。';
 
-    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_HELPURL = 'https://docs.makeroid.io/blocks/control#closeapp';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_HELPURL = 'https://docs.kodular.io/blocks/control#closeapp';
     Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = '退出程式';
     Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = '退出程式';
     Blockly.Msg.LANG_CONTROLS_CLOSE_APPLICATION_TOOLTIP = '關閉所有螢幕並終止程式。';
 
-    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/control#getplainstarttext';
+    Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_HELPURL = 'https://docs.kodular.io/blocks/control#getplainstarttext';
     Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TITLE = '取得初始文字';
     Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_COLLAPSED_TEXT = '取得初始文字';
     Blockly.Msg.LANG_CONTROLS_GET_PLAIN_START_TEXT_TOOLTIP = ' 當本螢幕被其他app啟動時取來所傳來的文字，'
     + '如沒有內容傳入，則回傳空字串。'
     + '對於多螢幕的app，通常使用取得初始值的方式而非取得純文字(plain text)值。';
 
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/control#closescreenwithplaintext';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_HELPURL = 'https://docs.kodular.io/blocks/control#closescreenwithplaintext';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = '關閉螢幕並回傳文字';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_INPUT_TEXT = '文字';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = '關閉螢幕並回傳文字';
@@ -288,8 +288,8 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
 // Logic Blocks.
     Blockly.Msg.LANG_CATEGORY_LOGIC = '邏輯';
     Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL = 'http://en.wikipedia.org/wiki/Inequality _(mathematics)';
-    Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_EQ = 'https://docs.makeroid.io/blocks/logic#=';
-    Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_NEQ = 'https://docs.makeroid.io/blocks/logic#not=';
+    Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_EQ = 'https://docs.kodular.io/blocks/logic#=';
+    Blockly.Msg.LANG_LOGIC_COMPARE_HELPURL_NEQ = 'https://docs.kodular.io/blocks/logic#not=';
     Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_EQ = '判斷兩者是否相等，\n' +
     '對象可為任意類型，不限於數字。\n' +
 	'判斷數字是否相等的依據是它們的字串形式是否相等。' +
@@ -301,20 +301,20 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LOGIC_COMPARE_EQ = '=';
     Blockly.Msg.LANG_LOGIC_COMPARE_NEQ = '\u2260';
 
-    Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_AND = 'https://docs.makeroid.io/blocks/logic#and';
-    Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_OR = 'https://docs.makeroid.io/blocks/logic#or';
+    Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_AND = 'https://docs.kodular.io/blocks/logic#and';
+    Blockly.Msg.LANG_LOGIC_OPERATION_HELPURL_OR = 'https://docs.kodular.io/blocks/logic#or';
     Blockly.Msg.LANG_LOGIC_OPERATION_AND = '與';
     Blockly.Msg.LANG_LOGIC_OPERATION_OR = '或';
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = '如所有輸入項皆為真，則回傳真值。';
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_OR = '只要任一輸入項為真，則回傳真值。';
 
-    Blockly.Msg.LANG_LOGIC_NEGATE_HELPURL = 'https://docs.makeroid.io/blocks/logic#not';
+    Blockly.Msg.LANG_LOGIC_NEGATE_HELPURL = 'https://docs.kodular.io/blocks/logic#not';
     Blockly.Msg.LANG_LOGIC_NEGATE_INPUT_NOT = '非';
     Blockly.Msg.LANG_LOGIC_NEGATE_TOOLTIP = '如輸入項為假，則回傳真值，\n' +
     '如輸入項為真則回傳假值。';
 
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE_HELPURL = 'https://docs.makeroid.io/blocks/logic#true';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE_HELPURL = 'https://docs.makeroid.io/blocks/logic#false';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE_HELPURL = 'https://docs.kodular.io/blocks/logic#true';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE_HELPURL = 'https://docs.kodular.io/blocks/logic#false';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = '真';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = '假';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = '回傳真值';
@@ -322,17 +322,17 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
 
 // Math Blocks.
     Blockly.Msg.LANG_CATEGORY_MATH = '數學';
-    Blockly.Msg.LANG_MATH_NUMBER_HELPURL = 'https://docs.makeroid.io/blocks/math#number';
+    Blockly.Msg.LANG_MATH_NUMBER_HELPURL = 'https://docs.kodular.io/blocks/math#number';
     Blockly.Msg.LANG_MATH_NUMBER_TOOLTIP = '回傳所顯示的數字 ';
     Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = '數字';
 
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL = '';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_EQ = 'https://docs.makeroid.io/blocks/math#=';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_NEQ = 'https://docs.makeroid.io/blocks/math#not=';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_LT = 'https://docs.makeroid.io/blocks/math#lt';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_LTE = 'https://docs.makeroid.io/blocks/math#lte';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GT = 'https://docs.makeroid.io/blocks/math#gt';
-    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GTE = 'https://docs.makeroid.io/blocks/math#gte';
+    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_EQ = 'https://docs.kodular.io/blocks/math#=';
+    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_NEQ = 'https://docs.kodular.io/blocks/math#not=';
+    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_LT = 'https://docs.kodular.io/blocks/math#lt';
+    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_LTE = 'https://docs.kodular.io/blocks/math#lte';
+    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GT = 'https://docs.kodular.io/blocks/math#gt';
+    Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GTE = 'https://docs.kodular.io/blocks/math#gte';
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_EQ = '如兩個數字相等，則回傳真值';
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_NEQ = '如兩個數字不等，則回傳真值';
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = '如第一個數字小於第二個數字，\n' +
@@ -350,11 +350,11 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_MATH_COMPARE_GT = '>';
     Blockly.Msg.LANG_MATH_COMPARE_GTE = '\u2265';
 
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_ADD = 'https://docs.makeroid.io/blocks/math#add';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_MINUS = 'https://docs.makeroid.io/blocks/math#subtract';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_MULTIPLY = 'https://docs.makeroid.io/blocks/math#multiply';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_DIVIDE = 'https://docs.makeroid.io/blocks/math#divide';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_POWER = 'https://docs.makeroid.io/blocks/math#exponent';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_ADD = 'https://docs.kodular.io/blocks/math#add';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_MINUS = 'https://docs.kodular.io/blocks/math#subtract';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_MULTIPLY = 'https://docs.kodular.io/blocks/math#multiply';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_DIVIDE = 'https://docs.kodular.io/blocks/math#divide';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_POWER = 'https://docs.kodular.io/blocks/math#exponent';
     Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_ADD = '回傳兩數之和';
     Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MINUS = '回傳兩數之差';
     Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MULTIPLY = '回傳兩數相乘之計算結果';
@@ -378,23 +378,23 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_MATH_SINGLE_OP_LN = 'ln';
     Blockly.Msg.LANG_MATH_SINGLE_OP_EXP = 'e^';
     Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ROOT = '回傳x的平方根。';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ROOT = 'https://docs.makeroid.io/blocks/math#sqrt';
+    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ROOT = 'https://docs.kodular.io/blocks/math#sqrt';
     Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ABS = '回傳x的絕對值。';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ABS = 'https://docs.makeroid.io/blocks/math#abs';
+    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ABS = 'https://docs.kodular.io/blocks/math#abs';
     Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = '回傳x的相反數。';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_NEG = 'https://docs.makeroid.io/blocks/math#neg';
+    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_NEG = 'https://docs.kodular.io/blocks/math#neg';
     Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_LN = '回傳ln(x)。';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_LN = 'https://docs.makeroid.io/blocks/math#log';
+    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_LN = 'https://docs.kodular.io/blocks/math#log';
     Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_EXP = '回傳e^x。';
-    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_EXP = 'https://docs.makeroid.io/blocks/math#e';
+    Blockly.Msg.LANG_MATH_SINGLE_HELPURL_EXP = 'https://docs.kodular.io/blocks/math#e';
     /*Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_POW10 = '回傳10的指定次方之計算結果'; */
 
     Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_ROUND = '進位或捨去來取整數';
-    Blockly.Msg.LANG_MATH_ROUND_HELPURL_ROUND = 'https://docs.makeroid.io/blocks/math#round';
+    Blockly.Msg.LANG_MATH_ROUND_HELPURL_ROUND = 'https://docs.kodular.io/blocks/math#round';
     Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_CEILING = '回傳大於等於輸入項的最小整數(無條件進入)';
-    Blockly.Msg.LANG_MATH_ROUND_HELPURL_CEILING = 'https://docs.makeroid.io/blocks/math#ceiling';
+    Blockly.Msg.LANG_MATH_ROUND_HELPURL_CEILING = 'https://docs.kodular.io/blocks/math#ceiling';
     Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_FLOOR = '回傳小於等於輸入項的最大整數(無條件捨去)';
-    Blockly.Msg.LANG_MATH_ROUND_HELPURL_FLOOR = 'https://docs.makeroid.io/blocks/math#floor';
+    Blockly.Msg.LANG_MATH_ROUND_HELPURL_FLOOR = 'https://docs.kodular.io/blocks/math#floor';
     Blockly.Msg.LANG_MATH_ROUND_OPERATOR_ROUND = '四捨五入';
     Blockly.Msg.LANG_MATH_ROUND_OPERATOR_CEILING = '進位後取整數';
     Blockly.Msg.LANG_MATH_ROUND_OPERATOR_FLOOR = '捨去後取整數';
@@ -409,19 +409,19 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_X = 'x';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_Y = 'y';
     Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_SIN = '求正弦值（x單位為度）';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_SIN = 'https://docs.makeroid.io/blocks/math#sin';
+    Blockly.Msg.LANG_MATH_TRIG_HELPURL_SIN = 'https://docs.kodular.io/blocks/math#sin';
     Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_COS = '求餘弦值（x單位為度）';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_COS = 'https://docs.makeroid.io/blocks/math#cos';
+    Blockly.Msg.LANG_MATH_TRIG_HELPURL_COS = 'https://docs.kodular.io/blocks/math#cos';
     Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_TAN = '求正切值（x單位為度）';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_TAN = 'https://docs.makeroid.io/blocks/math#tan';
+    Blockly.Msg.LANG_MATH_TRIG_HELPURL_TAN = 'https://docs.kodular.io/blocks/math#tan';
     Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ASIN = '求反正弦值（x單位為度,範圍(-90,+90]）';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ASIN = 'https://docs.makeroid.io/blocks/math#asin';
+    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ASIN = 'https://docs.kodular.io/blocks/math#asin';
     Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ACOS = '求反餘弦值（x單位為度,範圍[0, 180)）';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ACOS = 'https://docs.makeroid.io/blocks/math#acos';
+    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ACOS = 'https://docs.kodular.io/blocks/math#acos';
     Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN = '求反正切值（x單位為度,範圍(-90, +90)）';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN = 'https://docs.makeroid.io/blocks/math#atan';
+    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN = 'https://docs.kodular.io/blocks/math#atan';
     Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN2 = '求y/x反正切值（x單位為度,範圍(-180, +180]）';
-    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN2 = 'https://docs.makeroid.io/blocks/math#atan2';
+    Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN2 = 'https://docs.kodular.io/blocks/math#atan2';
 
     Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MIN = '最小值';
     Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MAX = '最大值';
@@ -434,13 +434,13 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_REMAINDER = '餘數';
     Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_QUOTIENT = '商數';
     Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_MODULO = '回傳a/b的模數。';
-    Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_MODULO = 'https://docs.makeroid.io/blocks/math#modulo';
+    Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_MODULO = 'https://docs.kodular.io/blocks/math#modulo';
     Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_REMAINDER = '回傳a/b的餘數。';
-    Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_REMAINDER = 'https://docs.makeroid.io/blocks/math#remainder';
+    Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_REMAINDER = 'https://docs.kodular.io/blocks/math#remainder';
     Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_QUOTIENT = '回傳a/b的商數。';
-    Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_QUOTIENT = 'https://docs.makeroid.io/blocks/math#quotient';
+    Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_QUOTIENT = 'https://docs.kodular.io/blocks/math#quotient';
 
-    Blockly.Msg.LANG_MATH_RANDOM_INT_HELPURL = 'https://docs.makeroid.io/blocks/math#randomint';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_HELPURL = 'https://docs.kodular.io/blocks/math#randomint';
     Blockly.Msg.LANG_MATH_RANDOM_INT_TITLE_RANDOM = '隨機整數';
     Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_FROM = '範圍從';
     Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_TO = '到';
@@ -448,11 +448,11 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_MATH_RANDOM_INT_TOOLTIP = '回傳指定範圍內的隨機整數，\n' +
     '範圍限於2^30之內。';
 
-    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_HELPURL = 'https://docs.makeroid.io/blocks/math#randomfrac';
+    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_HELPURL = 'https://docs.kodular.io/blocks/math#randomfrac';
     Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TITLE_RANDOM = '隨機小數';
     Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TOOLTIP = '回傳0和1之間的隨機小數值。';
 
-    Blockly.Msg.LANG_MATH_RANDOM_SEED_HELPURL = 'https://docs.makeroid.io/blocks/math#randomseed';
+    Blockly.Msg.LANG_MATH_RANDOM_SEED_HELPURL = 'https://docs.kodular.io/blocks/math#randomseed';
     Blockly.Msg.LANG_MATH_RANDOM_SEED_TITLE_RANDOM = '設定隨機數種子';
     Blockly.Msg.LANG_MATH_RANDOM_SEED_INPUT_TO = '為';
     Blockly.Msg.LANG_MATH_RANDOM_SEED_TOOLTIP = '為隨機數產成器指定種子。';
@@ -461,30 +461,30 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_RAD_TO_DEG = '弧度轉為角度';
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_DEG_TO_RAD = '角度轉為弧度';
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_RAD_TO_DEG = '回傳輸入弧度對應的角度值[0, 360)。';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_HELPURL_RAD_TO_DEG = 'https://docs.makeroid.io/blocks/math#convertrad';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_HELPURL_RAD_TO_DEG = 'https://docs.kodular.io/blocks/math#convertrad';
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_DEG_TO_RAD = '回傳輸入角度對應的弧度值[-\u03C0, +\u03C0)。';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_HELPURL_DEG_TO_RAD = 'https://docs.makeroid.io/blocks/math#convertdeg';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_HELPURL_DEG_TO_RAD = 'https://docs.kodular.io/blocks/math#convertdeg';
 
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_HELPURL = 'https://docs.makeroid.io/blocks/math#format';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_HELPURL = 'https://docs.kodular.io/blocks/math#format';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TITLE = '求小數值';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_NUM = '數字';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_PLACES = '位數';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT = '將數字 %1設為小數形式 位數 %2';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TOOLTIP = '以指定位數回傳該數值的小數形式。';
 
-    Blockly.Msg.LANG_MATH_IS_A_NUMBER_HELPURL = 'https://docs.makeroid.io/blocks/math#isnumber';
+    Blockly.Msg.LANG_MATH_IS_A_NUMBER_HELPURL = 'https://docs.kodular.io/blocks/math#isnumber';
     Blockly.Msg.LANG_MATH_IS_A_NUMBER_INPUT_NUM = '是否為數字?';
     Blockly.Msg.LANG_MATH_IS_A_NUMBER_TOOLTIP = '判斷該對象是否為數字。';
 
-    // Blockly.Msg.LANG_MATH_IS_A_DECIMAL_HELPURL = 'https://docs.makeroid.io/blocks/math#isnumber';
+    // Blockly.Msg.LANG_MATH_IS_A_DECIMAL_HELPURL = 'https://docs.kodular.io/blocks/math#isnumber';
     // Blockly.Msg.LANG_MATH_IS_A_DECIMAL_INPUT_NUM = '是否為10進位數?';
     // Blockly.Msg.LANG_MATH_IS_A_DECIMAL_TOOLTIP = '判斷該對象是否為10進位數。';
 
-    // Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_HELPURL = 'https://docs.makeroid.io/blocks/math#isnumber';
+    // Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_HELPURL = 'https://docs.kodular.io/blocks/math#isnumber';
     // Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_INPUT_NUM = '是否為16進位?';
     // Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_TOOLTIP = '判斷該對象是否為16進位數。';
 
-    // Blockly.Msg.LANG_MATH_IS_A_BINARY_HELPURL = 'https://docs.makeroid.io/blocks/math#isnumber';
+    // Blockly.Msg.LANG_MATH_IS_A_BINARY_HELPURL = 'https://docs.kodular.io/blocks/math#isnumber';
     // Blockly.Msg.LANG_MATH_IS_A_BINARY_INPUT_NUM = '是否為2進位?';
     // Blockly.Msg.LANG_MATH_IS_A_BINARY_TOOLTIP = '判斷該對象是否為2進位數。';
 
@@ -507,12 +507,12 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
 
 // Text Blocks.
     Blockly.Msg.LANG_CATEGORY_TEXT = '文字';
-    Blockly.Msg.LANG_TEXT_TEXT_HELPURL = 'https://docs.makeroid.io/blocks/text#string';
+    Blockly.Msg.LANG_TEXT_TEXT_HELPURL = 'https://docs.kodular.io/blocks/text#string';
     Blockly.Msg.LANG_TEXT_TEXT_TOOLTIP = '輸入文字內容';
     Blockly.Msg.LANG_TEXT_TEXT_LEFT_QUOTE = '\u201C';
     Blockly.Msg.LANG_TEXT_TEXT_RIGHT_QUOTE = '\u201D';
 
-    Blockly.Msg.LANG_TEXT_JOIN_HELPURL = 'https://docs.makeroid.io/blocks/text#join';
+    Blockly.Msg.LANG_TEXT_JOIN_HELPURL = 'https://docs.kodular.io/blocks/text#join';
     Blockly.Msg.LANG_TEXT_JOIN_TITLE_CREATEWITH = '建立文字';
     Blockly.Msg.LANG_TEXT_JOIN_TOOLTIP = '合併所有輸入項為同一個文字，\n'
     + '如沒有輸入項，則生成空文字。';
@@ -527,18 +527,18 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_TEXT_APPEND_VARIABLE = '變數';
     Blockly.Msg.LANG_TEXT_APPEND_TOOLTIP = '將文字追加到原有文字 "%1"之後。';
 
-    Blockly.Msg.LANG_TEXT_LENGTH_HELPURL = 'https://docs.makeroid.io/blocks/text#length';
+    Blockly.Msg.LANG_TEXT_LENGTH_HELPURL = 'https://docs.kodular.io/blocks/text#length';
     Blockly.Msg.LANG_TEXT_LENGTH_INPUT_LENGTH = '求長度';
     Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = '回傳該文字的字元數(包括空格)。';
 
-    Blockly.Msg.LANG_TEXT_ISEMPTY_HELPURL = 'https://docs.makeroid.io/blocks/text#isempty';
+    Blockly.Msg.LANG_TEXT_ISEMPTY_HELPURL = 'https://docs.kodular.io/blocks/text#isempty';
     Blockly.Msg.LANG_TEXT_ISEMPTY_INPUT_ISEMPTY = '是否為空';
     Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = '如文字長度為0則回傳真，否則回傳假。';
 
     Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
     Blockly.Msg.LANG_TEXT_COMPARE_EQUAL = ' =';
     Blockly.Msg.LANG_TEXT_COMPARE_GT = ' >';
-    Blockly.Msg.LANG_TEXT_COMPARE_HELPURL = 'https://docs.makeroid.io/blocks/text#compare';
+    Blockly.Msg.LANG_TEXT_COMPARE_HELPURL = 'https://docs.kodular.io/blocks/text#compare';
     Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = '文字比較';
     Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = '判斷左邊文字的首字母順序是否低於右邊文字，\n'
     + '如果text1與text2開頭部分相同，則長度較短的字串為較小值，\n'
@@ -555,7 +555,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     + "時使用。\n"
     + "警告：對於專家來說，模糊文字的安全性還是非常低。";
     Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE = '模糊文字';
-    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_HELPURL = 'https://docs.makeroid.io/blocks/text#obfuscatetext';
+    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_HELPURL = 'https://docs.kodular.io/blocks/text#obfuscatetext';
 
     /*Blockly.Msg.LANG_TEXT_ENDSTRING_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_TEXT_ENDSTRING_INPUT = '文字字母數';
@@ -580,15 +580,15 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = '大寫';
     Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_DOWNCASE = '小寫';
     Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_UPPERCASE = '回傳轉為大寫的文字。';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_UPPERCASE = 'https://docs.makeroid.io/blocks/text#upcase';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_UPPERCASE = 'https://docs.kodular.io/blocks/text#upcase';
     Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_DOWNCASE = '回傳轉為大寫的文字。';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_DOWNCASE = 'https://docs.makeroid.io/blocks/text#downcase';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_DOWNCASE = 'https://docs.kodular.io/blocks/text#downcase';
 
-    Blockly.Msg.LANG_TEXT_TRIM_HELPURL = 'https://docs.makeroid.io/blocks/text#trim';
+    Blockly.Msg.LANG_TEXT_TRIM_HELPURL = 'https://docs.kodular.io/blocks/text#trim';
     Blockly.Msg.LANG_TEXT_TRIM_TITLE_TRIM = '刪除空格';
     Blockly.Msg.LANG_TEXT_TRIM_TOOLTIP = '回傳刪除首尾處空格後的文字';
 
-    Blockly.Msg.LANG_TEXT_STARTS_AT_HELPURL = 'https://docs.makeroid.io/blocks/text#startsat';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_HELPURL = 'https://docs.kodular.io/blocks/text#startsat';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = '字串位置';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = '文字';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_PIECE = '字串';
@@ -597,14 +597,14 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     + '其中1表示文字的起始處，\n '
     + '如找不到該字串則傳回0。';
 
-    Blockly.Msg.LANG_TEXT_CONTAINS_HELPURL = 'https://docs.makeroid.io/blocks/text#contains';
+    Blockly.Msg.LANG_TEXT_CONTAINS_HELPURL = 'https://docs.kodular.io/blocks/text#contains';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_CONTAINS = '包含字串';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = '文字';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_PIECE = '字串';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = '檢查文字%1中是否包含字串%2';
     Blockly.Msg.LANG_TEXT_CONTAINS_TOOLTIP = '檢查文字中是否包含該字串';
 
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL = 'https://docs.makeroid.io/blocks/text#split';
+    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL = 'https://docs.kodular.io/blocks/text#split';
     Blockly.Msg.LANG_TEXT_SPLIT_INPUT_TEXT = '文字';
     Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT = '分隔符號';
     Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT_LIST = '分隔符號(清單)';
@@ -619,23 +619,23 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     + '"香蕉,櫻桃,西瓜"。\n'
     + '注意，"蘋果"後面的逗號不會出現，\n'
     + '因為它就是分隔符號。';
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST = 'https://docs.makeroid.io/blocks/text#splitat';
+    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST = 'https://docs.kodular.io/blocks/text#splitat';
     Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST_OF_ANY = '以文字中的任意項作為分隔符號，\n'
     + '在首次出現分隔符號的位置將給定文字分解為一個二元素清單。\n\n'
     + '如以"(香蕉,蘋)"作為分隔符號分解"我喜歡蘋果香蕉蘋果葡萄"這段文字，\n'
     + '將回傳一個包含兩個元素的清單，第一個元素為"我喜歡"，第二個元素為\n'
     + '"果香蕉蘋果葡萄"';
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST_OF_ANY = 'https://docs.makeroid.io/blocks/text#splitatfirstofany';
+    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST_OF_ANY = 'https://docs.kodular.io/blocks/text#splitatfirstofany';
     Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT = '以指定內容作為分隔符號來分解文字，並回傳包含分解後結果的清單。\n'
     + ' 如以","(逗號)分解"一,二,三,四"，將傳回清單"(一 二 三 四)"，\n'
     +' 而以"-土豆"作為分隔符號分解字串"一-土豆,二-土豆,三-土豆,四"，則傳回清單"(一 二 三 四)"。'
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT = 'https://docs.makeroid.io/blocks/text#split';
+    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT = 'https://docs.kodular.io/blocks/text#split';
     Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_ANY = '以分隔符號清單中的任意一項作為分隔符號，將指定文字分解為清單，\n'
     + '並回傳一個包含處理結果的清單。\n'
     + '如分解"藍莓,香蕉,草莓,西瓜"，以一個含兩元素的清單作為分隔符號，\n'
     + '其中第一項為逗號，第二項為"莓"，則回傳清單：\n'
     + '"(藍 香蕉 草 西瓜)"'
-    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_ANY = 'https://docs.makeroid.io/blocks/text#splitatany';
+    Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_ANY = 'https://docs.kodular.io/blocks/text#splitatany';
 
     /*.LANG_TEXT_PRINT_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode91.html';
      Blockly.Msg.LANG_TEXT_PRINT_TITLE_PRINT = '輸出';
@@ -647,11 +647,11 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
      Blockly.Msg.LANG_TEXT_PROMPT_TYPE_TEXT = '文字';
      Blockly.Msg.LANG_TEXT_PROMPT_TYPE_NUMBER = '指定數字';*/
 
-    Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_HELPURL = 'https://docs.makeroid.io/blocks/text#splitspaces';
+    Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_HELPURL = 'https://docs.kodular.io/blocks/text#splitspaces';
     Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_TITLE = '用空格分解';
     Blockly.Msg.LANG_TEXT_SPLIT_AT_TOOLTIP = '以空格作為分隔符號，將文字分解為若干部分。';
 
-    Blockly.Msg.LANG_TEXT_SEGMENT_HELPURL = 'https://docs.makeroid.io/blocks/text#segment';
+    Blockly.Msg.LANG_TEXT_SEGMENT_HELPURL = 'https://docs.kodular.io/blocks/text#segment';
     Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = '提取字串';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = '提取位置';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = '提取長度';
@@ -660,7 +660,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = '以指定長度、指定位置從指定文字中提取文字片段，\n'
     + '位置1表示被提取文字的起始處。';
 
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_HELPURL = 'https://docs.makeroid.io/blocks/text#replaceall';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_HELPURL = 'https://docs.kodular.io/blocks/text#replaceall';
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_SEGMENT = '取代項';
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_TEXT = '原始文字';
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_TITLE_REPLACE_ALL = '全部取代';
@@ -675,7 +675,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TITLE = '建立空清單';
     Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TOOLTIP = '建立一個空的清單';
 
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_EMPTY_HELPURL = 'https://docs.makeroid.io/blocks/lists#makealist';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_EMPTY_HELPURL = 'https://docs.kodular.io/blocks/lists#makealist';
     Blockly.Msg.LANG_LISTS_CREATE_WITH_TITLE_MAKE_LIST = '建立清單';
     Blockly.Msg.LANG_LISTS_CREATE_WITH_TOOLTIP = '建立一個可包含任意項數的清單';
 
@@ -687,16 +687,16 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
 
     Blockly.Msg.LANG_LISTS_ADD_ITEM_TITLE = '清單項';
     Blockly.Msg.LANG_LISTS_ADD_ITEM_TOOLTIP = '增加一個清單項。';
-    Blockly.Msg.LANG_LISTS_ADD_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists#additems';
+    Blockly.Msg.LANG_LISTS_ADD_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#additems';
 
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_HELPURL = 'https://docs.makeroid.io/blocks/lists#selectlistitem';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_HELPURL = 'https://docs.kodular.io/blocks/lists#selectlistitem';
     Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_SELECT = '選擇清單項';
     Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_INDEX = '索引值';
     Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT = '選擇清單%1中索引值為%2的清單項';
     Blockly.Msg.LANG_LISTS_SELECT_ITEM_TOOLTIP = '回傳指定索引值的清單項';
 
-    Blockly.Msg.LANG_LISTS_IS_IN_HELPURL = 'https://docs.makeroid.io/blocks/lists#inlist';
+    Blockly.Msg.LANG_LISTS_IS_IN_HELPURL = 'https://docs.kodular.io/blocks/lists#inlist';
     Blockly.Msg.LANG_LISTS_IS_IN_TITLE_IS_IN = '對象是否在清單中?';
     Blockly.Msg.LANG_LISTS_IS_IN_INPUT_THING = '對象';
     Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = '清單';
@@ -704,7 +704,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LISTS_IS_IN_TOOLTIP = '如該對象為清單中某一項則回傳真值，'
     + '否則為假。';
 
-    Blockly.Msg.LANG_LISTS_POSITION_IN_HELPURL = 'https://docs.makeroid.io/blocks/lists#indexinlist';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_HELPURL = 'https://docs.kodular.io/blocks/lists#indexinlist';
     Blockly.Msg.LANG_LISTS_POSITION_IN_TITLE_POSITION = '清單項索引值';
     Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_THING = '對象';
     Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_LIST = '清單';
@@ -712,12 +712,12 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LISTS_POSITION_IN_TOOLTIP = '求對象在該清單中的位置，'
     + '如不在該清單中，則回傳0。';
 
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists#pickrandomitem';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#pickrandomitem';
     Blockly.Msg.LANG_LISTS_PICK_RANDOM_TITLE_PICK_RANDOM = '隨機選取清單項';
     Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = '從清單中隨機選取一項';
 
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists#replace';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#replace';
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TITLE_REPLACE = '取代清單項';
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_INDEX = '索引值';
@@ -725,7 +725,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT = '將清單%1中索引值為%2的清單項取代為%3';
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TOOLTIP = '取代清單中第n項內容';
 
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists#removeitem';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#removeitem';
     Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TITLE_REMOVE = '刪除清單項';
     Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_INDEX = '索引值';
@@ -739,13 +739,13 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LISTS_REPEAT_TOOLTIP = '建立一個擁有給定專案的清單\n' +
     '並且重複給定的次數';*/
 
-    Blockly.Msg.LANG_LISTS_LENGTH_HELPURL = 'https://docs.makeroid.io/blocks/lists#lengthoflist';
+    Blockly.Msg.LANG_LISTS_LENGTH_HELPURL = 'https://docs.kodular.io/blocks/lists#lengthoflist';
     Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LENGTH = '求清單長度';
     Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_LENGTH_INPUT = '計算清單%1的長度';
     Blockly.Msg.LANG_LISTS_LENGTH_TOOLTIP = '計算清單項數';
 
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_HELPURL = 'https://docs.makeroid.io/blocks/lists#append';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_HELPURL = 'https://docs.kodular.io/blocks/lists#append';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_TITLE_APPEND = '附加清單';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = '清單1';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = '清單2';
@@ -753,7 +753,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LISTS_APPEND_LIST_TOOLTIP = '將清單2中所有項附加到清單1的末尾。附加後，'
     + '清單1中將包括所有新加入的元素，而清單2則不發生變化。';
 
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_HELPURL = 'https://docs.makeroid.io/blocks/lists#additems';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_HELPURL = 'https://docs.kodular.io/blocks/lists#additems';
     Blockly.Msg.LANG_LISTS_ADD_ITEMS_TITLE_ADD = '增加清單項目';
     Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_ITEM = '清單項目';
@@ -763,17 +763,17 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TITLE_ADD = '清單';
     Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TOOLTIP = '編輯該清單，增加、刪除或重新排列';
 
-    Blockly.Msg.LANG_LISTS_COPY_HELPURL = 'https://docs.makeroid.io/blocks/lists#copy';
+    Blockly.Msg.LANG_LISTS_COPY_HELPURL = 'https://docs.kodular.io/blocks/lists#copy';
     Blockly.Msg.LANG_LISTS_COPY_TITLE_COPY = '複製清單';
     Blockly.Msg.LANG_LISTS_COPY_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_COPY_TOOLTIP = '複製清單，包括其中所有的子清單。';
 
-    Blockly.Msg.LANG_LISTS_IS_LIST_HELPURL = 'https://docs.makeroid.io/blocks/lists#isalist';
+    Blockly.Msg.LANG_LISTS_IS_LIST_HELPURL = 'https://docs.kodular.io/blocks/lists#isalist';
     Blockly.Msg.LANG_LISTS_IS_LIST_TITLE_IS_LIST = '對象是否為清單? ';
     Blockly.Msg.LANG_LISTS_IS_LIST_INPUT_THING = '對象';
     Blockly.Msg.LANG_LISTS_IS_LIST_TOOLTIP = '判斷該對象是否為清單類型。';
 
-    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_HELPURL = 'https://docs.makeroid.io/blocks/lists#listtocsvrow';
+    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_HELPURL = 'https://docs.kodular.io/blocks/lists#listtocsvrow';
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TITLE_TO_CSV = '清單轉CSV格式';
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TOOLTIP = '將清單轉換為表格中的一列資料，'
@@ -782,14 +782,14 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     + '各資料項以逗號分隔，且每行末尾'
     + '均不帶換行符號。';
 
-    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_HELPURL = 'https://docs.makeroid.io/blocks/lists#listfromcsvrow';
+    Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_HELPURL = 'https://docs.kodular.io/blocks/lists#listfromcsvrow';
     Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TITLE_FROM_CSV = 'CSV列轉清單';
     Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_INPUT_TEXT = '文字';
     Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TOOLTIP = '將文字按CSV格式進行解析，'
     + '生成一個包含各欄位資料的清單。對於CSV格式文字而言，欄位中如果有未轉譯的換行符號將導致錯誤'
     + '（在有多行欄位的情況下），而只在整行文字的末端才出現換行符或CRLF則是正確的。';
 
-    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_HELPURL = 'https://docs.makeroid.io/blocks/lists#listtocsvtable';
+    Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_HELPURL = 'https://docs.kodular.io/blocks/lists#listtocsvtable';
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TITLE_TO_CSV = '清單轉CSV表格';
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TOOLTIP = '將清單轉換為帶標題行的表格形式，'
@@ -799,14 +799,14 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     + '在回傳的CSV文字中，資料中的各項皆是以逗號分隔，'
     + '而各列則以CRLF \(\\r\\n\)進行分隔。';
 
-    Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_HELPURL = 'https://docs.makeroid.io/blocks/lists#listfromcsvtable';
+    Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_HELPURL = 'https://docs.kodular.io/blocks/lists#listfromcsvtable';
     Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_TITLE_FROM_CSV = 'CSV表格轉清單';
     Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_INPUT_TEXT = 'CSV文字';
     Blockly.Msg.LANG_LISTS_FROM_CSV_TABLE_TOOLTIP = '對CSV（逗號分隔數值）格式的文字進行解析，'
     + '並產生一筆一筆的記錄，其中的每一欄位都是一個清單，'
     + '各記錄間分別以換行符號\(\\n\)或CRLF \(\\r\\n\)方式分隔。';
 
-    Blockly.Msg.LANG_LISTS_INSERT_ITEM_HELPURL = 'https://docs.makeroid.io/blocks/lists#insert';
+    Blockly.Msg.LANG_LISTS_INSERT_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#insert';
     Blockly.Msg.LANG_LISTS_INSERT_TITLE_INSERT_LIST = '插入清單項';
     Blockly.Msg.LANG_LISTS_INSERT_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_INSERT_INPUT_INDEX = '索引值';
@@ -814,12 +814,12 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LISTS_INSERT_INPUT = '在清單%1的第%2項處插入清單項%3';
     Blockly.Msg.LANG_LISTS_INSERT_TOOLTIP = '在指定索引值(位置)處插入清單項。';
 
-    Blockly.Msg.LANG_LISTS_IS_EMPTY_HELPURL = 'https://docs.makeroid.io/blocks/lists#islistempty';
+    Blockly.Msg.LANG_LISTS_IS_EMPTY_HELPURL = 'https://docs.kodular.io/blocks/lists#islistempty';
     Blockly.Msg.LANG_LISTS_TITLE_IS_EMPTY = '清單是否為空?';
     Blockly.Msg.LANG_LISTS_INPUT_LIST = '清單';
     Blockly.Msg.LANG_LISTS_IS_EMPTY_TOOLTIP = '如果清單為空則回傳真。';
 
-    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_HELPURL = 'https://docs.makeroid.io/blocks/lists#lookuppairs';
+    Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_HELPURL = 'https://docs.kodular.io/blocks/lists#lookuppairs';
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_TITLE_LOOKUP_IN_PAIRS = '鍵值對查詢';
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT_KEY = '關鍵字';
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT_PAIRS = '鍵值對';
@@ -847,20 +847,20 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_LISTS_SET_INDEX_TOOLTIP = '修改清單中制定位置的值。';*/
 
 // Variables Blocks.
-    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables#global';
+    Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_HELPURL = 'https://docs.kodular.io/blocks/variables#global';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TITLE_INIT = '初始化全域變數';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_NAME = '變數名';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TO = '為';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_COLLAPSED_TEXT = '全域變數';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TOOLTIP = '建立全域變數，並透過後方的程式方塊來設定初始值';
 
-    Blockly.Msg.LANG_VARIABLES_GET_HELPURL = 'https://docs.makeroid.io/blocks/variables#get';
+    Blockly.Msg.LANG_VARIABLES_GET_HELPURL = 'https://docs.kodular.io/blocks/variables#get';
     Blockly.Msg.LANG_VARIABLES_GET_TITLE_GET = '取';
     // Blockly.Msg.LANG_VARIABLES_GET_INPUT_ITEM = '專案';
     Blockly.Msg.LANG_VARIABLES_GET_COLLAPSED_TEXT = '取得變數值';
     Blockly.Msg.LANG_VARIABLES_GET_TOOLTIP = '回傳變數的值。';
 
-    Blockly.Msg.LANG_VARIABLES_SET_HELPURL = 'https://docs.makeroid.io/blocks/variables#set';
+    Blockly.Msg.LANG_VARIABLES_SET_HELPURL = 'https://docs.kodular.io/blocks/variables#set';
     Blockly.Msg.LANG_VARIABLES_SET_TITLE_SET = '設置';
     // Blockly.Msg.LANG_VARIABLES_SET_INPUT_ITEM = '專案';
     Blockly.Msg.LANG_VARIABLES_SET_TITLE_TO = '為';
@@ -868,7 +868,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_VARIABLES_SET_TOOLTIP = '設變數值等於輸入項';
     Blockly.Msg.LANG_VARIABLES_VARIABLE = '變數';
 
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_HELPURL = 'https://docs.makeroid.io/blocks/variables#do';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_HELPURL = 'https://docs.kodular.io/blocks/variables#do';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TITLE_INIT = '初始化區域變數';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_DEFAULT_NAME = '變數名';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_INPUT_TO = '為';
@@ -877,7 +877,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TOOLTIP = '建立指定範圍內程式方塊所使用的變數';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_TRANSLATED_NAME = '初始化區域變數';
 
-    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_HELPURL = 'https://docs.makeroid.io/blocks/variables#return';
+    Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_HELPURL = 'https://docs.kodular.io/blocks/variables#return';
     // These don't differ between the statement and expression
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_TITLE_INIT = '初始化區域變數';
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_EXPRESSION_INPUT_NAME = '變數名';
@@ -895,21 +895,21 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_ARG_DEFAULT_VARIABLE = 'x';
 
 // Procedures Blocks.
-    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#do';
+    Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_HELPURL = 'https://docs.kodular.io/blocks/procedures#do';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DEFINE = '定義程序';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE = '程序名';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO = '執行';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_COLLAPSED_PREFIX = '定義程序';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = '執行完成後不回傳結果。';
 
-    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#doreturn';
+    Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_HELPURL = 'https://docs.kodular.io/blocks/procedures#doreturn';
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_THEN_RETURN = '然後回傳';
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_DO = '執行';
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_RETURN = '回傳';
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_TOOLTIP = '“執行”其中包含的方塊並傳回一條敘述，可以在程序執行前將傳回賦值給相關變數';
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_COLLAPSED_TEXT = '執行/回傳';
 
-    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#return';
+    Blockly.Msg.LANG_PROCEDURES_DEFRETURN_HELPURL = 'https://docs.kodular.io/blocks/procedures#return';
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DEFINE = '定義程序';
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_PROCEDURE = Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_PROCEDURE;
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DO = Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_DO;
@@ -921,16 +921,16 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     '此程序的輸入項\n' +
     '出現重複';
 
-    Blockly.Msg.LANG_PROCEDURES_GET_HELPURL = 'https://docs.makeroid.io/blocks/procedures#get';
+    Blockly.Msg.LANG_PROCEDURES_GET_HELPURL = 'https://docs.kodular.io/blocks/procedures#get';
 
-    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#do';
+    Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_HELPURL = 'https://docs.kodular.io/blocks/procedures#do';
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL = '呼叫';
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE = '程序';
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_COLLAPSED_PREFIX = '呼叫';
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TOOLTIP = '呼叫一個無回傳值的程序。';
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = '呼叫無回傳值的程序';
 
-    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_HELPURL = 'https://docs.makeroid.io/blocks/procedures#return';
+    Blockly.Msg.LANG_PROCEDURES_CALLRETURN_HELPURL = 'https://docs.kodular.io/blocks/procedures#return';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_CALL = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_CALL;
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_PROCEDURE = Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_PROCEDURE;
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = '呼叫';
@@ -1259,32 +1259,32 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "本程式方塊應該與某個事件或程序連接";
 
 // Messages from replmgr.js
-    Blockly.Msg.REPL_ERROR_FROM_COMPANION ="Makeroid Companion出現錯誤";
+    Blockly.Msg.REPL_ERROR_FROM_COMPANION ="Kodular Companion出現錯誤";
     Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = "網路連線故障";
     Blockly.Msg.REPL_NETWORK_ERROR = "網路故障";
-    Blockly.Msg.REPL_NETWORK_ERROR_RESTART ="與Makeroid Companion通訊故障，<br />請嘗試重啟Makeroid Companion程序並重新連接";
+    Blockly.Msg.REPL_NETWORK_ERROR_RESTART ="與Kodular Companion通訊故障，<br />請嘗試重啟Kodular Companion程序並重新連接";
     Blockly.Msg.REPL_OK = "確定";
-    Blockly.Msg.REPL_COMPANION_VERSION_CHECK ="檢查Makeroid Companion程式版本";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Makeroid Companion程式已過期，點選「確定」升級。';
+    Blockly.Msg.REPL_COMPANION_VERSION_CHECK ="檢查Kodular Companion程式版本";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Kodular Companion程式已過期，點選「確定」升級。';
     Blockly.Msg.REPL_EMULATORS = "查看模擬器";
     Blockly.Msg.REPL_DEVICES = "裝置";
     Blockly.Msg.REPL_APPROVE_UPDATE = "系統將詢問您是否允許更新。";
     Blockly.Msg.REPL_NOT_NOW = "現在不";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 ="您使用的Makeroid Companion程式已經過期，<br/><br/>本版Makeroid適用的Makeroid Companion程式版本為";
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE ="您正在使用一個過期版本的Makeroid Companion程式，請盡快升級";
-    Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "您現在使用的Makeroid Companion是針對不同版本的Makeroid建立的。請前往功能表的「求助——>Makeroid Companion訊息」獲取正確的Makeroid Companion版本。";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 ="您使用的Kodular Companion程式已經過期，<br/><br/>本版Kodular適用的Kodular Companion程式版本為";
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE ="您正在使用一個過期版本的Kodular Companion程式，請盡快升級";
+    Blockly.Msg.REPL_COMPANION_WRONG_PACKAGE = "您現在使用的Kodular Companion是針對不同版本的Kodular建立的。請前往功能表的「求助——>Kodular Companion訊息」獲取正確的Kodular Companion版本。";
     Blockly.Msg.REPL_DISMISS = "放棄";
     Blockly.Msg.REPL_SOFTWARE_UPDATE = "軟體升級";
     Blockly.Msg.REPL_OK_LOWER = "確定";
     Blockly.Msg.REPL_GOT_IT = "升級完成";
-    Blockly.Msg.REPL_UPDATE_INFO = '正在安裝更新套件，請在裝置（或模擬器）上檢查確認。<br /><br />注意：升級完成後，請選擇“完成”（不要選開啟）。然後在瀏覽器中開啟並進入Makeroid，點選“連接裝置”並選擇“重置連線”項。';
+    Blockly.Msg.REPL_UPDATE_INFO = '正在安裝更新套件，請在裝置（或模擬器）上檢查確認。<br /><br />注意：升級完成後，請選擇“完成”（不要選開啟）。然後在瀏覽器中開啟並進入Kodular，點選“連接裝置”並選擇“重置連線”項。';
 
     Blockly.Msg.REPL_UPDATE_NO_UPDATE = "無可用更新";
-    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "請先與Makeroid Companion連線才能開始更新";
+    Blockly.Msg.REPL_UPDATE_NO_CONNECTION = "請先與Kodular Companion連線才能開始更新";
     Blockly.Msg.REPL_UNABLE_TO_UPDATE = "無法將升級套件發送給裝置或模擬器";
-    Blockly.Msg.REPL_UNABLE_TO_LOAD = "無法從Makeroid伺服器下載更新套件";
-    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "無法從Makeroid伺服器取得更新信息(伺服器無回應)";
-    Blockly.Msg.REPL_NOW_DOWNLOADING = "正在從Makeroid伺服器下載更新套件，請耐心等待。";
+    Blockly.Msg.REPL_UNABLE_TO_LOAD = "無法從Kodular伺服器下載更新套件";
+    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = "無法從Kodular伺服器取得更新信息(伺服器無回應)";
+    Blockly.Msg.REPL_NOW_DOWNLOADING = "正在從Kodular伺服器下載更新套件，請耐心等待。";
     Blockly.Msg.REPL_RUNTIME_ERROR = "執行錯誤";
     Blockly.Msg.REPL_NO_ERROR_FIVE_SECONDS = "<br/><i>注意：</i>&nbsp;5秒鐘之內不會再次顯示錯誤訊息。";
     Blockly.Msg.REPL_CONNECTING_USB_CABLE = "正在通過USB傳輸線連接";
@@ -1294,23 +1294,23 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.REPL_GIVE_UP = "放棄";
     Blockly.Msg.REPL_KEEP_TRYING = "重試";
     Blockly.Msg.REPL_CONNECTION_FAILURE1 = "連接失敗";
-    Blockly.Msg.REPL_NO_START_EMULATOR ="無法在模擬器中啟動Makeroid Companion程式";
+    Blockly.Msg.REPL_NO_START_EMULATOR ="無法在模擬器中啟動Kodular Companion程式";
     Blockly.Msg.REPL_PLUGGED_IN_Q = "是否已插入USB線？";
     Blockly.Msg.REPL_AI_NO_SEE_DEVICE ="AI2沒有偵測到裝置，請確認傳輸線連接以及驅動程式安裝是否正常。";
     Blockly.Msg.REPL_HELPER_Q = "是否已執行aiStarter程式？";
-    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'aiStarter程式不在執行狀態中，<br />是否需要<a href="https://starter.makeroid.io" target="_blank">說明?</a>';
+    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'aiStarter程式不在執行狀態中，<br />是否需要<a href="https://starter.kodular.io" target="_blank">說明?</a>';
     Blockly.Msg.REPL_USB_CONNECTED_WAIT = "USB已連接，請等待";
     Blockly.Msg.REPL_SECONDS_ENSURE_RUNNING = "秒，確保相關資源全部載入。";
     Blockly.Msg.REPL_EMULATOR_STARTED = "模擬器已啟動，請等待";
-    Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE ="正在所連接裝置中啟動Makeroid Companion程式";
-    Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR ="正在模擬器中啟動Makeroid Companion程式";
-    Blockly.Msg.REPL_COMPANION_STARTED_WAITING ="Makeroid Companion程式啟動中，請等待";
-    Blockly.Msg.REPL_VERIFYING_COMPANION ="檢查Makeroid Companion程式啟動狀態....";
-    Blockly.Msg.REPL_CONNECT_TO_COMPANION ="連接Makeroid Companion程式";
-    Blockly.Msg.REPL_TRY_AGAIN1 ="無法連接Makeroid Companion程式，請再試一次。";
+    Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE ="正在所連接裝置中啟動Kodular Companion程式";
+    Blockly.Msg.REPL_STARTING_COMPANION_IN_EMULATOR ="正在模擬器中啟動Kodular Companion程式";
+    Blockly.Msg.REPL_COMPANION_STARTED_WAITING ="Kodular Companion程式啟動中，請等待";
+    Blockly.Msg.REPL_VERIFYING_COMPANION ="檢查Kodular Companion程式啟動狀態....";
+    Blockly.Msg.REPL_CONNECT_TO_COMPANION ="連接Kodular Companion程式";
+    Blockly.Msg.REPL_TRY_AGAIN1 ="無法連接Kodular Companion程式，請再試一次。";
     Blockly.Msg.REPL_YOUR_CODE_IS ="編碼為：";
     Blockly.Msg.REPL_DO_YOU_REALLY_Q = "您真的要這麼做嗎？";
-    Blockly.Msg.REPL_FACTORY_RESET = "這將使模擬器重置為出廠模式，如果此前升級過Makeroid Companion程式，則需要重新升級。";
+    Blockly.Msg.REPL_FACTORY_RESET = "這將使模擬器重置為出廠模式，如果此前升級過Kodular Companion程式，則需要重新升級。";
 
 // Messages from Blockly.js
     Blockly.Msg.WARNING_DELETE_X_BLOCKS = "確定要刪除 %1 個這些程式方塊嗎?";
@@ -1320,7 +1320,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     Blockly.Msg.DO_IT = "執行";
     Blockly.Msg.CLEAR_DO_IT_ERROR = "清除錯誤";
     Blockly.Msg.CAN_NOT_DO_IT = "無法執行";
-    Blockly.Msg.CONNECT_TO_DO_IT = '請先連接Makeroid Companion或者模擬器才能使用"執行"功能';
+    Blockly.Msg.CONNECT_TO_DO_IT = '請先連接Kodular Companion或者模擬器才能使用"執行"功能';
 
 // Clock Component Menu Items
     Blockly.Msg.TIME_YEARS = "年";
