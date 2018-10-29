@@ -1,10 +1,10 @@
 // -*- mode: java; c-basic-offset: 2; -*-
-// Copyright © 2018 Makeroid. All rights reserved.
+// Copyright © 2018 Kodular. All rights reserved.
 
 /**
  * Visual Blocks Language
  *
- * Copyright © 2018 Makeroid. All rights reserved.
+ * Copyright © 2018 Kodular. All rights reserved.
  */
 
 /**
@@ -108,7 +108,7 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = 'ferme l\'écran avec texte brut';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_INPUT_TEXT = 'texte';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = 'ferme l\'écran avec texte brut';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Ferme l\'écran actuel et retourne un texte à l\'application qui l\'a ouvert\'. Cette commande est pour retourner du texte aux activités non réalisées par Makeroid, et non pas aux écrans Makeroid. Pour les écrans Makeroid, comme dans les applications multi-écrans, utilisez Fermer écran avec valeur, et non Fermer écran avec texte brut.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Ferme l\'écran actuel et retourne un texte à l\'application qui l\'a ouvert\'. Cette commande est pour retourner du texte aux activités non réalisées par Kodular, et non pas aux écrans Kodular. Pour les écrans Kodular, comme dans les applications multi-écrans, utilisez Fermer écran avec valeur, et non Fermer écran avec texte brut.';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'ferme écran avec valeur';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'résultat';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'ferme écran avec valeur';
@@ -515,7 +515,7 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.REPL_APPROVE_UPDATE = ' écran car vous allez être appelé à accepter la mise à jour.';
     Blockly.Msg.REPL_CANCEL = 'Annuler';
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Votre application compagnon est obsolète. Cliquez sur "OK" pour démarrer la mise à jour. Regardez votre ';
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = 'Le compagnon que vous utilisez et obsolète.<br/><br/>Cette version de Makeroid doit être utilisé avec le compagnon version ';
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = 'Le compagnon que vous utilisez et obsolète.<br/><br/>Cette version de Kodular doit être utilisé avec le compagnon version ';
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = 'Vous utilisez un compagnon obsolète. Vous n\'avez pas besoin de mettre à jour le compagnon immédiatement mais vous devriez le faire prochainement.';
     Blockly.Msg.REPL_COMPANION_STARTED_WAITING = 'Compagnon en cours de lancement, attente ';
     Blockly.Msg.REPL_COMPANION_VERSION_CHECK = 'Contrôle de la version compagnon';
@@ -532,14 +532,14 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.REPL_FACTORY_RESET = 'Ceci va essayer de réinitialiser votre Émulateur à son état d\'usine. Si vous avez auparavant mis à jour le Compagnon installé dans l\'émulateur, vous allez probablement devoir le faire une autre fois. ';
     Blockly.Msg.REPL_GIVE_UP = 'Abandonner';
     Blockly.Msg.REPL_GOT_IT = 'Entendu';
-    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'L\'assistant aiStarter semble ne pas fonctionné<br /><a href="https://starter.makeroid.io" target="_blank">Besoin d\'aide?</a>';
+    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'L\'assistant aiStarter semble ne pas fonctionné<br /><a href="https://starter.kodular.io" target="_blank">Besoin d\'aide?</a>';
     Blockly.Msg.REPL_HELPER_Q = 'Assistant?';
     Blockly.Msg.REPL_KEEP_TRYING = 'Continuer à essayer';
     Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = 'Erreur de connexion réseau';
     Blockly.Msg.REPL_NETWORK_ERROR = 'Erreur réseau';
     Blockly.Msg.REPL_NETWORK_ERROR_RESTART = 'Erreur de communication réseau avec le compagnon .<br />Essayez de redémarrer le compagnon et reconnecter\'  ';
     Blockly.Msg.REPL_NOT_NOW = 'Pas maintenant';
-    Blockly.Msg.REPL_NOW_DOWNLOADING = 'Nous sommes en train de télécharger des mises à jour du serveur Makeroid, attendez svp';
+    Blockly.Msg.REPL_NOW_DOWNLOADING = 'Nous sommes en train de télécharger des mises à jour du serveur Kodular, attendez svp';
     Blockly.Msg.REPL_NO_ERROR_FIVE_SECONDS = '<br/><i>Note:</i>&nbsp;Vous n\'allez pas voir une autre erreur rapportée pour 5 secondes.';
     Blockly.Msg.REPL_NO_START_EMULATOR = 'On ne peut pas ouvrir le compagnon avec l\'émulateur';
     Blockly.Msg.REPL_OK = 'OK';
@@ -552,10 +552,10 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE = 'Lancement de l\'application compagnon dans l\'appareil connecté.';
     Blockly.Msg.REPL_STARTING_EMULATOR = 'Lancement de l\'émulateur Android <br/>Attendez svp: ceci peut prendre une minute ou deux.';
     Blockly.Msg.REPL_TRY_AGAIN1 = 'Impossible de se connecter au compagnon, essayez une autre fois.';
-    Blockly.Msg.REPL_UNABLE_TO_LOAD = 'Impossible de charger les mises à jour du serveur Makeroid';
-    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = 'Impossible de charger les mises à jour du serveur Makeroid (le serveur ne répond pas)';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD = 'Impossible de charger les mises à jour du serveur Kodular';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = 'Impossible de charger les mises à jour du serveur Kodular (le serveur ne répond pas)';
     Blockly.Msg.REPL_UNABLE_TO_UPDATE = 'Impossible d\'envoyer les mises à jour à l\'appareil/émulateur';
-    Blockly.Msg.REPL_UPDATE_INFO = 'La mise à jour est actuellement en cours d\'installation sur votre appareil. Regardez votre appareil (ou émulateur) et acceptez l\'installation du logiciel quand c\'est demandé.<br /><br />IMPORTANT:  Quand la mise à jour est terminée, choisissez "terminé" (ne pas cliquer sur "Ouvrir"). Ensuite, allez à Makeroid dans votre navigateur, cliquez sur le menu "Connecte" et choisissez "Réinitialiser Connexion". Ensuite, reconnectez l\'appareil.';
+    Blockly.Msg.REPL_UPDATE_INFO = 'La mise à jour est actuellement en cours d\'installation sur votre appareil. Regardez votre appareil (ou émulateur) et acceptez l\'installation du logiciel quand c\'est demandé.<br /><br />IMPORTANT:  Quand la mise à jour est terminée, choisissez "terminé" (ne pas cliquer sur "Ouvrir"). Ensuite, allez à Kodular dans votre navigateur, cliquez sur le menu "Connecte" et choisissez "Réinitialiser Connexion". Ensuite, reconnectez l\'appareil.';
     Blockly.Msg.REPL_USB_CONNECTED_WAIT = 'USB connecté, attente \' ';
     Blockly.Msg.REPL_VERIFYING_COMPANION = 'Vérification que le Compagnon est lancé ...';
     Blockly.Msg.REPL_YOUR_CODE_IS = 'Votre code est';
