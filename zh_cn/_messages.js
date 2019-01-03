@@ -976,281 +976,716 @@ Blockly.Msg.zh.switch_language_to_chinese_cn = {
     /* HelpURLs for Component Blocks */
 
 //User Interface Components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_HELPURL = '/reference/components/userinterface#Button';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_PROPERTIES_HELPURL = '/reference/components/userinterface#button';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_EVENTS_HELPURL = '/reference/components/userinterface#button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BOTTOM_SHEET_HELPURL = 'https://docs.kodular.io/components/user-interface/bottom-sheet';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BOTTOM_SHEET_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/bottom-sheet';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BOTTOM_SHEET_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/bottom-sheet';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BOTTOM_SHEET_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/bottom-sheet';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_HELPURL = '/reference/components/userinterface#CheckBox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_PROPERTIES_HELPURL = '/reference/components/userinterface#checkbox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_EVENTS_HELPURL = '/reference/components/userinterface#checkbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_HELPURL = 'https://docs.kodular.io/components/user-interface/button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BUTTON_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/button';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_HELPURL = '/reference/components/sensors#Clock';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_PROPERTIES_HELPURL = '/reference/components/sensors#Clock';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_EVENTS_HELPURL = '/reference/components/sensors#Clock';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_METHODS_HELPURL = '/reference/components/sensors#Clock';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHAT_VIEW_HELPURL = 'https://docs.kodular.io/components/user-interface/chat-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHAT_VIEW_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/chat-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHAT_VIEW_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/chat-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHAT_VIEW_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/chat-view';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_HELPURL = '/reference/components/userinterface#Image';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_PROPERTIES_HELPURL = '/reference/components/userinterface#image';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_EVENTS_HELPURL = '/reference/components/userinterface#image';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_METHODS_HELPURL = '/reference/components/userinterface#image';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_HELPURL = 'https://docs.kodular.io/components/user-interface/checkbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/checkbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/checkbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHECKBOX_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/checkbox';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_HELPURL = '/reference/components/userinterface#Label';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_PROPERTIES_HELPURL = '/reference/components/userinterface#label';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_EVENTS_HELPURL = '/reference/components/userinterface#label';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_METHODS_HELPURL = '/reference/components/userinterface#label';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CIRCULAR_PROGRESS_HELPURL = 'https://docs.kodular.io/components/user-interface/circular-progress';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CIRCULAR_PROGRESS_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/circular-progress';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CIRCULAR_PROGRESS_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/circular-progress';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CIRCULAR_PROGRESS_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/circular-progress';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_HELPURL = '/reference/components/userinterface#ListPicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_PROPERTIES_HELPURL = '/reference/components/userinterface#listpicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_EVENTS_HELPURL = '/reference/components/userinterface#listpicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_METHODS_HELPURL = '/reference/components/userinterface#listpicker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DATE_PICKER_HELPURL = 'https://docs.kodular.io/components/user-interface/date-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DATE_PICKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/date-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DATE_PICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/date-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DATE_PICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/date-picker';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_HELPURL = '/reference/components/userinterface#Notifier';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_PROPERTIES_HELPURL = '/reference/components/userinterface#notifier';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_EVENTS_HELPURL = '/reference/components/userinterface#notifier';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_METHODS_HELPURL = '/reference/components/userinterface#notifier';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FLOATING_ACTION_BUTTON_HELPURL = 'https://docs.kodular.io/components/user-interface/floating-action-button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FLOATING_ACTION_BUTTON_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/floating-action-button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FLOATING_ACTION_BUTTON_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/floating-action-button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FLOATING_ACTION_BUTTON_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/floating-action-button';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PASSWORDTEXTBOX_HELPURL = '/reference/components/userinterface#PasswordTextBox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PASSWORDTEXTBOX_PROPERTIES_HELPURL = '/reference/components/userinterface#pwdbox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PASSWORDTEXTBOX_EVENTS_HELPURL = '/reference/components/userinterface#pwdbox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PASSWORDTEXTBOX_METHODS_HELPURL = '/reference/components/userinterface#pwdbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_HELPURL = 'https://docs.kodular.io/components/user-interface/image';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/image';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/image';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/image';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_HELPURL = '/reference/components/userinterface#Screen';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_PROPERTIES_HELPURL = '/reference/components/userinterface#screen';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_EVENTS_HELPURL = '/reference/components/userinterface#screen';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_METHODS_HELPURL = '/reference/components/userinterface#screen';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_HELPURL = 'https://docs.kodular.io/components/user-interface/label';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/label';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/label';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LABEL_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/label';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_HELPURL = '/reference/components/userinterface#Slider';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_PROPERTIES_HELPURL = '/reference/components/userinterface#slider';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_EVENTS_HELPURL = '/reference/components/userinterface#slider';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_METHODS_HELPURL = '/reference/components/userinterface#slider';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LINEAR_PROGRESSBAR_HELPURL = 'https://docs.kodular.io/components/user-interface/linear-progressbar';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LINEAR_PROGRESSBAR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/linear-progressbar';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LINEAR_PROGRESSBAR_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/linear-progressbar';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LINEAR_PROGRESSBAR_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/linear-progressbar';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_HELPURL = '/reference/components/userinterface#TextBox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_PROPERTIES_HELPURL = '/reference/components/userinterface#textbox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_EVENTS_HELPURL = '/reference/components/userinterface#textbox';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_METHODS_HELPURL = '/reference/components/userinterface#textbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_HELPURL = 'https://docs.kodular.io/components/user-interface/list-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/list-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/list-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LISTPICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/list-picker';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_HELPURL = '/reference/components/userinterface#WebViewer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_PROPERTIES_HELPURL = '/reference/components/userinterface#webviewer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_EVENTS_HELPURL = '/reference/components/userinterface#webviewer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_METHODS_HELPURL = '/reference/components/userinterface#webviewer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIST_VIEW_HELPURL = 'https://docs.kodular.io/components/user-interface/list-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIST_VIEW_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/list-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIST_VIEW_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/list-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIST_VIEW_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/list-view';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIST_VIEW_IMAGE_TEXT_HELPURL = 'https://docs.kodular.io/components/user-interface/list-view-image-and-text';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIST_VIEW_IMAGE_TEXT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/list-view-image-and-text';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIST_VIEW_IMAGE_TEXT_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/list-view-image-and-text';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIST_VIEW_IMAGE_TEXT_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/list-view-image-and-text';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_HELPURL = 'https://docs.kodular.io/components/user-interface/notifier';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/notifier';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/notifier';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFIER_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/notifier';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RADIO_BUTTON_HELPURL = 'https://docs.kodular.io/components/user-interface/radio-button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RADIO_BUTTON_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/radio-button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RADIO_BUTTON_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/radio-button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RADIO_BUTTON_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/radio-button';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_HELPURL = 'https://docs.kodular.io/components/screen';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/screen';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_EVENTS_HELPURL = 'https://docs.kodular.io/components/screen';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREEN_METHODS_HELPURL = 'https://docs.kodular.io/components/screen';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RATING_BAR_HELPURL = 'https://docs.kodular.io/components/user-interface/rating-bar';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RATING_BAR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/rating-bar';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RATING_BAR_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/rating-bar';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RATING_BAR_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/rating-bar';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_HELPURL = 'https://docs.kodular.io/components/user-interface/slider';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/slider';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/slider';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SLIDER_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/slider';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SNACKBAR_HELPURL = 'https://docs.kodular.io/components/user-interface/snackbar';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SNACKBAR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/snackbar';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SNACKBAR_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/snackbar';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SNACKBAR_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/snackbar';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPINNER_HELPURL = 'https://docs.kodular.io/components/user-interface/spinner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPINNER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/spinner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPINNER_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/spinner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPINNER_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/spinner';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPOTLIGHT_HELPURL = 'https://docs.kodular.io/components/user-interface/spotlight';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPOTLIGHT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/spotlight';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPOTLIGHT_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/spotlight';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPOTLIGHT_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/spotlight';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SWITCH_HELPURL = 'https://docs.kodular.io/components/user-interface/switch';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SWITCH_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/switch';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SWITCH_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/switch';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SWITCH_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/switch';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TAB_LAYOUT_HELPURL = 'https://docs.kodular.io/components/user-interface/tab-layout';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TAB_LAYOUT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/tab-layout';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TAB_LAYOUT_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/tab-layout';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TAB_LAYOUT_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/tab-layout';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_HELPURL = 'https://docs.kodular.io/components/user-interface/textbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/textbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/textbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTBOX_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/textbox';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TIME_PICKER_HELPURL = 'https://docs.kodular.io/components/user-interface/time-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TIME_PICKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/time-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TIME_PICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/time-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TIME_PICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/time-picker';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIEW_FLIPPER_HELPURL = 'https://docs.kodular.io/components/user-interface/view-flipper';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIEW_FLIPPER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/view-flipper';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIEW_FLIPPER_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/view-flipper';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIEW_FLIPPER_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/view-flipper';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIEW_PAGER_HELPURL = 'https://docs.kodular.io/components/user-interface/view-pager';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIEW_PAGER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/view-pager';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIEW_PAGER_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/view-pager';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIEW_PAGER_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/view-pager';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_HELPURL = 'https://docs.kodular.io/components/user-interface/web-viewer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/user-interface/webviewer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_EVENTS_HELPURL = 'https://docs.kodular.io/components/user-interface/webviewer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WEBVIEWER_METHODS_HELPURL = 'https://docs.kodular.io/components/user-interface/webviewer';
 
 //Layout components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZARRANGE_HELPURL = '/reference/components/layout#HorizontalArrangement';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZARRANGE_PROPERTIES_HELPURL = '/reference/components/layout#horizarrange';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CARD_VIEW_HELPURL = 'https://docs.kodular.io/components/layout/card-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CARD_VIEW_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/card-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CARD_VIEW_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/card-view';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTARRANGE_HELPURL = '/reference/components/layout#VerticalArrangement';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTARRANGE_PROPERTIES_HELPURL = '/reference/components/layout#vertarrange';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZONTAL_ARRANGEMENT_HELPURL = 'https://docs.kodular.io/components/layout/horizontal-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZONTAL_ARRANGEMENT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/horizontal-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZONTAL_ARRANGEMENT_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/horizontal-arrangement';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TABLEARRANGE_HELPURL = '/reference/components/layout#TableArrangement';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TABLEARRANGE_PROPERTIES_HELPURL = '/reference/components/layout#tablearrange';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZONTAL_SCROLL_ARRANGEMENT_HELPURL = 'https://docs.kodular.io/components/layout/horizontal-scroll-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZONTAL_SCROLL_ARRANGEMENT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/horizontal-scroll-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_HORIZONTAL_SCROLL_ARRANGEMENT_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/horizontal-scroll-arrangement';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SIDE_MENU_LAYOUT_HELPURL = 'https://docs.kodular.io/components/layout/side-menu-layout';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SIDE_MENU_LAYOUT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/side-menu-layout';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SIDE_MENU_LAYOUT_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/side-menu-layout';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SIDE_MENU_LAYOUT_METHODS_HELPURL = 'https://docs.kodular.io/components/layout/side-menu-layout';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPACE_HELPURL = 'https://docs.kodular.io/components/layout/space';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPACE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/space';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SURFACE_VIEW_HELPURL = 'https://docs.kodular.io/components/layout/surface-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SURFACE_VIEW_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/surface-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SURFACE_VIEW_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/surface-view';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SURFACE_VIEW_METHODS_HELPURL = 'https://docs.kodular.io/components/layout/surface-view';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SWIPE_REFRESH_LAYOUT_HELPURL = 'https://docs.kodular.io/components/layout/swipe-refresh-layout';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SWIPE_REFRESH_LAYOUT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/swipe-refresh-layout';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SWIPE_REFRESH_LAYOUT_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/swipe-refresh-layout';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TABLE_ARRANGEMENT_HELPURL = 'https://docs.kodular.io/components/layout/table-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TABLE_ARRANGEMENT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/table-arrangement/';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_ARRANGEMENT_HELPURL = 'https://docs.kodular.io/components/layout/vertical-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_ARRANGEMENT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/vertical-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK__VERTICAL_ARRANGEMENT_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/vertical-arrangement';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_SCROLL_ARRANGEMENT_HELPURL = 'https://docs.kodular.io/components/layout/vertical-scroll-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_SCROLL_ARRANGEMENT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/vertical-scroll-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_SCROLL_ARRANGEMENT_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/vertical-scroll-arrangement';
 
 //Media components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_HELPURL = '/reference/components/media#Camcorder';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_PROPERTIES_HELPURL = '/reference/components/media#camcorder';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_EVENTS_HELPURL = '/reference/components/media#camcorder';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_METHODS_HELPURL = '/reference/components/media#camcorder';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AUDIO_PICKER_HELPURL = 'https://docs.kodular.io/components/media/audio-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AUDIO_PICKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/audio-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AUDIO_PICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/audio-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AUDIO_PICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/audio-picker';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_HELPURL = '/reference/components/media#Camera';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_PROPERTIES_HELPURL = '/reference/components/media#camera';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_EVENTS_HELPURL = '/reference/components/media#camera';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_METHODS_HELPURL = '/reference/components/media#camera';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_HELPURL = 'https://docs.kodular.io/components/media/camcorder';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/camcorder';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/camcorder';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMCORDER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/camcorder';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGEPICKER_HELPURL = '/reference/components/media#ImagePicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGEPICKER_PROPERTIES_HELPURL = '/reference/components/media#imagepicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGEPICKER_EVENTS_HELPURL = '/reference/components/media#imagepicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGEPICKER_METHODS_HELPURL = '/reference/components/media#imagepicker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_HELPURL = 'https://docs.kodular.io/components/media/camera';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/camera';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/camera';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CAMERA_METHODS_HELPURL = 'https://docs.kodular.io/components/media/camera';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_HELPURL = '/reference/components/media#Player';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_PROPERTIES_HELPURL = '/reference/components/media#player';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_EVENTS_HELPURL = '/reference/components/media#player';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_METHODS_HELPURL = '/reference/components/media#player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EXOPLAYER_HELPURL = 'https://docs.kodular.io/components/media/exoplayer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EXOPLAYER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/exoplayer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EXOPLAYER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/exoplayer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EXOPLAYER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/exoplayer';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_HELPURL = '/reference/components/media#Sound';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_PROPERTIES_HELPURL = '/reference/components/media#sound';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_EVENTS_HELPURL = '/reference/components/media#sound';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_METHODS_HELPURL = '/reference/components/media#sound';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_PICKER_HELPURL = 'https://docs.kodular.io/components/media/image-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_PICKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/image-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_PICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/image-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_PICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/image-picker';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUNDRECORDER_HELPURL = '/reference/components/media#SoundRecorder';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUNDRECORDER_PROPERTIES_HELPURL = '/reference/components/media#soundrecorder';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUNDRECORDER_EVENTS_HELPURL = '/reference/components/media#soundrecorder';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUNDRECORDER_METHODS_HELPURL = '/reference/components/media#soundrecorder';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_METADATA_HELPURL = 'https://docs.kodular.io/components/media/metadata';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_METADATA_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/metadata';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_METADATA_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/metadata';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_METADATA_METHODS_HELPURL = 'https://docs.kodular.io/components/media/metadata';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECHRECOGNIZER_HELPURL = '/reference/components/media#SpeechRecognizer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECHRECOGNIZER_PROPERTIES_HELPURL = '/reference/components/media#speechrecognizer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECHRECOGNIZER_EVENTS_HELPURL = '/reference/components/media#speechrecognizer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECHRECOGNIZER_METHODS_HELPURL = '/reference/components/media#speechrecognizer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_OCR_HELPURL = 'https://docs.kodular.io/components/media/ocr';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_OCR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/ocr';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_OCR_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/ocr';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_OCR_METHODS_HELPURL = 'https://docs.kodular.io/components/media/ocr';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTTOSPEECH_HELPURL = '/reference/components/media#TextToSpeech';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTTOSPEECH_PROPERTIES_HELPURL = '/reference/components/media#texttospeech';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTTOSPEECH_EVENTS_HELPURL = '/reference/components/media#texttospeech';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTTOSPEECH_METHODS_HELPURL = '/reference/components/media#texttospeech';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_HELPURL = 'https://docs.kodular.io/components/media/player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PLAYER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/player';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEOPLAYER_HELPURL = '/reference/components/media#VideoPlayer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEOPLAYER_PROPERTIES_HELPURL = '/reference/components/media#videoplayer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEOPLAYER_EVENTS_HELPURL = '/reference/components/media#videoplayer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEOPLAYER_METHODS_HELPURL = '/reference/components/media#videoplayer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_QR_CODE_HELPURL = 'https://docs.kodular.io/components/media/qr-code';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_QR_CODE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/qr-code';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_QR_CODE_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/qr-code';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_QR_CODE_METHODS_HELPURL = 'https://docs.kodular.io/components/media/qr-code';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_HELPURL = 'https://docs.kodular.io/components/media/sound';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/sound';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/sound';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_METHODS_HELPURL = 'https://docs.kodular.io/components/media/sound';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_RECORDER_HELPURL = 'https://docs.kodular.io/components/media/sound-recorder';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_RECORDER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/soundrecorder';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_RECORDER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/soundrecorder';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_RECORDER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/soundrecorder';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECH_RECOGNIZER_HELPURL = 'https://docs.kodular.io/components/media/speech-recognizer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECH_RECOGNIZER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/speechrecognizer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECH_RECOGNIZER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/speechrecognizer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SPEECH_RECOGNIZER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/speechrecognizer';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXT_TO_SPEECH_HELPURL = 'https://docs.kodular.io/components/media/text-to-speech';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXT_TO_SPEECH_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/text-to-speech';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXT_TO_SPEECH_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/text-to-speech';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXT_TO_SPEECH_METHODS_HELPURL = 'https://docs.kodular.io/components/media/text-to-speech';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEO_PICKER_HELPURL = 'https://docs.kodular.io/components/media/video-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEO_PICKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/video-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEO_PICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/video-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEO_PICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/video-picker';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEO_PLAYER_HELPURL = 'https://docs.kodular.io/components/media/video-player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEO_PLAYER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/video-player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEO_PLAYER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/video-player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VIDEO_PLAYER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/video-player';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_YANDEX_TRANSLATE_HELPURL = 'https://docs.kodular.io/components/media/yandex-translate';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_YANDEX_TRANSLATE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/yandex-translate';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_YANDEX_TRANSLATE_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/yandex-translate';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_YANDEX_TRANSLATE_METHODS_HELPURL = 'https://docs.kodular.io/components/media/yandex-translate';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_YOUTUBE_PLAYER_HELPURL = 'https://docs.kodular.io/components/media/youtube-player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_YOUTUBE_PLAYER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/media/youtube-player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_YOUTUBE_PLAYER_EVENTS_HELPURL = 'https://docs.kodular.io/components/media/youtube-player';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_YOUTUBE_PLAYER_METHODS_HELPURL = 'https://docs.kodular.io/components/media/youtube-player';
 
 // Drawing and Animation components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_HELPURL = '/reference/components/animation#Ball';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_PROPERTIES_HELPURL = '/reference/components/animation#ball';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_EVENTS_HELPURL = '/reference/components/animation#ball';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_METHODS_HELPURL = '/reference/components/animation#ball';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ANIMATION_UTIL_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/animation-util';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ANIMATION_UTIL_EVENTS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/animation-util';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ANIMATION_UTIL_METHODS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/animation-util';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_HELPURL = '/reference/components/animation#Canvas';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_PROPERTIES_HELPURL = '/reference/components/animation#canvas';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_EVENTS_HELPURL = '/reference/components/animation#canvas';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_METHODS_HELPURL = '/reference/components/animation#canvas';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/ball';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/ball';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_EVENTS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/ball';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BALL_METHODS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/ball';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGESPRITE_HELPURL = '/reference/components/animation#ImageSprite';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGESPRITE_PROPERTIES_HELPURL = '/reference/components/animation#imagesprite';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGESPRITE_EVENTS_HELPURL = '/reference/components/animation#imagesprite';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGESPRITE_METHODS_HELPURL = '/reference/components/animation#imagesprite';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/canvas';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/canvas';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_EVENTS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/canvas';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CANVAS_METHODS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/canvas';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_EDITOR_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/image-editor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_EDITOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/image-editor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_EDITOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/image-editor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_EDITOR_METHODS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/image-editor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_SPRITE_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/image-sprite';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_SPRITE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/imagesprite';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_SPRITE_EVENTS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/imagesprite';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IMAGE_SPRITE_METHODS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/imagesprite';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LOTTIE_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/lottie';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LOTTIE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/lottie';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LOTTIE_EVENTS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/lottie';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LOTTIE_METHODS_HELPURL = 'https://docs.kodular.io/components/drawing-and-animation/lottie/';
+
+//Map components
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CIRCLE_HELPURL = 'https://docs.kodular.io/components/maps/circle';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CIRCLE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/maps/circle';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CIRCLE_EVENTS_HELPURL = 'https://docs.kodular.io/components/maps/circle';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CIRCLE_METHODS_HELPURL = 'https://docs.kodular.io/components/maps/circle';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FEATURE_COLLECTION_HELPURL = 'https://docs.kodular.io/components/maps/feature-collection';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FEATURE_COLLECTION_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/maps/feature-collection';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FEATURE_COLLECTION_EVENTS_HELPURL = 'https://docs.kodular.io/components/maps/feature-collection';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FEATURE_COLLECTION_METHODS_HELPURL = 'https://docs.kodular.io/components/maps/feature-collection';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LINE_STRING_HELPURL = 'https://docs.kodular.io/components/maps/line-string';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LINE_STRING_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/maps/line-string';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LINE_STRING_EVENTS_HELPURL = 'https://docs.kodular.io/components/maps/line-string';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LINE_STRING_METHODS_HELPURL = 'https://docs.kodular.io/components/maps/line-string';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MAP_HELPURL = 'https://docs.kodular.io/components/maps/map';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MAP_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/maps/map';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MAP_EVENTS_HELPURL = 'https://docs.kodular.io/components/maps/map';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MAP_METHODS_HELPURL = 'https://docs.kodular.io/components/maps/map';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MARKER_HELPURL = 'https://docs.kodular.io/components/maps/marker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MARKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/maps/marker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MARKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/maps/marker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MARKER_METHODS_HELPURL = 'https://docs.kodular.io/components/maps/marker';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_POLYGON_HELPURL = 'https://docs.kodular.io/components/maps/polygon';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_POLYGON_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/maps/polygon';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_POLYGON_EVENTS_HELPURL = 'https://docs.kodular.io/components/maps/polygon';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_POLYGON_METHODS_HELPURL = 'https://docs.kodular.io/components/maps/polygon';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RECTANGLE_HELPURL = 'https://docs.kodular.io/components/maps/rectangle';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RECTANGLE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/maps/rectangle';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RECTANGLE_EVENTS_HELPURL = 'https://docs.kodular.io/components/maps/rectangle';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_RECTANGLE_METHODS_HELPURL = 'https://docs.kodular.io/components/maps/rectangle';
 
 //Sensor components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETERSENSOR_HELPURL = '/reference/components/sensors#AccelerometerSensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETERSENSOR_PROPERTIES_HELPURL = '/reference/components/sensors#accelerometersensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETERSENSOR_EVENTS_HELPURL = '/reference/components/sensors#accelerometersensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETERSENSOR_METHODS_HELPURL = '/reference/components/sensors#accelerometersensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETER_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/accelerometer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETER_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/accelerometer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ACCELEROMETER_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/accelerometer';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODESCANNER_HELPURL = '/reference/components/sensors#BarcodeScanner';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODESCANNER_PROPERTIES_HELPURL = '/reference/components/sensors#barcodescanner';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODESCANNER_EVENTS_HELPURL = '/reference/components/sensors#barcodescanner';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODESCANNER_METHODS_HELPURL = '/reference/components/sensors#barcodescanner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODE_SCANNER_HELPURL = 'https://docs.kodular.io/components/sensors/barcode-scanner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODE_SCANNER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/barcode-scanner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODE_SCANNER_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/barcode-scanner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BARCODE_SCANNER_METHODS_HELPURL = 'https://docs.kodular.io/components/sensors/barcode-scanner';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPESENSOR_HELPURL = '/reference/components/sensors#GyroscopeSensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPESENSOR_PROPERTIES_HELPURL = '/reference/components/sensors#gyroscopesensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPESENSOR_EVENTS_HELPURL = '/reference/components/sensors#gyroscopesensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPESENSOR_METHODS_HELPURL = '/reference/components/sensors#gyroscopesensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_HELPURL = 'https://docs.kodular.io/components/sensors/clock';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/clock';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/clock';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOCK_METHODS_HELPURL = 'https://docs.kodular.io/components/sensors/clock';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATIONSENSOR_HELPURL = '/reference/components/sensors#LocationSensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATIONSENSOR_PROPERTIES_HELPURL = '/reference/components/sensors#locationsensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATIONSENSOR_EVENTS_HELPURL = '/reference/components/sensors#locationsensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATIONSENSOR_METHODS_HELPURL = '/reference/components/sensors#locationsensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FINGERPRINT_HELPURL = 'https://docs.kodular.io/components/sensors/fingerprint';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FINGERPRINT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/fingerprint';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FINGERPRINT_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/fingerprint';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FINGERPRINT_METHODS_HELPURL = 'https://docs.kodular.io/components/sensors/fingerprint';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATIONSENSOR_HELPURL = '/reference/components/sensors#OrientationSensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATIONSENSOR_PROPERTIES_HELPURL = '/reference/components/sensors#orientationsensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATIONSENSOR_EVENTS_HELPURL = '/reference/components/sensors#orientationsensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATIONSENSOR_METHODS_HELPURL = '/reference/components/sensors#orientationsensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GRAVITY_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/gravity-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GRAVITY_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/gravity-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GRAVITY_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/gravity-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPE_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/gyroscope-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPE_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/gyroscope-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GYROSCOPE_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/gyroscope-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIGHT_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/light-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIGHT_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/light-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LIGHT_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/light-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATION_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/location-sensor/';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATION_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/location-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATION_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/location-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LOCATION_SENSOR_METHODS_HELPURL = 'https://docs.kodular.io/components/sensors/location-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MAGNETIC_FIELD_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/magnetic-field-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MAGNETIC_FIELD_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/magnetic-field-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_MAGNETIC_FIELD_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/magnetic-field-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NEARFIELD_HELPURL = 'https://docs.kodular.io/components/sensors/nearfield';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NEARFIELD_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/nearfield';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NEARFIELD_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/nearfield';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATION_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/orientation-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATION_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/orientation-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ORIENTATION_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/orientation-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PEDOMETER_HELPURL = 'https://docs.kodular.io/components/sensors/pedometer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PEDOMETER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/pedometer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PEDOMETER_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/pedometer';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PEDOMETER_METHODS_HELPURL = 'https://docs.kodular.io/components/sensors/pedometer';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PRESSURE_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/pressure-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PRESSURE_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/pressure-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PRESSURE_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/pressure-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PROXIMITY_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/proximity-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PROXIMITY_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/proximity-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PROXIMITY_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/proximity-sensor/';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/sound-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/sound-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SOUND_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/sound-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEMPERATURE_SENSOR_HELPURL = 'https://docs.kodular.io/components/sensors/temperature-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEMPERATURE_SENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/sensors/temperature-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEMPERATURE_SENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/sensors/temperature-sensor';
 
 //Social components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACTPICKER_HELPURL = '/reference/components/social#ContactPicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACTPICKER_PROPERTIES_HELPURL = '/reference/components/social#contactpicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACTPICKER_EVENTS_HELPURL = '/reference/components/social#contactpicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACTPICKER_METHODS_HELPURL = '/reference/components/social#contactpicker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACT_PICKER_HELPURL = 'https://docs.kodular.io/components/social/contact-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACT_PICKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/social/contact-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACT_PICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/social/contact-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CONTACT_PICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/social/contact-picker';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAILPICKER_HELPURL = '/reference/components/social#EmailPicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAILPICKER_PROPERTIES_HELPURL = '/reference/components/social#emailpicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAILPICKER_EVENTS_HELPURL = '/reference/components/social#emailpicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAILPICKER_METHODS_HELPURL = '/reference/components/social#emailpicker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAIL_PICKER_HELPURL = 'https://docs.kodular.io/components/social/email-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAIL_PICKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/social/email-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAIL_PICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/social/email-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EMAIL_PICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/social/email-picker';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONECALL_HELPURL = '/reference/components/social#PhoneCall';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONECALL_PROPERTIES_HELPURL = '/reference/components/social#phonecall';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONECALL_EVENTS_HELPURL = '/reference/components/social#phonecall';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONECALL_METHODS_HELPURL = '/reference/components/social#phonecall';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONE_CALL_HELPURL = 'https://docs.kodular.io/components/social/phone-call';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONE_CALL_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/social/phone-call';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONE_CALL_EVENTS_HELPURL = 'https://docs.kodular.io/components/social/phone-call';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONE_CALL_METHODS_HELPURL = 'https://docs.kodular.io/components/social/phone-call';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONENUMBERPICKER_HELPURL = '/reference/components/social#PhoneNumberPicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONENUMBERPICKER_PROPERTIES_HELPURL = '/reference/components/social#phonenumberpicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONENUMBERPICKER_EVENTS_HELPURL = '/reference/components/social#phonenumberpicker';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONENUMBERPICKER_METHODS_HELPURL = '/reference/components/social#phonenumberpicker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONE_NUMBER_PICKER_HELPURL = 'https://docs.kodular.io/components/social/phone-number-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONE_NUMBER_PICKER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/social/phone-number-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONE_NUMBER_PICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/social/phone-number-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PHONE_NUMBER_PICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/social/phone-number-picker';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_HELPURL = '/reference/components/social#Texting';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_PROPERTIES_HELPURL = '/reference/components/social#texting';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_EVENTS_HELPURL = '/reference/components/social#texting';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_METHODS_HELPURL = '/reference/components/social#texting';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SHARING_HELPURL = 'https://docs.kodular.io/components/social/sharing';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SHARING_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/social/sharing';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SHARING_EVENTS_HELPURL = 'https://docs.kodular.io/components/social/sharing';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SHARING_METHODS_HELPURL = 'https://docs.kodular.io/components/social/sharing';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_HELPURL = '/reference/components/social#Twitter';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_PROPERTIES_HELPURL = '/reference/components/social#twitter';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_EVENTS_HELPURL = '/reference/components/social#twitter';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_METHODS_HELPURL = '/reference/components/social#twitter';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_HELPURL = 'https://docs.kodular.io/components/social/texting';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/social/texting';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_EVENTS_HELPURL = 'https://docs.kodular.io/components/social/texting';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TEXTING_METHODS_HELPURL = 'https://docs.kodular.io/components/social/texting';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_HELPURL = 'https://docs.kodular.io/components/social/twitter';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/social/twitter';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_EVENTS_HELPURL = 'https://docs.kodular.io/components/social/twitter';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TWITTER_METHODS_HELPURL = 'https://docs.kodular.io/components/social/twitter';
 
 //Storage Components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLESCONTROL_HELPURL = '/reference/components/storage#FusiontablesControl';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLESCONTROL_PROPERTIES_HELPURL = '/reference/components/storage#fusiontablescontrol';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLESCONTROL_EVENTS_HELPURL = '/reference/components/storage#fusiontablescontrol';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLESCONTROL_METHODS_HELPURL = '/reference/components/storage#fusiontablescontrol';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOUDINARY_HELPURL = 'https://docs.kodular.io/components/storage/cloudinary';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOUDINARY_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/storage/cloudinary';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOUDINARY_EVENTS_HELPURL = 'https://docs.kodular.io/components/storage/cloudinary';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOUDINARY_METHODS_HELPURL = 'https://docs.kodular.io/components/storage/cloudinary';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_HELPURL = '/reference/components/storage#TinyDB';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_PROPERTIES_HELPURL = '/reference/components/storage#tinydb';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_EVENTS_HELPURL = '/reference/components/storage#tinydb';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_METHODS_HELPURL = '/reference/components/storage#tinydb';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CRYPTOGRAPHY_HELPURL = 'https://docs.kodular.io/components/storage/cryptography';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CRYPTOGRAPHY_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/storage/cryptography';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CRYPTOGRAPHY_METHODS_HELPURL = 'https://docs.kodular.io/components/storage/cryptography';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_HELPURL = '/reference/components/storage#TinyWebDB';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_PROPERTIES_HELPURL = '/reference/components/storage#tinywebdb';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_EVENTS_HELPURL = '/reference/components/storage#tinywebdb';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_METHODS_HELPURL = '/reference/components/storage#tinywebdb';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FILE_HELPURL = 'https://docs.kodular.io/components/storage/file';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FILE_METHODS_HELPURL = 'https://docs.kodular.io/components/storage/file';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FILE_EVENTS_HELPURL = 'https://docs.kodular.io/components/storage/file';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_DB_HELPURL = 'https://docs.kodular.io/components/storage/firebase-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_DB_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/storage/firebase-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_DB_METHODS_HELPURL = 'https://docs.kodular.io/components/storage/firebase-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_DB_EVENTS_HELPURL = 'https://docs.kodular.io/components/storage/firebase-db';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLES_CONTROL_HELPURL = 'https://docs.kodular.io/components/storage/fusiontables-control';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLES_CONTROL_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/storage/fusiontables-control';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLES_CONTROL_EVENTS_HELPURL = 'https://docs.kodular.io/components/storage/fusiontables-control';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FUSIONTABLES_CONTROL_METHODS_HELPURL = 'https://docs.kodular.io/components/storage/fusiontables-control';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_HELPURL = 'https://docs.kodular.io/components/storage/tiny-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/storage/tiny-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYDB_METHODS_HELPURL = 'https://docs.kodular.io/components/storage/tiny-db';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_HELPURL = 'https://docs.kodular.io/components/storage/tiny-web-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/storage/tiny-web-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_EVENTS_HELPURL = 'https://docs.kodular.io/components/storage/tiny-web-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_TINYWEBDB_METHODS_HELPURL = 'https://docs.kodular.io/components/storage/tiny-web-db';
+
+//Device components
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AUDIO_HELPURL = 'https://docs.kodular.io/components/device/audio';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AUDIO_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/device/audio';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AUDIO_METHODS_HELPURL = 'https://docs.kodular.io/components/device/audio';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DEVICE_TOOLS_HELPURL = 'https://docs.kodular.io/components/device/device-tools';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DEVICE_TOOLS_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/device/device-tools';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DEVICE_TOOLS_METHODS_HELPURL = 'https://docs.kodular.io/components/device/device-tools';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PACKAGE_HELPURL = 'https://docs.kodular.io/components/device/package';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PACKAGE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/device/package';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PACKAGE_METHODS_HELPURL = 'https://docs.kodular.io/components/device/package';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREENSHOT_HELPURL = 'https://docs.kodular.io/components/device/screenshot';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREENSHOT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/device/screenshot';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREENSHOT_EVENTS_HELPURL = 'https://docs.kodular.io/components/device/screenshot';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SCREENSHOT_METHODS_HELPURL = 'https://docs.kodular.io/components/device/screenshot';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WALLPAPER_HELPURL = 'https://docs.kodular.io/components/device/wallpaper';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WALLPAPER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/device/wallpaper';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WALLPAPER_EVENTS_HELPURL = 'https://docs.kodular.io/components/device/wallpaper';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WALLPAPER_METHODS_HELPURL = 'https://docs.kodular.io/components/device/wallpaper';
+
+//Dynamic Components
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_BUTTON_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_BUTTON_EVENTS_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-button';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_BUTTON_METHODS_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-button';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_LABEL_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-label';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_LABEL_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-label';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_LABEL_EVENTS_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-label';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_LABEL_METHODS_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-label';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_TEXTBOX_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-textbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_TEXTBOX_EVENTS_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-textbox';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DYNAMIC_TEXTBOX_METHODS_HELPURL = 'https://docs.kodular.io/components/dynamic/dynamic-textbox';
 
 //Connectivity components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_HELPURL = '/reference/components/connectivity#ActivityStarter';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_PROPERTIES_HELPURL = '/reference/components/connectivity#activitystarter';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_EVENTS_HELPURL = '/reference/components/connectivity#activitystarter';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_METHODS_HELPURL = '/reference/components/connectivity#activitystarter';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_HELPURL = 'https://docs.kodular.io/components/connectivity/activity-starter';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/connectivity/activity-starter';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_EVENTS_HELPURL = 'https://docs.kodular.io/components/connectivity/activity-starter';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ACTIVITYSTARTER_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/activity-starter';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_HELPURL = '/reference/components/connectivity#BluetoothClient';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_PROPERTIES_HELPURL = '/reference/components/connectivity#bluetoothclient';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_EVENTS_HELPURL = '/reference/components/connectivity#bluetoothclient';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_METHODS_HELPURL = '/reference/components/connectivity#bluetoothclient';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ARDUINO_HELPURL = 'https://docs.kodular.io/components/connectivity/arduino';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ARDUINO_EVENTS_HELPURL = 'https://docs.kodular.io/components/connectivity/arduino';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ARDUINO_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/arduino';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_HELPURL = '/reference/components/connectivity#BluetoothServer';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_PROPERTIES_HELPURL = '/reference/components/connectivity#bluetoothserver';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_EVENTS_HELPURL = '/reference/components/connectivity#bluetoothserver';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_METHODS_HELPURL = '/reference/components/connectivity#bluetoothserver';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHADMIN_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-admin';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHADMIN_PROPERTIES_HELPURL = 'hhttps://docs.kodular.io/components/connectivity/bluetooth-admin';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHADMIN_EVENTS_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-admin';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHADMIN_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-admin';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_HELPURL = '/reference/components/connectivity#Web';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_PROPERTIES_HELPURL = '/reference/components/connectivity#web';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_EVENTS_HELPURL = '/reference/components/connectivity#web';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_METHODS_HELPURL = '/reference/components/connectivity#web';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-client';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-client';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_EVENTS_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-client';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHCLIENT_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-client';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-server';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-server';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_EVENTS_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-server';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_BLUETOOTHSERVER_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/bluetooth-server';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DOWNLOAD_HELPURL = 'https://docs.kodular.io/components/connectivity/download';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DOWNLOAD_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/connectivity/download';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DOWNLOAD_EVENTS_HELPURL = 'https://docs.kodular.io/components/connectivity/download';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_DOWNLOAD_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/download';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FTP_HELPURL = 'https://docs.kodular.io/components/connectivity/ftp';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FTP_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/connectivity/ftp';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FTP_EVENTS_HELPURL = 'https://docs.kodular.io/components/connectivity/ftp';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FTP_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/ftp';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NETWORK_HELPURL = 'https://docs.kodular.io/components/connectivity/network';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NETWORK_EVENTS_HELPURL = 'https://docs.kodular.io/components/connectivity/network';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NETWORK_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/network';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_HELPURL = 'https://docs.kodular.io/components/connectivity/web';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/connectivity/web';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_EVENTS_HELPURL = 'https://docs.kodular.io/components/connectivity/web';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/web';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WIFI_HELPURL = 'https://docs.kodular.io/components/connectivity/wifi';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/wifi';
+
+//Google components
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GOOGLE_ACCOUNT_PICKER_HELPURL = 'https://docs.kodular.io/components/google/google-account-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GOOGLE_ACCOUNT_PICKER_EVENTS_HELPURL = 'https://docs.kodular.io/components/google/google-account-picker';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GOOGLE_ACCOUNT_PICKER_METHODS_HELPURL = 'https://docs.kodular.io/components/google/google-account-picker';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GOOGLE_MAPS_HELPURL = 'https://docs.kodular.io/components/google/google-maps';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GOOGLE_MAPS_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/google/google-maps';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GOOGLE_MAPS_EVENTS_HELPURL = 'https://docs.kodular.io/components/google/google-maps';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GOOGLE_MAPS_METHODS_HELPURL = 'https://docs.kodular.io/components/google/google-maps';
+
+//Monetization components
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_BANNER_HELPURL = 'https://docs.kodular.io/components/monetization/admob-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_BANNER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/admob-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_BANNER_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/admob-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_BANNER_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/admob-banner';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_INTERSTITIAL_HELPURL = 'https://docs.kodular.io/components/monetization/admob-interstitial';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_INTERSTITIAL_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/admob-interstitial';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_INTERSTITIAL_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/admob-interstitial';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_INTERSTITIAL_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/admob-interstitial';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_REWARDED_VIDEO_HELPURL = 'https://docs.kodular.io/components/monetization/admob-rewardedvideo';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_REWARDED_VIDEO_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/admob-rewardedvideo';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_REWARDED_VIDEO_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/admob-rewardedvideo';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_REWARDED_VIDEO_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/admob-rewardedvideo';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_BANNER_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_REWARDED_VIDEO_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_REWARDED_VIDEO_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-banner';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_INTERSTITIAL_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-interstitial';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_INTERSTITIAL_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-interstitial';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_INTERSTITIAL_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-interstitial';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_INTERSTITIAL_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-interstitial';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_BANNER_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_REWARDED_VIDEO_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_REWARDED_VIDEO_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_REWARDED_VIDEO_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_INTERSTITIAL_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-interstitial';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_INTERSTITIAL_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-interstitial';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_INTERSTITIAL_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-interstitial';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IAB_HELPURL = 'https://docs.kodular.io/components/monetization/in-app-billing';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IAB_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/in-app-billing';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IAB_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/in-app-billing';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_IAB_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/in-app-billing';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LEADBOLT_HELPURL = 'https://docs.kodular.io/components/monetization/leadbolt';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LEADBOLT_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/leadbolt';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_LEADBOLT_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/leadbolt';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WHITEMOBI_HELPURL = 'https://docs.kodular.io/components/monetization/whitemobi';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WHITEMOBI_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/whitemobi';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WHITEMOBI_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/whitemobi';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WHITEMOBI_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/whitemobi';
 
 //Lego mindstorms components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDIRECT_HELPURL = '/reference/components/legomindstorms#NxtDirectCommands';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDIRECT_PROPERTIES_HELPURL = '/reference/components/legomindstorms#nxtdirect';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDIRECT_METHODS_HELPURL = '/reference/components/legomindstorms#nxtdirect';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDRIVE_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-drive';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDRIVE_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-drive';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDRIVE_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-drive';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_HELPURL = '/reference/components/legomindstorms#NxtColorSensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_PROPERTIES_HELPURL = '/reference/components/legomindstorms#nxtcolor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_EVENTS_HELPURL = '/reference/components/legomindstorms#nxtcolor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_METHODS_HELPURL = '/reference/components/legomindstorms#nxtcolor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-color-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-color-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-color-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTCOLOR_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-color-sensor';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_HELPURL = '/reference/components/legomindstorms#NxtLightSensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_PROPERTIES_HELPURL = '/reference/components/legomindstorms#nxtlight';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_EVENTS_HELPURL = '/reference/components/legomindstorms#nxtlight';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_METHODS_HELPURL = '/reference/components/legomindstorms#nxtlight';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-light-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-light-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-light-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTLIGHT_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-light-sensor';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_HELPURL = '/reference/components/legomindstorms#NxtSoundSensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_PROPERTIES_HELPURL = '/reference/components/legomindstorms#nxtsound';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_EVENTS_HELPURL = '/reference/components/legomindstorms#nxtsound';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_METHODS_HELPURL = '/reference/components/legomindstorms#nxtsound';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-sound-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-sound-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-sound-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTSOUND_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-sound-sensor';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_HELPURL = '/reference/components/legomindstorms#NxtTouchSensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_PROPERTIES_HELPURL = '/reference/components/legomindstorms#nxttouch';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_EVENTS_HELPURL = '/reference/components/legomindstorms#nxttouch';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_METHODS_HELPURL = '/reference/components/legomindstorms#nxttouch';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-touch-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-touch-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-touch-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTTOUCH_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-touch-sensor';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_HELPURL = '/reference/components/legomindstorms#NxtUltrasonicSensor';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_PROPERTIES_HELPURL = '/reference/components/legomindstorms#nxtultrasonic';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_EVENTS_HELPURL = '/reference/components/legomindstorms#nxtultrasonic';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_METHODS_HELPURL = '/reference/components/legomindstorms#nxtultrasonic';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-ultrasonic-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-ultrasonic-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-ultrasonic-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTULTRASONIC_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-ultrasonic-sensor';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDRIVE_HELPURL = '/reference/components/legomindstorms#NxtDrive';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDRIVE_PROPERTIES_HELPURL = '/reference/components/legomindstorms#nxtdrive';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDRIVE_METHODS_HELPURL = '/reference/components/legomindstorms#nxtdrive';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDIRECT_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-direct-commands';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDIRECT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-direct-commands';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NXTDIRECT_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/nxt-direct-commands';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3MOTORS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-motors';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3MOTORS_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-motors';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3MOTORS_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-motors';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3MOTORS_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-motors';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3COLORSENSOR_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-color-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3COLORSENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-color-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3COLORSENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-color-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3COLORSENSOR_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-color-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3GYROSENSOR_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-gyro-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3GYROSENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-gyro-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3GYROSENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-gyro-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3GYROSENSOR_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-gyro-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3TOUCHSENSOR_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-touch-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3TOUCHSENSOR_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-touch-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3TOUCHSENSOR_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-touch-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3TOUCHSENSOR_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-touch-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3ULTRASONIC_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-ultrasonic-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3ULTRASONIC_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-ultrasonic-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3ULTRASONIC_EVENTS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-ultrasonic-sensor';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3ULTRASONIC_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-ultrasonic-sensor';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3SOUND_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-sound';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3SOUND_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-sound';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3SOUND_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-sound';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3UI_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-ui';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3UI_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-ui';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3UI_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-ui';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3COMMANDS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-commands';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3COMMANDS_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-commands';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_EV3COMMANDS_METHODS_HELPURL = 'https://docs.kodular.io/components/lego-mindstorms/ev3-commands';
 
 //Experimental components
-    // FirebaseDB
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_HELPURL = "/reference/components/experimental#FirebaseDB";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_PROPERTIES_HELPURL = "/reference/components/experimental#firebasedbproperties";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_EVENTS_HELPURL = "/reference/components/experimental#firebasedbevents";
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FIREBASE_METHODS_HELPURL = "/reference/components/experimental#firebasedbmethods";
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHROME_CUSTOM_TABS_HELPURL = 'https://docs.kodular.io/components/experimental/chrome-custom-tabs';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHROME_CUSTOM_TABS_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/experimental/chrome-custom-tabs';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CHROME_CUSTOM_TABS_METHODS_HELPURL = 'https://docs.kodular.io/components/experimental/chrome-custom-tabs';
 
-//Internal components
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GAMECLIENT_HELPURL = '/reference/components/internal#GameClient';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GAMECLIENT_PROPERTIES_HELPURL = '/reference/components/internal#gameclient';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GAMECLIENT_EVENTS_HELPURL = '/reference/components/internal#gameclient';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GAMECLIENT_METHODS_HELPURL = '/reference/components/internal#gameclient';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOUDDB_HELPURL = 'https://docs.kodular.io/components/experimental/cloud-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOUDDB_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/experimental/cloud-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOUDDB_EVENTS_HELPURL = 'https://docs.kodular.io/components/experimental/cloud-db';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_CLOUDDB_METHODS_HELPURL = 'https://docs.kodular.io/components/experimental/cloud-db';
 
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_HELPURL = '/reference/components/internal#Voting';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_PROPERTIES_HELPURL = '/reference/components/internal#voting';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_EVENTS_HELPURL = '/reference/components/internal#voting';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_VOTING_METHODS_HELPURL = '/reference/components/internal#voting';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFICATION_HELPURL = 'https://docs.kodular.io/components/experimental/notification';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFICATION_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/experimental/notification';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_NOTIFICATION_METHODS_HELPURL = 'https://docs.kodular.io/components/experimental/notification';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PUSH_NOTIFICATIONS_HELPURL = 'https://docs.kodular.io/components/experimental/push-notifications';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PUSH_NOTIFICATIONS_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/experimental/push-notifications';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_PUSH_NOTIFICATIONS_METHODS_HELPURL = 'https://docs.kodular.io/components/experimental/push-notifications';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SHELL_HELPURL = 'https://docs.kodular.io/components/experimental/shell';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SHELL_EVENTS_HELPURL = 'https://docs.kodular.io/components/experimental/shell';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SHELL_METHODS_HELPURL = 'https://docs.kodular.io/components/experimental/shell';
+
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SHORTCUT_BADGE_HELPURL = 'https://docs.kodular.io/components/experimental/shortcut-badge';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_SHORTCUT_BADGE_METHODS_HELPURL = 'https://docs.kodular.io/components/experimental/shortcut-badge';
 
 //Misc
     Blockly.Msg.SHOW_WARNINGS = "显示警告";
