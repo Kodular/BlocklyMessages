@@ -1219,7 +1219,7 @@ Blockly.Msg.en.switch_language_to_english = {
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_ARRANGEMENT_HELPURL = 'https://docs.kodular.io/components/layout/vertical-arrangement';
     Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_ARRANGEMENT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/vertical-arrangement';
-    Blockly.Msg.LANG_COMPONENT_BLOCK__VERTICAL_ARRANGEMENT_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/vertical-arrangement';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_ARRANGEMENT_EVENTS_HELPURL = 'https://docs.kodular.io/components/layout/vertical-arrangement';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_SCROLL_ARRANGEMENT_HELPURL = 'https://docs.kodular.io/components/layout/vertical-scroll-arrangement';
     Blockly.Msg.LANG_COMPONENT_BLOCK_VERTICAL_SCROLL_ARRANGEMENT_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/layout/vertical-scroll-arrangement';
@@ -1598,7 +1598,7 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/web';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_WIFI_HELPURL = 'https://docs.kodular.io/components/connectivity/wifi';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_WEB_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/wifi';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_WIFI_METHODS_HELPURL = 'https://docs.kodular.io/components/connectivity/wifi';
 
 //Google components
 
@@ -1628,8 +1628,8 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_REWARDED_VIDEO_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/admob-rewardedvideo';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_BANNER_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-banner';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_REWARDED_VIDEO_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-banner';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_ADMOB_REWARDED_VIDEO_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_BANNER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_BANNER_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-banner';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_INTERSTITIAL_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-interstitial';
     Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_INTERSTITIAL_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-interstitial';
@@ -1637,9 +1637,9 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_COMPONENT_BLOCK_AMAZON_INTERSTITIAL_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/amazon-interstitial';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_BANNER_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_REWARDED_VIDEO_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_REWARDED_VIDEO_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_REWARDED_VIDEO_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_BANNER_PROPERTIES_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_BANNER_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_BANNER_METHODS_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-banner';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_INTERSTITIAL_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-interstitial';
     Blockly.Msg.LANG_COMPONENT_BLOCK_FACEBOOK_INTERSTITIAL_EVENTS_HELPURL = 'https://docs.kodular.io/components/monetization/facebook-interstitial';
