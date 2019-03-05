@@ -837,6 +837,11 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_LISTS_IS_LIST_INPUT_THING = 'thing';
     Blockly.Msg.LANG_LISTS_IS_LIST_TOOLTIP = 'Tests if something is a list.';
 
+    Blockly.Msg.LANG_LISTS_REVERSE_HELPURL = 'https://docs.kodular.io/blocks/lists#reverse';
+    Blockly.Msg.LANG_LISTS_REVERSE_TITLE_REVERSE = 'reverse list';
+    Blockly.Msg.LANG_LISTS_REVERSE_INPUT_LIST = 'list';
+    Blockly.Msg.LANG_LISTS_REVERSE_TOOLTIP = 'Reverses the order of input list and returns it as a new list.';
+
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_HELPURL = 'https://docs.kodular.io/blocks/lists#listtocsvrow';
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TITLE_TO_CSV = 'list to csv row';
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_INPUT_LIST = 'list';
