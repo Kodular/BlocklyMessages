@@ -76,22 +76,22 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
 
 // Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Değeri değiştir:';
-    Blockly.MSG_NEW_VARIABLE = 'Yeni değişken...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'Yeni değişken adı:';
-    Blockly.MSG_RENAME_VARIABLE = 'Değişkenin adını değiştir...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Tüm değişkenlerin adını değiştir "%1":';
+    Blockly.Msg.CHANGE_VALUE_TITLE = 'Değeri değiştir:';
+    Blockly.Msg.NEW_VARIABLE = 'Yeni değişken...';
+    Blockly.Msg.NEW_VARIABLE_TITLE = 'Yeni değişken adı:';
+    Blockly.Msg.RENAME_VARIABLE = 'Değişkenin adını değiştir...';
+    Blockly.Msg.RENAME_VARIABLE_TITLE = 'Tüm değişkenlerin adını değiştir "%1":';
 
 // Toolbox.
-    Blockly.MSG_VARIABLE_CATEGORY = 'Değişkenler';
-    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedures';
+    Blockly.Msg.VARIABLE_CATEGORY = 'Değişkenler';
+    Blockly.Msg.PROCEDURE_CATEGORY = 'Procedures';
 
 // Warnings/Errors
-    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Select a valid item in the drop down.";
-    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
-    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
-    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "This block is not defined. Delete this block!";
+    Blockly.Msg.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
+    Blockly.Msg.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Select a valid item in the drop down.";
+    Blockly.Msg.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
+    Blockly.Msg.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
+    Blockly.Msg.ERROR_BLOCK_IS_NOT_DEFINED = "This block is not defined. Delete this block!";
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.kodular.io/blocks/colors#basic';
