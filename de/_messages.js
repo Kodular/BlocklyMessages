@@ -90,7 +90,7 @@ Blockly.Msg.de.switch_language_to_german = {
     Blockly.Msg.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Wählen Sie ein gültiges Element in der Dropdown-Liste aus.";
     Blockly.Msg.ERROR_DUPLICATE_EVENT_HANDLER = "Dies ist ein doppelter Ereignishandler für diese Komponente.";
     Blockly.Msg.ERROR_COMPONENT_DOES_NOT_EXIST = "Komponente existiert nicht";
-    Blockly.Msg..ERROR_BLOCK_IS_NOT_DEFINED = "Dieser Block ist nicht definiert. Lösche diesen Block!";
+    Blockly.Msg.ERROR_BLOCK_IS_NOT_DEFINED = "Dieser Block ist nicht definiert. Lösche diesen Block!";
     Blockly.Msg.ERROR_BREAK_ONLY_IN_LOOP = "The break block should be used only within loops";
 
 // Colour Blocks.
