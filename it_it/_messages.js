@@ -30,6 +30,8 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.UNDO = 'Annulla';
     Blockly.Msg.REDO = 'Rifai';
     Blockly.Msg.CLEAN_UP = 'Pulisci Blocchi';
+    Blockly.Msg.HIDE = 'Nascondi controlli dello spazio di lavoro';
+    Blockly.Msg.SHOW = 'Mostra controlli dello spazio di lavoro';
     Blockly.Msg.DUPLICATE_BLOCK = 'Duplica';
     Blockly.Msg.REMOVE_COMMENT = 'Rimuovi Commento';
     Blockly.Msg.ADD_COMMENT = 'Aggiungi Commento';
@@ -77,6 +79,11 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.DISABLE_SNAPPING = 'Disattiva allineamento alla Griglia';
     Blockly.Msg.DISABLE_ALL_BLOCKS = 'Disattiva tutti i blocchi';
     Blockly.Msg.ENABLE_ALL_BLOCKS = 'Attiva tutti i blocchi';
+    Blockly.Msg.HIDE_ALL_COMMENTS = 'Nascondi tutti i commenti';
+    Blockly.Msg.SHOW_ALL_COMMENTS = 'Mostra tutti i commenti';
+    Blockly.Msg.GENERICIZE_BLOCK = 'Rendi generico';
+    Blockly.Msg.UNGENERICIZE_BLOCK = 'Rendi specifico';
+    Blockly.Msg.DOWNLOAD_BLOCKS_AS_PNG = 'Scarica blocchi come PNG';
 
 // Variable renaming.
     Blockly.Msg.CHANGE_VALUE_TITLE = 'Cambia valore:';
@@ -381,17 +388,27 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_MULTIPLY = 'https://docs.kodular.io/blocks/math#multiply';
     Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_DIVIDE = 'https://docs.kodular.io/blocks/math#divide';
     Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_POWER = 'https://docs.kodular.io/blocks/math#exponent';
+    Blockly.Msg.LANG_MATH_BITWISE_HELPURL_AND = 'https://docs.kodular.io/blocks/math#bitwise-and';
+    Blockly.Msg.LANG_MATH_BITWISE_HELPURL_IOR = 'https://docs.kodular.io/blocks/math#bitwise-ior';
+    Blockly.Msg.LANG_MATH_BITWISE_HELPURL_XOR = 'https://docs.kodular.io/blocks/math#bitwise-xor';
     Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_ADD = 'Ritorna la somma dei due numeri.';
     Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MINUS = 'Ritorna la differenza dei due numeri.';
     Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MULTIPLY = 'Ritorna il prodotto dei due numeri.';
     Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_DIVIDE = 'Ritorna il quoziente dei due numeri.';
     Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_POWER = 'Ritorna il primo numero alla \n' +
         'potenza del secondo.';
+    Blockly.Msg.LANG_MATH_BITWISE_TOOLTIP_AND = 'Ritorna l\'AND (e) bit a bit di due numeri.';
+    Blockly.Msg.LANG_MATH_BITWISE_TOOLTIP_IOR = 'Ritorna l\'OR (o) inclusivo bit a bit di due numeri.';
+    Blockly.Msg.LANG_MATH_BITWISE_TOOLTIP_XOR = 'Ritorna l\'OR (o) esclusivo bit a bit di due numeri.';
     Blockly.Msg.LANG_MATH_ARITHMETIC_ADD = '+';
     Blockly.Msg.LANG_MATH_ARITHMETIC_MINUS = '-';
     Blockly.Msg.LANG_MATH_ARITHMETIC_MULTIPLY = '*';
     Blockly.Msg.LANG_MATH_ARITHMETIC_DIVIDE = '/';
     Blockly.Msg.LANG_MATH_ARITHMETIC_POWER = '^';
+    
+    Blockly.Msg.LANG_MATH_BITWISE_AND = 'and (e) bit a bit';
+    Blockly.Msg.LANG_MATH_BITWISE_IOR = 'or (o) bit a bit';
+    Blockly.Msg.LANG_MATH_BITWISE_XOR = 'xor bit a bit';
 
     /*Blockly.Msg.LANG_MATH_CHANGE_TITLE_CHANGE = 'cambia';
      Blockly.Msg.LANG_MATH_CHANGE_TITLE_ITEM = 'elemento';
@@ -820,6 +837,11 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_LISTS_IS_LIST_TITLE_IS_LIST = 'è una lista?';
     Blockly.Msg.LANG_LISTS_IS_LIST_INPUT_THING = 'elemento';
     Blockly.Msg.LANG_LISTS_IS_LIST_TOOLTIP = 'Verifica se qualcosa è una lista.';
+    
+    Blockly.Msg.LANG_LISTS_REVERSE_HELPURL = 'https://docs.kodular.io/blocks/lists#reverse';
+    Blockly.Msg.LANG_LISTS_REVERSE_TITLE_REVERSE = 'inverti lista';
+    Blockly.Msg.LANG_LISTS_REVERSE_INPUT_LIST = 'lista';
+    Blockly.Msg.LANG_LISTS_REVERSE_TOOLTIP = 'Inverte l\'ordine della lista di ingresso e la restituisce come una nuova lista.';
 
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_HELPURL = 'https://docs.kodular.io/blocks/lists#listtocsvrow';
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TITLE_TO_CSV = 'lista a riga csv';
@@ -876,6 +898,14 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT = 'cerca a coppie  chiave %1 coppie %2 nonTrovato %3';
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_TOOLTIP = 'Restituisce il valore associato con la chiave nella lista di coppie';
 
+    // Join With Separator block
+    Blockly.Msg.LANG_LISTS_JOIN_WITH_SEPARATOR_HELPURL = 'https://docs.kodular.io/blocks/lists#joinwithseparator';
+    Blockly.Msg.LANG_LISTS_JOIN_WITH_SEPARATOR_TITLE = 'unisci con separatore';
+    Blockly.Msg.LANG_LISTS_JOIN_WITH_SEPARATOR_SEPARATOR = 'separatore';
+    Blockly.Msg.LANG_LISTS_JOIN_WITH_SEPARATOR_LIST = 'lista';
+    Blockly.Msg.LANG_LISTS_JOIN_WITH_SEPARATOR_INPUT = 'unisci elementi con il separatore %1 lista %2';
+    Blockly.Msg.LANG_LISTS_JOIN_WITH_SEPARATOR_TOOLTIP = 'Restituisce un testo con gli elementi della lista uniti con il separatore';
+    
     /*Blockly.Msg.LANG_LISTS_INDEX_OF_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_INDEX_OF_TITLE_FIND = 'trova';
      Blockly.Msg.LANG_LISTS_INDEX_OF_INPUT_OCCURRENCE = 'occorrenze dell'elemento';
@@ -904,6 +934,7 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TO = 'a';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_COLLAPSED_TEXT = 'globale';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_TOOLTIP = 'Crea una variabile globale e gli dà il valore del blocco attaccato.';
+    Blockly.Msg.LANG_VARIABLES_GLOBAL_PREFIX = 'globale';
 
     Blockly.Msg.LANG_VARIABLES_GET_HELPURL = 'https://docs.kodular.io/blocks/variables#get';
     Blockly.Msg.LANG_VARIABLES_GET_TITLE_GET = 'ottieni';
@@ -1002,6 +1033,7 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.LANG_COMPONENT_BLOCK_HELPURL = '';
     Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_WHEN = 'quando ';
     Blockly.Msg.LANG_COMPONENT_BLOCK_TITLE_DO = 'esegui';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_EVENT_TITLE = 'quando ogni ';
 
     Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_HELPURL = '';
     Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'esegui ';
@@ -1038,6 +1070,7 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.REPL_OK = "OK";
     Blockly.Msg.REPL_COMPANION_VERSION_CHECK = "Controllo Versione Companion";
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Il tuo Companion è obsoleto. Clicca "OK" per iniziare l\'aggiornamento. Controlla il tuo ';
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE2 = 'Il tuo Companion è obsoleto. Riavvia il Companion e scannerizza il QRCode qui sotto per aggiornare';
     Blockly.Msg.REPL_EMULATORS = "dell'elemulatore";
     Blockly.Msg.REPL_DEVICES = "del dispositivo";
     Blockly.Msg.REPL_APPROVE_UPDATE = " schermo perchè ti verrà chiesto di approvare l'aggiornamento.";
@@ -1083,6 +1116,8 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.REPL_YOUR_CODE_IS = "Il tuo codice è";
     Blockly.Msg.REPL_DO_YOU_REALLY_Q = "Vuoi davvero?";
     Blockly.Msg.REPL_FACTORY_RESET = 'Questo proverà a resettare il tuo Emulatore al suo stato di "fabbrica". Se hai precedentemente aggiornato il Companion installato nell\' Emulatore, probabilmente dovrai rifarlo ancora.';
+    Blockly.Msg.REPL_WEBRTC_CONNECTION_ERROR = "Errore di connessione al Companion";
+    Blockly.Msg.REPL_EMULATOR_ONLY = 'Puoi usare solo questa opzione per aggiornare l\'Emulatore';
 
 // Messages from Blockly.js
     Blockly.Msg.WARNING_DELETE_X_BLOCKS = "Sei sicuro di voler eliminare tutti i %1 di questi blocchi?";
@@ -1090,6 +1125,7 @@ Blockly.Msg.it.switch_language_to_italian = {
 // Blocklyeditor.js
     Blockly.Msg.GENERATE_YAIL = "Genera Yail";
     Blockly.Msg.DO_IT = "Eseguilo";
+    Blockly.Msg.DO_IT_DISCONNECTED = 'Eseguilo (Companion non connesso)';
     Blockly.Msg.CLEAR_DO_IT_ERROR = "Cancella Errori";
     Blockly.Msg.CAN_NOT_DO_IT = "Impossibile Eseguirlo";
     Blockly.Msg.CONNECT_TO_DO_IT = 'Devi essere connesso al compagno (app) o all\'emulatore per usare "Eseguilo"';
@@ -1103,6 +1139,17 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.TIME_MINUTES = "Minuti";
     Blockly.Msg.TIME_SECONDS = "Secondi";
     Blockly.Msg.TIME_DURATION = "Durata";
+    
+    // Connection Dialog Messages
+    Blockly.Msg.DIALOG_RENDEZVOUS_NEGOTIATING = "15 Rendezvous (perfavore attendi)";
+    Blockly.Msg.DIALOG_SECURE_ESTABLISHING = "20 Sto stabilendo una connessione sicura";
+    Blockly.Msg.DIALOG_SECURE_ESTABLISHED = "30 Connessione sicura stabilita";
+    Blockly.Msg.DIALOG_FOUND_COMPANION = "10 Companion trovato";
+    
+    //Blockly.Util.Dialog Messages
+    Blockly.Msg.DIALOG_UNBOUND_VAR = 'Variabili libere';
+    Blockly.Msg.DIALOG_SUBMIT = 'Invia';
+    Blockly.Msg.DIALOG_ENTER_VALUES = 'Inserisci valori per:';
   }
 };
 
