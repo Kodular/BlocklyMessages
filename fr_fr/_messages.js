@@ -1,10 +1,10 @@
 // -*- mode: java; c-basic-offset: 2; -*-
-// Copyright © 2018 Makeroid. All rights reserved.
+// Copyright © 2018 Kodular. All rights reserved.
 
 /**
  * Visual Blocks Language
  *
- * Copyright © 2018 Makeroid. All rights reserved.
+ * Copyright © 2018 Kodular. All rights reserved.
  */
 
 /**
@@ -26,26 +26,26 @@ Blockly.Msg.fr.switch_language_to_french = {
   category: '',
   helpUrl: '',
   init: function() {
-    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = 'Ce bloc ne peut pas être dans une définition';
-    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = 'Ceci est un gestionnaire d\'évènement dupliqué pour ce composant.';
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = 'Sélectionner un élément valide dans le menu déroulant.';
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Modifier la valeur :';
-    Blockly.MSG_NEW_VARIABLE = 'Nouvelle variable...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'Nom de la nouvelle variable:';
-    Blockly.MSG_PROCEDURE_CATEGORY = 'Procédures';
-    Blockly.MSG_RENAME_VARIABLE = 'Renommer la variable...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Renommer les "%1" variables en:\' ';
-    Blockly.MSG_VARIABLE_CATEGORY = 'Variables';
+    Blockly.Msg.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = 'Ce bloc ne peut pas être dans une définition';
+    Blockly.Msg.ERROR_DUPLICATE_EVENT_HANDLER = 'Ceci est un gestionnaire d\'évènement dupliqué pour ce composant.';
+    Blockly.Msg.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = 'Sélectionner un élément valide dans le menu déroulant.';
+    Blockly.Msg.CHANGE_VALUE_TITLE = 'Modifier la valeur :';
+    Blockly.Msg.NEW_VARIABLE = 'Nouvelle variable';
+    Blockly.Msg.NEW_VARIABLE_TITLE = 'Nom de la nouvelle variable :';
+    Blockly.Msg.PROCEDURE_CATEGORY = 'Procédures';
+    Blockly.Msg.RENAME_VARIABLE = 'Renommer la variable';
+    Blockly.Msg.RENAME_VARIABLE_TITLE = 'Renommer les "%1" variables en : \' ';
+    Blockly.Msg.VARIABLE_CATEGORY = 'Variables';
     Blockly.Msg.ADD_COMMENT = 'Ajouter un commentaire';
     Blockly.Msg.ARRANGE_H = 'Arranger les blocs horizontalement';
-    Blockly.Msg.ARRANGE_S = 'Arrange les blocs en diagonale';
+    Blockly.Msg.ARRANGE_S = 'Arranger les blocs en diagonale';
     Blockly.Msg.ARRANGE_V = 'Arranger les blocs verticalement';
-    Blockly.Msg.CAN_NOT_DO_IT = 'Impossible de le faire';
+    Blockly.Msg.CAN_NOT_DO_IT = 'Impossible de faire ceci';
     Blockly.Msg.CLEAR_DO_IT_ERROR = 'Effacer l\'erreur';
     Blockly.Msg.COLLAPSE_ALL = 'Réduire les blocs';
     Blockly.Msg.COLLAPSE_BLOCK = 'Réduire le bloc';
     Blockly.Msg.CONNECT_TO_DO_IT = 'Vous devriez être connecté au compagnon ou émulateur pour utiliser "Faire"';
-    Blockly.Msg.DELETE_BLOCK = 'Supprimer un bloc';
+    Blockly.Msg.DELETE_BLOCK = 'Supprimer le bloc';
     Blockly.Msg.DELETE_X_BLOCKS = 'Supprimer %1 blocs';
     Blockly.Msg.DISABLE_BLOCK = 'Désactiver le bloc';
     Blockly.Msg.DO_IT = 'Faire';
@@ -57,7 +57,7 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.GENERATE_YAIL = 'Générer Yail';
     Blockly.Msg.HELP = 'Aide';
     Blockly.Msg.HIDE_WARNINGS = 'Cacher les avertissements';
-    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange les paramètres horizontalement';
+    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arranger les paramètres horizontalement';
     Blockly.Msg.INLINE_INPUTS = 'Entrées en ligne';
     Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Contrôle';
     Blockly.Msg.LANG_CATEGORY_LISTS = 'Listes';
@@ -72,20 +72,20 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.LANG_COLOUR_GREEN = 'vert';
     Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'gris clair';
     Blockly.Msg.LANG_COLOUR_MAGENTA = 'magenta';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'créer couleur';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = 'Une couleur avec rouge, vert, bleu donné, et optionnellement des composants alpha';
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'Créer une couleur';
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = 'Une couleur avec rouge, vert, bleu donnés, et optionnellement des composants alpha';
     Blockly.Msg.LANG_COLOUR_ORANGE = 'orange';
     Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Cliquer sur le carré pour choisir une couleur.';
     Blockly.Msg.LANG_COLOUR_PINK = 'rose';
     Blockly.Msg.LANG_COLOUR_RED = 'rouge';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'Diviser couleur';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = 'Quatre éléments, chacun entre 0 et 255, représentant les composantes rouge, verte, bleu et alpha.\'  ';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = 'Quatre éléments, chacun entre 0 et 255, représentant les composantes rouge, verte, bleu et alpha (RGBA).\'  ';
     Blockly.Msg.LANG_COLOUR_WHITE = 'blanc';
     Blockly.Msg.LANG_COLOUR_YELLOW = 'jaune';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'de composant';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_GETTER_TITLE_OF_COMPONENT = 'du composant';
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_CALL = 'appeler ';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'pour composant';
-    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'de composant';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_METHOD_TITLE_FOR_COMPONENT = 'pour le composant';
+    Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'du composant';
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'mettre ';
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' à';
     Blockly.Msg.LANG_COMPONENT_BLOCK_METHOD_TITLE_CALL = 'appeler ';
@@ -108,7 +108,7 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = 'ferme l\'écran avec texte brut';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_INPUT_TEXT = 'texte';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = 'ferme l\'écran avec texte brut';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Ferme l\'écran actuel et retourne un texte à l\'application qui l\'a ouvert\'. Cette commande est pour retourner du texte aux activités non réalisées par Makeroid, et non pas aux écrans Makeroid. Pour les écrans Makeroid, comme dans les applications multi-écrans, utilisez Fermer écran avec valeur, et non Fermer écran avec texte brut.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Ferme l\'écran actuel et retourne un texte à l\'application qui l\'a ouvert\'. Cette commande est pour retourner du texte aux activités non réalisées par Kodular, et non pas aux écrans Kodular. Pour les écrans Kodular, comme dans les applications multi-écrans, utilisez Fermer écran avec valeur, et non Fermer écran avec texte brut.';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'ferme écran avec valeur';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'résultat';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'ferme écran avec valeur';
@@ -209,7 +209,7 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.LANG_LISTS_APPEND_LIST_TITLE_APPEND = 'ajouter à la liste';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_TOOLTIP = 'Ajoute tous les éléments dans liste2 à la fin de liste1. Après l\'ajout, liste1 va contenir ces éléments additionnels, par contre  liste2 reste inchangée.';
     Blockly.Msg.LANG_LISTS_COPY_INPUT_LIST = 'liste';
-    Blockly.Msg.LANG_LISTS_COPY_TITLE_COPY = 'copier liste';
+    Blockly.Msg.LANG_LISTS_COPY_TITLE_COPY = 'copier la liste';
     Blockly.Msg.LANG_LISTS_COPY_TOOLTIP = 'Réalise une copie de la liste, y compris toutes les sous-listes';
     Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TITLE = 'créer une liste vide';
     Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = 'liste';
@@ -230,7 +230,7 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.LANG_LISTS_INSERT_INPUT_ITEM = 'élément';
     Blockly.Msg.LANG_LISTS_INSERT_INPUT_LIST = 'liste';
     Blockly.Msg.LANG_LISTS_INSERT_TITLE_INSERT_LIST = 'insérer liste élément';
-    Blockly.Msg.LANG_LISTS_INSERT_TOOLTIP = 'Insérer un élément dans une liste dans la position spécifiée. ';
+    Blockly.Msg.LANG_LISTS_INSERT_TOOLTIP = 'Insérer un élément dans une liste dans la position spécifiée.';
     Blockly.Msg.LANG_LISTS_IS_EMPTY_TOOLTIP = 'retourne vrai si la liste est vide';
     Blockly.Msg.LANG_LISTS_IS_IN_INPUT = 'est dans la liste? objet %1 liste %2?';
     Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = 'liste';
@@ -515,7 +515,7 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.REPL_APPROVE_UPDATE = ' écran car vous allez être appelé à accepter la mise à jour.';
     Blockly.Msg.REPL_CANCEL = 'Annuler';
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Votre application compagnon est obsolète. Cliquez sur "OK" pour démarrer la mise à jour. Regardez votre ';
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = 'Le compagnon que vous utilisez et obsolète.<br/><br/>Cette version de Makeroid doit être utilisé avec le compagnon version ';
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = 'Le compagnon que vous utilisez et obsolète.<br/><br/>Cette version de Kodular doit être utilisé avec le compagnon version ';
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE_IMMEDIATE = 'Vous utilisez un compagnon obsolète. Vous n\'avez pas besoin de mettre à jour le compagnon immédiatement mais vous devriez le faire prochainement.';
     Blockly.Msg.REPL_COMPANION_STARTED_WAITING = 'Compagnon en cours de lancement, attente ';
     Blockly.Msg.REPL_COMPANION_VERSION_CHECK = 'Contrôle de la version compagnon';
@@ -532,14 +532,14 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.REPL_FACTORY_RESET = 'Ceci va essayer de réinitialiser votre Émulateur à son état d\'usine. Si vous avez auparavant mis à jour le Compagnon installé dans l\'émulateur, vous allez probablement devoir le faire une autre fois. ';
     Blockly.Msg.REPL_GIVE_UP = 'Abandonner';
     Blockly.Msg.REPL_GOT_IT = 'Entendu';
-    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'L\'assistant aiStarter semble ne pas fonctionné<br /><a href="https://starter.makeroid.io" target="_blank">Besoin d\'aide?</a>';
+    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'L\'assistant aiStarter semble ne pas fonctionné<br /><a href="https://starter.kodular.io" target="_blank">Besoin d\'aide?</a>';
     Blockly.Msg.REPL_HELPER_Q = 'Assistant?';
     Blockly.Msg.REPL_KEEP_TRYING = 'Continuer à essayer';
     Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = 'Erreur de connexion réseau';
     Blockly.Msg.REPL_NETWORK_ERROR = 'Erreur réseau';
     Blockly.Msg.REPL_NETWORK_ERROR_RESTART = 'Erreur de communication réseau avec le compagnon .<br />Essayez de redémarrer le compagnon et reconnecter\'  ';
     Blockly.Msg.REPL_NOT_NOW = 'Pas maintenant';
-    Blockly.Msg.REPL_NOW_DOWNLOADING = 'Nous sommes en train de télécharger des mises à jour du serveur Makeroid, attendez svp';
+    Blockly.Msg.REPL_NOW_DOWNLOADING = 'Nous sommes en train de télécharger des mises à jour du serveur Kodular, attendez svp';
     Blockly.Msg.REPL_NO_ERROR_FIVE_SECONDS = '<br/><i>Note:</i>&nbsp;Vous n\'allez pas voir une autre erreur rapportée pour 5 secondes.';
     Blockly.Msg.REPL_NO_START_EMULATOR = 'On ne peut pas ouvrir le compagnon avec l\'émulateur';
     Blockly.Msg.REPL_OK = 'OK';
@@ -552,10 +552,10 @@ Blockly.Msg.fr.switch_language_to_french = {
     Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE = 'Lancement de l\'application compagnon dans l\'appareil connecté.';
     Blockly.Msg.REPL_STARTING_EMULATOR = 'Lancement de l\'émulateur Android <br/>Attendez svp: ceci peut prendre une minute ou deux.';
     Blockly.Msg.REPL_TRY_AGAIN1 = 'Impossible de se connecter au compagnon, essayez une autre fois.';
-    Blockly.Msg.REPL_UNABLE_TO_LOAD = 'Impossible de charger les mises à jour du serveur Makeroid';
-    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = 'Impossible de charger les mises à jour du serveur Makeroid (le serveur ne répond pas)';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD = 'Impossible de charger les mises à jour du serveur Kodular';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = 'Impossible de charger les mises à jour du serveur Kodular (le serveur ne répond pas)';
     Blockly.Msg.REPL_UNABLE_TO_UPDATE = 'Impossible d\'envoyer les mises à jour à l\'appareil/émulateur';
-    Blockly.Msg.REPL_UPDATE_INFO = 'La mise à jour est actuellement en cours d\'installation sur votre appareil. Regardez votre appareil (ou émulateur) et acceptez l\'installation du logiciel quand c\'est demandé.<br /><br />IMPORTANT:  Quand la mise à jour est terminée, choisissez "terminé" (ne pas cliquer sur "Ouvrir"). Ensuite, allez à Makeroid dans votre navigateur, cliquez sur le menu "Connecte" et choisissez "Réinitialiser Connexion". Ensuite, reconnectez l\'appareil.';
+    Blockly.Msg.REPL_UPDATE_INFO = 'La mise à jour est actuellement en cours d\'installation sur votre appareil. Regardez votre appareil (ou émulateur) et acceptez l\'installation du logiciel quand c\'est demandé.<br /><br />IMPORTANT:  Quand la mise à jour est terminée, choisissez "terminé" (ne pas cliquer sur "Ouvrir"). Ensuite, allez à Kodular dans votre navigateur, cliquez sur le menu "Connecte" et choisissez "Réinitialiser Connexion". Ensuite, reconnectez l\'appareil.';
     Blockly.Msg.REPL_USB_CONNECTED_WAIT = 'USB connecté, attente \' ';
     Blockly.Msg.REPL_VERIFYING_COMPANION = 'Vérification que le Compagnon est lancé ...';
     Blockly.Msg.REPL_YOUR_CODE_IS = 'Votre code est';

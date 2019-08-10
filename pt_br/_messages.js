@@ -1,10 +1,10 @@
 // -*- mode: java; c-basic-offset: 2; -*-
-// Copyright © 2018 Makeroid. All rights reserved.
+// Copyright © 2018 Kodular. All rights reserved.
 
 /**
  * Visual Blocks Language
  *
- * Copyright © 2018 Makeroid. All rights reserved.
+ * Copyright © 2018 Kodular. All rights reserved.
  */
 
 /**
@@ -28,7 +28,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
   init: function() {
 
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_INPUT = 'busca nos pares  chave %1 pares %2 nãoEncontrado %3';
-    Blockly.MSG_VARIABLE_CATEGORY = 'Variáveis';
+    Blockly.Msg.VARIABLE_CATEGORY = 'Variáveis';
     Blockly.Msg.ADD_COMMENT = 'Adicionar Comentário';
     Blockly.Msg.EXPAND_BLOCK = 'Expandir Bloco';
     Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'senão';
@@ -52,7 +52,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'fechar tela com valor';
     Blockly.Msg.LANG_MATH_TRIG_ASIN = 'arcsen';
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_TITLE_TO_CSV = 'de lista para tabela csv';
-    Blockly.Msg.REPL_NOW_DOWNLOADING = 'Estamos baixando uma atualização desde o Servidor do Makeroid, por favor aguarde';
+    Blockly.Msg.REPL_NOW_DOWNLOADING = 'Estamos baixando uma atualização desde o Servidor do Kodular, por favor aguarde';
     Blockly.Msg.LANG_MATH_RANDOM_SEED_TOOLTIP = 'especifica uma semente numérica\npara o gerador de números aleatórios';
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TITLE_CONVERT = 'converter';
     Blockly.Msg.LANG_MATH_SINGLE_OP_EXP = 'e^';
@@ -81,7 +81,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_FROM = 'desde';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_TITLE_APPEND = 'acrescentar à lista';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' no intervalo';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'Novo nome de varíavel:';
+    Blockly.Msg.NEW_VARIABLE_TITLE = 'Novo nome de varíavel:';
     Blockly.Msg.VERTICAL_PARAMETERS = 'Organizar Parâmetros Verticalmente';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'texto';
     Blockly.Msg.LANG_PROCEDURES_DOTHENRETURN_RETURN = 'resultado';
@@ -94,7 +94,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_PROCEDURES_CALLNORETURN_TRANSLATED_NAME = 'chamar sem retorno';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'texto';
     Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'Executa os blocos na seção "fazer" enquanto o teste for verdadeiro.';
-    Blockly.Msg.BACKPACK_DOCUMENTATION = 'A Mochila é uma facilidade para copiar/colar. Ela permite copiar blocos de um projeto ou tela e cola-los em outro projeto ou tela. Para copiar, você pode arrastar-e-soltar blocos para a Mochila. Para colar, clique no ícone da Mochila, e arraste-e-solte os blocos para a área de trabalho.</p><p>O conteúdo da Mochila irá durar enquanto durar a sessão do Makeroid. Quando você sair do Makeroid (ou refrescar a página web no navegador) a Mochila será reiniciada, ou seja, esvaziada.</p><p>Para mais informações e para um vídeo de \'como fazer\', veja:</p><p><a href="https://docs.makeroid.io/other/backpack.html" target="_blank">https://docs.makeroid.io/other/backpack.html</a>';
+    Blockly.Msg.BACKPACK_DOCUMENTATION = 'A Mochila é uma facilidade para copiar/colar. Ela permite copiar blocos de um projeto ou tela e cola-los em outro projeto ou tela. Para copiar, você pode arrastar-e-soltar blocos para a Mochila. Para colar, clique no ícone da Mochila, e arraste-e-solte os blocos para a área de trabalho.</p><p>O conteúdo da Mochila irá durar enquanto durar a sessão do Kodular. Quando você sair do Kodular (ou refrescar a página web no navegador) a Mochila será reiniciada, ou seja, esvaziada.</p><p>Para mais informações e para um vídeo de \'como fazer\', veja:</p><p><a href="https://docs.kodular.io/other/backpack.html" target="_blank">https://docs.kodular.io/other/backpack.html</a>';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2 = 'arctan2';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_COLLAPSED_PREFIX = 'chamar ';
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'fazer';
@@ -128,7 +128,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_MATH_COMPARE_LT = '<';
     Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ABS = 'Retornar o módulo (valor absoluto) do número.';
     Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_ITEM = 'item';
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = 'Selecionar um item válido na lista suspensa.';
+    Blockly.Msg.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = 'Selecionar um item válido na lista suspensa.';
     Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MAX = 'máx';
     Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MAX = 'Retorne o maior dos seus argumentos ..';
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_DEG_TO_RAD = 'graus para radianos';
@@ -138,14 +138,14 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_TEXT_JOIN_TITLE_JOIN = 'juntar';
     Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = 'Retorna o número de caracteres (incluindo espaços)\ndo texto informado.';
     Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Adicionar, remover, ou reordenar seções\npara reconfigurar este bloco "se".';
-    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = 'O seu Assistente está desatualizado.<br/><br/>Esta versão do Makeroid requer o Assistente de versão';
+    Blockly.Msg.REPL_COMPANION_OUT_OF_DATE1 = 'O seu Assistente está desatualizado.<br/><br/>Esta versão do Kodular requer o Assistente de versão';
     Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'maiúsculas';
     Blockly.Msg.LANG_MATH_ARITHMETIC_ADD = '+';
     Blockly.Msg.REPL_COMPANION_VERSION_CHECK = 'Verificação da Versão do Assistente';
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_TOOLTIP = 'Um procedimento retornando um valor de resultado.';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_X = 'x';
     Blockly.Msg.EXPAND_ALL = 'Expandir Blocos';
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Mudar valor:';
+    Blockly.Msg.CHANGE_VALUE_TITLE = 'Mudar valor:';
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Abre uma tela em um app multi-tela.';
     Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = 'Retorna verdadeiro se o comprimento\ndo texto for zero, e falso caso contrário.';
     Blockly.Msg.LANG_VARIABLES_SET_COLLAPSED_TEXT = 'ajustar';
@@ -190,7 +190,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_HEX_TO_DEC = 'hexa para decimal';
     Blockly.Msg.LANG_LOGIC_COMPARE_NEQ = '≠';
     Blockly.Msg.LANG_VARIABLES_GLOBAL_DECLARATION_NAME = 'nome';
-    Blockly.MSG_NEW_VARIABLE = 'Nova variável...';
+    Blockly.Msg.NEW_VARIABLE = 'Nova variável...';
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_OR = 'Retornar verdadeiro se qualquer das entradas for verdadeira.';
     Blockly.Msg.LANG_VARIABLES_LOCAL_MUTATOR_CONTAINER_TOOLTIP = '';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_CONTAINS = 'contém';
@@ -272,7 +272,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = 'lista';
     Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = 'Executa o bloco de código conectado e ignora o valor retornado (se existir). Útil para chamar um procedimento que tem um valor de retorno, quando você não precisar do valor.';
     Blockly.Msg.LANG_LISTS_CREATE_WITH_TOOLTIP = 'Criar uma lista com qualquer número de itens';
-    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = 'Este manipulador de evento está duplicado para este componente.';
+    Blockly.Msg.ERROR_DUPLICATE_EVENT_HANDLER = 'Este manipulador de evento está duplicado para este componente.';
     Blockly.Msg.LANG_MATH_TRIG_COS = 'cos';
     Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Tem certeza de que deseja esvaziar a mochila?';
     Blockly.Msg.LANG_LISTS_IS_EMPTY_TOOLTIP = 'Retorna verdadeiro se a lista for vazia.';
@@ -316,7 +316,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.REPL_CONNECTING = 'Conectando...';
     Blockly.Msg.LANG_LISTS_LOOKUP_IN_PAIRS_TOOLTIP = 'Retorna o valor associado a esta chave em uma lista de pares';
     Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = 'Retornar o número com o sinal trocado.';
-    Blockly.Msg.REPL_UNABLE_TO_LOAD = 'Impossível carregar a atualização desde o servidor do Makeroid';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD = 'Impossível carregar a atualização desde o servidor do Kodular';
     Blockly.Msg.LANG_LISTS_COPY_TOOLTIP = 'Faz uma cópia profunda da lista (i.e., copia todas as sublistas)';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Retorna o valor lógico (booleano) falso.';
     Blockly.Msg.LANG_TEXT_TEXT_OBSFUCATE = 'texto ofuscado';
@@ -340,7 +340,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_VARIABLES_LOCAL_DECLARATION_IN_DO = 'dentro de';
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = 'Retornar verdadeiro se o primeiro\nnúmero for menor que segundo.';
     Blockly.Msg.LANG_COLOUR_BLACK = 'preto';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Fecha a tela atual e retorna texto para o app que abriu o app atual. Este comando serve para retornar texto para atividades que não são do Makeroid, e não para telas do Makeroid. Para telas do Makeroid, prefira Fechar Tela com Valor, e não Fechar Tela com Texto Puro.';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TOOLTIP = 'Fecha a tela atual e retorna texto para o app que abriu o app atual. Este comando serve para retornar texto para atividades que não são do Kodular, e não para telas do Kodular. Para telas do Kodular, prefira Fechar Tela com Valor, e não Fechar Tela com Texto Puro.';
     Blockly.Msg.REPL_COMPANION_OUT_OF_DATE = 'Seu App Assistente está desatualizado. Clique “OK” para atualizar. Veja, no ';
     Blockly.Msg.LANG_LOGIC_OPERATION_TOOLTIP_AND = 'Retornar verdadeiro se todas as entradas forem verdadeiras.';
     Blockly.Msg.REPL_NO_START_EMULATOR = 'Não conseguimos iniciar o Assistente MIT AI no Emulador';
@@ -368,7 +368,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TITLE_REMOVE = 'remover item da lista';
     Blockly.Msg.REPL_STARTING_COMPANION_ON_PHONE = 'Iniciando o App Assistente no telefone conectado.';
     Blockly.Msg.ARRANGE_S = 'Organizar Blocos Diagonalmente';
-    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = 'Componente não existe';
+    Blockly.Msg.ERROR_COMPONENT_DOES_NOT_EXIST = 'Componente não existe';
     Blockly.Msg.LANG_MATH_COMPARE_LTE = '≤';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = 'contém  texto %1 parte %2';
     Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MIN = 'mín';
@@ -395,7 +395,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_LISTS_TO_CSV_TABLE_INPUT_LIST = 'lista';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = 'lista1';
     Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = 'lista2';
-    Blockly.Msg.REPL_UPDATE_INFO = 'Instalando a atualização no seu dispositivo. Veja a tela do seu dispositivo (ou emulador) e autorize a instalação se a pergunta aparecer.<br /><br />IMPORTANTE: Quando a atualização terminar, escolha a opção "DONE" (Concluído) — NÃO clique em "Open" (Abrir). Então vá para o Makeroid no seu navegador web, e clique no menu "Conectar" e escolha "Reiniciar Conexão". Então reconecte o dispositivo.';
+    Blockly.Msg.REPL_UPDATE_INFO = 'Instalando a atualização no seu dispositivo. Veja a tela do seu dispositivo (ou emulador) e autorize a instalação se a pergunta aparecer.<br /><br />IMPORTANTE: Quando a atualização terminar, escolha a opção "DONE" (Concluído) — NÃO clique em "Open" (Abrir). Então vá para o Kodular no seu navegador web, e clique no menu "Conectar" e escolha "Reiniciar Conexão". Então reconecte o dispositivo.';
     Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LTE = 'Retornar verdadeiro se o primeiro\nnúmero for menor ou igual ao segundo.';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_COLLAPSED_TEXT = 'fechar tela com texto puro';
     Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'enquanto';
@@ -430,7 +430,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.REPL_SOFTWARE_UPDATE = 'Atualização do Software';
     Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_INPUT_LIST = 'lista';
     Blockly.Msg.LANG_CONTROLS_CHOOSE_TOOLTIP = 'Se a condição testada for verdadeira, retorna o resultado da expressão anexada ao encaixe "então", senão retorna o resultado da expressão anexada ao encaixe "senão". Apenas uma das duas expressões encaixadas será avaliada.';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Renomear todas as "%1" variáveis para:';
+    Blockly.Msg.RENAME_VARIABLE_TITLE = 'Renomear todas as "%1" variáveis para:';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Retorna o valor lógico (booleano) falso.';
     Blockly.Msg.REPL_TRY_AGAIN1 = 'Falhou em Conectar com o Assistente MIT AI2, tente novamente.';
     Blockly.Msg.REPL_VERIFYING_COMPANION = 'Verificando que o Assistente Iniciou….';
@@ -495,7 +495,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_LISTS_IS_LIST_TOOLTIP = 'Testa se algo é uma lista.';
     Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ACOS = 'Dado um valor do cosseno trigonométrico, informa o\nângulo correspondente em graus no intervalo (-90, +90].';
     Blockly.Msg.LANG_MATH_RANDOM_INT_TITLE_RANDOM = 'inteiro aleatório';
-    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = 'Este bloco não pode estar em uma definição';
+    Blockly.Msg.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = 'Este bloco não pode estar em uma definição';
     Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_REMAINDER = 'Retornar o resto da divisão do primeiro número pelo segundo.';
     Blockly.Msg.REPL_CONNECTING_USB_CABLE = 'Conectando via cabo USB';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_PLACES = 'lugares';
@@ -506,7 +506,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_COS = 'Retorna o cosseno de um ângulo dado em graus.';
     Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = 'segmento';
     Blockly.Msg.BACKPACK_GET = 'Colar Todos os Blocos da Mochila';
-    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedimentos';
+    Blockly.Msg.PROCEDURE_CATEGORY = 'Procedimentos';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'comprimento';
     Blockly.Msg.LANG_COMPONENT_BLOCK_SETTER_TITLE_TO = ' para';
     Blockly.Msg.LANG_LISTS_COPY_TITLE_COPY = 'copiar lista';
@@ -521,7 +521,7 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_Y = 'y';
     Blockly.Msg.LANG_PROCEDURES_CALLRETURN_PROCEDURE = 'procedimento';
     Blockly.Msg.LANG_PROCEDURES_DEFRETURN_DO = 'fazer';
-    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'O auxiliar aiStarter não está executando<br /><a href="https://starter.makeroid.io" target="_blank">Quer Ajuda?</a>';
+    Blockly.Msg.REPL_HELPER_NOT_RUNNING = 'O auxiliar aiStarter não está executando<br /><a href="https://starter.kodular.io" target="_blank">Quer Ajuda?</a>';
     Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Extrai o segmento de comprimento especificado do texto dado\ncomeçando da posição informada. A posição 1 significa o\ninício do texto.';
     Blockly.Msg.LANG_LOGIC_OPERATION_OR = 'ou';
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = 'Este bloco deve estar conectado a um bloco de evento ou a uma definição de procedimento';
@@ -551,14 +551,14 @@ Blockly.Msg.pt.br.switch_language_to_portuguese_br = {
     Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT = 'inteiro aleatório de %1 até %2';
     Blockly.Msg.LANG_LOGIC_COMPARE_TOOLTIP_EQ = 'Testa se dois elementos são iguais. \nAs duas coisas comparadas podem ser não só números, mas qualquer tipo de coisa.\nNúmeros são considerados iguais à sua forma impressa como cadeia de caracteres,\npor exemplo, o número 0 é considerado igual ao texto "0". Além disso, duas cadeias\nque representam números são consideradas iguais se os números são iguais, por exemplo\n"1" é considero igual a "01".';
     Blockly.Msg.LANG_LOGIC_COMPARE_EQ = '=';
-    Blockly.MSG_RENAME_VARIABLE = 'Renomear variável...';
+    Blockly.Msg.RENAME_VARIABLE = 'Renomear variável...';
     Blockly.Msg.LANG_MATH_RANDOM_INT_TOOLTIP = 'Retorna um inteiro aleatório entre os limites inferior e superior.\nOs limites serão ajustados para ficarem menores que 2^30.';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'verdadeiro';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'para cada';
     Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = 'Escolhe um item randomicamente da lista.';
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_REPLACEMENT = 'substituição';
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_PLAIN_TEXT_TITLE = 'fechar tela com texto puro';
-    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = 'Impossível carregar atualização desde o servidor do Makeroid (o servidor não responde)';
+    Blockly.Msg.REPL_UNABLE_TO_LOAD_NO_RESPOND = 'Impossível carregar atualização desde o servidor do Kodular (o servidor não responde)';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'início';
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'fazer resultar';
     Blockly.Msg.LANG_PROCEDURES_DEFNORETURN_TOOLTIP = 'Um procedimento que não retorna um valor.';
