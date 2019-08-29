@@ -397,6 +397,7 @@ Blockly.Msg.ko.switch_language_to_korean = {
     Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = '텍스트 길이가 0이면 참을, 그렇지 않으면 거짓을 반환합니다.';
     Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
     Blockly.Msg.LANG_TEXT_COMPARE_EQUAL = ' =';
+    Blockly.Msg.LANG_TEXT_COMPARE_NEQ = ' ≠';
     Blockly.Msg.LANG_TEXT_COMPARE_GT = ' >';
     Blockly.Msg.LANG_TEXT_COMPARE_HELPURL = 'https://docs.kodular.io/blocks/text#compare';
     Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = '텍스트 비교하기';
