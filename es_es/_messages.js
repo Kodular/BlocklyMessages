@@ -530,6 +530,7 @@ goog.require('Blockly.Msg.es');
 
      Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
      Blockly.Msg.LANG_TEXT_COMPARE_EQUAL = ' =';
+     Blockly.Msg.LANG_TEXT_COMPARE_NEQ = ' ≠';
      Blockly.Msg.LANG_TEXT_COMPARE_GT = ' >';
      Blockly.Msg.LANG_TEXT_COMPARE_HELPURL = 'https://docs.kodular.io/blocks/text#comparar';
      Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = 'comparar textos';

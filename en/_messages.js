@@ -597,6 +597,7 @@ Blockly.Msg.en.switch_language_to_english = {
 
     Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
     Blockly.Msg.LANG_TEXT_COMPARE_EQUAL = ' =';
+    Blockly.Msg.LANG_TEXT_COMPARE_NEQ = ' ≠';
     Blockly.Msg.LANG_TEXT_COMPARE_GT = ' >';
     Blockly.Msg.LANG_TEXT_COMPARE_HELPURL = 'https://docs.kodular.io/blocks/text#compare';
     Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = 'compare texts';
@@ -607,6 +608,10 @@ Blockly.Msg.en.switch_language_to_english = {
         + 'characters in the same order. This is different from ordinary =\n'
         + 'in the case where the text strings are numbers: 123 and 0123 are =\n'
         + 'but not text =.';
+        Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_NEQ = 'Tests whether text strings are different, ie., don\'t have the same\n'
+            + 'characters in the same order. This is different from ordinary ≠\n'
+            + 'in the case where the text strings are numbers: 123 and 0123 are text ≠\n'
+            + 'but are mathematically =.';
     Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_GT = 'Reports whether text1 is lexicographically greater than text2.\n'
         + 'if one text is the prefix of the other, the shorter text is considered smaller.\n'
         + 'Uppercase characters precede lowercase characters.';
@@ -1780,6 +1785,8 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.HIDE_WARNINGS = "Hide Warnings";
     Blockly.Msg.MISSING_SOCKETS_WARNINGS = "You should fill all of the sockets with blocks";
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "This block should be connected to an event block or a procedure definition";
+    Blockly.Msg.ERROR_PROPERTY_SETTER_NEEDS_VALUE = 'This block needs a value block connected to its socket.';
+    Blockly.Msg.ERROR_GENERIC_NEEDS_COMPONENT = 'You need to provide a valid component to this block\'s "%1" socket.';
 
 // Messages from replmgr.js
     Blockly.Msg.REPL_ERROR_FROM_COMPANION = "Error from Companion";
