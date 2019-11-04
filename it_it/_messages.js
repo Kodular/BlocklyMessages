@@ -604,6 +604,10 @@ Blockly.Msg.it.switch_language_to_italian = {
         + 'caratteri nello stesso ordine. Questo è diverso dall\' = ordinario\n'
         + 'nel caso dove le stringhe di testo sono numeri: 123 e 0123 sono =\n'
         + 'ma non testualmente =.';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_NEQ = 'Verifica se le stringhe di testo sono diverse: ad esempio, non hanno gli stessi \n'
+        + 'caratteri nello stesso ordine. Questo è diverso dal normale ≠\n'
+        + 'quando le stringhe di testo sono numeri: 123 e 0123 sono stringhe di testo ≠\n'
+        + 'ma sono matematicamente =.';
     Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_GT = 'Riporta se il testo1 è lessicograficamente più grande del testo2.\n'
         + 'se un testo è il prefisso dell\' altro, il testo più breve è considerato più piccolo.\n'
         + 'I caratteri maiuscoli precedono quelli minuscoli.';
@@ -1062,7 +1066,9 @@ Blockly.Msg.it.switch_language_to_italian = {
     Blockly.Msg.HIDE_WARNINGS = "Nascondi Avvisi";
     Blockly.Msg.MISSING_SOCKETS_WARNINGS = "Dovresti riempire tutti i campi con dei blocchi";
     Blockly.Msg.WRONG_TYPE_BLOCK_WARINGS = "Questo blocco dovrebbe essere connesso con un blocco eventoo una definizione di una procedura";
-
+    Blockly.Msg.ERROR_PROPERTY_SETTER_NEEDS_VALUE = 'Questo blocco ha bisogno di un blocco di valore collegato alla sua presa.';
+    Blockly.Msg.ERROR_GENERIC_NEEDS_COMPONENT = 'È necessario fornire un componente valido alla presa "%1" di questo blocco.';
+    
 // Messages from replmgr.js
     Blockly.Msg.REPL_ERROR_FROM_COMPANION = "Errore del Companion";
     Blockly.Msg.REPL_NETWORK_CONNECTION_ERROR = "Errore di Connessione alla Rete";
