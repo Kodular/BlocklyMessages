@@ -72,7 +72,7 @@ Blockly.Msg.en.switch_language_to_english = {
    "</p><p>If you leave Kodular with blocks left in your backpack, " +
    " they will be there the next time you login." +
    "</p><p>For further documentation and a 'how to' video, see:" +
-   '</p><p><a href="https://docs.kodular.io/other/backpack.html" target="_blank">https://docs.kodular.io/other/backpack.html</a>';
+   '</p><p><a href="https://docs.kodular.io/guides/backpack" target="_blank">https://docs.kodular.io/guides/backpack</a>';
     Blockly.Msg.ENABLE_GRID = 'Enable Workspace Grid';
     Blockly.Msg.DISABLE_GRID = 'Disable Workspace Grid';
     Blockly.Msg.ENABLE_SNAPPING = 'Enable Snap to Grid';

@@ -68,7 +68,7 @@ Blockly.Msg.de.switch_language_to_german = {
    "</p><p>Wenn du Kodular schließt oder dein Projekt verlässt, " +
    " bleiben die gespeicherten Blöcke im Rucksack erhalten." +
    "</p><p>Weitere Dokumentation und ein Beispiel Video finden Sie unter:" +
-   '</p><p><a href="https://docs.kodular.io/other/backpack.html" target="_blank">https://docs.kodular.io/other/backpack.html</a>';
+   '</p><p><a href="https://docs.kodular.io/guides/backpack" target="_blank">https://docs.kodular.io/guides/backpack</a>';
     Blockly.Msg.ENABLE_GRID = 'Arbeitsbereich-Raster aktivieren';
     Blockly.Msg.DISABLE_GRID = 'Arbeitsbereichsraster deaktivieren';
     Blockly.Msg.ENABLE_SNAPPING = 'Platzierung am Raster aktivieren';
