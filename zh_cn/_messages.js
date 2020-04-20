@@ -64,7 +64,7 @@ Blockly.Msg.zh.switch_language_to_chinese_cn = {
     Blockly.Msg.BACKPACK_DOCUMENTATION = "背包具有备份功能。它允许你从项目或屏幕中复制代码块到另一个项目或屏幕。复制时，将代码块从工作区域拖放入背包；粘贴时，单击背包图标将背包中的代码块拖放入工作区域。"
     + "</p><p>如果你退出 MIT Kodular 时将代码块留在背包中，背包会保存代码块直到你下次登录。"
     + "</p><p>想要了解更多有关背包的介绍，请前往："
-    + '</p><p><a href="https://docs.kodular.io/other/backpack.html" target="_blank">https://docs.kodular.io/other/backpack.html</a>';
+    + '</p><p><a href="https://docs.kodular.io/guides/backpack" target="_blank">https://docs.kodular.io/guides/backpack</a>';
 
 // Variable renaming.
     Blockly.Msg.CHANGE_VALUE_TITLE = '修改数值:';

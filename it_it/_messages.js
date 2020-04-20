@@ -70,7 +70,7 @@ Blockly.Msg.it.switch_language_to_italian = {
    "</p><p>Se chiudi Kodular con dei blocchi nel tuo Zaino, " +
    " saranno lì la prossima volta che entrerai." +
    "</p><p>Per ulteriore documentazione e un video tutorial, vedi:" +
-   '</p><p><a href="https://docs.kodular.io/other/backpack.html" target="_blank">https://docs.kodular.io/other/backpack.html</a>';
+   '</p><p><a href="https://docs.kodular.io/guides/backpack" target="_blank">https://docs.kodular.io/guides/backpack</a>';
     Blockly.Msg.ENABLE_GRID = 'Attiva Griglia Spazio di Lavoro';
     Blockly.Msg.DISABLE_GRID = 'Disattiva Griglia Spazio di Lavoro';
     Blockly.Msg.ENABLE_SNAPPING = 'Attiva allineamento alla Griglia';

@@ -69,7 +69,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
    "</p><p>Eğer sırt çantanızda bloklar var iken Kodular'dan ayrılırsanız, " +
    " bir sonraki girişinizde onları tekrar görebilirsiniz." +
    "</p><p>Daha ayrıntılı bir dökümantasyon ve rehber videosu için:" +
-   '</p><p><a href="https://docs.kodular.io/other/backpack.html" target="_blank">https://docs.kodular.io/other/backpack.html</a>';
+   '</p><p><a href="https://docs.kodular.io/guides/backpack" target="_blank">https://docs.kodular.io/guides/backpack</a>';
     Blockly.Msg.ENABLE_GRID = 'Çalışma Alanı Kılavuzunu Aktifleştir';
     Blockly.Msg.DISABLE_GRID = 'Çalışma Alanı Kılavuzunu Devre Dışı Bırak';
     Blockly.Msg.ENABLE_SNAPPING = 'Kılavuza Tutturmayı Etkinleştir';
