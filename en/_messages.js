@@ -377,7 +377,7 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_MATH_BINARY_FORMAT = 'binary';
     Blockly.Msg.LANG_MATH_OCTAL_FORMAT = 'octal';
     Blockly.Msg.LANG_MATH_HEXADECIMAL_FORMAT = 'hexadecimal';
-    Blockly.Msg.LANG_MATH_NUMBER_RADIX_HELPURL = '/reference/blocks/math.html#number-radix';
+    Blockly.Msg.LANG_MATH_NUMBER_RADIX_HELPURL = 'https://docs.kodular.io/blocks/math#number-radix';
     Blockly.Msg.LANG_MATH_NUMBER_RADIX_TOOLTIP = 'Report the number shown in decimal (base-10) format.';
     Blockly.Msg.LANG_MATH_NUMBER_RADIX_TITLE = 'number radix';
 
