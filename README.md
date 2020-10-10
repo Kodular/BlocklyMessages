@@ -1,11 +1,11 @@
 # Blocks Editor Translations
-Translate Blocks Editor for Makeroid here!
+Translate Blocks Editor for Kodular here!
 
 ---
 
 ## Getting Started
 
-Please **check this few guidelines to translate** Makeroid Blocks Editor
+Please **check this few guidelines to translate** Kodular Blocks Editor
 
 ---
 
