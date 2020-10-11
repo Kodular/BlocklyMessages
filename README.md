@@ -25,4 +25,4 @@ If you want to create a new language to improve it's support, follow this simple
 
 1. Fork this repository
 2. Copy the _en_ folder and rename the new folder to your language code you want (`language_country`)
-3. Open and edit the _\_messages.js_ file and edit all strings you want to improve _NOTE: You don't have to translate everything. You can just translate a few of them and then others can help you with the rest_.
+3. Open and edit the _\_messages.js_ file and edit all strings you want to improve _NOTE: You don't have to translate everything. You can just translate a few of them and then others can help you with the rest of the translations.
