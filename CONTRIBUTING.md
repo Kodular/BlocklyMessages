@@ -1,6 +1,6 @@
 # How to translate
 
-Please **check this few guidelines to translate** Makeroid Blocks Editor
+Please **check this few guidelines to translate** Kodular Blocks Editor
 
 ---
 
