@@ -8,7 +8,7 @@
  */
 
 /**
- * @fileoverview Traditional English strings.
+ * @fileoverview Traditional Bengali(India) Strings.
  */
 'use strict';
 
