@@ -8,11 +8,7 @@
  */
 
 /**
-<<<<<<< HEAD
  * @fileoverview Traditional Hebrew strings.
-=======
- * @fileoverview hebrew strings.
->>>>>>> a88b22a9f3d3034a6a5ead3adc166ee3bcfbdbe8
  */
 'use strict';
 
@@ -25,32 +21,18 @@ goog.require('Blockly.Msg.iw');
  * to message files.
  */
 
-<<<<<<< HEAD
 Blockly.Msg.iw.switch_language_to_hebrew = {
   // Switch language to Hebrew.
-=======
-Blockly.Msg.en.switch_language_to_hebrew = {
-  // Switch language to hebrew.
->>>>>>> a88b22a9f3d3034a6a5ead3adc166ee3bcfbdbe8
   category: '',
   helpUrl: '',
   init: function() {
 // Context menus.
-<<<<<<< HEAD
     Blockly.Msg.UNDO = 'לבטל';
     Blockly.Msg.REDO = 'לַעֲשׂוֹת שׁוּב';
     Blockly.Msg.CLEAN_UP = 'נקה בלוקים';
     Blockly.Msg.HIDE = 'Hide Workspace Controls';
     Blockly.Msg.SHOW = 'Show Workspace Controls';
     Blockly.Msg.DUPLICATE_BLOCK = 'לְשַׁכְפֵּל';
-=======
-    Blockly.Msg.UNDO = 'Undo';
-    Blockly.Msg.REDO = 'Redo';
-    Blockly.Msg.CLEAN_UP = 'Clean up Blocks';
-    Blockly.Msg.HIDE = 'Hide Workspace Controls';
-    Blockly.Msg.SHOW = 'Show Workspace Controls';
-    Blockly.Msg.DUPLICATE_BLOCK = 'Duplicate';
->>>>>>> a88b22a9f3d3034a6a5ead3adc166ee3bcfbdbe8
     Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
     Blockly.Msg.ADD_COMMENT = 'Add Comment';
     Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
