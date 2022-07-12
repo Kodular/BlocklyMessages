@@ -27,63 +27,62 @@ Blockly.Msg.en.switch_language_to_english = {
   helpUrl: '',
   init: function() {
 // Context menus.
-    Blockly.Msg.UNDO = 'Undo';
-    Blockly.Msg.REDO = 'Redo';
-    Blockly.Msg.CLEAN_UP = 'Clean up Blocks';
-    Blockly.Msg.HIDE = 'Hide Workspace Controls';
-    Blockly.Msg.SHOW = 'Show Workspace Controls';
-    Blockly.Msg.DUPLICATE_BLOCK = 'Duplicate';
-    Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
-    Blockly.Msg.ADD_COMMENT = 'Add Comment';
-    Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
-    Blockly.Msg.INLINE_INPUTS = 'Inline Inputs';
-    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
-    Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
-    Blockly.Msg.CONFIRM_DELETE = 'Confirm deletion';
-    Blockly.Msg.DELETE_ALL_BLOCKS = "Delete all %1 blocks?";
-    Blockly.Msg.DELETE_BLOCK = 'Delete Block';
-    Blockly.Msg.DELETE_X_BLOCKS = 'Delete %1 Blocks';
-    Blockly.Msg.COLLAPSE_BLOCK = 'Collapse Block';
-    Blockly.Msg.EXPAND_BLOCK = 'Expand Block';
-    Blockly.Msg.DISABLE_BLOCK = 'Disable Block';
-    Blockly.Msg.ENABLE_BLOCK = 'Enable Block';
-    Blockly.Msg.HELP = 'Help';
-    Blockly.Msg.EXPORT_IMAGE = 'Download Blocks as Image';
-    Blockly.Msg.COLLAPSE_ALL = 'Collapse Blocks';
-    Blockly.Msg.EXPAND_ALL = 'Expand Blocks';
-    Blockly.Msg.ARRANGE_H = 'Arrange Blocks Horizontally';
-    Blockly.Msg.ARRANGE_V = 'Arrange Blocks Vertically';
-    Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
-    Blockly.Msg.SORT_W = 'Sort Blocks by Width';
-    Blockly.Msg.SORT_H = 'Sort Blocks by Height';
-    Blockly.Msg.SORT_C = 'Sort Blocks by Category';
-    Blockly.Msg.COPY_TO_BACKPACK = 'Add to Backpack';
-    Blockly.Msg.COPY_ALLBLOCKS = 'Copy All Blocks to Backpack';
-    Blockly.Msg.REMOVE_FROM_BACKPACK = 'Remove from Backpack';
-    Blockly.Msg.BACKPACK_GET = 'Paste All Blocks from Backpack';
-    Blockly.Msg.BACKPACK_EMPTY = 'Empty the Backpack';
-    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Are you sure you want to empty the backpack?';
-    Blockly.Msg.BACKPACK_DOC_TITLE = "Backpack Information";
-    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Show Backpack documentation";
-    Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
-   " and paste them into another project or screen. " +
-   " To copy, you can drag-and-drop blocks into the Backpack. To paste, click on the Backpack icon and " +
-   " drag-and-drop blocks into the workspace." +
-   "</p><p>If you leave Kodular with blocks left in your backpack, " +
-   " they will be there the next time you login." +
-   "</p><p>For further documentation and a 'how to' video, see:" +
+    Blockly.Msg.UNDO = 'পূর্বাবস্থায় ফেরা';
+    Blockly.Msg.REDO = 'আবার করুন';
+    Blockly.Msg.CLEAN_UP = 'ব্লক পরিষ্কার করুন';
+    Blockly.Msg.HIDE = 'কর্মক্ষেত্ নিয়ন্ত্রণগুলি লুকান';
+    Blockly.Msg.SHOW = 'কর্মক্ষেত্র নিয়ন্ত্রণগুলি দেখান';
+    Blockly.Msg.DUPLICATE_BLOCK = 'নকল';
+    Blockly.Msg.REMOVE_COMMENT = 'মন্তব্য সরান';
+    Blockly.Msg.ADD_COMMENT = 'মন্তব্য যোগ করুন';
+    Blockly.Msg.EXTERNAL_INPUTS = 'বাহ্যিক ইনপুট';
+    Blockly.Msg.INLINE_INPUTS = 'ইনলাইন ইনপুট';
+    Blockly.Msg.HORIZONTAL_PARAMETERS = 'অনুভূমিকভাবে প্যারামিটারগুলি সাজান';
+    Blockly.Msg.VERTICAL_PARAMETERS = 'উল্লম্বভাবে প্যারামিটারগুলি সাজান';
+    Blockly.Msg.CONFIRM_DELETE = 'মোছার বিষয়টি নিশ্চিত করুন';
+    Blockly.Msg.DELETE_ALL_BLOCKS = "সমস্ত ব্লক মুছুন?";
+    Blockly.Msg.DELETE_BLOCK = 'মুছে ফেলুন ব্লক';
+    Blockly.Msg.DELETE_X_BLOCKS = '% 1 ব্লক মুছুন';
+    Blockly.Msg.COLLAPSE_BLOCK = 'সঙ্কুচিত ব্লক';
+    Blockly.Msg.EXPAND_BLOCK = 'প্রসারিত ব্লক';
+    Blockly.Msg.DISABLE_BLOCK = 'ব্লক অক্ষম করুন';
+    Blockly.Msg.ENABLE_BLOCK = 'ব্লক সক্ষম করুন';
+    Blockly.Msg.HELP = 'সহায়তা';
+    Blockly.Msg.EXPORT_IMAGE = 'চিত্র হিসাবে ব্লক ডাউনলোড করুন';
+    Blockly.Msg.COLLAPSE_ALL = 'ব্লকগুলি সঙ্কুচিত করুন';
+    Blockly.Msg.EXPAND_ALL = 'ব্লকগুলি প্রসারিত করুন';
+    Blockly.Msg.ARRANGE_H = 'অনুভূমিকভাবে ব্লকগুলি সাজান';
+    Blockly.Msg.ARRANGE_V = 'উল্লম্বভাবে ব্লকগুলি সাজান';
+    Blockly.Msg.ARRANGE_S = 'ব্লকগুলি তির্যকভাবে সাজান';
+    Blockly.Msg.SORT_W = 'প্রস্থ অনুসারে ব্লকগুলি বাছাই করুন';
+    Blockly.Msg.SORT_H = 'উচ্চতা অনুসারে ব্লকগুলি বাছাই করুন';
+    Blockly.Msg.SORT_C = 'বিভাগ অনুসারে ব্লকগুলি বাছাই করুন';
+    Blockly.Msg.COPY_TO_BACKPACK = 'ব্যাকপ্যাকে যুক্ত করুন';আপনি কি নিশ্চিত যে আপনি ব্যাকপ্যাকটি খালি করতে চান?
+    Blockly.Msg.COPY_ALLBLOCKS = 'সমস্ত ব্লক ব্যাকপ্যাক অনুলিপি করুন';
+    Blockly.Msg.REMOVE_FROM_BACKPACK = 'ব্যাকপ্যাক থেকে সরান';
+    Blockly.Msg.BACKPACK_GET = 'ব্যাকপ্যাক থেকে সমস্ত ব্লক আটকান';
+    Blockly.Msg.BACKPACK_EMPTY = 'ব্যাকপ্যাকটি খালি করুন';
+    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'ব্যাকপ্যাক তথ্য';
+    Blockly.Msg.BACKPACK_DOC_TITLE = "ব্যাকপ্যাক ডকুমেন্টেশন দেখান";
+    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "ব্যাকপ্যাকটি একটি অনুলিপি / পেস্ট বৈশিষ্ট্য। এটি আপনাকে একটি প্রকল্প বা স্ক্রিন থেকে ব্লকগুলি অনুলিপি করতে দেয় "+";
+    Blockly.Msg.BACKPACK_DOCUMENTATION = "    "এবং এগুলি অন্য প্রকল্প বা স্ক্রিনে আটকান। " +
+   " অনুলিপি করতে, আপনি ব্যাকপ্যাকে ব্লকগুলি টেনে এনে ফেলে দিতে পারেন। পেস্ট করতে, ব্যাকপ্যাক আইকনে ক্লিক করুন এবং" +
+   " ওয়ার্কস্পেসে ব্লকগুলি টেনে আনুন." +
+   "</p><p>যদি আপনি আপনার ব্যাকপ্যাকের মধ্যে ব্লকগুলি রেখে কোডুলার ছেড়ে যান, " +
+   " আপনি পরের বার লগইন করার সময় তারা সেখানে উপস্থিত থাকবে।" +
+   "</p><p>আরও ডকুমেন্টেশন এবং একটি 'কীভাবে' ভিডিওর জন্য দেখুন:" +
    '</p><p><a href="https://docs.kodular.io/guides/backpack" target="_blank">https://docs.kodular.io/guides/backpack</a>';
-    Blockly.Msg.ENABLE_GRID = 'Enable Workspace Grid';
-    Blockly.Msg.DISABLE_GRID = 'Disable Workspace Grid';
-    Blockly.Msg.ENABLE_SNAPPING = 'Enable Snap to Grid';
-    Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
-    Blockly.Msg.DISABLE_ALL_BLOCKS = 'Disable All Blocks';
-    Blockly.Msg.ENABLE_ALL_BLOCKS = 'Enable All Blocks';
-    Blockly.Msg.HIDE_ALL_COMMENTS = 'Hide All Comments';
-    Blockly.Msg.SHOW_ALL_COMMENTS = 'Show All Comments';
-    Blockly.Msg.GENERICIZE_BLOCK = 'Make Generic';
-    Blockly.Msg.UNGENERICIZE_BLOCK = 'Make Specific';
-    Blockly.Msg.DOWNLOAD_BLOCKS_AS_PNG = 'Download Blocks as PNG';
+    Blockly.Msg.ENABLE_GRID = 'ওয়ার্কস্পেস গ্রিড সক্ষম করুন';
+    Blockly.Msg.DISABLE_GRID = 'ওয়ার্কস্পেস গ্রিড অক্ষম করুন';
+    Blockly.Msg.ENABLE_SNAPPING = 'গ্রিডে স্ন্যাপ সক্ষম করুন';
+    Blockly.Msg.DISABLE_SNAPPING = 'গ্রিডে স্ন্যাপ অক্ষম করুন';
+    Blockly.Msg.DISABLE_ALL_BLOCKS = 'সমস্ত ব্লক অক্ষম করুন';
+    Blockly.Msg.ENABLE_ALL_BLOCKS = 'সমস্ত ব্লক সক্ষম করুন';
+    Blockly.Msg.HIDE_ALL_COMMENTS = 'সমস্ত মন্তব্য লুকান';
+    Blockly.Msg.SHOW_ALL_COMMENTS = 'সমস্ত মন্তব্য দেখান';
+    Blockly.Msg.GENERICIZE_BLOCK = 'জেনেরিক তৈরি করুন';
+    Blockly.Msg.UNGENERICIZE_BLOCK = 'নির্দিষ্ট করুন';
+    Blockly.Msg.DOWNLOAD_BLOCKS_AS_PNG = 'ব্লকগুলি পিএনজি হিসাবে ডাউনলোড করুন';
 
 // Variable renaming.
     Blockly.Msg.CHANGE_VALUE_TITLE = 'Change value:';
